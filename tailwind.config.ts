@@ -16,6 +16,15 @@ export default {
           "100%": { transform: "translateX(-50%)" },
         },
       },
+      fontFamily: {
+        serif: ['DM Serif Display', 'ui-serif', 'Georgia', 'Cambria', 'Times New Roman', 'Times', 'serif'],
+      },
+      fontSize: {
+        "5xl": "42px",
+      },
+      lineHeight: {
+        "tight": "1.3",
+      }
     },
   },
 };
