@@ -1,5 +1,7 @@
+import { FnContext } from "deco/types.ts";
 import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
+import NavItem from "../components/NavItem.tsx";
 
 export interface Nav {
   logo?: {
@@ -12,7 +14,18 @@ export interface Nav {
       url?: string;
     }[];
   };
+  pathname: string;
 }
+
+export const loader = (props: Nav, req: Request, _ctx: FnContext) => {
+  console.log(req.url);
+  const pathname = new URL(req.url).pathname;
+
+  return {
+    ...props,
+    pathname,
+  };
+};
 
 export default function NewHeader({
   logo = {
@@ -30,41 +43,25 @@ export default function NewHeader({
       { label: "Contato", url: "/contato" },
     ],
   },
+  pathname,
 }: Nav) {
   return (
     <header className="container mx-auto px-4 mt-12">
-        <div className="flex items-center justify-between">
-          {/* Logo */}
-          <div className="flex items-center">
-            <a href="/">
-              <Image src={logo.src || ""} width={320} height={72} alt={logo.alt} />
-            </a>
-          </div>
-
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex">
-            {navigation?.links.map((link) => (
-              <a
-                key={link.label}
-                href={link.url}
-                className="block"
-              >
-                {
-                  true ? (
-                      <span class="block text-primary hover:text-secondary hover:underline transition-colors duration-100 font-semibold py-2 px-3 border border-transparent">
-                        {link.label}
-                      </span>
-                  ) :
-                  (
-                    <span class="block text-secondary hover:text-secondary transition-colors duration-100 font-semibold py-2 px-3 border border-secondary rounded-md shadow-[2px_2px_0] --tw-shadow-[--secondary]">
-                      {link.label}
-                    </span>
-                  )
-                }
-              </a>
-            ))}
-          </nav>
+      <div className="flex items-center justify-between">
+        {/* Logo */}
+        <div className="flex items-center">
+          <a href="/">
+            <Image src={logo.src || ""} width={320} height={72} alt={logo.alt} />
+          </a>
         </div>
+
+        {/* Desktop Navigation */}
+        <nav className="hidden md:flex">
+          {navigation?.links.map((link) => (
+            <NavItem label={link?.label} url={link?.url} pathname={pathname} />
+          ))}
+        </nav>
+      </div>
     </header>
   );
 }
