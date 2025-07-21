@@ -34,6 +34,27 @@
         "image": {
           "src": "https://assets.decocache.com/novo-leme/aa60d0d7-e660-465f-a923-c562de989c10/SobreAtuacao.svg",
           "alt": "Nossa atuação"
+        },
+        "sidebarNav": {
+          "links": [
+            {
+              "label": "O Leme",
+              "url": "/sobre",
+              "selected": true
+            },
+            {
+              "label": "Missão e Valores",
+              "url": "/sobre/missao-e-valores"
+            },
+            {
+              "label": "Equipe",
+              "url": "/sobre/equipe"
+            }
+          ],
+          "button": {
+            "label": "Portfolio",
+            "url": "/"
+          }
         }
       }
     },

@@ -17,8 +17,10 @@ import * as $$$$$$8 from "./sections/Home/Projetos.tsx";
 import * as $$$$$$9 from "./sections/Home/Sobre.tsx";
 import * as $$$$$$10 from "./sections/MainPost.tsx";
 import * as $$$$$$11 from "./sections/PageTitle.tsx";
-import * as $$$$$$12 from "./sections/SobreLeme.tsx";
-import * as $$$$$$13 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$12 from "./sections/SobreEquipe.tsx";
+import * as $$$$$$13 from "./sections/SobreLeme.tsx";
+import * as $$$$$$14 from "./sections/SobreMissaoValores.tsx";
+import * as $$$$$$15 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
@@ -34,8 +36,10 @@ const manifest = {
     "site/sections/Home/Sobre.tsx": $$$$$$9,
     "site/sections/MainPost.tsx": $$$$$$10,
     "site/sections/PageTitle.tsx": $$$$$$11,
-    "site/sections/SobreLeme.tsx": $$$$$$12,
-    "site/sections/Theme/Theme.tsx": $$$$$$13,
+    "site/sections/SobreEquipe.tsx": $$$$$$12,
+    "site/sections/SobreLeme.tsx": $$$$$$13,
+    "site/sections/SobreMissaoValores.tsx": $$$$$$14,
+    "site/sections/Theme/Theme.tsx": $$$$$$15,
   },
   "apps": {
     "site/apps/deco/blog.ts": $$$$$$$$$$$0,

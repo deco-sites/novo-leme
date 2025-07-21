@@ -1,0 +1,82 @@
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "name": "PT - Sobre - Missao Valores",
+  "path": "/sobre/missao-e-valores",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Hero.tsx",
+        "image": {
+          "src": "https://assets.decocache.com/novo-leme/b2a3b006-6769-45a8-91aa-3b6cfabc3975/Hero1.svg"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/PageTitle.tsx",
+        "description": "Conheça nossa história e quem faz o Leme",
+        "title": "Sobre"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/SobreMissaoValores.tsx",
+        "sidebarNav": {
+          "links": [
+            {
+              "label": "O Leme",
+              "url": "/sobre",
+              "selected": false
+            },
+            {
+              "label": "Missão e Valores",
+              "url": "/sobre/missao-e-valores",
+              "selected": true
+            },
+            {
+              "label": "Equipe",
+              "url": "/sobre/equipe"
+            }
+          ]
+        },
+        "values": [
+          {
+            "label": "Independência",
+            "text": "Conduzimos análises objetivas e imparciais, minimizando a interferência de preferências políticas, garantindo rigor e comprometimento com a pesquisa."
+          },
+          {
+            "label": "Comprometimento",
+            "text": "Estamos dedicados à identificação e à proposição de ações que gerem impacto positivo e real na segurança pública."
+          },
+          {
+            "label": "Valorização da Comunidade",
+            "text": "Reconhecemos a importância da comunidade e das populações atendidas pelos programas que avaliamos, sempre buscando melhorias para todos os envolvidos."
+          },
+          {
+            "label": "Relevância Social",
+            "text": "Priorizamos temas de alta relevância social, apresentando propostas que respondam aos desafios mais urgentes da segurança pública."
+          }
+        ],
+        "text": "Mudar o paradigma da segurança pública, de uma abordagem reativa para uma centrada na prevenção das violências e na dissuasão do crime, para que a violência não mais interrompa sonhos."
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ]
+}

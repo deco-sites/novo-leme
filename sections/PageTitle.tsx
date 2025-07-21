@@ -10,7 +10,7 @@ export default function PageTitle({
   description = "Description",
 }: Props) {
   return (
-    <div className="mx-52 flex gap-36">
+    <div className="container px-12 flex gap-36">
       <Title label={title} description={description} serif />
     </div>
   );

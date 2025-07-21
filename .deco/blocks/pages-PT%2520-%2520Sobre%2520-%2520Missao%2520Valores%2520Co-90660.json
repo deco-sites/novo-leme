@@ -1,0 +1,122 @@
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "name": "PT - Sobre - Equipe",
+  "path": "/sobre/equipe",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Hero.tsx",
+        "image": {
+          "src": "https://assets.decocache.com/novo-leme/b2a3b006-6769-45a8-91aa-3b6cfabc3975/Hero1.svg"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/PageTitle.tsx",
+        "description": "Conheça nossa história e quem faz o Leme",
+        "title": "Sobre"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/SobreEquipe.tsx",
+        "sidebarNav": {
+          "links": [
+            {
+              "label": "O Leme",
+              "url": "/sobre",
+              "selected": false
+            },
+            {
+              "label": "Missão e Valores",
+              "url": "/sobre/missao-e-valores",
+              "selected": false
+            },
+            {
+              "label": "Equipe",
+              "url": "/sobre/equipe",
+              "selected": true
+            }
+          ]
+        },
+        "values": [
+          {
+            "label": "Independência",
+            "text": "Conduzimos análises objetivas e imparciais, minimizando a interferência de preferências políticas, garantindo rigor e comprometimento com a pesquisa."
+          },
+          {
+            "label": "Comprometimento",
+            "text": "Estamos dedicados à identificação e à proposição de ações que gerem impacto positivo e real na segurança pública."
+          },
+          {
+            "label": "Valorização da Comunidade",
+            "text": "Reconhecemos a importância da comunidade e das populações atendidas pelos programas que avaliamos, sempre buscando melhorias para todos os envolvidos."
+          },
+          {
+            "label": "Relevância Social",
+            "text": "Priorizamos temas de alta relevância social, apresentando propostas que respondam aos desafios mais urgentes da segurança pública."
+          }
+        ],
+        "text": "Mudar o paradigma da segurança pública, de uma abordagem reativa para uma centrada na prevenção das violências e na dissuasão do crime, para que a violência não mais interrompa sonhos.",
+        "teamGroup": [
+          {
+            "people": [
+              {
+                "photo": "https://assets.decocache.com/novo-leme/db438d32-8e0b-40b9-be41-252c9eca49d3/person.png",
+                "name": "Joana Monteiro",
+                "role": "Diretora e cofundadora",
+                "description": "Doutora em Economia (PUC-Rio) e Profª de políticas públicas na FGV/EBAPE. Joana ocupou cargos de destaque no governo do Rio de Janeiro, como diretora do Instituto de Segurança Pública (2015-2018) e chefe de pesquisa no Ministério Público do Estado (2019-2021). Anteriormente, foi Tinker Visiting Professor na Universidade de Chicago (2023), Visiting Fellow na Columbia University (2021-2022) e Research Fellow na Harvard University (2009-2012). É afiliada ao Evidence in Governance and Politics (EGAP), pesquisadora convidada do J-PAL/MIT, integrante da Global Initiative Against Transnational Organized Crime (GI-TOC) e membro do conselho da Escola de Segurança Multidimensional (ESEM-IRI-USP) e da LACEA-AlCapone. Mais informações: Site, Lattes e LinkedIn.",
+                "links": {
+                  "website": "/",
+                  "lattes": "/",
+                  "linkedin": "/"
+                },
+                "label": "Joana Monteiro"
+              }
+            ],
+            "label": "Equipe"
+          },
+          {
+            "people": [
+              {
+                "photo": "https://assets.decocache.com/novo-leme/db438d32-8e0b-40b9-be41-252c9eca49d3/person.png",
+                "name": "Joana Monteiro",
+                "role": "Diretora e cofundadora",
+                "description": "Doutora em Economia (PUC-Rio) e Profª de políticas públicas na FGV/EBAPE. Joana ocupou cargos de destaque no governo do Rio de Janeiro, como diretora do Instituto de Segurança Pública (2015-2018) e chefe de pesquisa no Ministério Público do Estado (2019-2021). Anteriormente, foi Tinker Visiting Professor na Universidade de Chicago (2023), Visiting Fellow na Columbia University (2021-2022) e Research Fellow na Harvard University (2009-2012). É afiliada ao Evidence in Governance and Politics (EGAP), pesquisadora convidada do J-PAL/MIT, integrante da Global Initiative Against Transnational Organized Crime (GI-TOC) e membro do conselho da Escola de Segurança Multidimensional (ESEM-IRI-USP) e da LACEA-AlCapone. Mais informações: Site, Lattes e LinkedIn.",
+                "links": {
+                  "website": "/",
+                  "lattes": "/",
+                  "linkedin": "/"
+                },
+                "label": "Joana Monteiro"
+              }
+            ],
+            "label": "Pesquisadores Associados"
+          },
+          {
+            "people": []
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ]
+}
