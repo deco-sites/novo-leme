@@ -3,7 +3,7 @@ import Title from  "../../components/ui/Title.tsx";
 import FancyLink from  "../../components/ui/FancyLink.tsx";
 import Card from  "../../components/ui/Card.tsx";
 
-export interface Nav {
+export interface Props {
   title?: string;
   description?: string;
   news?: {
@@ -58,7 +58,7 @@ export default function HomeMidia({
     },
   ],
   button = { label: "Ver todas as reportagens", url: "/" },
-}: Nav) {
+}: Props) {
   return (
     <div className="container mx-auto px-16 flex space-x-12 mb-16">
       <div className="flex-none w-60">

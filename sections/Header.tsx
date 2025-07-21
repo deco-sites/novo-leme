@@ -21,13 +21,13 @@ export default function NewHeader({
   },
   navigation = {
     links: [
-      { label: "Sobre", url: "/'" },
-      { label: "Atuação", url: "/" },
-      { label: "Projetos", url: "/" },
-      { label: "Mídia", url: "/" },
-      { label: "Eventos", url: "/" },
-      { label: "Transparência", url: "/" },
-      { label: "Contato", url: "/" },
+      { label: "Sobre", url: "/sobre'" },
+      { label: "Atuação", url: "/atuacao" },
+      { label: "Projetos", url: "/projetos" },
+      { label: "Mídia", url: "/midia" },
+      { label: "Eventos", url: "/eventos" },
+      { label: "Transparência", url: "/transparencia" },
+      { label: "Contato", url: "/contato" },
     ],
   },
 }: Nav) {

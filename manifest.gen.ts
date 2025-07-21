@@ -9,14 +9,16 @@ import * as $$$$$$0 from "./sections/BlogPost.tsx";
 import * as $$$$$$1 from "./sections/BlogPosts.tsx";
 import * as $$$$$$2 from "./sections/Footer.tsx";
 import * as $$$$$$3 from "./sections/Header.tsx";
-import * as $$$$$$4 from "./sections/Home/Eventos.tsx";
-import * as $$$$$$5 from "./sections/Home/Hero.tsx";
+import * as $$$$$$4 from "./sections/Hero.tsx";
+import * as $$$$$$5 from "./sections/Home/Eventos.tsx";
 import * as $$$$$$6 from "./sections/Home/Midia.tsx";
 import * as $$$$$$7 from "./sections/Home/Noticias.tsx";
 import * as $$$$$$8 from "./sections/Home/Projetos.tsx";
 import * as $$$$$$9 from "./sections/Home/Sobre.tsx";
 import * as $$$$$$10 from "./sections/MainPost.tsx";
-import * as $$$$$$11 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$11 from "./sections/PageTitle.tsx";
+import * as $$$$$$12 from "./sections/SobreLeme.tsx";
+import * as $$$$$$13 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
@@ -24,14 +26,16 @@ const manifest = {
     "site/sections/BlogPosts.tsx": $$$$$$1,
     "site/sections/Footer.tsx": $$$$$$2,
     "site/sections/Header.tsx": $$$$$$3,
-    "site/sections/Home/Eventos.tsx": $$$$$$4,
-    "site/sections/Home/Hero.tsx": $$$$$$5,
+    "site/sections/Hero.tsx": $$$$$$4,
+    "site/sections/Home/Eventos.tsx": $$$$$$5,
     "site/sections/Home/Midia.tsx": $$$$$$6,
     "site/sections/Home/Noticias.tsx": $$$$$$7,
     "site/sections/Home/Projetos.tsx": $$$$$$8,
     "site/sections/Home/Sobre.tsx": $$$$$$9,
     "site/sections/MainPost.tsx": $$$$$$10,
-    "site/sections/Theme/Theme.tsx": $$$$$$11,
+    "site/sections/PageTitle.tsx": $$$$$$11,
+    "site/sections/SobreLeme.tsx": $$$$$$12,
+    "site/sections/Theme/Theme.tsx": $$$$$$13,
   },
   "apps": {
     "site/apps/deco/blog.ts": $$$$$$$$$$$0,

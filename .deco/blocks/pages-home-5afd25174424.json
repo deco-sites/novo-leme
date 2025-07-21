@@ -1,5 +1,5 @@
 {
-  "name": "Home",
+  "name": "PT - Home",
   "path": "/",
   "sections": [
     {
@@ -11,13 +11,17 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Home/Hero.tsx"
+        "__resolveType": "site/sections/Hero.tsx",
+        "text": "Usamos dados e evidências científicas para fazer do Brasil um país seguro."
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Home/Sobre.tsx"
+        "__resolveType": "site/sections/Home/Sobre.tsx",
+        "image": {
+          "src": "https://assets.decocache.com/novo-leme/d7de9589-1bf4-4016-bff7-1c922a6df2ef/Grafico-atuacao-v7.svg"
+        }
       }
     },
     {

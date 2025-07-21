@@ -1,6 +1,35 @@
 {
   "__resolveType": "site/sections/Header.tsx",
   "navigation": {
-    "links": []
+    "links": [
+      {
+        "label": "Sobre",
+        "url": "/sobre"
+      },
+      {
+        "label": "Atuação",
+        "url": "/atuacao"
+      },
+      {
+        "label": "Projetos",
+        "url": "/projetos"
+      },
+      {
+        "label": "Mídia",
+        "url": "/midia"
+      },
+      {
+        "label": "Eventos",
+        "url": "/eventos"
+      },
+      {
+        "label": "Transparência",
+        "url": "/transparencia"
+      },
+      {
+        "label": "Contato",
+        "url": "/contato"
+      }
+    ]
   }
 }
