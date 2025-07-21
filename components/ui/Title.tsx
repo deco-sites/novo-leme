@@ -1,18 +1,26 @@
 export interface Link {
   label?: string;
   description?: string;
+  titleSize?: string;
+  decriptionSize?: string;
+  serif?: boolean;
+  gap?: number;
 }
 
 export default function Title({
   label = "Label",
-  description = '',
+  titleSize = "5xl",
+  decriptionSize = "base",
+  description,
+  serif,
+  gap = 1,
 }: Link) {
   return (
-    <div className="flex-none flex flex-col space-y-1 w-56">
-      <h2 className="text-5xl leading-tight font-serif">{label}</h2>
+    <div className={`w-full flex flex-col gap-${gap}`}>
+      <h2 className={`leading-tight text-${titleSize} ${ serif ? 'font-serif' : '' } }`}>{label}</h2>
       {
         description ? (
-          <div>{description}</div>
+          <div class={`leading-normal line-clamp-4 text-${decriptionSize}`}>{description}</div>
         ) : ''
       }
     </div>

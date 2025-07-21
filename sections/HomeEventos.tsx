@@ -51,7 +51,9 @@ export default function HomeEventos({
 }: Nav) {
   return (
     <div className="container mx-auto px-16 flex space-x-10 mb-16">
-      <Title label={title} description={description} />
+      <div className="flex-none w-56">
+        <Title label={title} description={description} serif />
+      </div>
 
       <div className="flex flex-col flex-auto space-y-5">
         <div className="flex flex-col space-y-2">
