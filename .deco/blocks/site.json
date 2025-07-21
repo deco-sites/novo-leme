@@ -6,13 +6,14 @@
     }
   ],
   "seo": {
-    "titleTemplate": "%s | deco.cx",
-    "descriptionTemplate": "%s | Deco.cx",
+    "titleTemplate": "%s | Leme",
+    "descriptionTemplate": "%s | Leme",
     "type": "website",
-    "title": "Blog",
-    "description": "Improve your page performance with deco.cx",
+    "title": "Leme - Laboratório para Redução de Violência",
+    "description": "Usamos dados e evidências científicas para fazer do Brasil um país seguro.",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5018/c8188deb-9ed0-4394-8ede-af8fb4263ba4",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5018/71c97b9c-b94a-4cf5-8120-4bb7b99b21bb"
+    "favicon": "https://assets.decocache.com/novo-leme/0fd3f857-1fd8-4105-b399-b6fd374047b3/Favicon.svg",
+    "themeColor": "#005270"
   },
   "global": [
     {

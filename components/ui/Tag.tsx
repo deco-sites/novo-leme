@@ -8,7 +8,7 @@ export default function Tag({
   color,
 }: Link) {
   return (
-    <span className={`text-primary border border-primary text-xs font-semibold rounded-full px-3 py-1`}>
+    <span className={`text-primary border border-primary text-sm font-semibold rounded-full px-3 py-1`}>
       {label}
     </span>
   );

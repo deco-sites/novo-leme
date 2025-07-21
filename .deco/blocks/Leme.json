@@ -19,7 +19,8 @@
     "base-100": "#F9F7F1",
     "primary": "#005270",
     "secondary": "#EA7342",
-    "tertiary": "#72C8ED"
+    "tertiary": "#72C8ED",
+    "neutral": "#2A333C"
   },
   "complementaryColors": {
     "base-200": "#FFAB49",

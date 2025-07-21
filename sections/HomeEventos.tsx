@@ -1,5 +1,6 @@
 import Title from  "../components/ui/Title.tsx";
 import FancyLink from  "../components/ui/FancyLink.tsx";
+import Tag from  "../components/ui/Tag.tsx";
 
 export interface Nav {
   title?: string;
@@ -15,6 +16,10 @@ export interface Nav {
     online?: boolean;
     url: string;
   }[];
+  labels: {
+    online: string,
+    presencial: string,
+  }
   button?: {
     label: string;
     url: string;
@@ -47,16 +52,20 @@ export default function HomeEventos({
       url: "/"
     },
   ],
+  labels = {
+    online: "Online",
+    presencial: "Presencial",
+  },
   button = { label: "Ver todos os eventos", url: "/" },
 }: Nav) {
   return (
-    <div className="container mx-auto px-16 flex space-x-10 mb-16">
-      <div className="flex-none w-56">
+    <div className="container mx-auto px-16 flex space-x-12 mb-16">
+      <div className="flex-none w-60">
         <Title label={title} description={description} serif />
       </div>
 
       <div className="flex flex-col flex-auto space-y-5">
-        <div className="flex flex-col space-y-2">
+        <div className="flex flex-col space-y-2 mr-40">
           {events?.map((event) => (
             <a
               key={event.label}
@@ -69,8 +78,11 @@ export default function HomeEventos({
                   <span className="text-xs flex justify-center">{event.date?.month}</span>
                   <span className="text-xs flex justify-center">{event.date?.year}</span>
                 </div>
-                <div className="flex flex-col space-y-1 justify-center">
-                  <h3 className="text-xl group-hover:text-secondary">{event.label}</h3>
+                <div className="flex flex-col gap-1 justify-center text-neutral-950">
+                  <div className="flex gap-5">
+                    <h3 className="line-clamp-1 text-xl group-hover:text-secondary">{event.label}</h3>
+                    <Tag label={event.online ? labels.online : labels.presencial}/>
+                  </div>
                   <p className="line-clamp-2">{event.description}</p>
                 </div>
                 <div class="flex items-center text-secondary">

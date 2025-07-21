@@ -51,6 +51,12 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/HomeMidia.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/NewFooter.tsx",
         "logo": {
           "src": "https://assets.decocache.com/novo-leme/00a02b7c-f2a2-4743-ba24-cfa10364f2a1/LogoFooter.svg"

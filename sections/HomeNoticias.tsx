@@ -57,7 +57,7 @@ export default function HomeProjetos({
   button = { label: "Ver mais projetos", url: "/" },
 }: Props) {
   return (
-    <div className="mx-16 py-16 flex flex-col space-y-10 mb-16 text-white rounded-se-3xl rounded-es-3xl bg-[url(https://assets.decocache.com/novo-leme/d3eb5637-73f5-450d-90d6-9036a36595c2/bg2.svg)]">
+    <div className="mx-16 py-16 flex flex-col space-y-10 mb-16 text-white rounded-se-3xl rounded-es-3xl bg-[#0D6687] bg-[url(https://assets.decocache.com/novo-leme/d3eb5637-73f5-450d-90d6-9036a36595c2/bg2.svg)] bg-repeat-x">
       <div className="px-32">
           <Title label={title} description={description} serif />
       </div>

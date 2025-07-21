@@ -3,10 +3,10 @@ import Title from  "../components/ui/Title.tsx";
 import FancyLink from  "../components/ui/FancyLink.tsx";
 import Card from  "../components/ui/Card.tsx";
 
-export interface Props {
+export interface Nav {
   title?: string;
   description?: string;
-  projects?: {
+  news?: {
     image?: {
       src?: ImageWidget;
       alt?: string;
@@ -22,10 +22,10 @@ export interface Props {
   }
 }
 
-export default function HomeProjetos({
-  title = "Projetos",
-  description = "Conheça nossa atuação através dos nossos projetos",
-  projects = [
+export default function HomeMidia({
+  title = "Na Mídia",
+  description = "Reportagens sobre o Leme nos principais veículos de comunicação",
+  news = [
     {
       image: {
         src: "https://assets.decocache.com/novo-leme/13cd6a48-e0fc-4941-839d-d87c4f37b3d8/img-1.png",
@@ -57,27 +57,27 @@ export default function HomeProjetos({
       tags: ["Crime Organizado e Polícia"],
     },
   ],
-  button = { label: "Ver mais projetos", url: "/" },
-}: Props) {
+  button = { label: "Ver todas as reportagens", url: "/" },
+}: Nav) {
   return (
-    <div className="mx-16 py-16 flex flex-col space-y-10 mb-16 text-white rounded-se-3xl rounded-es-3xl bg-[#EA9642] bg-[url(https://assets.decocache.com/novo-leme/aa01eb61-8e76-4691-85bd-da34db62d246/bg1.svg)] bg-repeat-x">
-      <div className="px-32">
-          <Title label={title} description={description} serif />
+    <div className="container mx-auto px-16 flex space-x-12 mb-16">
+      <div className="flex-none w-60">
+        <Title label={title} description={description} serif />
       </div>
 
-      <div className="flex flex-col flex-auto space-y-16 items-center px-32">
-        <div className="grid grid-cols-3 gap-8">
-          {projects?.map((project) => (
+      <div className="flex flex-col flex-auto space-y-12">
+        <div className="grid grid-cols-2 gap-12">
+          {news?.map((item) => (
             <Card
-              image={project.image}
-              label={project.label}
-              description={project.description}
-              url={project.url}
-              tags={project.tags}
+              borderColor="primary"
+              image={item.image}
+              label={item.label}
+              description={item.description}
+              url={item.url}
             />
           ))}
         </div>
-        <div class="flex px-6">
+        <div className="flex">
           <FancyLink label={button?.label} url={button?.url} iconRight/>
         </div>
       </div>

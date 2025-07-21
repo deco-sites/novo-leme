@@ -44,7 +44,7 @@ export default function Card({
       href={url}
       className={`flex flex-col space-y-4 p-6 rounded-xl bg-white text-primary border-[3px] border-${borderColor} hover:border-${borderColor == 'primary' ? 'secondary' : 'primary'} shadow-[4px_4px_0_rgba(${rgb})] hover:shadow-[4px_4px_0_rgba(${rgbHover})] hover:scale-105 transition-all`}
     >
-      <Image class="w-full" src={image?.src || ""} alt={image?.alt} />
+      <Image class="w-full rounded-md" src={image?.src || ""} alt={image?.alt} />
       <div className="flex flex-col space-y-3 justify-center">
         <Title label={label} description={description} titleSize="xl" decriptionSize="sm"  gap={3} />
       </div>
