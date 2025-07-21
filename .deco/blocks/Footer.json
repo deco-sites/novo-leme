@@ -1,3 +1,6 @@
 {
-  "__resolveType": "site/sections/Footer.tsx"
+  "__resolveType": "site/sections/Footer.tsx",
+  "navigation": {
+    "links": []
+  }
 }

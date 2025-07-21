@@ -1,4 +1,4 @@
-import FancyLink from  "../components/ui/FancyLink.tsx";
+import FancyLink from  "../../components/ui/FancyLink.tsx";
 import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 

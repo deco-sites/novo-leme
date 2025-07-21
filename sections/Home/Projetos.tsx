@@ -1,7 +1,7 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
-import Title from  "../components/ui/Title.tsx";
-import FancyLink from  "../components/ui/FancyLink.tsx";
-import Card from  "../components/ui/Card.tsx";
+import Title from  "../../components/ui/Title.tsx";
+import FancyLink from  "../../components/ui/FancyLink.tsx";
+import Card from  "../../components/ui/Card.tsx";
 
 export interface Props {
   title?: string;

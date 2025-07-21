@@ -10,8 +10,7 @@ export interface Nav {
 
 export default function LargeHero({
   image = {
-    src:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/67120bcd-936a-4ea5-a760-02ed5c4a3d04",
+    src: "https://assets.decocache.com/novo-leme/3b11ecb6-2bdd-4af6-86e9-ee57b4599c6c/hero-home.svg",
   },
   text = "Usamos dados e evidências científicas para fazer do Brasil um país seguro.",
 }: Nav) {
@@ -20,7 +19,7 @@ export default function LargeHero({
       <div className="w-full opacity-60">
         <Image class="w-full object-cover" src={image.src || ""} />
       </div>
-      <div className="absolute w-[500px] right-[310px] top-[190px] px-14 py-10 bg-white border border-secondary border-4 rounded-xl shadow-[5px_5px_0] --tw-shadow-[--secondary] text-secondary text-[40px] font-serif leading-tight">
+      <div className="absolute w-[500px] right-[310px] top-[190px] px-14 py-10 bg-white border-secondary border-4 rounded-xl shadow-[5px_5px_0] --tw-shadow-[--secondary] text-secondary text-[40px] font-serif leading-tight">
         {text}
       </div>
     </div>

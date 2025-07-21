@@ -5,63 +5,49 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/NewHeader.tsx",
-        "logo": {
-          "src": "https://assets.decocache.com/novo-leme/f2158298-142d-4585-8f72-5b77b71ca9b5/Logo.svg",
-          "alt": "Leme"
-        }
+        "__resolveType": "Header"
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/LargeHero.tsx",
-        "image": {
-          "src": "https://assets.decocache.com/novo-leme/3b11ecb6-2bdd-4af6-86e9-ee57b4599c6c/hero-home.svg"
-        }
+        "__resolveType": "site/sections/Home/Hero.tsx"
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/About.tsx",
-        "image": {
-          "src": "https://assets.decocache.com/novo-leme/d7de9589-1bf4-4016-bff7-1c922a6df2ef/Grafico-atuacao-v7.svg"
-        }
+        "__resolveType": "site/sections/Home/Sobre.tsx"
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/HomeProjetos.tsx"
+        "__resolveType": "site/sections/Home/Projetos.tsx"
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/HomeEventos.tsx"
+        "__resolveType": "site/sections/Home/Eventos.tsx"
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/HomeNoticias.tsx"
+        "__resolveType": "site/sections/Home/Noticias.tsx"
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/HomeMidia.tsx"
+        "__resolveType": "site/sections/Home/Midia.tsx"
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/NewFooter.tsx",
-        "logo": {
-          "src": "https://assets.decocache.com/novo-leme/00a02b7c-f2a2-4743-ba24-cfa10364f2a1/LogoFooter.svg"
-        },
-        "bgImage": "https://assets.decocache.com/novo-leme/ef2d8814-5ed2-44a6-983f-c829fe2407ff/Vector.svg"
+        "__resolveType": "Footer"
       }
     }
   ],

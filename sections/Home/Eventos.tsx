@@ -1,6 +1,6 @@
-import Title from  "../components/ui/Title.tsx";
-import FancyLink from  "../components/ui/FancyLink.tsx";
-import Tag from  "../components/ui/Tag.tsx";
+import Title from  "../../components/ui/Title.tsx";
+import FancyLink from  "../../components/ui/FancyLink.tsx";
+import Tag from  "../../components/ui/Tag.tsx";
 
 export interface Nav {
   title?: string;
@@ -16,9 +16,9 @@ export interface Nav {
     online?: boolean;
     url: string;
   }[];
-  labels: {
-    online: string,
-    presencial: string,
+  labels?: {
+    online?: string,
+    presencial?: string,
   }
   button?: {
     label: string;

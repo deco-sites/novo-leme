@@ -5,47 +5,33 @@
 import * as $$$$$$$$$$$0 from "./apps/deco/blog.ts";
 import * as $$$$$$$$$$$1 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$2 from "./apps/site.ts";
-import * as $$$$$$0 from "./sections/About.tsx";
-import * as $$$$$$1 from "./sections/BlogPost.tsx";
-import * as $$$$$$2 from "./sections/BlogPosts.tsx";
-import * as $$$$$$3 from "./sections/Faq.tsx";
-import * as $$$$$$4 from "./sections/Footer.tsx";
-import * as $$$$$$5 from "./sections/Header.tsx";
-import * as $$$$$$6 from "./sections/Hero.tsx";
-import * as $$$$$$7 from "./sections/HomeEventos.tsx";
-import * as $$$$$$8 from "./sections/HomeMidia.tsx";
-import * as $$$$$$9 from "./sections/HomeNoticias.tsx";
-import * as $$$$$$10 from "./sections/HomeProjetos.tsx";
-import * as $$$$$$11 from "./sections/ImageWithParagraph.tsx";
-import * as $$$$$$12 from "./sections/LargeHero.tsx";
-import * as $$$$$$13 from "./sections/Logos.tsx";
-import * as $$$$$$14 from "./sections/MainPost.tsx";
-import * as $$$$$$15 from "./sections/NewFooter.tsx";
-import * as $$$$$$16 from "./sections/NewHeader.tsx";
-import * as $$$$$$17 from "./sections/Testimonials.tsx";
-import * as $$$$$$18 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$0 from "./sections/BlogPost.tsx";
+import * as $$$$$$1 from "./sections/BlogPosts.tsx";
+import * as $$$$$$2 from "./sections/Footer.tsx";
+import * as $$$$$$3 from "./sections/Header.tsx";
+import * as $$$$$$4 from "./sections/Home/Eventos.tsx";
+import * as $$$$$$5 from "./sections/Home/Hero.tsx";
+import * as $$$$$$6 from "./sections/Home/Midia.tsx";
+import * as $$$$$$7 from "./sections/Home/Noticias.tsx";
+import * as $$$$$$8 from "./sections/Home/Projetos.tsx";
+import * as $$$$$$9 from "./sections/Home/Sobre.tsx";
+import * as $$$$$$10 from "./sections/MainPost.tsx";
+import * as $$$$$$11 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
-    "site/sections/About.tsx": $$$$$$0,
-    "site/sections/BlogPost.tsx": $$$$$$1,
-    "site/sections/BlogPosts.tsx": $$$$$$2,
-    "site/sections/Faq.tsx": $$$$$$3,
-    "site/sections/Footer.tsx": $$$$$$4,
-    "site/sections/Header.tsx": $$$$$$5,
-    "site/sections/Hero.tsx": $$$$$$6,
-    "site/sections/HomeEventos.tsx": $$$$$$7,
-    "site/sections/HomeMidia.tsx": $$$$$$8,
-    "site/sections/HomeNoticias.tsx": $$$$$$9,
-    "site/sections/HomeProjetos.tsx": $$$$$$10,
-    "site/sections/ImageWithParagraph.tsx": $$$$$$11,
-    "site/sections/LargeHero.tsx": $$$$$$12,
-    "site/sections/Logos.tsx": $$$$$$13,
-    "site/sections/MainPost.tsx": $$$$$$14,
-    "site/sections/NewFooter.tsx": $$$$$$15,
-    "site/sections/NewHeader.tsx": $$$$$$16,
-    "site/sections/Testimonials.tsx": $$$$$$17,
-    "site/sections/Theme/Theme.tsx": $$$$$$18,
+    "site/sections/BlogPost.tsx": $$$$$$0,
+    "site/sections/BlogPosts.tsx": $$$$$$1,
+    "site/sections/Footer.tsx": $$$$$$2,
+    "site/sections/Header.tsx": $$$$$$3,
+    "site/sections/Home/Eventos.tsx": $$$$$$4,
+    "site/sections/Home/Hero.tsx": $$$$$$5,
+    "site/sections/Home/Midia.tsx": $$$$$$6,
+    "site/sections/Home/Noticias.tsx": $$$$$$7,
+    "site/sections/Home/Projetos.tsx": $$$$$$8,
+    "site/sections/Home/Sobre.tsx": $$$$$$9,
+    "site/sections/MainPost.tsx": $$$$$$10,
+    "site/sections/Theme/Theme.tsx": $$$$$$11,
   },
   "apps": {
     "site/apps/deco/blog.ts": $$$$$$$$$$$0,
