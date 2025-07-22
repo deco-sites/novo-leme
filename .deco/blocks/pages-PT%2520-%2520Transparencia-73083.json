@@ -1,7 +1,7 @@
 {
   "__resolveType": "website/pages/Page.tsx",
-  "name": "PT - Projetos",
-  "path": "/projetos",
+  "name": "PT - Transparencia",
+  "path": "/transparencia",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },
@@ -17,7 +17,7 @@
       "section": {
         "__resolveType": "site/sections/Hero.tsx",
         "image": {
-          "src": "https://assets.decocache.com/novo-leme/1761d18c-f63c-4765-925d-42ce437227ae/hero-projetos.svg"
+          "src": "https://assets.decocache.com/novo-leme/694308ed-9462-4a4a-8e68-8e4fc16af25e/hero-transparencia.svg"
         },
         "marginTop": true
       }
@@ -26,22 +26,14 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/PageTitle.tsx",
-        "description": "Conheça nossa atuação através dos nossos projetos",
-        "title": "Projetos"
+        "description": "Documentos e relatórios do Leme",
+        "title": "Transparência"
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Projetos.tsx",
-        "sidebarNav": {
-          "links": [
-            {
-              "label": "Link",
-              "url": "/"
-            }
-          ]
-        }
+        "__resolveType": "site/sections/Transparencia.tsx"
       }
     },
     {

@@ -17,6 +17,9 @@ export default {
       },
     },
     extend: {
+      scale: {
+        '105': '1.03',
+      },
       animation: {
         sliding: "sliding 30s linear infinite",
       },

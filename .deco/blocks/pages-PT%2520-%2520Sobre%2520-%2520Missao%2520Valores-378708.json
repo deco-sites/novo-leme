@@ -18,7 +18,8 @@
         "__resolveType": "site/sections/Hero.tsx",
         "image": {
           "src": "https://assets.decocache.com/novo-leme/b2a3b006-6769-45a8-91aa-3b6cfabc3975/Hero1.svg"
-        }
+        },
+        "marginTop": true
       }
     },
     {

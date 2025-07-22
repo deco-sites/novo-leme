@@ -6,6 +6,7 @@ export interface Nav {
     src?: ImageWidget;
   };
   text?: string;
+  marginTop?: boolean;
 }
 
 export default function LargeHero({
@@ -13,9 +14,10 @@ export default function LargeHero({
     src: "https://assets.decocache.com/novo-leme/3b11ecb6-2bdd-4af6-86e9-ee57b4599c6c/hero-home.svg",
   },
   text,
+  marginTop,
 }: Nav) {
   return (
-    <div className="relative w-full max-h-[890px] mb-16 overflow-hidden">
+    <div className={`relative w-full max-h-[890px] mb-16 overflow-hidden ${marginTop ? 'mt-10' : ''}`}>
       <div className="w-full opacity-60">
         <Image class="w-full object-cover" src={image.src || ""} />
       </div>

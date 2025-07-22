@@ -1,12 +1,14 @@
 export interface Link {
   label?: string;
   url?: string;
+  iconLeft?: boolean;
   iconRight?: boolean;
 }
 
 export default function FancyLink({
   label = "Label",
   url = "/",
+  iconLeft = false,
   iconRight = false,
 }: Link) {
   return (
@@ -15,6 +17,13 @@ export default function FancyLink({
       href={url}
       className="flex space-x-4 align-middle bg-base-100 text-secondary hover:text-primary transition-colors duration-200 font-semibold py-2 px-4 border border-2 border-transparent hover:border-secondary rounded-md hover:shadow-[2px_2px_0_rgba(234,115,66,1)]"
     >
+      {
+        iconLeft ? (
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.21967 7.71967C6.51256 7.42678 6.98732 7.42678 7.28022 7.71967C7.57311 8.01256 7.57311 8.48732 7.28022 8.78022L4.81049 11.2499H20.9999C21.4142 11.2499 21.7499 11.5857 21.7499 11.9999C21.7499 12.4142 21.4142 12.7499 20.9999 12.7499H4.81049L7.28022 15.2197L7.33197 15.2763C7.57228 15.5709 7.55482 16.0056 7.28022 16.2802C7.00561 16.5548 6.57089 16.5723 6.27631 16.332L6.21967 16.2802L2.46967 12.5302C2.17678 12.2373 2.17678 11.7626 2.46967 11.4697L6.21967 7.71967Z" fill="#EA7342"/>
+          </svg>
+        ) : ''
+      }
       <span>{label}</span>
       {
         iconRight ? (
