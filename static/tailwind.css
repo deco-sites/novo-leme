@@ -2692,6 +2692,9 @@ input.tab:checked + .tab-content,
 .h-px {
   height: 1px;
 }
+.max-h-0 {
+  max-height: 0px;
+}
 .max-h-\[110px\] {
   max-height: 110px;
 }
@@ -3342,6 +3345,10 @@ input.tab:checked + .tab-content,
   padding-left: 12px;
   padding-right: 12px;
 }
+.px-\[2px\] {
+  padding-left: 2px;
+  padding-right: 2px;
+}
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -3381,6 +3388,10 @@ input.tab:checked + .tab-content,
 .py-9 {
   padding-top: 2.25rem;
   padding-bottom: 2.25rem;
+}
+.py-\[2px\] {
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 .pb-4 {
   padding-bottom: 1rem;
@@ -3657,6 +3668,9 @@ input.tab:checked + .tab-content,
 .duration-200 {
   transition-duration: 200ms;
 }
+.duration-300 {
+  transition-duration: 300ms;
+}
 /** Remove scrollbar from overflow-auto */
 @media (min-width: 768px) {
 
@@ -3750,9 +3764,18 @@ input.tab:checked + .tab-content,
 .group[open] .group-open\:font-semibold {
   font-weight: 600;
 }
+.group:hover .group-hover\:max-h-96 {
+  max-height: 24rem;
+}
+.group:hover .group-hover\:pb-3 {
+  padding-bottom: 0.75rem;
+}
 .group:hover .group-hover\:text-secondary {
   --tw-text-opacity: 1;
   color: var(--fallback-s,oklch(var(--s)/var(--tw-text-opacity)));
+}
+.group:hover .group-hover\:underline {
+  text-decoration-line: underline;
 }
 .group:disabled .group-disabled\:bg-\[\#0D1717\] {
   --tw-bg-opacity: 1;

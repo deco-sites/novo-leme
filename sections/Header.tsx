@@ -12,9 +12,13 @@ export interface Nav {
     links: {
       label?: string;
       url?: string;
+      sublinks?: {
+        label?: string;
+        url?: string;
+      }[];
     }[];
   };
-  pathname: string;
+  pathname?: string;
 }
 
 export const loader = (props: Nav, req: Request, _ctx: FnContext) => {
@@ -38,7 +42,12 @@ export default function NewHeader({
       { label: "Atuação", url: "/atuacao" },
       { label: "Projetos", url: "/projetos" },
       { label: "Mídia", url: "/midia" },
-      { label: "Eventos", url: "/eventos" },
+      { label: "Eventos", url: "/eventos", sublinks:
+        [
+          { label: "Organização", url: "/eventos/organizacao" },
+          { label: "Participação", url: "/eventos/participacao" },
+        ],
+      },
       { label: "Transparência", url: "/transparencia" },
       { label: "Contato", url: "/contato" },
     ],
@@ -58,7 +67,7 @@ export default function NewHeader({
         {/* Desktop Navigation */}
         <nav className="hidden md:flex">
           {navigation?.links.map((link) => (
-            <NavItem label={link?.label} url={link?.url} pathname={pathname} />
+            <NavItem label={link?.label} url={link?.url} sublinks={link?.sublinks} selected={pathname?.indexOf(link?.url || '') !== -1} />
           ))}
         </nav>
       </div>

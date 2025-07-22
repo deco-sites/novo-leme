@@ -4,31 +4,47 @@
     "links": [
       {
         "label": "Sobre",
-        "url": "/sobre"
+        "url": "/sobre",
+        "sublinks": []
       },
       {
         "label": "Atuação",
-        "url": "/atuacao"
+        "url": "/atuacao",
+        "sublinks": []
       },
       {
         "label": "Projetos",
-        "url": "/projetos"
+        "url": "/projetos",
+        "sublinks": []
       },
       {
         "label": "Mídia",
-        "url": "/midia"
+        "url": "/midia",
+        "sublinks": []
       },
       {
         "label": "Eventos",
-        "url": "/eventos"
+        "url": "/eventos",
+        "sublinks": [
+          {
+            "label": "Organização",
+            "url": "/eventos/organizacao"
+          },
+          {
+            "label": "Participação",
+            "url": "/eventos/participacao"
+          }
+        ]
       },
       {
         "label": "Transparência",
-        "url": "/transparencia"
+        "url": "/transparencia",
+        "sublinks": []
       },
       {
         "label": "Contato",
-        "url": "/contato"
+        "url": "/contato",
+        "sublinks": []
       }
     ]
   }
