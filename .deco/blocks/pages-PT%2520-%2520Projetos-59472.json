@@ -1,0 +1,53 @@
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "name": "PT - Projetos",
+  "path": "/projetos",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Hero.tsx",
+        "image": {
+          "src": "https://assets.decocache.com/novo-leme/1761d18c-f63c-4765-925d-42ce437227ae/hero-projetos.svg"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/PageTitle.tsx",
+        "description": "Conheça nossa atuação através dos nossos projetos",
+        "title": "Projetos"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projetos.tsx",
+        "sidebarNav": {
+          "links": [
+            {
+              "label": "Link",
+              "url": "/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ]
+}
