@@ -33,7 +33,7 @@ export default function Card({
   description = "Este projeto, iniciado em 2024 e realizado em parceria com a Secretaria de Segurança Pública do Paraná (SESP-PR) e o Banco Interamericano de Desenvolvimento (BID), objetiva desenvolver um modelo preditivo e um algoritmo de predição para avaliar o risco de revitimização de mulheres em casos de violência doméstica ocorridos no Paraná. Essa ferramenta tem o potencial de classificar os casos conforme a probabilidade de ocorrerem novas vitimizações, fornecendo insumos para a focalização de políticas públicas destinadas a combater a revitimização e o feminicídio. O modelo e o algoritmo propostos visam contribuir para uma abordagem mais célere na identificação das vítimas de alto risco e no manejo dos casos de violência doméstica, que superam numericamente a capacidade atual de atendimento dos órgãos de proteção do estado.",
   descriptionColor,
   url = "/",
-  tags = ["Crime Organizado e Polícia"],
+  tags,
   details,
 }: Props) {
   let rgb;
@@ -55,14 +55,13 @@ export default function Card({
     >
       <div className={`flex ${orientation === "vertical" ? 'flex-col gap-4' : 'gap-8'}`}>
         <Image class="w-full rounded-md" src={image?.src || ""} alt={image?.alt} />
-        <div className="flex flex-col space-y-3 justify-center">
+        <div className="flex flex-col justify-center">
           {orientation === "vertical" ? (
-            <Title label={label} description={description} descriptionColor={descriptionColor} titleSize="xl" descriptionSize="sm"  gap={3} />
+            <Title label={label} description={description} descriptionColor={descriptionColor} titleSize="xl" descriptionSize="sm" gap={2} />
           ) : (
-            <Title label={label} description={description} descriptionColor={descriptionColor} titleSize="2xl" gap={3} />
+            <Title label={label} description={description} descriptionColor={descriptionColor} titleSize="2xl" gap={2} />
           )
           }
-          
         </div>
       </div>
       <div class="flex gap-3">

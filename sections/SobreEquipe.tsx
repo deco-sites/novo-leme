@@ -111,7 +111,7 @@ export default function SobreEquipe({
   return (
     <div className="container px-12 flex gap-28 my-12">
       <SideNav links={sidebarNav?.links} button={sidebarNav?.button}/>
-      <div className="flex-auto flex flex-col gap-10">
+      <div className="flex-auto flex flex-col gap-14">
         {teamGroup?.map((group) => (
           <div>
             <div className="text-primary mb-5">
