@@ -1,0 +1,59 @@
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "name": "PT - Eventos - Participacao",
+  "path": "/eventos/participacao",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Hero.tsx",
+        "image": {
+          "src": "https://assets.decocache.com/novo-leme/517b6730-6d53-4374-ad62-97111bd812b4/hero-eventos.svg"
+        },
+        "marginTop": true
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/PageTitle.tsx",
+        "description": "Fique por dentro dos eventos organizados e com participação do Leme",
+        "title": "Eventos"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/EventosParticipacao.tsx",
+        "sidebarNav": {
+          "links": [
+            {
+              "label": "Organização",
+              "url": "/eventos"
+            },
+            {
+              "label": "Participação",
+              "url": "/eventos/participacao",
+              "selected": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ]
+}

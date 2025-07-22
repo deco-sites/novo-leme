@@ -35,8 +35,8 @@ export default function NavItem({
         }
       </a>
       {
-        sublinks && sublinks?.length > 0 ? (
-          <div className="flex flex-col absolute gap-2 px-[2px] bg-base-100 z-10 group-hover:pb-3 transition-all max-h-0 overflow-hidden duration-300 group-hover:max-h-96">
+        !selected && sublinks && sublinks?.length > 0 ? (
+          <div className="flex flex-col absolute gap-2 px-[2px] bg-base-100 z-10 group-hover:pb-3 transition-all max-h-0 overflow-hidden duration-300 group-hover:max-h-96 rounded-md">
             {sublinks?.map((link) => (
               <a className="text-sm px-3 py-[2px] text-secondary hover:underline" href={link?.url}>{link?.label}</a>
             ))}

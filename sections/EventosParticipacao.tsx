@@ -1,24 +1,17 @@
-import Title from  "../../components/ui/Title.tsx";
-import FancyLink from  "../../components/ui/FancyLink.tsx";
-import CardEvent, { Props as EventProps } from  "../../components/ui/CardEvent.tsx";
+import SideNav, { Props as SideNavProps } from  "../components/ui/SideNav.tsx";
+import CardEvent, { Props as EventProps } from  "../components/ui/CardEvent.tsx";
 
-export interface Nav {
-  title?: string;
-  description?: string;
+export interface Props {
+  sidebarNav?: SideNavProps;
   events?: EventProps[];
   labels?: {
     online?: string,
     presencial?: string,
   }
-  button?: {
-    label: string;
-    url: string;
-  }
 }
 
-export default function HomeEventos({
-  title = "Eventos",
-  description = "Acompanhe a participação do Leme em eventos",
+export default function EventosParticipacao({
+  sidebarNav,
   events = [
     {
       label: "Fórum RIDGE 2025",
@@ -46,16 +39,12 @@ export default function HomeEventos({
     online: "Online",
     presencial: "Presencial",
   },
-  button = { label: "Ver todos os eventos", url: "/" },
-}: Nav) {
+}: Props) {
   return (
-    <div className="container mx-auto px-16 flex space-x-12 mb-16">
-      <div className="flex-none w-60">
-        <Title label={title} description={description} serif />
-      </div>
-
-      <div className="flex flex-col flex-auto space-y-5">
-        <div className="flex flex-col space-y-2 mr-40">
+    <div className="container px-12 flex gap-44 my-12 text-neutral-950">
+      <SideNav links={sidebarNav?.links} button={sidebarNav?.button}/>
+      <div className="flex-auto"> 
+        <div className="flex flex-col space-y-2">
           {events?.map((event) => (
             <CardEvent
               label={event.label}
@@ -66,9 +55,6 @@ export default function HomeEventos({
               labels={labels}
             />
           ))}
-        </div>
-        <div class="flex px-6">
-          <FancyLink label={button?.label} url={button?.url} iconRight/>
         </div>
       </div>
     </div>

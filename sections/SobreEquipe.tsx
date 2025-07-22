@@ -1,8 +1,7 @@
 import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Title from  "../components/ui/Title.tsx";
-import SideNav from  "../components/ui/SideNav.tsx";
-import type {Props as SideNavProps} from  "../components/ui/SideNav.tsx";
+import SideNav, { Props as SideNavProps } from  "../components/ui/SideNav.tsx";
 
 export interface Person {
   photo?: ImageWidget;
