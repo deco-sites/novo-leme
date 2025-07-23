@@ -32,6 +32,7 @@ import * as $$$$$$23 from "./sections/SobreLeme.tsx";
 import * as $$$$$$24 from "./sections/SobreMissaoValores.tsx";
 import * as $$$$$$25 from "./sections/Theme/Theme.tsx";
 import * as $$$$$$26 from "./sections/Transparencia.tsx";
+import * as $$$$$$27 from "./sections/Watermark.tsx";
 
 const manifest = {
   "sections": {
@@ -62,6 +63,7 @@ const manifest = {
     "site/sections/SobreMissaoValores.tsx": $$$$$$24,
     "site/sections/Theme/Theme.tsx": $$$$$$25,
     "site/sections/Transparencia.tsx": $$$$$$26,
+    "site/sections/Watermark.tsx": $$$$$$27,
   },
   "apps": {
     "site/apps/deco/blog.ts": $$$$$$$$$$$0,
