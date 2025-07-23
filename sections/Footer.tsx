@@ -14,6 +14,7 @@ export interface Footer {
     }[];
   };
   copyrightText?: string;
+  copyrightText2?: string;
 }
 
 export default function NewFooter({
@@ -33,18 +34,18 @@ export default function NewFooter({
       { label: "Contato", url: "/" },
     ],
   },
-  copyrightText =  "© 2025 Leme – Todos os direitos reservados",
+  copyrightText =  "© 2025 Leme",
+  copyrightText2 =  "Todos os direitos reservados",
 }: Footer) {
   return (
     <footer className="mt-16 md:mt-28">
         {/* Logo */}
-        <div className="relative flex items-center justify-center w-full h-[328px] bg-primary overflow-hidden">
-            <Image className="absolute w-full object-cover object-center" src={bgImage || ""} />
+        <div className="relative flex items-center justify-center w-full h-48 md:h-[328px] bg-primary overflow-hidden">
+            <Image className="absolute md:w-full object-cover object-center max-w-fit md:max-w-full" src={bgImage || ""} />
             <Image className="relative z-10" src={logo.src || ""} width={122} height={71} alt={logo.alt} />
         </div>
-        <div className="container mx-auto flex items-center space-x-3">
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex flex-auto">
+        <div className="container mx-auto flex items-end md:items-center md:space-x-3 py-8 md:py-0">
+          <nav className="flex flex-col md:flex-row flex-auto">
             {navigation?.links.map((link) => (
               <a
                 key={link.label}
@@ -57,8 +58,8 @@ export default function NewFooter({
               </a>
             ))}
           </nav>
-          <div className="flex items-center space-x-12 flex-none text-sm px-12 py-8">
-            <div className="flex-none flex items-center space-x-3">
+          <div className="flex flex-col md:flex-row md:items-center gap-12 flex-none text-sm px-3 md:px-12 md:py-8">
+            <div className="flex-none flex justify-end items-center gap-3">
               <a href="/" target="_blank">
                   <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0_448_3868)">
@@ -76,8 +77,8 @@ export default function NewFooter({
                   contato@lemelab.org
               </div>
             </div>
-            <div>
-                {copyrightText}
+            <div className="flex flex-col md:flex-row gap-2 md:gap-1 items-end">
+                <span>{copyrightText}</span> <span class="hidden md:block">-</span> <span>{copyrightText2}</span>
             </div>
           </div>
         </div>

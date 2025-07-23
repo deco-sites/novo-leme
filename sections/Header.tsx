@@ -70,17 +70,78 @@ export default function NewHeader({
   }
 
   return (
-    <header className="container mx-auto px-4 mt-12">
-      <div className="flex items-center justify-between">
+    <header className="container mx-auto">
+      <input type="checkbox" id="menu-toggle" class="peer hidden" />
+      <label
+        for="menu-toggle"
+        class="z-40 fixed inset-0 bg-black bg-opacity-30 transition-opacity duration-300 opacity-0 pointer-events-none peer-checked:opacity-100 peer-checked:pointer-events-auto"
+      ></label>
+
+      {/* Mobile Navigation */}
+      <div className="flex md:hidden px-2 pt-6 justify-between z-30">
         {/* Logo */}
         <div className="flex items-center">
-          <a href="/">
+          <a href="/" className="block w-44 sm:w-auto">
             <Image src={logo.src || ""} width={320} height={72} alt={logo.alt} />
           </a>
         </div>
 
-        {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center">
+        <label
+          for="menu-toggle"
+          class="z-50 absolute mt-0 right-4 cursor-pointer p-1 peer-checked:hidden"
+        >
+          <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.5"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 6l16 0" /><path d="M4 12l16 0" /><path d="M4 18l16 0" /></svg>
+        </label>
+      </div>
+      
+      <div
+        class="fixed top-0 right-0 h-full w-72 bg-white shadow-lg transform translate-x-full peer-checked:translate-x-0 transition-transform duration-300 z-50"
+      >
+        <div class="px-4 py-6 space-y-4">
+          <div className="text-secondary px-3">
+            <svg width="32" height="39" viewBox="0 0 32 39" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M30.7909 33.9419C24.3727 29.0197 18.542 26.1751 13.4498 25.4796C13.5302 24.7931 13.5946 24.0915 13.6409 23.3799C14.1348 15.8979 12.7144 7.38629 9.74774 0C8.26492 0.135889 6.82436 0.417731 5.43711 0.828417L5.68759 1.44646C8.46813 8.29222 9.80005 16.1818 9.34636 23.098C9.29405 23.8952 9.21658 24.6844 9.11498 25.4413C6.57789 25.7846 4.38082 26.7922 2.73403 28.3816C0.0148558 31.0017 -0.807033 34.9032 0.863906 37.2657C1.2321 37.7851 2.30347 39 4.29028 39C5.20171 39 6.18153 38.7373 7.21065 38.2209C9.11397 37.2657 10.6531 35.3391 11.7839 32.5015C12.1209 31.654 12.4206 30.7209 12.6741 29.7223C12.7053 29.7284 12.7355 29.7314 12.7667 29.7344C17.1266 30.3001 22.3085 32.8669 28.1733 37.3623L28.6492 37.7267C29.6099 36.6627 30.472 35.5072 31.2205 34.2731L30.7909 33.9419ZM5.27715 34.3717C4.85665 34.5821 4.50758 34.6747 4.33757 34.6838C4.19874 34.2479 4.34058 32.8166 5.71878 31.4869C6.36462 30.8688 7.15231 30.3988 8.07982 30.0827C7.3354 32.3022 6.34048 33.8362 5.27715 34.3707V34.3717Z"/>
+            </svg>
+          </div>
+          <nav className="flex flex-col md:flex-row flex-auto">
+            {navigation?.links.map((link) => (
+              <a
+                key={link.label}
+                href={link.url}
+                className="block"
+              >
+                <span class="block text-primary hover:underline py-2 px-3">
+                  {link.label}
+                </span>
+              </a>
+            ))}
+          </nav>
+          <div className="flex gap-2 bg-base-100 py-2 justify-center">
+            {languages?.map((lang) => (
+              <a href={lang.url} className="flex gap-2 items-center px-2">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: langFlags[lang.label],
+                  }}
+                >
+                </span>
+                <span className="w-4">{lang.label}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Desktop Navigation */}
+      <div className="hidden md:flex items-center justify-between px-4 mt-12">
+        {/* Logo */}
+        <div className="flex items-center">
+          <a href="/" className="block w-44 sm:w-auto">
+            <Image src={logo.src || ""} width={320} height={72} alt={logo.alt} />
+          </a>
+        </div>
+        {/* Nav */}
+        <nav className="flex items-center">
           {navigation?.links.map((link) => (
             <NavItem label={link?.label} url={link?.url} sublinks={link?.sublinks} selected={pathname?.indexOf(link?.url || '') !== -1} />
           ))}

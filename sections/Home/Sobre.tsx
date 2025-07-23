@@ -27,7 +27,7 @@ export default function About({
 }: Nav) {
   return (
     <div className="container mx-auto md:px-32 flex flex-col space-y-8 md:space-y-16 mb-16">
-      <div className="text-3xl md:text-5xl leading-tight font-serif">
+      <div className="text-2xl md:text-5xl leading-tight font-serif">
         {text}
       </div>
       <div className="flex justify-center">
