@@ -11,11 +11,11 @@ export default function Links({
 }: Props) {
   return (
     <div className="container flex gap-16 pt-6 mb-24">
-      <div className="flex-none w-44"/>
+      <div className="hidden md:block flex-none w-44"/>
       <div className="">
         <FancyLink label={label} url={url} iconLeft/>
       </div>
-      <div className="flex-none w-44"/>
+      <div className="hidden md:block flex-none w-44"/>
     </div>
   );
 }

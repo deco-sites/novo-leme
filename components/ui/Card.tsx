@@ -53,7 +53,7 @@ export default function Card({
       href={url}
       className={`flex flex-col ${orientation === "vertical" ? 'space-y-4' : 'space-y-6'} p-6 rounded-xl bg-white text-primary border-[3px] border-${borderColor} hover:border-${borderColor == 'primary' ? 'secondary' : 'primary'} shadow-[4px_4px_0_rgba(${rgb})] hover:shadow-[4px_4px_0_rgba(${rgbHover})] hover:scale-105 transition-all`}
     >
-      <div className={`flex ${orientation === "vertical" ? 'flex-col gap-4' : 'gap-8'}`}>
+      <div className={`flex ${orientation === "vertical" ? 'flex-col gap-4' : 'flex-col md:flex-row gap-4 md:gap-8'}`}>
         <Image class="w-full rounded-md" src={image?.src || ""} alt={image?.alt} />
         <div className="flex flex-col justify-center">
           {orientation === "vertical" ? (
@@ -64,7 +64,7 @@ export default function Card({
           }
         </div>
       </div>
-      <div class="flex gap-3">
+      <div class="flex flex-wrap gap-3">
         {tags?.map((tag) => (
           <Tag label={tag}/>
         ))}

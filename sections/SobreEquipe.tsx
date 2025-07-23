@@ -108,7 +108,7 @@ export default function SobreEquipe({
   ]
 }: Props) {
   return (
-    <div className="container px-12 flex gap-28 my-12">
+    <div className="container px-6 md:px-12 flex flex-col md:flex-row gap-12 md:gap-28 my-6 md:my-12">
       <SideNav links={sidebarNav?.links} button={sidebarNav?.button}/>
       <div className="flex-auto flex flex-col gap-14">
         {teamGroup?.map((group) => (
@@ -116,11 +116,11 @@ export default function SobreEquipe({
             <div className="text-primary mb-5">
               <Title label={group.label} titleSize="4xl" serif />
             </div>
-            <div class="grid grid-cols-2 gap-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
               {group.people?.map((person) => (
                 <div className="flex gap-5">
                   <div className="flex-none">
-                    <Image class="rounded-md" src={person?.photo || ""} alt={person?.label} width={138} height={165} />
+                    <Image class="rounded-md w-24 md:w-[138px]" src={person?.photo || ""} alt={person?.label} width={138} height={165} />
                   </div>
                   <div className="flex-auto flex flex-col gap-3">
                     <div className="flex flex-col gap-2">
@@ -130,7 +130,7 @@ export default function SobreEquipe({
                       </div>
                       {
                         person.links?.website || person.links?.lattes || person.links?.linkedin ? (
-                          <ul className="flex gap-4 text-secondary">
+                          <ul className="flex flex-wrap gap-3 md:gap-4 text-secondary text-sm md:text-base">
                             {
                               person.links?.website ? (
                                 <li>

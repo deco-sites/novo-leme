@@ -22,9 +22,9 @@ export default function SobreLeme({
   image,
 }: Props) {
   return (
-    <div className="container px-12 flex gap-44 my-12 text-neutral-950">
+    <div className="container px-6 md:px-12 flex flex-col md:flex-row gap-12 md:gap-44 my-6 md:my-12 text-neutral-950">
       <SideNav links={sidebarNav?.links} button={sidebarNav?.button}/>
-      <div className="flex-auto mx-12"> 
+      <div className="flex-auto md:mx-12"> 
         <div className="text-primary mb-3">
           <Title label={title} titleSize="4xl" serif />
         </div>

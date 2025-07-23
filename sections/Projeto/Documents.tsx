@@ -39,10 +39,10 @@ export default function TextBlock({
 }: Props) {
   return (
     <div className="container flex gap-16 mb-9">
-      <div className="flex-none w-44"/>
+      <div className="hidden md:block flex-none w-44"/>
       <div className="flex-auto flex flex-col gap-5">
         <Title label={label} titleSize="xl" serif />
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {docs?.map((doc) => (
             <CardDocument
               name={doc.name}
@@ -53,7 +53,7 @@ export default function TextBlock({
           ))}
         </div>
       </div>
-      <div className="flex-none w-44"/>
+      <div className="hidden md:block flex-none w-44"/>
     </div>
   );
 }

@@ -22,9 +22,9 @@ export default function TextBlock({
   ]
 }: Props) {
   return (
-    <div className="container flex gap-16 mb-9">
-      <div className="flex-none w-44"/>
-      <div className="flex-auto flex flex-col gap-9">
+    <div className="container flex gap-8 md:gap-16 mb-6 md:mb-9">
+      <div className="hidden md:block flex-none w-44"/>
+      <div className="flex-auto flex flex-col gap-6 md:gap-9">
         {paragraph?.map((p) => (
           <div class="flex flex-col gap-4">
             {p.label ? <Title label={p.label} titleSize="xl" serif /> : ''}
@@ -37,7 +37,7 @@ export default function TextBlock({
           </div>
         ))}
       </div>
-      <div className="flex-none w-44"/>
+      <div className="hidden md:block flex-none w-44"/>
     </div>
   );
 }

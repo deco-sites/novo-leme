@@ -22,11 +22,11 @@ export default function Header({
   }
 }: Props) {
   return (
-    <div className="container flex gap-16 mb-9">
-      <div className="flex-none w-44"/>
+    <div className="container flex gap-8 md:gap-16 mb-6 md:mb-9">
+      <div className="hidden md:block flex-none w-44"/>
       <div className="flex-auto flex flex-col gap-7">
         <Title label={label} serif titleSize="4xl" noClamp />
-        <div class="flex gap-3">
+        <div class="flex flex-wrap gap-3">
           {categories?.map((tag) => (
             <Tag label={tag}/>
           ))}
@@ -35,7 +35,7 @@ export default function Header({
           {details?.status ? <Tag type="status" label={details?.status} color="secondary"/> : ''}
         </div>
       </div>
-      <div className="flex-none w-44"/>
+      <div className="hidden md:block flex-none w-44"/>
     </div>
   );
 }

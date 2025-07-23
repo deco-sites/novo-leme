@@ -16,7 +16,7 @@ export default function SideNav({
 }: Props) {
   return (
     <div className="flex-none flex flex-col gap-6">
-      <ul className="flex flex-col gap-2">
+      <ul className="flex md:flex-col gap-4 md:gap-2">
         {links?.map((item) => (
           <li><a className={`font-semibold ${item.selected ? 'text-secondary' : 'text-primary hover:underline'}`} href={item.url}>{item.label}</a></li>
         ))}

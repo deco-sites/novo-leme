@@ -26,22 +26,20 @@ export default function ImageSection({
   size = "Medium",
 }: Props) {
   return (
-    <div className={`${size === 'Large' ? '' : 'container'} flex gap-16 mb-9`}>
+    <div className={`${size === 'Large' ? '' : 'container'} flex gap-16 mb-9 text-sm`}>
       {size === 'Large' ? '' : (
-        <div className="flex-none w-44 text-sm">
+        <div className="hidden md:block flex-none w-44">
           {caption?.text && caption?.position === 'Left' ? caption.text : ''}
         </div>
       )}
       <div className="flex-auto flex flex-col gap-4">
         <Image className="w-full" src={image?.src || ""} alt={image?.alt} />
-        {caption?.text && caption?.position === 'Bottom' ? (
-          <div className="container text-sm">
-            {caption.text}
-          </div>
-        ) : ''}
+        <div className={`${size === 'Large' ? 'container' : ''} ${!caption?.text ? 'hidden' : ''} ${caption?.text && caption?.position !== 'Bottom' ? 'md:hidden' : ''}`}>
+          {caption.text}
+        </div>
       </div>
       {size === 'Large' ? '' : (
-        <div className="flex-none w-44">
+        <div className="hidden md:block flex-none w-44">
           {caption?.text && caption?.position === 'Right' ? caption.text : ''}
         </div>
       )}
