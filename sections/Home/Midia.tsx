@@ -57,13 +57,13 @@ export default function HomeMidia({
   button = { label: "Ver todas as reportagens", url: "/" },
 }: Props) {
   return (
-    <div className="container mx-auto px-16 flex space-x-12 mb-16">
-      <div className="flex-none w-60">
+    <div className="container mx-auto px-6 md:px-16 flex flex-col md:flex-row space-y-8 md:space-x-12 mb-16">
+      <div className="flex-none md:w-60">
         <Title label={title} description={description} serif />
       </div>
 
-      <div className="flex flex-col flex-auto space-y-12">
-        <div className="grid grid-cols-2 gap-12">
+      <div className="flex flex-col flex-auto space-y-6 md:space-y-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
           {news?.map((item) => (
             <Card
               borderColor="primary"

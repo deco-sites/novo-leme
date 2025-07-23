@@ -60,13 +60,13 @@ export default function HomeProjetos({
   button = { label: "Ver mais projetos", url: "/" },
 }: Props) {
   return (
-    <div className="mx-16 py-16 flex flex-col space-y-10 mb-16 text-white rounded-se-3xl rounded-es-3xl bg-[#EA9642] bg-[url(https://assets.decocache.com/novo-leme/aa01eb61-8e76-4691-85bd-da34db62d246/bg1.svg)] bg-repeat-x">
-      <div className="px-32">
+    <div className="md:mx-16 py-8 md:py-16 flex flex-col space-y-6 md:space-y-10 mb-16 text-white rounded-se-3xl rounded-es-3xl bg-[#EA9642] bg-[url(https://assets.decocache.com/novo-leme/aa01eb61-8e76-4691-85bd-da34db62d246/bg1.svg)] bg-repeat-x">
+      <div className="px-6 md:px-32">
         <Title label={title} description={description} serif />
       </div>
 
-      <div className="flex flex-col flex-auto space-y-16 items-center px-32">
-        <div className="grid grid-cols-3 gap-8">
+      <div className="flex flex-col flex-auto space-y-8 md:space-y-16 items-center px-6 md:px-32">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {projects?.map((project) => (
             <Card
               image={project.image}

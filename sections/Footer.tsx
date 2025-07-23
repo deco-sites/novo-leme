@@ -36,7 +36,7 @@ export default function NewFooter({
   copyrightText =  "© 2025 Leme – Todos os direitos reservados",
 }: Footer) {
   return (
-    <footer className="mt-28">
+    <footer className="mt-16 md:mt-28">
         {/* Logo */}
         <div className="relative flex items-center justify-center w-full h-[328px] bg-primary overflow-hidden">
             <Image className="absolute w-full object-cover object-center" src={bgImage || ""} />

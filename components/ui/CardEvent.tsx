@@ -28,10 +28,10 @@ export default function CardEvent({
     <a
       key={label}
       href={url}
-      className="group block px-3 hover:px-0 transition-[padding]"
+      className="group block md:px-3 hover:px-0 transition-[padding]"
     >
-      <div className="flex space-x-5 px-8 py-5 hover:bg-white rounded-xl">
-        <div className="p-2 w-48 bg-secondary rounded-lg text-white flex flex-col justify-center">
+      <div className="flex space-x-5 md:px-8 md:py-5 md:hover:bg-white rounded-xl">
+        <div className="flex-none p-2 w-14 bg-secondary rounded-lg text-white flex flex-col justify-center">
           <span className="leading-none flex justify-center font-serif text-4xl">{date?.day}</span>
           <span className="text-xs flex justify-center">{date?.month}</span>
           <span className="text-xs flex justify-center">{date?.year}</span>

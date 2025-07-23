@@ -26,14 +26,14 @@ export default function About({
   ],
 }: Nav) {
   return (
-    <div className="container mx-auto px-32 flex flex-col space-y-16 mb-16">
-      <div className="text-5xl leading-tight font-serif">
+    <div className="container mx-auto md:px-32 flex flex-col space-y-8 md:space-y-16 mb-16">
+      <div className="text-3xl md:text-5xl leading-tight font-serif">
         {text}
       </div>
       <div className="flex justify-center">
         <Image src={image.src || ""} />
       </div>
-      <div className="flex space-x-5 justify-center">
+      <div className="flex flex-col md:flex-row gap-2 md:gap-5 justify-center">
         {links?.map((link) => (
           <FancyLink label={link?.label} url={link?.url} iconRight={true}/>
         ))}

@@ -49,13 +49,12 @@ export default function HomeEventos({
   button = { label: "Ver todos os eventos", url: "/" },
 }: Nav) {
   return (
-    <div className="container mx-auto px-16 flex space-x-12 mb-16">
-      <div className="flex-none w-60">
+    <div className="container mx-auto px-6 md:px-16 flex flex-col md:flex-row space-y-8 md:space-x-12 mb-16">
+      <div className="flex-none md:w-60">
         <Title label={title} description={description} serif />
       </div>
-
       <div className="flex flex-col flex-auto space-y-5">
-        <div className="flex flex-col space-y-2 mr-40">
+        <div className="flex flex-col space-y-7 md:space-y-2 md:mr-40">
           {events?.map((event) => (
             <CardEvent
               label={event.label}
@@ -67,7 +66,7 @@ export default function HomeEventos({
             />
           ))}
         </div>
-        <div class="flex px-6">
+        <div class="flex md:px-6">
           <FancyLink label={button?.label} url={button?.url} iconRight/>
         </div>
       </div>
