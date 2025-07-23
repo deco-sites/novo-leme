@@ -38,7 +38,7 @@ export default function SobreLeme({
           <div className="text-primary mb-4 md:mb-7 md:ml-8">
             <Title label={title1} titleSize="4xl" serif />
           </div>
-          <div className="text-secondary font-serif text-xl md:text-[28px] px-6 md:px-12 py-4 md:py-9 border-base-300 border-[3px] rounded-xl">{text}</div>
+          <div className="text-secondary font-serif text-xl md:text-[28px] leading-snug px-6 md:px-12 py-4 md:py-9 border-base-300 border-[3px] rounded-xl">{text}</div>
         </div>
         
         <div>

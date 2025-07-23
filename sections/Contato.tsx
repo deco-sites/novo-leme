@@ -26,9 +26,9 @@ export default function Contato({
   },
 }: Props) {
   return (
-    <div className="container px-12 flex gap-28 my-12">
-      <div className="flex gap-28">
-        <div className="w-96 flex flex-col gap-5">
+    <div className="container px-6 md:px-12 flex flex-cols md:flex-row gap-14 md:gap-28 my-6 md:my-12">
+      <div className="w-full md:w-auto flex flex-col md:flex-row gap-8 md:gap-28">
+        <div className="md:w-96 flex flex-col gap-5">
           <h3 className="font-serif text-2xl">{form?.title}</h3>
           <form className="flex flex-col gap-5">
             <label className="flex flex-col gap-2">
@@ -49,7 +49,7 @@ export default function Contato({
             </div>
           </form>
         </div>
-        <div className="w-96 flex flex-col gap-5">
+        <div className="md:w-96 flex flex-col gap-5">
           <h3 className="font-serif text-2xl">{email?.title}</h3>
           <p>{email?.email}</p>
         </div>

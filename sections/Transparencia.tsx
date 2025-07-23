@@ -50,18 +50,16 @@ export default function Transparencia({
   ],
 }: Props) {
   return (
-    <div className="container px-12 flex gap-28 mt-12 mb-28">
-      <div className="flex-auto flex flex-col gap-10">
-        <div className="grid grid-cols-3 gap-7">
-            {docs?.map((doc) => (
-              <CardDocument
-                  name={doc.name}
-                  url={doc.url}
-                  image={doc.image}
-                  description={doc.description}
-              />
-            ))}
-        </div>
+    <div className="container px-6 md:px-12 flex mt-6 md:mt-12 mb-14 md:mb-28">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-7">
+          {docs?.map((doc) => (
+            <CardDocument
+                name={doc.name}
+                url={doc.url}
+                image={doc.image}
+                description={doc.description}
+            />
+          ))}
       </div>
     </div>
   );

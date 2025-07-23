@@ -41,10 +41,10 @@ export default function EventosParticipacao({
   },
 }: Props) {
   return (
-    <div className="container px-12 flex gap-44 my-12 text-neutral-950">
+    <div className="container px-6 md:px-12 flex flex-col md:flex-row gap-8 md:gap-44 my-6 md:my-12 text-neutral-950">
       <SideNav links={sidebarNav?.links} button={sidebarNav?.button}/>
       <div className="flex-auto"> 
-        <div className="flex flex-col space-y-2">
+        <div className="flex flex-col space-y-6 md:space-y-2">
           {events?.map((event) => (
             <CardEvent
               label={event.label}
