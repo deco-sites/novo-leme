@@ -55,6 +55,13 @@
       "section": {
         "__resolveType": "Footer"
       }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/sections/Seo/SeoV2.tsx",
+        "title": "Eventos - Organização"
+      }
     }
   ]
 }
