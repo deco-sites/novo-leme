@@ -16,21 +16,21 @@ export default function EventosParticipacao({
     {
       label: "Fórum RIDGE 2025",
       description: "O Fórum RIDGE foi realizado em maio de 2025, em Lima (Peru), organizado pela Red de Investigación en Desarrollo Económico (RIDGE).. O evento reuniu pesquisadores e autoridades internacionais para discutir avanços e desafios em temas centrais da economia do desenvolvimento, como desigualdade, políticas públicas, finanças internacionais e crescimento econômico sustentável.",
-      date: { day: "12", month: "nov", year: "2025" },
+      date: "2025-11-12",
       online: false,
       url: "/"
     },
     {
       label: "III Workshop sobre Justiça Criminal e Crime Organizado",
       description: "O Fórum RIDGE foi realizado em maio de 2025, em Lima (Peru), organizado pela Red de Investigación en Desarrollo Económico (RIDGE).. O evento reuniu pesquisadores e autoridades internacionais para discutir avanços e desafios em temas centrais da economia do desenvolvimento, como desigualdade, políticas públicas, finanças internacionais e crescimento econômico sustentável.",
-      date: { day: "4", month: "nov", year: "2025" },
+      date: "2025-04-04",
       online: true,
       url: "/"
     },
     {
       label: "I Reunião Técnica do FONACRIAD",
       description: "O Fórum RIDGE foi realizado em maio de 2025, em Lima (Peru), organizado pela Red de Investigación en Desarrollo Económico (RIDGE).. O evento reuniu pesquisadores e autoridades internacionais para discutir avanços e desafios em temas centrais da economia do desenvolvimento, como desigualdade, políticas públicas, finanças internacionais e crescimento econômico sustentável.",
-      date: { day: "31", month: "nov", year: "2025" },
+      date: "2025-03-01",
       online: false,
       url: "/"
     },

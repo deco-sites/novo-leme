@@ -13,6 +13,7 @@ export interface Props {
   label?: string;
   description?: string;
   descriptionColor?: string;
+  date?: string;
   url?: string;
   tags?: string[];
   details?: {
@@ -32,6 +33,7 @@ export default function Card({
   label = "Algoritmo preditivo do risco de revitimização de vítimas de violência doméstica",
   description = "Este projeto, iniciado em 2024 e realizado em parceria com a Secretaria de Segurança Pública do Paraná (SESP-PR) e o Banco Interamericano de Desenvolvimento (BID), objetiva desenvolver um modelo preditivo e um algoritmo de predição para avaliar o risco de revitimização de mulheres em casos de violência doméstica ocorridos no Paraná. Essa ferramenta tem o potencial de classificar os casos conforme a probabilidade de ocorrerem novas vitimizações, fornecendo insumos para a focalização de políticas públicas destinadas a combater a revitimização e o feminicídio. O modelo e o algoritmo propostos visam contribuir para uma abordagem mais célere na identificação das vítimas de alto risco e no manejo dos casos de violência doméstica, que superam numericamente a capacidade atual de atendimento dos órgãos de proteção do estado.",
   descriptionColor,
+  date,
   url = "/",
   tags,
   details,
@@ -47,6 +49,12 @@ export default function Card({
     rgbHover = '0,82,112,1';
   }
 
+  const formattedDate = date ? new Date(date).toLocaleDateString("pt-BR", {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+  }) : null;
+
   return (
     <a
       key={label}
@@ -54,7 +62,14 @@ export default function Card({
       className={`flex flex-col ${orientation === "vertical" ? 'space-y-4' : 'space-y-6'} p-6 rounded-xl bg-white text-primary border-[3px] border-${borderColor} hover:border-${borderColor == 'primary' ? 'secondary' : 'primary'} shadow-[4px_4px_0_rgba(${rgb})] hover:shadow-[4px_4px_0_rgba(${rgbHover})] hover:scale-105 transition-all`}
     >
       <div className={`flex ${orientation === "vertical" ? 'flex-col gap-4' : 'flex-col md:flex-row gap-4 md:gap-8'}`}>
-        <Image class="w-full rounded-md" src={image?.src || ""} alt={image?.alt} />
+        <div className="relative">
+          <Image class="w-full rounded-md" src={image?.src || ""} alt={image?.alt} />
+          {
+            date ? (
+              <div className="absolute left-3 bottom-3 bg-base-100 rounded-md text-xs px-1 py-[2px]">{formattedDate}</div>
+            ) : ''
+          }
+        </div>
         <div className="flex flex-col justify-center">
           {orientation === "vertical" ? (
             <Title label={label} description={description} descriptionColor={descriptionColor} titleSize="xl" descriptionSize="sm" gap={2} />

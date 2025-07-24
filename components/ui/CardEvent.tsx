@@ -1,29 +1,31 @@
 import Tag from  "./Tag.tsx";
 
 export interface Props {
-    label: string;
-    description: string;
-    date?: {
-        day: string;
-        month: string;
-        year: string;
-    },
-    online?: boolean;
-    url: string;
-    labels?: {
-      online?: string,
-      presencial?: string,
-    }
+  label: string;
+  description: string;
+  /** @format date */
+  date: string;
+  online?: boolean;
+  url: string;
+  labels?: {
+    online?: string,
+    presencial?: string,
   }
+}
 
 export default function CardEvent({
   label = "I Reunião Técnica do FONACRIAD",
   description = "O Fórum RIDGE foi realizado em maio de 2025, em Lima (Peru), organizado pela Red de Investigación en Desarrollo Económico (RIDGE).. O evento reuniu pesquisadores e autoridades internacionais para discutir avanços e desafios em temas centrais da economia do desenvolvimento, como desigualdade, políticas públicas, finanças internacionais e crescimento econômico sustentável.",
-  date = { day: "31", month: "nov", year: "2025" },
+  date = "2025-11-31",
   online = false,
   url = "/",
   labels,
 }: Props) {
+  const formattedDate = { day: '', month: '', year: '' }
+  formattedDate.day = new Date(date).toLocaleDateString("pt-BR", { day: "numeric" });
+  formattedDate.month = new Date(date).toLocaleDateString("pt-BR", { month: "short" });
+  formattedDate.year = new Date(date).toLocaleDateString("pt-BR", { year: "numeric" });
+
   return (
     <a
       key={label}
@@ -32,13 +34,13 @@ export default function CardEvent({
     >
       <div className="flex space-x-5 md:px-8 md:py-5 md:hover:bg-white rounded-xl">
         <div className="flex-none p-2 w-14 bg-secondary rounded-lg text-white flex flex-col justify-center">
-          <span className="leading-none flex justify-center font-serif text-4xl">{date?.day}</span>
-          <span className="text-xs flex justify-center">{date?.month}</span>
-          <span className="text-xs flex justify-center">{date?.year}</span>
+          <span className="leading-none flex justify-center font-serif text-4xl">{formattedDate.day}</span>
+          <span className="text-xs flex justify-center">{formattedDate.month}</span>
+          <span className="text-xs flex justify-center">{formattedDate.year}</span>
         </div>
         <div className="flex flex-col gap-1 justify-center text-neutral-950">
           <div className="flex flex-row gap-1 md:gap-5">
-            <h3 className="flex-auto md:flex-none line-clamp-2 md:line-clamp-1 text-lg md:text-xl group-hover:text-secondary">{label}</h3>
+            <h3 className="flex-auto line-clamp-2 md:line-clamp-1 text-lg md:text-xl group-hover:text-secondary">{label}</h3>
             <div className="flex-none">
               <Tag label={online ? labels.online : labels.presencial}/>
             </div>

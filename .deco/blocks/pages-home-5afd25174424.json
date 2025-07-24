@@ -35,10 +35,7 @@
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Home/Projetos.tsx"
-      }
+      "__resolveType": "site/sections/Home/Projetos.tsx"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -47,10 +44,7 @@
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Home/Noticias.tsx"
-      }
+      "__resolveType": "site/sections/Home/Noticias.tsx"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",

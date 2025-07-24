@@ -33,7 +33,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/MidiaNaMidia.tsx",
+        "__resolveType": "site/sections/MidiaLista.tsx",
         "sidebarNav": {
           "links": [
             {

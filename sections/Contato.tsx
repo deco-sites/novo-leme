@@ -1,5 +1,3 @@
-import Form from "../islands/contact.tsx"
-
 export interface Props {
   form?: {
     title: string;
@@ -32,7 +30,6 @@ export default function Contato({
       <div className="w-full md:w-auto flex flex-col md:flex-row gap-8 md:gap-28">
         <div className="md:w-96 flex flex-col gap-5">
           <h3 className="font-serif text-2xl">{form?.title}</h3>
-          <Form/>
           <form method="post" className="flexs flex-col gap-5 hidden">
             <label className="flex flex-col gap-2">
               <div>{form?.name}</div>
