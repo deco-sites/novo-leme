@@ -4,7 +4,8 @@
 
 import * as $$$$$$$$$$$0 from "./apps/deco/blog.ts";
 import * as $$$$$$$$$$$1 from "./apps/deco/htmx.ts";
-import * as $$$$$$$$$$$2 from "./apps/site.ts";
+import * as $$$$$$$$$$$2 from "./apps/deco/resend.ts";
+import * as $$$$$$$$$$$3 from "./apps/site.ts";
 import * as $$$$$$0 from "./sections/Atuacao.tsx";
 import * as $$$$$$1 from "./sections/BlogPost.tsx";
 import * as $$$$$$2 from "./sections/BlogPosts.tsx";
@@ -37,9 +38,10 @@ import * as $$$$$$28 from "./sections/Projetos.tsx";
 import * as $$$$$$29 from "./sections/SobreEquipe.tsx";
 import * as $$$$$$30 from "./sections/SobreLeme.tsx";
 import * as $$$$$$31 from "./sections/SobreMissaoValores.tsx";
-import * as $$$$$$32 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$33 from "./sections/Transparencia.tsx";
-import * as $$$$$$34 from "./sections/Watermark.tsx";
+import * as $$$$$$32 from "./sections/TestIsland.tsx";
+import * as $$$$$$33 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$34 from "./sections/Transparencia.tsx";
+import * as $$$$$$35 from "./sections/Watermark.tsx";
 
 const manifest = {
   "sections": {
@@ -75,14 +77,16 @@ const manifest = {
     "site/sections/SobreEquipe.tsx": $$$$$$29,
     "site/sections/SobreLeme.tsx": $$$$$$30,
     "site/sections/SobreMissaoValores.tsx": $$$$$$31,
-    "site/sections/Theme/Theme.tsx": $$$$$$32,
-    "site/sections/Transparencia.tsx": $$$$$$33,
-    "site/sections/Watermark.tsx": $$$$$$34,
+    "site/sections/TestIsland.tsx": $$$$$$32,
+    "site/sections/Theme/Theme.tsx": $$$$$$33,
+    "site/sections/Transparencia.tsx": $$$$$$34,
+    "site/sections/Watermark.tsx": $$$$$$35,
   },
   "apps": {
     "site/apps/deco/blog.ts": $$$$$$$$$$$0,
     "site/apps/deco/htmx.ts": $$$$$$$$$$$1,
-    "site/apps/site.ts": $$$$$$$$$$$2,
+    "site/apps/deco/resend.ts": $$$$$$$$$$$2,
+    "site/apps/site.ts": $$$$$$$$$$$3,
   },
   "name": "site",
   "baseUrl": import.meta.url,

@@ -25,6 +25,12 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/TestIsland.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/PageTitle.tsx",
         "description": "Canais para entrar em contato com o Leme",
         "title": "Contato"
