@@ -5,65 +5,79 @@
 import * as $$$$$$$$$$$0 from "./apps/deco/blog.ts";
 import * as $$$$$$$$$$$1 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$2 from "./apps/site.ts";
-import * as $$$$$$0 from "./sections/BlogPost.tsx";
-import * as $$$$$$1 from "./sections/BlogPosts.tsx";
-import * as $$$$$$2 from "./sections/Contato.tsx";
-import * as $$$$$$3 from "./sections/EventosParticipacao.tsx";
-import * as $$$$$$4 from "./sections/Footer.tsx";
-import * as $$$$$$5 from "./sections/Header.tsx";
-import * as $$$$$$6 from "./sections/Hero.tsx";
-import * as $$$$$$7 from "./sections/Home/Eventos.tsx";
-import * as $$$$$$8 from "./sections/Home/Midia.tsx";
-import * as $$$$$$9 from "./sections/Home/Noticias.tsx";
-import * as $$$$$$10 from "./sections/Home/Projetos.tsx";
-import * as $$$$$$11 from "./sections/Home/Sobre.tsx";
-import * as $$$$$$12 from "./sections/MainPost.tsx";
-import * as $$$$$$13 from "./sections/PageTitle.tsx";
-import * as $$$$$$14 from "./sections/Projeto/Documents.tsx";
-import * as $$$$$$15 from "./sections/Projeto/Header.tsx";
-import * as $$$$$$16 from "./sections/Projeto/HighlightNumbers.tsx";
-import * as $$$$$$17 from "./sections/Projeto/Image.tsx";
-import * as $$$$$$18 from "./sections/Projeto/Links.tsx";
-import * as $$$$$$19 from "./sections/Projeto/MoreProjects.tsx";
-import * as $$$$$$20 from "./sections/Projeto/TextBlock.tsx";
-import * as $$$$$$21 from "./sections/Projetos.tsx";
-import * as $$$$$$22 from "./sections/SobreEquipe.tsx";
-import * as $$$$$$23 from "./sections/SobreLeme.tsx";
-import * as $$$$$$24 from "./sections/SobreMissaoValores.tsx";
-import * as $$$$$$25 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$26 from "./sections/Transparencia.tsx";
-import * as $$$$$$27 from "./sections/Watermark.tsx";
+import * as $$$$$$0 from "./sections/Atuacao.tsx";
+import * as $$$$$$1 from "./sections/BlogPost.tsx";
+import * as $$$$$$2 from "./sections/BlogPosts.tsx";
+import * as $$$$$$3 from "./sections/Contato.tsx";
+import * as $$$$$$4 from "./sections/EventosParticipacao.tsx";
+import * as $$$$$$5 from "./sections/Footer.tsx";
+import * as $$$$$$6 from "./sections/Header.tsx";
+import * as $$$$$$7 from "./sections/Hero.tsx";
+import * as $$$$$$8 from "./sections/Home/Eventos.tsx";
+import * as $$$$$$9 from "./sections/Home/EventosEN.tsx";
+import * as $$$$$$10 from "./sections/Home/Midia.tsx";
+import * as $$$$$$11 from "./sections/Home/MidiaEN.tsx";
+import * as $$$$$$12 from "./sections/Home/Noticias.tsx";
+import * as $$$$$$13 from "./sections/Home/NoticiasEN.tsx";
+import * as $$$$$$14 from "./sections/Home/Projetos.tsx";
+import * as $$$$$$15 from "./sections/Home/ProjetosEN.tsx";
+import * as $$$$$$16 from "./sections/Home/Sobre.tsx";
+import * as $$$$$$17 from "./sections/Home/SobreEN.tsx";
+import * as $$$$$$18 from "./sections/MainPost.tsx";
+import * as $$$$$$19 from "./sections/MidiaNaMidia.tsx";
+import * as $$$$$$20 from "./sections/PageTitle.tsx";
+import * as $$$$$$21 from "./sections/Projeto/Documents.tsx";
+import * as $$$$$$22 from "./sections/Projeto/Header.tsx";
+import * as $$$$$$23 from "./sections/Projeto/HighlightNumbers.tsx";
+import * as $$$$$$24 from "./sections/Projeto/Image.tsx";
+import * as $$$$$$25 from "./sections/Projeto/Links.tsx";
+import * as $$$$$$26 from "./sections/Projeto/MoreProjects.tsx";
+import * as $$$$$$27 from "./sections/Projeto/TextBlock.tsx";
+import * as $$$$$$28 from "./sections/Projetos.tsx";
+import * as $$$$$$29 from "./sections/SobreEquipe.tsx";
+import * as $$$$$$30 from "./sections/SobreLeme.tsx";
+import * as $$$$$$31 from "./sections/SobreMissaoValores.tsx";
+import * as $$$$$$32 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$33 from "./sections/Transparencia.tsx";
+import * as $$$$$$34 from "./sections/Watermark.tsx";
 
 const manifest = {
   "sections": {
-    "site/sections/BlogPost.tsx": $$$$$$0,
-    "site/sections/BlogPosts.tsx": $$$$$$1,
-    "site/sections/Contato.tsx": $$$$$$2,
-    "site/sections/EventosParticipacao.tsx": $$$$$$3,
-    "site/sections/Footer.tsx": $$$$$$4,
-    "site/sections/Header.tsx": $$$$$$5,
-    "site/sections/Hero.tsx": $$$$$$6,
-    "site/sections/Home/Eventos.tsx": $$$$$$7,
-    "site/sections/Home/Midia.tsx": $$$$$$8,
-    "site/sections/Home/Noticias.tsx": $$$$$$9,
-    "site/sections/Home/Projetos.tsx": $$$$$$10,
-    "site/sections/Home/Sobre.tsx": $$$$$$11,
-    "site/sections/MainPost.tsx": $$$$$$12,
-    "site/sections/PageTitle.tsx": $$$$$$13,
-    "site/sections/Projeto/Documents.tsx": $$$$$$14,
-    "site/sections/Projeto/Header.tsx": $$$$$$15,
-    "site/sections/Projeto/HighlightNumbers.tsx": $$$$$$16,
-    "site/sections/Projeto/Image.tsx": $$$$$$17,
-    "site/sections/Projeto/Links.tsx": $$$$$$18,
-    "site/sections/Projeto/MoreProjects.tsx": $$$$$$19,
-    "site/sections/Projeto/TextBlock.tsx": $$$$$$20,
-    "site/sections/Projetos.tsx": $$$$$$21,
-    "site/sections/SobreEquipe.tsx": $$$$$$22,
-    "site/sections/SobreLeme.tsx": $$$$$$23,
-    "site/sections/SobreMissaoValores.tsx": $$$$$$24,
-    "site/sections/Theme/Theme.tsx": $$$$$$25,
-    "site/sections/Transparencia.tsx": $$$$$$26,
-    "site/sections/Watermark.tsx": $$$$$$27,
+    "site/sections/Atuacao.tsx": $$$$$$0,
+    "site/sections/BlogPost.tsx": $$$$$$1,
+    "site/sections/BlogPosts.tsx": $$$$$$2,
+    "site/sections/Contato.tsx": $$$$$$3,
+    "site/sections/EventosParticipacao.tsx": $$$$$$4,
+    "site/sections/Footer.tsx": $$$$$$5,
+    "site/sections/Header.tsx": $$$$$$6,
+    "site/sections/Hero.tsx": $$$$$$7,
+    "site/sections/Home/Eventos.tsx": $$$$$$8,
+    "site/sections/Home/EventosEN.tsx": $$$$$$9,
+    "site/sections/Home/Midia.tsx": $$$$$$10,
+    "site/sections/Home/MidiaEN.tsx": $$$$$$11,
+    "site/sections/Home/Noticias.tsx": $$$$$$12,
+    "site/sections/Home/NoticiasEN.tsx": $$$$$$13,
+    "site/sections/Home/Projetos.tsx": $$$$$$14,
+    "site/sections/Home/ProjetosEN.tsx": $$$$$$15,
+    "site/sections/Home/Sobre.tsx": $$$$$$16,
+    "site/sections/Home/SobreEN.tsx": $$$$$$17,
+    "site/sections/MainPost.tsx": $$$$$$18,
+    "site/sections/MidiaNaMidia.tsx": $$$$$$19,
+    "site/sections/PageTitle.tsx": $$$$$$20,
+    "site/sections/Projeto/Documents.tsx": $$$$$$21,
+    "site/sections/Projeto/Header.tsx": $$$$$$22,
+    "site/sections/Projeto/HighlightNumbers.tsx": $$$$$$23,
+    "site/sections/Projeto/Image.tsx": $$$$$$24,
+    "site/sections/Projeto/Links.tsx": $$$$$$25,
+    "site/sections/Projeto/MoreProjects.tsx": $$$$$$26,
+    "site/sections/Projeto/TextBlock.tsx": $$$$$$27,
+    "site/sections/Projetos.tsx": $$$$$$28,
+    "site/sections/SobreEquipe.tsx": $$$$$$29,
+    "site/sections/SobreLeme.tsx": $$$$$$30,
+    "site/sections/SobreMissaoValores.tsx": $$$$$$31,
+    "site/sections/Theme/Theme.tsx": $$$$$$32,
+    "site/sections/Transparencia.tsx": $$$$$$33,
+    "site/sections/Watermark.tsx": $$$$$$34,
   },
   "apps": {
     "site/apps/deco/blog.ts": $$$$$$$$$$$0,

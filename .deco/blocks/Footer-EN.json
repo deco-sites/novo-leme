@@ -1,0 +1,35 @@
+{
+  "__resolveType": "site/sections/Footer.tsx",
+  "navigation": {
+    "links": [
+      {
+        "label": "About",
+        "url": "/sobre"
+      },
+      {
+        "label": "Work",
+        "url": "/atuacao"
+      },
+      {
+        "label": "Projects",
+        "url": "/projetos"
+      },
+      {
+        "label": "Media",
+        "url": "/midia"
+      },
+      {
+        "label": "Events",
+        "url": "/eventos"
+      },
+      {
+        "label": "Transparency",
+        "url": "/transparencia"
+      },
+      {
+        "label": "Contact",
+        "url": "/contato"
+      }
+    ]
+  }
+}

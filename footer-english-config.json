@@ -1,0 +1,51 @@
+{
+  "__resolveType": "site/sections/FooterReusable.tsx",
+  "logo": {
+    "src": "https://assets.decocache.com/novo-leme/00a02b7c-f2a2-4743-ba24-cfa10364f2a1/LogoFooter.svg",
+    "alt": "Company Logo"
+  },
+  "bgImage": "https://assets.decocache.com/novo-leme/ef2d8814-5ed2-44a6-983f-c829fe2407ff/Vector.svg",
+  "navigation": {
+    "links": [
+      {
+        "label": "About",
+        "url": "/about"
+      },
+      {
+        "label": "Services",
+        "url": "/services"
+      },
+      {
+        "label": "Projects",
+        "url": "/projects"
+      },
+      {
+        "label": "Media",
+        "url": "/media"
+      },
+      {
+        "label": "Events",
+        "url": "/events"
+      },
+      {
+        "label": "Transparency",
+        "url": "/transparency"
+      },
+      {
+        "label": "Contact",
+        "url": "/contact"
+      }
+    ]
+  },
+  "contactEmail": "contact@company.com",
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/company/yourcompany",
+    "facebook": "https://facebook.com/yourcompany",
+    "instagram": "https://instagram.com/yourcompany",
+    "twitter": "https://twitter.com/yourcompany"
+  },
+  "copyrightText": "© 2025 Company Name",
+  "copyrightText2": "All rights reserved",
+  "backgroundColor": "bg-primary",
+  "textColor": "text-white"
+}

@@ -1,22 +1,14 @@
-import Title from  "../../components/ui/Title.tsx";
-import FancyLink from  "../../components/ui/FancyLink.tsx";
-import NewsProps from  "../../components/NewsProps.tsx";
-import Card from  "../../components/ui/Card.tsx";
-
+import SideNav, { Props as SideNavProps } from  "../components/ui/SideNav.tsx";
+import NewsProps from  "../components/NewsProps.tsx";
+import Card from  "../components/ui/Card.tsx";
 
 export interface Props {
-  title?: string;
-  description?: string;
+  sidebarNav?: SideNavProps;
   news?: NewsProps[];
-  button?: {
-    label: string;
-    url: string;
-  }
 }
 
-export default function HomeMidia({
-  title = "Na Mídia",
-  description = "Reportagens sobre o Leme nos principais veículos de comunicação",
+export default function MidiaNaMidia({
+  sidebarNav,
   news = [
     {
       image: {
@@ -46,15 +38,11 @@ export default function HomeMidia({
       url: "/",
     },
   ],
-  button = { label: "Ver todas as reportagens", url: "/" },
 }: Props) {
   return (
-    <div className="container mx-auto px-6 md:px-16 flex flex-col md:flex-row space-y-8 md:space-x-12 mb-16">
-      <div className="flex-none md:w-60">
-        <Title label={title} description={description} serif />
-      </div>
-
-      <div className="flex flex-col flex-auto space-y-6 md:space-y-12">
+    <div className="container px-6 md:px-12 flex flex-col md:flex-row gap-8 md:gap-44 my-6 md:my-12 text-neutral-950">
+      <SideNav links={sidebarNav?.links} button={sidebarNav?.button}/>
+      <div className="flex-auto"> 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
           {news?.map((item) => (
             <Card
@@ -65,9 +53,6 @@ export default function HomeMidia({
               url={item.url}
             />
           ))}
-        </div>
-        <div className="flex">
-          <FancyLink label={button?.label} url={button?.url} iconRight/>
         </div>
       </div>
     </div>

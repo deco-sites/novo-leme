@@ -1,12 +1,10 @@
+import Cicle, { Props as CicleProps } from  "../../components/ui/Cicle.tsx";
 import FancyLink from  "../../components/ui/FancyLink.tsx";
-import Image from "apps/website/components/Image.tsx";
-import type { ImageWidget } from "apps/admin/widgets.ts";
 
 export interface Nav {
+  /** @format textarea */
   text?: string;
-  image?: {
-    src?: ImageWidget;
-  };
+  cicleImage?: CicleProps;
   links?: {
     label?: string;
     url?: string;
@@ -14,25 +12,30 @@ export interface Nav {
 }
 
 export default function About({
-  text = "O Leme é uma organização sem fins lucrativos que atua em parceria com instituições de Segurança Pública e Justiça e com Organizações.",
-  image = {
-    src:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/67120bcd-936a-4ea5-a760-02ed5c4a3d04",
-  },
+  text,
+  cicleImage,
   links = [
     { label: "Mais sobre o Leme", url: "/'" },
     { label: "Missão de Valores", url: "/" },
     { label: "Nossa Equipe", url: "/" },
   ],
 }: Nav) {
+  const stepClasses = "group-hover:border-secondary transition-all absolute w-[240px] px-3 py-2 border-2 border-primary rounded-md"
+  const stepClassesMobile = "absolute px-2 py-1 border border-primary rounded-md text-xs"
   return (
-    <div className="container mx-auto md:px-32 flex flex-col space-y-8 md:space-y-16 mb-16">
+    <div className="container mx-auto md:px-32 flex flex-col space-y-6 md:space-y-16 mb-16">
       <div className="text-2xl md:text-5xl leading-tight font-serif">
         {text}
       </div>
-      <div className="flex justify-center">
-        <Image src={image.src || ""} />
-      </div>
+      <Cicle
+        title={cicleImage?.title}
+        step1={cicleImage?.step1}
+        step2={cicleImage?.step2}
+        step3={cicleImage?.step3}
+        step4={cicleImage?.step4}
+        step5={cicleImage?.step5}
+        step6={cicleImage?.step6}
+      />
       <div className="flex flex-col md:flex-row gap-2 md:gap-5 justify-center">
         {links?.map((link) => (
           <FancyLink label={link?.label} url={link?.url} iconRight={true}/>

@@ -7,7 +7,7 @@ export interface Props {
 
 export default function PageTitle({
   title = "Title",
-  description = "Description",
+  description,
 }: Props) {
   return (
     <div className="container px-6 md:px-12 flex gap-36">

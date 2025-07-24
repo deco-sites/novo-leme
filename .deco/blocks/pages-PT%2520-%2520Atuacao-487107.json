@@ -1,0 +1,143 @@
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "name": "PT - Atuacao",
+  "path": "/atuacao",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Hero.tsx",
+        "image": {
+          "src": "https://assets.decocache.com/novo-leme/1761d18c-f63c-4765-925d-42ce437227ae/hero-projetos.svg"
+        },
+        "marginTop": true
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/PageTitle.tsx",
+        "title": "Atuação"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Atuacao.tsx",
+        "content": "<p><span>O Leme concentra sua atuação na identificação e enfrentamento de desafios específicos em cinco temas centrais na área de segurança pública, oferecendo suporte técnico e estratégico a tomadores de decisão.<br><br>Essa definição orienta nossos projetos, com foco no desenho e avaliação de políticas públicas, contribuindo para a redução da violência a partir do uso intensivo de dados e evidências científicas.</span></p>",
+        "areas": [
+          {
+            "challenges": {
+              "list": [
+                {
+                  "label": "Conceituar e dimensionar o controle territorial de grupos armados, desenvolvendo métricas para mensurar sua presença e atuação."
+                },
+                {
+                  "label": "Identificar e qualificar futuras lideranças da área de segurança pública, através da formação de uma rede ativa e comprometida."
+                },
+                {
+                  "label": "Identificar estratégias bem-sucedidas e propor novas abordagens de enfrentamento, produzindo e disseminando evidências."
+                }
+              ],
+              "title": "Desafios"
+            },
+            "label": "Controle do Crime Organizado Violento",
+            "description": "<p>O crime organizado violento é um dos principais problemas públicos de segurança enfrentados pelos países latino-americanos. No Brasil, sua atuação se expressa principalmente pelo controle armado de territórios, explorando negócios e limitando a presença do Estado nesses espaços.</p>",
+            "url": "/"
+          },
+          {
+            "challenges": {
+              "list": [
+                {
+                  "label": "Conceituar e dimensionar o controle territorial de grupos armados, desenvolvendo métricas para mensurar sua presença e atuação."
+                },
+                {
+                  "label": "Identificar e qualificar futuras lideranças da área de segurança pública, através da formação de uma rede ativa e comprometida."
+                },
+                {
+                  "label": "Identificar estratégias bem-sucedidas e propor novas abordagens de enfrentamento, produzindo e disseminando evidências."
+                }
+              ],
+              "title": "Desafios"
+            },
+            "label": "Fortalecimento de Instituições Policiais",
+            "description": "<p>O crime organizado violento é um dos principais problemas públicos de segurança enfrentados pelos países latino-americanos. No Brasil, sua atuação se expressa principalmente pelo controle armado de territórios, explorando negócios e limitando a presença do Estado nesses espaços.</p>",
+            "url": "/"
+          },
+          {
+            "challenges": {
+              "list": [
+                {
+                  "label": "Conceituar e dimensionar o controle territorial de grupos armados, desenvolvendo métricas para mensurar sua presença e atuação."
+                },
+                {
+                  "label": "Identificar e qualificar futuras lideranças da área de segurança pública, através da formação de uma rede ativa e comprometida."
+                },
+                {
+                  "label": "Identificar estratégias bem-sucedidas e propor novas abordagens de enfrentamento, produzindo e disseminando evidências."
+                }
+              ],
+              "title": "Desafios"
+            },
+            "label": "Ampliação do Protagonismo Municipal",
+            "description": "<p>O crime organizado violento é um dos principais problemas públicos de segurança enfrentados pelos países latino-americanos. No Brasil, sua atuação se expressa principalmente pelo controle armado de territórios, explorando negócios e limitando a presença do Estado nesses espaços.</p>",
+            "url": "/"
+          },
+          {
+            "challenges": {
+              "list": [
+                {
+                  "label": "Conceituar e dimensionar o controle territorial de grupos armados, desenvolvendo métricas para mensurar sua presença e atuação."
+                },
+                {
+                  "label": "Identificar e qualificar futuras lideranças da área de segurança pública, através da formação de uma rede ativa e comprometida."
+                },
+                {
+                  "label": "Identificar estratégias bem-sucedidas e propor novas abordagens de enfrentamento, produzindo e disseminando evidências."
+                }
+              ],
+              "title": "Desafios"
+            },
+            "label": "Prevenção ao Envolvimento Criminal de Jovens",
+            "description": "<p>O crime organizado violento é um dos principais problemas públicos de segurança enfrentados pelos países latino-americanos. No Brasil, sua atuação se expressa principalmente pelo controle armado de territórios, explorando negócios e limitando a presença do Estado nesses espaços.</p>",
+            "url": "/"
+          },
+          {
+            "challenges": {
+              "list": [
+                {
+                  "label": "Conceituar e dimensionar o controle territorial de grupos armados, desenvolvendo métricas para mensurar sua presença e atuação."
+                },
+                {
+                  "label": "Identificar e qualificar futuras lideranças da área de segurança pública, através da formação de uma rede ativa e comprometida."
+                },
+                {
+                  "label": "Identificar estratégias bem-sucedidas e propor novas abordagens de enfrentamento, produzindo e disseminando evidências."
+                }
+              ],
+              "title": "Desafios"
+            },
+            "label": "Enfrentamento da Violência Contra a Mulher",
+            "description": "<p>O crime organizado violento é um dos principais problemas públicos de segurança enfrentados pelos países latino-americanos. No Brasil, sua atuação se expressa principalmente pelo controle armado de territórios, explorando negócios e limitando a presença do Estado nesses espaços.</p>",
+            "url": "/"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ]
+}
