@@ -1,0 +1,8 @@
+{
+  "name": "collections/blog/categories/5045211e1ab9",
+  "__resolveType": "blog/loaders/Category.ts",
+  "category": {
+    "name": "Na Mídia",
+    "slug": "na-midia"
+  }
+}

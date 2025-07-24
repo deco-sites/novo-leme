@@ -2,13 +2,37 @@
   "name": "collections/blog/posts/1c8bb9f3d71d",
   "__resolveType": "blog/loaders/Blogpost.ts",
   "post": {
-    "authors": [{ "name": "Name of the Author", "email": "author@deco.cx" }],
-    "content": "<p><br><em>We built the web with audacious ambitions: to wire the world, to connect every human mind, to accelerate progress. But, as we advanced, web development got tangled in complexity. What was once straightforward now feels like navigating a maze of frameworks and services, making it harder for new voices and ideas to emerge.</em></p><p></p><p><em>The need to simplify is urgent. Web development shouldn't feel like a boring puzzle. It should be easy and fun. It should be scalable and observable by default. It should be realtime and collaborative. It should give anyone the autonomy to test new ideas and evolve without fear of \"breaking\". And it should just work.</em></p><p></p><p><em>With AI, TypeScript, modern browsers, fast runtimes, and affordable edge infrastructure, the web is ready for a breakthrough. This is an invitation for the contrarians, the doers, the ones eager to make their mark: it’s time to cut through the clutter, to build the simpler tools we deserve. It's time to </em><strong><em>\"get site done.\"</em></strong></p>",
-    "slug": "why-we-web",
+    "authors": [
+      {
+        "name": "Name of the Author",
+        "email": "author@deco.cx"
+      }
+    ],
+    "content": "<p>Na última semana, o Leme – Laboratório para a Redução da Violência foi aprovado no edital Atração e Fixação de Talentos do programa Conhecimento Brasil, iniciativa do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), com recursos do Fundo Nacional de Desenvolvimento Científico e Tecnológico (FNDCT) e gerida pelo Ministério da Ciência, Tecnologia e Inovação (MCTI). A chamada pública tinha como objetivo repatriar cientistas brasileiros que atuam no exterior ou que concluíram doutorado ou pós-doutorado fora do Brasil a partir de 2019.  </p><p></p><p>O projeto será coordenado pela economista e doutora Joana Monteiro, e contará com a participação dos pesquisadores Mathias Lusquinos, mestre pela Universidade de Chicago (EUA) e Ana Paula Pellegrino, doutoranda pela Universidade de Georgetown (EUA), com previsão de conclusão para este semestre. Durante a pesquisa, os pesquisadores retornarão no Brasil para contribuir no desenvolvimento da pesquisa a partir de suas experiências internacionais. </p><p>A equipe terá ainda o apoio de Ramón Chaves, pesquisador e líder de projetos do Leme, e dos pesquisadores associados Santiago Tobón, da EAFIT (Colômbia), Benjamin Lessing, da Universidade de Chicago (EUA) e Eduardo Fagundes, doutorando na Universidade Pompeu Fabra (Espanha). </p><p></p><p>Sobre o projeto</p><p></p><p>O projeto aprovado busca mensurar a presença e o controle territorial de grupos criminais armados na Região Metropolitana do Rio de Janeiro. Em 2019, esse trabalho foi iniciado por Joana Monteiro, junto com Ramón Chaves e Eduardo Fagundes, e a pesquisadora Mariana Carvalho, da Universidade Brown (EUA). Na época, a pesquisa classificou e analisou denúncias anônimas do Disque-Denúncia para identificar a presença e a atuação dos grupos, revelando sua expansão territorial e diversidade de atividades econômicas exploradas no período de 2009 até 2019.</p><p></p><p>Dessa vez, o atual projeto tem como objetivo atualizar e expandir o mapeamento anterior a fim de compreender a evolução recente da presença desses grupos. Para isso, serão utilizados dados de concessionárias de serviços públicos, redes sociais, portais de notícias e surveys em parceria com o Disque-Denúncia. A pesquisa será dividida em dois eixos principais: o primeiro visa aprimorar a base de dados sobre atividade econômica e governança criminal, enquanto o segundo avaliará o impacto de políticas públicas sobre a atuação territorial dos grupos, utilizando metodologias econométricas quase-experimentais.</p><p></p><p>O projeto terá a duração de quatro anos. Entre os principais produtos, estão a criação de uma base de dados atualizada, com informações sobre a presença territorial, atividade econômica e governança criminal dos grupos. Além disso, a equipe produzirá artigos acadêmicos que discutem a metodologia de mensuração e avaliam o impacto de políticas públicas na redução da violência, a serem publicados em periódicos nacionais e internacionais. Por último, serão elaborados relatórios metodológicos para orientar gestores públicos e organizações da sociedade civil sobre como interpretar e utilizar os dados na formulação de políticas de segurança baseadas em evidências. </p>",
+    "slug": "leme-e-aprovado-em-edital-do-cnpq-para-mapear-presenca-territorial-de-grupos-criminais-armados-no-rio-de-janeiro",
     "date": "2024-04-10",
-    "title": "Why we web",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/682eb374-def2-4e85-a45d-b3a7ff8a31a9",
-    "categories": [{ "name": "Culture", "slug": "culture" }],
-    "excerpt": "We believe in a web that is simple, scalable, and collaborative. A web where anyone can test ideas and build without fear. Let's make that vision a reality."
+    "title": "Leme é aprovado em edital do CNPq para mapear presença territorial de grupos criminais armados no Rio de Janeiro",
+    "image": "https://assets.decocache.com/novo-leme/dbbd603d-54a2-4ec9-85bd-2ee55eeeb04d/noticia-capa-1749148864.webp",
+    "categories": [
+      {
+        "name": "Notícias",
+        "slug": "noticias"
+      }
+    ],
+    "excerpt": "Na última semana, o Leme – Laboratório para a Redução da Violência foi aprovado no edital Atração e Fixação de Talentos do programa Conhecimento Brasil, iniciativa do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), com recursos do Fundo Nacional de Desenvolvimento Científico e Tecnológico (FNDCT) e gerida pelo Ministério da Ciência, Tecnologia e Inovação (MCTI). A chamada pública tinha como objetivo repatriar cientistas brasileiros que atuam no exterior ou que concluíram doutorado ou pós-doutorado fora do Brasil a partir de 2019.",
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    }
   }
 }

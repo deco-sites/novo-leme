@@ -1,0 +1,8 @@
+{
+  "name": "collections/blog/categories/aadcc8171634",
+  "__resolveType": "blog/loaders/Category.ts",
+  "category": {
+    "name": "Projetos",
+    "slug": "projetos"
+  }
+}

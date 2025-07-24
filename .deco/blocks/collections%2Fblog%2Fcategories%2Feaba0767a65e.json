@@ -1,0 +1,8 @@
+{
+  "name": "collections/blog/categories/eaba0767a65e",
+  "__resolveType": "blog/loaders/Category.ts",
+  "category": {
+    "name": "Eventos organizados",
+    "slug": "eventos-organizados"
+  }
+}

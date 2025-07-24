@@ -1,0 +1,8 @@
+{
+  "name": "collections/blog/categories/8813f0256e16",
+  "__resolveType": "blog/loaders/Category.ts",
+  "category": {
+    "name": "Notícias",
+    "slug": "noticias"
+  }
+}
