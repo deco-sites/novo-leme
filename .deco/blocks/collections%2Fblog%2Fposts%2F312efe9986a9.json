@@ -1,0 +1,33 @@
+{
+  "name": "collections/blog/posts/312efe9986a9",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Projetos",
+        "slug": "projetos"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Desenho, planejamento e implementação da Política Municipal de Segurança Pública da Cidade do Rio de Janeiro",
+    "excerpt": "Este projeto tem como objetivo assessorar tecnicamente a Prefeitura do Rio de Janeiro na criação de uma política municipal de segurança pública orientada por dados, evidências científicas e boas práticas internacionais.",
+    "content": "<p>Este projeto tem como objetivo assessorar tecnicamente a Prefeitura do Rio de Janeiro na criação de uma política municipal de segurança pública orientada por dados, evidências científicas e boas práticas internacionais.</p>",
+    "date": "2025-01-01",
+    "slug": "desenho-planejamento-implementacao-politica-municipal-seguranca-publica-rio-de-janeiro",
+    "image": "https://assets.decocache.com/novo-leme/4d6890c1-f5d8-49a7-b294-9c58d954ff6d/projeto-1.webp"
+  }
+}

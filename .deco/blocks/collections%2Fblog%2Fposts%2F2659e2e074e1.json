@@ -1,0 +1,33 @@
+{
+  "name": "collections/blog/posts/2659e2e074e1",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Projetos",
+        "slug": "projetos"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Mapeamento e análise de áreas de tratamento especial na região de concessão da Light",
+    "excerpt": "Utilizando técnicas de pesquisa quantitativas e qualitativas, este projeto tem como objetivo desenvolver e validar estratégias metodológicas para mapear, monitorar e mitigar os impactos da atuação de organizações criminosas violentas em Áreas com Severas Restrições Operativas (ASRO) na área de concessão da Light.",
+    "date": "2025-01-01",
+    "slug": "mapeamento-analise-areas-tratamento-especial-regiao-concessao-light",
+    "content": "<p>Utilizando técnicas de pesquisa quantitativas e qualitativas, este projeto tem como objetivo desenvolver e validar estratégias metodológicas para mapear, monitorar e mitigar os impactos da atuação de organizações criminosas violentas em Áreas com Severas Restrições Operativas (ASRO) na área de concessão da Light.</p>",
+    "image": "https://assets.decocache.com/novo-leme/7bf274ad-b364-4763-9129-c52b433468c3/projeto-2.webp"
+  }
+}

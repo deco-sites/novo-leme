@@ -1,0 +1,33 @@
+{
+  "name": "collections/blog/posts/69f19841e1b2",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Na Mídia",
+        "slug": "na-midia"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Programa Miriam Leitão: Como enfrentar a violência policial e o crime organizado, na opinião de dois especialistas",
+    "excerpt": "Joana Monteiro, diretora do Leme, em entrevista, com Daniel Hirata (UFF), ao Programa Miriam Leitão.",
+    "slug": "na-midia-1",
+    "content": "<p>Joana Monteiro, diretora do Leme, em entrevista, com Daniel Hirata (UFF), ao Programa Miriam Leitão.</p>",
+    "image": "https://assets.decocache.com/novo-leme/f117e75a-bf53-458c-b630-bd8731dc7b03/na-midia-1.webp",
+    "date": "2024-12-19"
+  }
+}

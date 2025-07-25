@@ -1,0 +1,33 @@
+{
+  "name": "collections/blog/posts/a8feebc5a9b2",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Na Mídia",
+        "slug": "na-midia"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "J-PAL Blog: Julia Guerra Fernandes, J-PAL '17, on public safety and evidence use in Brazil",
+    "excerpt": "Julia Guerra em entrevista à série Alumni Spotlight do J-PAL/MIT Latin America. Durante a entrevista, Julia também contou como essa jornada levou à fundação do Leme, ao lado de suas sócias Joana Monteiro e Laura Schiavon.",
+    "slug": "na-midia-3",
+    "content": "<p><span style=\"color: rgb(42, 50, 44); font-size: 16px\">Julia Guerra em entrevista à série Alumni Spotlight do J-PAL/MIT Latin America. Durante a entrevista, Julia também contou como essa jornada levou à fundação do Leme, ao lado de suas sócias Joana Monteiro e Laura Schiavon.</span></p>",
+    "date": "2024-12-04",
+    "image": "https://assets.decocache.com/novo-leme/077f54e9-d16b-4153-bdef-34fa53d84a66/na-midia-3.webp"
+  }
+}

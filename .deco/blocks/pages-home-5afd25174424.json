@@ -35,7 +35,25 @@
       }
     },
     {
-      "__resolveType": "site/sections/Home/Projetos.tsx"
+      "__resolveType": "site/sections/PostsList.tsx",
+      "posts": {
+        "__resolveType": "blog/loaders/BlogpostList.ts",
+        "postSlugs": [],
+        "sortBy": "date_desc",
+        "slug": "projetos"
+      },
+      "title": "Projetos",
+      "description": "Conheça nossa atuação através dos nossos projetos",
+      "button": {
+        "label": "Ver mais projetos",
+        "url": "/projetos"
+      },
+      "style": {
+        "slider": true,
+        "orientation": "Vertical",
+        "background": "Orange"
+      },
+      "label": "test"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -44,12 +62,54 @@
       }
     },
     {
-      "__resolveType": "site/sections/Home/Noticias.tsx"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/PostsList.tsx",
+        "posts": {
+          "__resolveType": "blog/loaders/BlogpostList.ts",
+          "postSlugs": [],
+          "sortBy": "date_desc",
+          "slug": "noticias"
+        },
+        "title": "Notícias",
+        "description": "Fique por dentro das novidades do Leme",
+        "button": {
+          "label": "Ver mais notícias",
+          "url": "/midia/noticias"
+        },
+        "style": {
+          "slider": true,
+          "orientation": "Vertical",
+          "background": "Blue"
+        },
+        "config": {
+          "showPostDate": true
+        }
+      }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Home/Midia.tsx"
+        "__resolveType": "site/sections/PostsList.tsx",
+        "posts": {
+          "__resolveType": "blog/loaders/BlogpostList.ts",
+          "postSlugs": [],
+          "sortBy": "date_desc",
+          "slug": "na-midia"
+        },
+        "title": "Na Mídia",
+        "description": "Reportagens sobre o Leme nos principais veículos de comunicação",
+        "button": {
+          "label": "Ver todas as reportagens",
+          "url": "/midia/na-midia"
+        },
+        "style": {
+          "orientation": "Horizontal",
+          "background": "Neutral"
+        },
+        "config": {
+          "showPostDate": true
+        }
       }
     },
     {

@@ -1,0 +1,33 @@
+{
+  "name": "collections/blog/posts/7edcd5ccd76c",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Projetos",
+        "slug": "projetos"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Avaliação Impacto do Programa de Policiamento do RAIO",
+    "excerpt": "O projeto teve como objetivo avaliar o impacto da expansão do programa de Rondas e Ações Intensivas e Ostensivas (RAIO) da Polícia Militar do Ceará, uma força especializada em patrulhamento rápido com motocicletas de alta potência e armas de alto calibre.",
+    "content": "<p>O projeto teve como objetivo avaliar o impacto da expansão do programa de Rondas e Ações Intensivas e Ostensivas (RAIO) da Polícia Militar do Ceará, uma força especializada em patrulhamento rápido com motocicletas de alta potência e armas de alto calibre.</p>",
+    "date": "2023-01-02",
+    "slug": "avaliacao-impacto-programa-policiamento-raio",
+    "image": "https://assets.decocache.com/novo-leme/b9a1e8fa-5a04-4916-b17f-e39328f5bf71/projeto-5.webp"
+  }
+}

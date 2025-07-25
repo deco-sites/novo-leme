@@ -1,0 +1,33 @@
+{
+  "name": "collections/blog/posts/effa37c6d9de",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Na Mídia",
+        "slug": "na-midia"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Folha de São Paulo: Brasil sempre naturalizou matar criminoso, e agora temos imagens",
+    "excerpt": "Joana Monteiro, diretora do Leme, em entrevista ao jornal Folha de São Paulo.",
+    "content": "<p><span style=\"color: rgb(42, 50, 44); font-size: 16px\">Joana Monteiro, diretora do Leme, em entrevista ao jornal Folha de São Paulo.</span></p>",
+    "slug": "na-midia-2",
+    "date": "2024-12-15",
+    "image": "https://assets.decocache.com/novo-leme/94420ccf-f861-4488-9ec2-25a2687d72ee/na-midia-2.webp"
+  }
+}

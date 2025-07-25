@@ -67,72 +67,70 @@ export default function BlogPosts(
   const ContainerComponent = page === 0 ? Container : Fragment;
   return (
     <ContainerComponent>
-      <>
-        <div class="gap-8 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2">
-          {posts?.slice(from, to).map((post) => (
-            <a
-              href={`/blog/${post.slug}`}
-              class="border border-secondary overflow-hidden rounded-lg"
-            >
-              <Image
-                width={380}
-                height={274}
-                class="object-fit w-full"
-                sizes="(max-width: 640px) 100vw, 30vw"
-                src={post.image || ""}
-                alt={post.image}
-                decoding="async"
-                loading="lazy"
-              />
-              <div class="p-6 space-y-4">
-                <div class="font-semibold">
-                  {calculateReadingTime(post.content.split(" ").length)}
-                </div>
-                <div class="space-y-2">
-                  <h3 class="text-2xl">{post.title}</h3>
-                  <p class="text-base">{post.excerpt}</p>
-                </div>
-                <div class="flex flex-wrap gap-2">
-                  {post.categories?.map((category) => (
-                    <div class="badge badge-lg badge-primary text-xs">
-                      {category.name}
-                    </div>
-                  ))}
-                </div>
-                <div class="flex flex-wrap gap-2">
-                  <span>
-                    {post.date
-                      ? new Date(post.date).toLocaleDateString("en-US", {
-                        month: "long",
-                        day: "numeric",
-                        year: "numeric",
-                      })
-                      : ""}
-                  </span>
-                  <span>•</span>
-                  <span>{post.authors[0]?.name}</span>
-                </div>
+      <div class="gap-8 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2">
+        {posts?.slice(from, to).map((post) => (
+          <a
+            href={`/blog/${post.slug}`}
+            class="border border-secondary overflow-hidden rounded-lg"
+          >
+            <Image
+              width={380}
+              height={274}
+              class="object-fit w-full"
+              sizes="(max-width: 640px) 100vw, 30vw"
+              src={post.image || ""}
+              alt={post.image}
+              decoding="async"
+              loading="lazy"
+            />
+            <div class="p-6 space-y-4">
+              <div class="font-semibold">
+                {calculateReadingTime(post.content.split(" ").length)}
               </div>
-            </a>
-          ))}
+              <div class="space-y-2">
+                <h3 class="text-2xl">{post.title}</h3>
+                <p class="text-base">{post.excerpt}</p>
+              </div>
+              <div class="flex flex-wrap gap-2">
+                {post.categories?.map((category) => (
+                  <div class="badge badge-lg badge-primary text-xs">
+                    {category.name}
+                  </div>
+                ))}
+              </div>
+              <div class="flex flex-wrap gap-2">
+                <span>
+                  {post.date
+                    ? new Date(post.date).toLocaleDateString("en-US", {
+                      month: "long",
+                      day: "numeric",
+                      year: "numeric",
+                    })
+                    : ""}
+                </span>
+                <span>•</span>
+                <span>{post.authors[0]?.name}</span>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+      {posts && to < posts.length && (
+        <div class="flex justify-center w-full" id={postList}>
+          <button
+            hx-get={fetchMoreLink}
+            hx-swap="outerHTML"
+            hx-target={`#${postList}`}
+            aria-label={cta.text}
+            class="btn btn-primary"
+          >
+            <span class="inline [.htmx-request_&]:hidden">
+              {cta.text}
+            </span>
+            <span class="loading loading-spinner hidden [.htmx-request_&]:block" />
+          </button>
         </div>
-        {posts && to < posts.length && (
-          <div class="flex justify-center w-full" id={postList}>
-            <button
-              hx-get={fetchMoreLink}
-              hx-swap="outerHTML"
-              hx-target={`#${postList}`}
-              aria-label={cta.text}
-              class="btn btn-primary"
-            >
-              <span class="inline [.htmx-request_&]:hidden">
-                {cta.text}
-              </span>
-              <span class="loading loading-spinner hidden [.htmx-request_&]:block" />
-            </button>
-          </div>
-        )}
-      </>
+      )}
     </ContainerComponent>
   );
 }

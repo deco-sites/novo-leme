@@ -1,0 +1,33 @@
+{
+  "name": "collections/blog/posts/a00251139258",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Projetos",
+        "slug": "projetos"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Avaliação Experimental de Policiamento em Pontos Quentes no Brasil",
+    "excerpt": "O projeto teve como objetivo realizar a primeira avaliação experimental de patrulhamento em pontos quentes no Brasil, estruturada a partir de um experimento controlado randomizado.",
+    "image": "https://assets.decocache.com/novo-leme/9c8dc087-ccd2-46f6-82c9-d80b9512c215/projeto-4.webp",
+    "date": "2023-01-02",
+    "slug": "avaliacao-experimental-policiamento-pontos-quentes-brasil",
+    "content": "<p>O projeto teve como objetivo realizar a primeira avaliação experimental de patrulhamento em pontos quentes no Brasil, estruturada a partir de um experimento controlado randomizado.</p>"
+  }
+}
