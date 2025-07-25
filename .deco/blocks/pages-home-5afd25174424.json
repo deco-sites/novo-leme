@@ -35,7 +35,7 @@
       }
     },
     {
-      "__resolveType": "site/sections/PostsList.tsx",
+      "__resolveType": "site/sections/Home/PostsList.tsx",
       "posts": {
         "__resolveType": "blog/loaders/BlogpostList.ts",
         "postSlugs": [],
@@ -53,7 +53,10 @@
         "orientation": "Vertical",
         "background": "Orange"
       },
-      "label": "test"
+      "label": "test",
+      "config": {
+        "categorySlug": "/projetos"
+      }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -64,7 +67,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/PostsList.tsx",
+        "__resolveType": "site/sections/Home/PostsList.tsx",
         "posts": {
           "__resolveType": "blog/loaders/BlogpostList.ts",
           "postSlugs": [],
@@ -83,14 +86,15 @@
           "background": "Blue"
         },
         "config": {
-          "showPostDate": true
+          "showPostDate": true,
+          "categorySlug": "/midia/noticias"
         }
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/PostsList.tsx",
+        "__resolveType": "site/sections/Home/PostsList.tsx",
         "posts": {
           "__resolveType": "blog/loaders/BlogpostList.ts",
           "postSlugs": [],
@@ -101,14 +105,15 @@
         "description": "Reportagens sobre o Leme nos principais veículos de comunicação",
         "button": {
           "label": "Ver todas as reportagens",
-          "url": "/midia/na-midia"
+          "url": "/midia"
         },
         "style": {
           "orientation": "Horizontal",
           "background": "Neutral"
         },
         "config": {
-          "showPostDate": true
+          "showPostDate": true,
+          "categorySlug": "/midia"
         }
       }
     },

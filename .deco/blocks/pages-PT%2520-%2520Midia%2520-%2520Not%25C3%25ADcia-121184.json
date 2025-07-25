@@ -1,7 +1,7 @@
 {
   "__resolveType": "website/pages/Page.tsx",
   "name": "PT - Midia - Notícia",
-  "path": "/midia/noticias/noticia",
+  "path": "/midia/noticias/:slug",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },
@@ -46,6 +46,13 @@
               "selected": true
             }
           ]
+        },
+        "page": {
+          "__resolveType": "blog/loaders/BlogPostPage.ts",
+          "slug": {
+            "__resolveType": "website/functions/requestToParam.ts",
+            "param": "slug"
+          }
         }
       }
     },

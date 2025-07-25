@@ -1,5 +1,5 @@
+import { type BlogPost, BlogPostPage } from "apps/blog/types.ts";
 import SideNav, { Props as SideNavProps } from  "../components/ui/SideNav.tsx";
-import NewsProps from  "../components/NewsProps.tsx";
 import Image from "apps/website/components/Image.tsx";
 import Title from  "../components/ui/Title.tsx";
 import Tag from  "../components/ui/Tag.tsx";
@@ -7,32 +7,42 @@ import FancyLink from  "../components/ui/FancyLink.tsx";
 
 export interface Props {
   sidebarNav?: SideNavProps;
-  details?: NewsProps;
+  page?: BlogPostPage | null;
   backToNews?: {
     label?: string;
     url?: string;
   }
 }
 
+const DEFAULT_PROPS: BlogPost = {
+  title: "Title",
+  excerpt: "Excerpt goes here",
+  authors: [
+    {
+      name: "Full name",
+      email: "author@lemelab.org",
+      avatar: '',
+    },
+  ],
+  categories: [],
+  date: "2022-01-01",
+  image:
+    "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/682eb374-def2-4e85-a45d-b3a7ff8a31a9",
+  slug: "blog-post",
+  content:
+    '<h1>Heading 1</h1><p>This is a paragraph under <strong>Heading 1</strong>. It can contain <em>italic</em> text, <strong>bold</strong> text, and even <code>code snippets</code>.</p><h2>Introduction</h2><p>Mi tincidunt elit, id quisque ligula ac diam, amet. Vel etiam suspendisse morbi eleifend faucibus eget vestibulum felis. Dictum quis montes, sit sit. Tellus aliquam enim urna, etiam. Mauris posuere vulputate arcu amet, vitae nisi, tellus tincidunt. At feugiat sapien varius id.</p><p>Eget quis mi enim, leo lacinia pharetra, semper. Eget in volutpat mollis at volutpat lectus velit, sed auctor. Porttitor fames arcu quis fusce augue enim. Quis at habitant diam at. Suscipit tristique risus, at donec. In turpis vel et quam imperdiet. Ipsum molestie aliquet sodales id est ac volutpat.</p><h2>Heading 2</h2><p>More text can be placed here. This section is under <strong>Heading 2</strong>.</p><h3>Heading 3 with Code Block</h3><p>This is an example of a code block:</p><pre><code>// This is a code block console.log("Hello, World!");</code></pre><h4>Heading 4 with Image</h4><p>Below is an image:</p><img src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/682eb374-def2-4e85-a45d-b3a7ff8a31a9" alt="Description of Image"><p><strong>Dolor enim eu tortor urna sed duis nulla. Aliquam vestibulum, nulla odio nisl vitae. In aliquet pellentesque aenean hac vestibulum turpis mi bibendum diam. Tempor integer aliquam in vitae malesuada fringilla.</strong></p><p>Collaboratively deploy intuitive partnerships whereas customized e-markets. Energistically maintain performance based strategic theme areas whereas just in time methodologies. Phosfluorescently drive functionalized intellectual capital and.</p><blockquote>"Ipsum sit mattis nulla quam nulla. Gravida id gravida ac enim mauris id. Non pellentesque congue eget consectetur turpis. Sapien, dictum molestie sem tempor. Diam elit, orci, tincidunt aenean tempus."</blockquote><p>Tristique odio senectus nam posuere ornare leo metus, ultricies. Blandit duis ultricies vulputate morbi feugiat cras placerat elit. Aliquam tellus lorem sed ac. Montes, sed mattis pellentesque suscipit accumsan. Cursus viverra aenean magna risus elementum faucibus molestie pellentesque. Arcu ultricies sed mauris vestibulum.<h2>Conclusion</h2><p>Morbi sed imperdiet in ipsum, adipiscing elit dui lectus. Tellus id scelerisque est ultricies ultricies. Duis est sit sed leo nisl, blandit elit sagittis. Quisque tristique consequat quam sed. Nisl at scelerisque amet nulla purus habitasse.</p><p>Nunc sed faucibus bibendum feugiat sed interdum. Ipsum egestas condimentum mi massa. In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in nec sed et. Quis lobortis at sit dictum eget nibh tortor commodo cursus.</p><p>Odio felis sagittis, morbi feugiat tortor vitae feugiat fusce aliquet. Nam elementum urna nisi aliquet erat dolor enim. Ornare id morbi eget ipsum. Aliquam senectus neque ut id eget consectetur dictum. Donec posuere pharetra odio consequat scelerisque et, nunc tortor. Nulla adipiscing erat a erat. Condimentum lorem posuere gravida enim posuere cursus diam.</p>',
+};
+
 export default function Noticia({
   sidebarNav,
-  details = {
-    image: {
-      src: "https://assets.decocache.com/novo-leme/13cd6a48-e0fc-4941-839d-d87c4f37b3d8/img-1.png",
-      alt: "Projeto",
-    },
-    label: "Programa Miriam Leitão: Como enfrentar a violência policial e o crime organizado, na opinião de dois especialistas",
-    description: "Este projeto, iniciado em 2024 e realizado em parceria com a Secretaria de Segurança Pública do Paraná (SESP-PR) e o Banco Interamericano de Desenvolvimento (BID), objetiva desenvolver um modelo preditivo e um algoritmo de predição para avaliar o risco de revitimização de mulheres em casos de violência doméstica ocorridos no Paraná. Essa ferramenta tem o potencial de classificar os casos conforme a probabilidade de ocorrerem novas vitimizações, fornecendo insumos para a focalização de políticas públicas destinadas a combater a revitimização e o feminicídio. O modelo e o algoritmo propostos visam contribuir para uma abordagem mais célere na identificação das vítimas de alto risco e no manejo dos casos de violência doméstica, que superam numericamente a capacidade atual de atendimento dos órgãos de proteção do estado.",
-    date: "2024-10-12",
-    body: "Este projeto, iniciado em 2024 e realizado em parceria com a Secretaria de Segurança Pública do Paraná (SESP-PR) e o Banco Interamericano de Desenvolvimento (BID), objetiva desenvolver um modelo preditivo e um algoritmo de predição para avaliar o risco de revitimização de mulheres em casos de violência doméstica ocorridos no Paraná. Essa ferramenta tem o potencial de classificar os casos conforme a probabilidade de ocorrerem novas vitimizações, fornecendo insumos para a focalização de políticas públicas destinadas a combater a revitimização e o feminicídio. O modelo e o algoritmo propostos visam contribuir para uma abordagem mais célere na identificação das vítimas de alto risco e no manejo dos casos de violência doméstica, que superam numericamente a capacidade atual de atendimento dos órgãos de proteção do estado.",
-    url: "/",
-  },
+  page,
   backToNews = {
     label: "Ver mais notícias",
     url: "/midia/noticias",
   },
 }: Props) {
-  const formattedDate = details.date ? new Date(details.date).toLocaleDateString("pt-BR", {
+  const { title, image, date, content } = page?.post || DEFAULT_PROPS;
+  const formattedDate = date ? new Date(date).toLocaleDateString("pt-BR", {
     year: "numeric",
     month: "long",
     day: "numeric",
@@ -43,20 +53,24 @@ export default function Noticia({
       <SideNav links={sidebarNav?.links} button={sidebarNav?.button}/>
       <div className="flex flex-auto flex-col gap-9">
         <div className="flex flex-col gap-7">
-          <Title label={details.label} serif titleSize="4xl" noClamp />
-            {details?.date ? (
+          <Title label={title} serif titleSize="4xl" noClamp />
+            {date ? (
               <div class="flex flex-wrap gap-3">
                 <Tag type="date" label={formattedDate} color="secondary"/>
               </div>
             ) : ''}
         </div>
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-9">
           {
-            details.image ? (
-              <Image className="w-full" src={details.image?.src || ""} alt={details.image?.alt} />
+            image ? (
+              <Image
+                className="w-full object-cover aspect-video max-h-[600px]"
+                width={600}
+                src={image || ""}
+              />
             ) : ''
           }
-          <div className="leading-normal text-neutral-950" dangerouslySetInnerHTML={{__html: details.body}}></div>
+          <div className="leading-normal text-neutral-950 space-y-6" dangerouslySetInnerHTML={{__html: content}}></div>
         </div>
 
         <div className="flex ">

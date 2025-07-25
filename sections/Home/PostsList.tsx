@@ -9,7 +9,8 @@ export interface Props {
   description?: string;
   posts?: BlogPost[] | null;
   config?: {
-    showPostDate: boolean;
+    showPostDate?: boolean;
+    categorySlug?: string;
   },
   style?: {
     orientation?: "Vertical" | "Horizontal";
@@ -28,7 +29,7 @@ export default function PostsList(
     description,
     posts,
     button,
-    config = { showPostDate: false },
+    config = { showPostDate: false, categorySlug: '' },
     style = { orientation: "Vertical", background: "Blue", slider: false },
   }: Props,
 ) {
@@ -41,7 +42,7 @@ export default function PostsList(
     break;
     case "Vertical":
     default:
-      containerClasses += "md:mx-16 py-8 md:py-16 flex-col space-y-6 md:space-y-10 ";
+      containerClasses += "md:mx-16 py-8 md:py-16 flex-col space-y-6 md:space-y-6 ";
     break;
   }
   switch (style?.background) {
@@ -84,7 +85,7 @@ export default function PostsList(
                           label={post.title}
                           description={post.excerpt}
                           date={config.showPostDate ? post.date : ''}
-                          url={`/midia/noticias/${post.slug}`}
+                          url={`${config.categorySlug}/${post.slug}`}
                         />
                       </Slider.Item>
                     ))}
