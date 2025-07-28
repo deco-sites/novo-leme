@@ -12,7 +12,12 @@
     "imageCarousel": {
       "banners": []
     },
-    "extraProps": [],
+    "extraProps": [
+      {
+        "key": "url",
+        "value": "https://www.povertyactionlab.org/blog/12-4-24/julia-guerra-fernandes-j-pal-17-public-safety-and-evidence-use-brazil"
+      }
+    ],
     "aggregateRating": {
       "@type": "AggregateRating"
     },

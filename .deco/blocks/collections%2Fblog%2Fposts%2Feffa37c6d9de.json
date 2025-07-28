@@ -12,7 +12,12 @@
     "imageCarousel": {
       "banners": []
     },
-    "extraProps": [],
+    "extraProps": [
+      {
+        "key": "url",
+        "value": "https://tinyurl.com/3xd4vj9j"
+      }
+    ],
     "aggregateRating": {
       "@type": "AggregateRating"
     },

@@ -1,0 +1,33 @@
+{
+  "name": "collections/blog/posts/7e43fdab522d",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Eventos participação",
+        "slug": "eventos-participacao"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "III Workshop sobre Justiça Criminal e Crime Organizado",
+    "content": "<p>O III Workshop sobre Justiça Criminal e Crime Organizado foi realizado nos dias 7 e 8 de abril de 2025, em Cali (Colômbia), como parte da aliança entre Banco Mundial, CAF, BID e o Laboratório de Justiça e Política Criminal. O evento reuniu especialistas e autoridades da América Latina para discutir estratégias contra o crime organizado, como dissuasão focalizada, acordos penais e colaboração entre países. Também foram abordados desafios na produção de provas, análise criminal e mecanismos de resolução de conflitos, além da importância de dados e cooperação com a sociedade civil. Ramón Chaves, líder de projetos do Leme, participou como debatedor em mesa sobre estratégias institucionais na justiça criminal. Durante sua fala, Ramón destacou a importância da definição de prioridades, da incorporação de cientistas de dados e da experiência dos agentes comunitários de saúde como modelo para políticas de segurança.</p>",
+    "excerpt": "O III Workshop sobre Justiça Criminal e Crime Organizado foi realizado nos dias 7 e 8 de abril de 2025, em Cali (Colômbia), como parte da aliança entre Banco Mundial, CAF, BID e o Laboratório de Justiça e Política Criminal.",
+    "date": "2025-04-07",
+    "slug": "iii-workshop-justica-criminal-crime-organizado",
+    "image": "https://assets.decocache.com/novo-leme/624f49ef-4b19-4c40-be4b-9b66df4cc49f/evento-2.webp"
+  }
+}

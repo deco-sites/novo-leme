@@ -61,7 +61,24 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Home/Eventos.tsx"
+        "__resolveType": "site/sections/Home/Eventos.tsx",
+        "posts": {
+          "__resolveType": "blog/loaders/BlogpostList.ts",
+          "postSlugs": [],
+          "sortBy": "date_desc",
+          "slug": "eventos-participacao"
+        },
+        "labels": {
+          "online": "Online",
+          "presencial": "Presencial"
+        },
+        "button": {
+          "label": "Ver todos os eventos",
+          "url": "/eventos/participacao"
+        },
+        "config": {
+          "categorySlug": "/eventos/participacao"
+        }
       }
     },
     {

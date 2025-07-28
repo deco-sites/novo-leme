@@ -74,21 +74,26 @@ export default function PostsList(
               <div class="col-start-1 col-span-1 sm:col-start-2">
                 <div class="h-min flex-grow">
                   <Slider class="carousel carousel-center gap-6 w-full p-4 md:p-8">
-                    {posts?.slice(0, 6).map((post, index) => (
-                      <Slider.Item
+                    {posts?.slice(0, 6).map((post, index) => {
+                      const url = post.extraProps?.find(item => item.key === "url");
+
+                      return (
+                        <Slider.Item
                         index={index}
                         class="carousel-item w-full md:w-[calc(32.5%)]"
-                      >
-                        <Card
-                          borderColor={style?.background === "Orange" ? "primary" : "secondary"}
-                          image={{src: post.image, alt: ''}}
-                          label={post.title}
-                          description={post.excerpt}
-                          date={config.showPostDate ? post.date : ''}
-                          url={`${config.categorySlug}/${post.slug}`}
-                        />
-                      </Slider.Item>
-                    ))}
+                        >
+                          <Card
+                            borderColor={style?.background === "Orange" ? "primary" : "secondary"}
+                            image={{src: post.image, alt: ''}}
+                            label={post.title}
+                            description={post.excerpt}
+                            date={config.showPostDate ? post.date : ''}
+                            url={url?.value || `${config.categorySlug}/${post.slug}`}
+                            newTab={url?.value ? true : false}
+                          />
+                        </Slider.Item>
+                      )
+                    })}
                   </Slider>
 
                   <Slider.PrevButton
@@ -120,16 +125,21 @@ export default function PostsList(
           ) : (
             <div className="flex flex-col flex-auto space-y-6 md:space-y-12">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
-                {posts?.slice(0, 6).map((post) => (
-                  <Card
-                    borderColor="primary"
-                    image={{src: post.image, alt: ''}}
-                    label={post.title}
-                    description={post.excerpt}
-                    date={post.date}
-                    url={`/midia/noticias/${post.slug}`}
-                  />
-                ))}
+                {posts?.slice(0, 6).map((post) =>  {
+                  const url = post.extraProps?.find(item => item.key === "url");
+
+                  return (
+                    <Card
+                      borderColor="primary"
+                      image={{src: post.image, alt: ''}}
+                      label={post.title}
+                      description={post.excerpt}
+                      date={post.date}
+                      url={url?.value || `${config.categorySlug}/${post.slug}`}
+                      newTab={url?.value ? true : false}
+                    />
+                  )
+                })}
               </div>
               <div className="flex">
                 <FancyLink label={button?.label} url={button?.url} iconRight/>

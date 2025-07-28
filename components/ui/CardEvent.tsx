@@ -41,9 +41,13 @@ export default function CardEvent({
         <div className="flex flex-col gap-1 justify-center text-neutral-950">
           <div className="flex flex-row gap-1 md:gap-5">
             <h3 className="flex-auto line-clamp-2 md:line-clamp-1 text-lg md:text-xl group-hover:text-secondary">{label}</h3>
-            <div className="flex-none">
-              <Tag label={online ? labels.online : labels.presencial}/>
-            </div>
+            {
+              labels ? (
+                <div className="flex-none">
+                  <Tag label={online ? labels.online : labels.presencial}/>
+                </div>
+              ) : ''
+            }
           </div>
           <p className="line-clamp-2 text-sm md:text-base">{description}</p>
         </div>

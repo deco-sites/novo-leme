@@ -1,7 +1,7 @@
 {
   "__resolveType": "website/pages/Page.tsx",
-  "name": "PT - Eventos - Participacao",
-  "path": "/eventos/participacao",
+  "name": "PT - Eventos Part - Evento",
+  "path": "/eventos/participacao/:slug",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },
@@ -26,14 +26,14 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/PageTitle.tsx",
-        "description": "Fique por dentro dos eventos organizados e com participação do Leme",
-        "title": "Eventos"
+        "description": "Acompanhe notícias e reportagens sobre o Leme",
+        "title": "Mídia"
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/EventosParticipacao.tsx",
+        "__resolveType": "site/sections/PostDetail.tsx",
         "sidebarNav": {
           "links": [
             {
@@ -47,14 +47,16 @@
             }
           ]
         },
-        "posts": {
-          "__resolveType": "blog/loaders/BlogpostList.ts",
-          "postSlugs": [],
-          "sortBy": "date_desc",
-          "slug": "eventos-participacao"
+        "page": {
+          "__resolveType": "blog/loaders/BlogPostPage.ts",
+          "slug": {
+            "__resolveType": "website/functions/requestToParam.ts",
+            "param": "slug"
+          }
         },
-        "config": {
-          "categorySlug": "/eventos/participacao"
+        "backToNews": {
+          "label": "Ver outros eventos",
+          "url": "/eventos/participacao"
         }
       }
     },
@@ -68,7 +70,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "website/sections/Seo/SeoV2.tsx",
-        "title": "Eventos - Participação"
+        "title": "Notícia"
       }
     }
   ]

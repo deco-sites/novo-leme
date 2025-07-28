@@ -33,7 +33,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/MidiaLista.tsx",
+        "__resolveType": "site/sections/CardsPostsList.tsx",
         "sidebarNav": {
           "links": [
             {
@@ -46,6 +46,16 @@
               "url": "/midia/noticias"
             }
           ]
+        },
+        "posts": {
+          "__resolveType": "blog/loaders/BlogpostList.ts",
+          "postSlugs": [],
+          "sortBy": "date_desc",
+          "slug": "na-midia"
+        },
+        "config": {
+          "categorySlug": "/midia",
+          "showPostDate": true
         }
       }
     },

@@ -1,0 +1,33 @@
+{
+  "name": "collections/blog/posts/5cae40b1bdc8",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Eventos participação",
+        "slug": "eventos-participacao"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "content": "<p>A I Reunião Técnica do Fórum Nacional dos Gestores do Sistema de Atendimento Socioeducativo (FONACRIAD), realizada em São Paulo e promovida pela Fundação CASA, reuniu gestores de todo o país, especialistas e autoridades para debater diretrizes de fortalecimento da saúde mental no sistema socioeducativo. Durante três dias, foram apresentadas experiências estaduais, firmados acordos de cooperação e construída a Carta do FONACRIAD – SP, consolidando propostas para qualificação de servidores e cuidado com adolescentes. Julia Guerra, cofundadora e diretora do Leme, apresentou pesquisa desenvolvida como pesquisadora visitante na Universidade de Chicago, em parceria com o Ministério Público do Rio de Janeiro, sobre o impacto de medidas restritivas nas trajetórias de adolescentes. A exposição foi feita ao lado dos pesquisadores Alexandre Simões (Universidade de Chicago) e Gil do Vigor (UC Davis), que investigam o mesmo tema nos estados do Ceará e Pernambuco.</p>",
+    "excerpt": "A I Reunião Técnica do Fórum Nacional dos Gestores do Sistema de Atendimento Socioeducativo (FONACRIAD), realizada em São Paulo e promovida pela Fundação CASA, reuniu gestores de todo o país, especialistas e autoridades para debater diretrizes de fortalecimento da saúde mental no sistema socioeducativo.",
+    "title": "I Reunião Técnica do FONACRIAD",
+    "date": "2025-03-28",
+    "slug": "i-reuniao-tecnica-fonacriad",
+    "image": "https://assets.decocache.com/novo-leme/e20356c1-b04a-4580-bac4-439f1276d89f/evento-3.webp"
+  }
+}
