@@ -54,7 +54,7 @@
           "slug": "eventos-participacao"
         },
         "config": {
-          "categorySlug": "/eventos/participacao"
+          "categorySlug": "eventos/participacao"
         }
       }
     },

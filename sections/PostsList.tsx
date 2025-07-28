@@ -1,3 +1,4 @@
+import Placeholder from  "../components/ui/SectionPlaceholder.tsx";
 import { BlogPost } from "apps/blog/types.ts";
 import SideNav, { Props as SideNavProps } from  "../components/ui/SideNav.tsx";
 import Card from  "../components/ui/Card.tsx";
@@ -7,11 +8,12 @@ export interface Props {
   posts?: BlogPost[] | null;
   config?: {
     showPostDate?: boolean;
+    /** @title Prefix URL */
     categorySlug?: string;
   },
 }
 
-export default function MidiaNaMidia({
+export default function PostsList({
   sidebarNav,
   posts,
   config = { showPostDate: false, categorySlug: '' },
@@ -31,7 +33,7 @@ export default function MidiaNaMidia({
                 label={post.title}
                 description={post.excerpt}
                 date={post.date}
-                url={url?.value || `${config.categorySlug}/${post.slug}`}
+                url={url?.value || `/${config.categorySlug}/${post.slug}`}
                 newTab={url?.value ? true : false}
               />
             )
@@ -41,3 +43,5 @@ export default function MidiaNaMidia({
     </div>
   );
 }
+
+export const LoadingFallback = () => <Placeholder height="50vh" />;

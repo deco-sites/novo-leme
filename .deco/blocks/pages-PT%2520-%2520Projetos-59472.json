@@ -41,6 +41,15 @@
               "url": "/"
             }
           ]
+        },
+        "posts": {
+          "__resolveType": "blog/loaders/BlogpostList.ts",
+          "postSlugs": [],
+          "sortBy": "date_desc",
+          "slug": "projetos"
+        },
+        "config": {
+          "categorySlug": "projetos"
         }
       }
     },

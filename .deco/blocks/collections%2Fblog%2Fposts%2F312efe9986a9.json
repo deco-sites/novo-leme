@@ -7,12 +7,33 @@
       {
         "name": "Projetos",
         "slug": "projetos"
+      },
+      {
+        "name": "Ampliação do Protagonismo Municipal",
+        "slug": "ampliacao-protagonismo-municipal"
+      },
+      {
+        "name": "Fortalecimento de Instituições Policiais",
+        "slug": "fortalecimento-instituicoes-policiais-controle-territorial-crime-organizado"
       }
     ],
     "imageCarousel": {
       "banners": []
     },
-    "extraProps": [],
+    "extraProps": [
+      {
+        "key": "date",
+        "value": "2025-atual"
+      },
+      {
+        "key": "status",
+        "value": "Em andamento"
+      },
+      {
+        "key": "place",
+        "value": "Município do Rio de Janeiro"
+      }
+    ],
     "aggregateRating": {
       "@type": "AggregateRating"
     },

@@ -31,11 +31,25 @@
           "step5": "<p><strong>Aprimoramento</strong> do programa a partir do aprendizado da avaliação</p>",
           "step6": "<p><strong>Promoção</strong> de programas efetivos e escaláveis</p>"
         },
-        "text": "O Leme é uma organização sem fins lucrativos que atua em parceria com instituições de Segurança Pública e Justiça e com Organizações."
+        "text": "O Leme é uma organização sem fins lucrativos que atua em parceria com instituições de Segurança Pública e Justiça e com Organizações.",
+        "links": [
+          {
+            "label": "Mais sobre o Leme",
+            "url": "/sobre"
+          },
+          {
+            "label": "Missão e Valores",
+            "url": "/sobre/missao-e-valores"
+          },
+          {
+            "label": "Nossa Equipe",
+            "url": "/sobre/equipe"
+          }
+        ]
       }
     },
     {
-      "__resolveType": "site/sections/Home/PostsList.tsx",
+      "__resolveType": "site/sections/Home/HomePostsList.tsx",
       "posts": {
         "__resolveType": "blog/loaders/BlogpostList.ts",
         "postSlugs": [],
@@ -55,7 +69,7 @@
       },
       "label": "test",
       "config": {
-        "categorySlug": "/projetos"
+        "categorySlug": "projetos"
       }
     },
     {
@@ -84,7 +98,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Home/PostsList.tsx",
+        "__resolveType": "site/sections/Home/HomePostsList.tsx",
         "posts": {
           "__resolveType": "blog/loaders/BlogpostList.ts",
           "postSlugs": [],
@@ -104,14 +118,14 @@
         },
         "config": {
           "showPostDate": true,
-          "categorySlug": "/midia/noticias"
+          "categorySlug": "midia/noticias"
         }
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Home/PostsList.tsx",
+        "__resolveType": "site/sections/Home/HomePostsList.tsx",
         "posts": {
           "__resolveType": "blog/loaders/BlogpostList.ts",
           "postSlugs": [],
@@ -130,7 +144,7 @@
         },
         "config": {
           "showPostDate": true,
-          "categorySlug": "/midia"
+          "categorySlug": "midia"
         }
       }
     },

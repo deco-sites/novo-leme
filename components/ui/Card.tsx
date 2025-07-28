@@ -65,8 +65,8 @@ export default function Card({
       className={`flex flex-col ${orientation === "vertical" ? 'space-y-4' : 'space-y-6'} p-6 rounded-xl bg-white text-primary border-[3px] border-${borderColor} shadow-[4px_4px_0_rgba(${rgb})] hover:scale-105 transition-all`}
     >
       <div className={`flex ${orientation === "vertical" ? 'flex-col gap-4' : 'flex-col md:flex-row gap-4 md:gap-8'}`}>
-        <div className="relative">
-          <Image class="w-full rounded-md" src={image?.src || ""} alt={image?.alt} />
+        <div className={`relative ${orientation === "horizontal" ? 'max-w-[300px]' : ''}`} src={image?.src || ""}>
+          <Image class={`${orientation === "horizontal" ? '' : ''} w-full rounded-md`} src={image?.src || ""} alt={image?.alt} />
           {
             date ? (
               <div className="absolute left-3 bottom-3 bg-base-100 rounded-md text-xs px-1 py-[2px]">{formattedDate}</div>

@@ -10,6 +10,7 @@ export interface Props {
   posts?: BlogPost[] | null;
   config?: {
     showPostDate?: boolean;
+    /** @title Prefix URL */
     categorySlug?: string;
   },
   style?: {
@@ -88,7 +89,7 @@ export default function PostsList(
                             label={post.title}
                             description={post.excerpt}
                             date={config.showPostDate ? post.date : ''}
-                            url={url?.value || `${config.categorySlug}/${post.slug}`}
+                            url={url?.value || `/${config.categorySlug}/${post.slug}`}
                             newTab={url?.value ? true : false}
                           />
                         </Slider.Item>
@@ -135,7 +136,7 @@ export default function PostsList(
                       label={post.title}
                       description={post.excerpt}
                       date={post.date}
-                      url={url?.value || `${config.categorySlug}/${post.slug}`}
+                      url={url?.value || `/${config.categorySlug}/${post.slug}`}
                       newTab={url?.value ? true : false}
                     />
                   )

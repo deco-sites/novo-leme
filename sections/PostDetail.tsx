@@ -36,10 +36,7 @@ const DEFAULT_PROPS: BlogPost = {
 export default function PostDetail({
   sidebarNav,
   page,
-  backToNews = {
-    label: "Ver mais notícias",
-    url: "/midia/noticias",
-  },
+  backToNews,
 }: Props) {
   const { title, image, date, content } = page?.post || DEFAULT_PROPS;
   const formattedDate = date ? new Date(date).toLocaleDateString("pt-BR", {
@@ -74,7 +71,7 @@ export default function PostDetail({
         </div>
 
         <div className="flex ">
-          <FancyLink label={backToNews.label} url={backToNews.url} iconLeft/>
+          <FancyLink label={backToNews?.label} url={backToNews?.url} iconLeft/>
         </div>
       </div>
     </div>

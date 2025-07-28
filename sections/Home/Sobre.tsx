@@ -1,3 +1,4 @@
+import Placeholder from  "../../components/ui/SectionPlaceholder.tsx";
 import Cicle, { Props as CicleProps } from  "../../components/ui/Cicle.tsx";
 import FancyLink from  "../../components/ui/FancyLink.tsx";
 
@@ -14,14 +15,8 @@ export interface Nav {
 export default function About({
   text,
   cicleImage,
-  links = [
-    { label: "Mais sobre o Leme", url: "/'" },
-    { label: "Missão de Valores", url: "/" },
-    { label: "Nossa Equipe", url: "/" },
-  ],
+  links,
 }: Nav) {
-  const stepClasses = "group-hover:border-secondary transition-all absolute w-[240px] px-3 py-2 border-2 border-primary rounded-md"
-  const stepClassesMobile = "absolute px-2 py-1 border border-primary rounded-md text-xs"
   return (
     <div className="container mx-auto md:px-32 flex flex-col space-y-6 md:space-y-16 mb-16">
       <div className="text-2xl md:text-5xl leading-tight font-serif">
@@ -36,11 +31,17 @@ export default function About({
         step5={cicleImage?.step5}
         step6={cicleImage?.step6}
       />
-      <div className="flex flex-col md:flex-row gap-2 md:gap-5 justify-center">
-        {links?.map((link) => (
-          <FancyLink label={link?.label} url={link?.url} iconRight={true}/>
-        ))}
-      </div>
+      {
+        links && links.length > 0 ? (
+          <div className="flex flex-col md:flex-row gap-2 md:gap-5 justify-center">
+            {links?.map((link) => (
+              <FancyLink label={link?.label} url={link?.url} iconRight={true}/>
+            ))}
+          </div>
+        ) : ''
+      }
     </div>
   );
 }
+
+export const LoadingFallback = () => <Placeholder height="50vh" />;

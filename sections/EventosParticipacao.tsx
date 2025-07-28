@@ -6,6 +6,7 @@ export interface Props {
   sidebarNav?: SideNavProps;
   posts?: BlogPost[] | null;
   config?: {
+    /** @title Prefix URL */
     categorySlug?: string;
   },
   labels?: {
@@ -33,7 +34,7 @@ export default function EventosParticipacao({
               label={post.title}
               description={post.excerpt}
               date={post.date}
-              url={`${config.categorySlug}/${post.slug}`}
+              url={`/${config.categorySlug}/${post.slug}`}
             />
           ))}
         </div>

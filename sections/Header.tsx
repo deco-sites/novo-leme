@@ -1,3 +1,4 @@
+import Placeholder from  "../components/ui/SectionPlaceholder.tsx";
 import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import NavItem from "../components/NavItem.tsx";
@@ -137,3 +138,5 @@ export default function NewHeader({ logo = {
       </div>
     </header>);
 }
+
+export const LoadingFallback = () => <Placeholder height="50vh" />;

@@ -33,7 +33,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/CardsPostsList.tsx",
+        "__resolveType": "site/sections/PostsList.tsx",
         "sidebarNav": {
           "links": [
             {
@@ -54,7 +54,7 @@
           "slug": "na-midia"
         },
         "config": {
-          "categorySlug": "/midia",
+          "categorySlug": "midia",
           "showPostDate": true
         }
       }

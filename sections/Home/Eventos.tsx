@@ -1,3 +1,4 @@
+import Placeholder from  "../../components/ui/SectionPlaceholder.tsx";
 import { BlogPost } from "apps/blog/types.ts";
 import Title from  "../../components/ui/Title.tsx";
 import FancyLink from  "../../components/ui/FancyLink.tsx";
@@ -54,3 +55,5 @@ export default function HomeEventos({
     </div>
   );
 }
+
+export const LoadingFallback = () => <Placeholder height="50vh" />;

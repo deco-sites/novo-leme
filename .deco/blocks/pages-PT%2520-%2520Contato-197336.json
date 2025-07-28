@@ -33,7 +33,18 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/SimpleContactForm.tsx"
+        "__resolveType": "site/sections/Contato.tsx",
+        "form": {
+          "title": "Envie uma mensagem",
+          "name": "Nome",
+          "email": "Email",
+          "message": "Mensagem",
+          "submit": "Enviar"
+        },
+        "email": {
+          "title": "Nosso email",
+          "email": "contato@lemelab.org"
+        }
       }
     },
     {

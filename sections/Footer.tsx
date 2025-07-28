@@ -1,3 +1,4 @@
+import Placeholder from  "../components/ui/SectionPlaceholder.tsx";
 import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 
@@ -85,3 +86,5 @@ export default function NewFooter({
     </footer>
   );
 }
+
+export const LoadingFallback = () => <Placeholder height="50vh" />;
