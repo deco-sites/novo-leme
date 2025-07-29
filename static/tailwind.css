@@ -2456,6 +2456,9 @@ input.tab:checked + .tab-content,
 .pointer-events-none {
   pointer-events: none;
 }
+.invisible {
+  visibility: hidden;
+}
 .static {
   position: static;
 }
@@ -2543,6 +2546,9 @@ input.tab:checked + .tab-content,
 .right-4 {
   right: 1rem;
 }
+.right-5 {
+  right: 1.25rem;
+}
 .right-\[412px\] {
   right: 412px;
 }
@@ -2563,6 +2569,9 @@ input.tab:checked + .tab-content,
 }
 .top-4 {
   top: 1rem;
+}
+.top-5 {
+  top: 1.25rem;
 }
 .top-\[110px\] {
   top: 110px;
@@ -2831,6 +2840,9 @@ input.tab:checked + .tab-content,
 .max-h-0 {
   max-height: 0px;
 }
+.max-h-96 {
+  max-height: 24rem;
+}
 .max-h-\[110px\] {
   max-height: 110px;
 }
@@ -3000,6 +3012,9 @@ input.tab:checked + .tab-content,
 .max-w-\[522px\] {
   max-width: 522px;
 }
+.max-w-\[780px\] {
+  max-width: 780px;
+}
 .max-w-\[80px\] {
   max-width: 80px;
 }
@@ -3073,6 +3088,9 @@ input.tab:checked + .tab-content,
 }
 .animate-spin {
   animation: spin 1s linear infinite;
+}
+.cursor-default {
+  cursor: default;
 }
 .cursor-pointer {
   cursor: pointer;
@@ -3234,6 +3252,9 @@ input.tab:checked + .tab-content,
 }
 .overflow-x-auto {
   overflow-x: auto;
+}
+.overflow-y-auto {
+  overflow-y: auto;
 }
 .truncate {
   overflow: hidden;
@@ -3419,6 +3440,9 @@ input.tab:checked + .tab-content,
 .bg-opacity-30 {
   --tw-bg-opacity: 0.3;
 }
+.bg-opacity-50 {
+  --tw-bg-opacity: 0.5;
+}
 .bg-\[url\(https\:\/\/assets\.decocache\.com\/novo-leme\/266b017b-07fe-4314-8842-c55f8e154275\/bg-abstract\.svg\)\] {
   background-image: url(https://assets.decocache.com/novo-leme/266b017b-07fe-4314-8842-c55f8e154275/bg-abstract.svg);
 }
@@ -3471,6 +3495,9 @@ input.tab:checked + .tab-content,
 }
 .p-6 {
   padding: 1.5rem;
+}
+.p-7 {
+  padding: 1.75rem;
 }
 .p-8 {
   padding: 2rem;
@@ -3838,11 +3865,21 @@ input.tab:checked + .tab-content,
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
 .outline {
   outline-style: solid;
 }
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.backdrop-blur-sm {
+  --tw-backdrop-blur: blur(4px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 .transition-\[padding\] {
   transition-property: padding;
@@ -3901,6 +3938,9 @@ input.tab:checked + .tab-content,
     border-radius: 9999px;
     padding: 0px;
   }
+}
+.target\:flex:target {
+  display: flex;
 }
 .open\:border-secondary[open] {
   --tw-border-opacity: 1;
@@ -4004,6 +4044,9 @@ input.tab:checked + .tab-content,
 .group[open] .group-open\:text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.group:hover .group-hover\:visible {
+  visibility: visible;
 }
 .group:hover .group-hover\:max-h-96 {
   max-height: 24rem;
@@ -4365,6 +4408,15 @@ input.tab:checked + .tab-content,
 
   .md\:gap-9 {
     gap: 2.25rem;
+  }
+
+  .md\:gap-x-12 {
+    -moz-column-gap: 3rem;
+         column-gap: 3rem;
+  }
+
+  .md\:gap-y-8 {
+    row-gap: 2rem;
   }
 
   .md\:space-x-12 > :not([hidden]) ~ :not([hidden]) {
