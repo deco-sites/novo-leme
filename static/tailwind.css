@@ -2477,8 +2477,14 @@ input.tab:checked + .tab-content,
 .-left-6 {
   left: -1.5rem;
 }
+.-right-12 {
+  right: -3rem;
+}
 .-right-6 {
   right: -1.5rem;
+}
+.-top-12 {
+  top: -3rem;
 }
 .bottom-0 {
   bottom: 0px;
@@ -3095,6 +3101,9 @@ input.tab:checked + .tab-content,
 .cursor-pointer {
   cursor: pointer;
 }
+.cursor-zoom-in {
+  cursor: zoom-in;
+}
 .list-inside {
   list-style-position: inside;
 }
@@ -3505,6 +3514,10 @@ input.tab:checked + .tab-content,
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
+}
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 .px-2 {
   padding-left: 0.5rem;
@@ -4346,6 +4359,10 @@ input.tab:checked + .tab-content,
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -4500,6 +4517,11 @@ input.tab:checked + .tab-content,
   .md\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .md\:px-44 {
+    padding-left: 11rem;
+    padding-right: 11rem;
   }
 
   .md\:px-6 {

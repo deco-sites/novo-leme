@@ -10,7 +10,29 @@
       }
     ],
     "imageCarousel": {
-      "banners": []
+      "banners": [
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/90384b7e-6aa3-465a-823e-2aa8e34a87a1/1744397717_20250327_Fonacriad-(2).webp"
+          },
+          "mobile": {},
+          "alt": "I Reunião Técnica do FONACRIAD"
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/7bafe280-29e3-497a-aad9-03e69179e5af/1744397717_20250327_Fonacriad-(5).webp"
+          },
+          "mobile": {},
+          "alt": "I Reunião Técnica do FONACRIAD"
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/fd83c2e1-c872-4de5-88fe-a184078581a9/1744397717_20250327_Fonacriad-(7).webp"
+          },
+          "mobile": {},
+          "alt": "I Reunião Técnica do FONACRIAD"
+        }
+      ]
     },
     "extraProps": [],
     "aggregateRating": {

@@ -26,8 +26,8 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/PageTitle.tsx",
-        "description": "Acompanhe notícias e reportagens sobre o Leme",
-        "title": "Mídia"
+        "description": "Fique por dentro dos eventos organizados e com participação do Leme",
+        "title": "Eventos"
       }
     },
     {
@@ -70,7 +70,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "website/sections/Seo/SeoV2.tsx",
-        "title": "Notícia"
+        "title": "Evento"
       }
     }
   ]

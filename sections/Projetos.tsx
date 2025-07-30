@@ -18,11 +18,11 @@ export default function Projetos({
   config = { categorySlug: '' },
 }: Props) {
   return (
-    <div className="container px-6 md:px-12 flex flex-col md:flex-row gap-12 md:gap-44 my-6 md:my-12 text-neutral-950">
+    <div className="container px-6 md:px-44 flex flex-col md:flex-row gap-12 md:gap-44 my-6 md:my-12 text-neutral-950">
       <div className="hidden">
         <SideNav links={sidebarNav?.links} button={sidebarNav?.button}/>
       </div>
-      <div className="flex-auto flex flex-col gap-10 md:mx-12">
+      <div className="flex-auto flex flex-col gap-10">
         {posts?.slice(0, 30).map((post) =>  {
           const pDate = post.extraProps?.find(item => item.key === "date");
           const pPlace = post.extraProps?.find(item => item.key === "place");

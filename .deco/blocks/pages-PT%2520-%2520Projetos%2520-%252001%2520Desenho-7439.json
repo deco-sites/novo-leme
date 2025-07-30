@@ -1,0 +1,124 @@
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "name": "PT - Projetos - 01 Desenho",
+  "path": "/projetos/desenho-planejamento-implementacao-politica-municipal-seguranca-publica-rio-de-janeiro",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Hero.tsx",
+        "image": {
+          "src": "https://assets.decocache.com/novo-leme/1761d18c-f63c-4765-925d-42ce437227ae/hero-projetos.svg"
+        },
+        "marginTop": true
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/Header.tsx",
+        "page": {
+          "__resolveType": "blog/loaders/BlogPostPage.ts",
+          "slug": "desenho-planejamento-implementacao-politica-municipal-seguranca-publica-rio-de-janeiro"
+        },
+        "config": {
+          "categorySlug": "projetos"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/TextBlock.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/Image.tsx",
+        "image": {
+          "src": "https://assets.decocache.com/novo-leme/036cbfa7-b038-4fc1-94a8-32a6c8df6851/project-img-example-2.png",
+          "alt": "Projeto"
+        },
+        "size": "Large",
+        "caption": {
+          "text": "Legenda da foto do Projeto etc etc legenda da foto do Projeto etc etc legenda da foto do Projeto etc etc",
+          "position": "Bottom"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/TextBlock.tsx",
+        "paragraph": [
+          {
+            "label": "Seção",
+            "text": "<p><span>Ainda em fase inicial de execução, os principais resultados esperados incluem a criação de uma base de dados consolidada e validada sobre as ASRO, o desenvolvimento de métricas e indicadores para monitorar essas áreas e a formulação de estratégias para mitigar os impactos operacionais causados pelos grupos criminosos. Espera-se, ainda, que os produtos gerados contribuam para fortalecer a posição da Light como uma empresa inovadora, comprometida com a segurança pública do Estado do Rio de Janeiro, além de embasar políticas públicas mais eficazes na área de segurança.</span></p>"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/Image.tsx",
+        "image": {
+          "src": "https://assets.decocache.com/novo-leme/099cd8f5-d203-4a49-96e0-7fb6123c15ba/project-img-example.png",
+          "alt": "Projeto"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/TextBlock.tsx",
+        "paragraph": [
+          {
+            "label": "Resultados",
+            "text": "<p><span>Ainda em fase inicial de execução, os principais resultados esperados incluem a criação de uma base de dados consolidada e validada sobre as ASRO, o desenvolvimento de métricas e indicadores para monitorar essas áreas e a formulação de estratégias para mitigar os impactos operacionais causados pelos grupos criminosos. Espera-se, ainda, que os produtos gerados contribuam para fortalecer a posição da Light como uma empresa inovadora, comprometida com a segurança pública do Estado do Rio de Janeiro, além de embasar políticas públicas mais eficazes na área de segurança.</span></p>"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/HighlightNumbers.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/Documents.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/Links.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/MoreProjects.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ]
+}

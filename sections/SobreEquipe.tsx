@@ -112,9 +112,9 @@ export default function SobreEquipe({
                       className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 backdrop-blur-sm z-1 cursor-default"
                     ></a>
                     <div className="flex gap-5 relative max-w-[780px] max-h-96 border-2 border-primary bg-white rounded-lg p-7 shadow-xl">
-                    <a href="#list" className="absolute right-5 top-5" >
-                      <svg  xmlns="http://www.w3.org/2000/svg"  width="20"  height="20"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.5"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-x"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 6l-12 12" /><path d="M6 6l12 12" /></svg>
-                    </a>
+                      <a href="#list" className="absolute right-5 top-5" >
+                        <svg  xmlns="http://www.w3.org/2000/svg"  width="20"  height="20"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.5"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-x"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 6l-12 12" /><path d="M6 6l12 12" /></svg>
+                      </a>
                       <div className="flex-none">
                         <Image class="rounded-md w-24 md:w-[138px]" src={person?.photo || ""} alt={person?.label} width={138} height={165} />
                       </div>
