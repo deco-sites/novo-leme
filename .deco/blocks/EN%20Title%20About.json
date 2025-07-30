@@ -1,5 +1,6 @@
 {
-  "title": "About Leme",
-  "subtitle": "Who we are and what we do",
-  "__resolveType": "EN Title About"
+  "__resolveType": "site/sections/PageTitle.tsx",
+  "width": "wide",
+  "title": "About",
+  "description": "Learn about our history and who makes Leme"
 }

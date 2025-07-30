@@ -1,0 +1,121 @@
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "name": "EN Project Example",
+  "path": "/en/projects/project-example",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "title": ""
+  },
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "EN Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Hero Projetos"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/Header.tsx",
+        "page": {
+          "__resolveType": "blog/loaders/BlogPostPage.ts",
+          "slug": "desenho-planejamento-implementacao-politica-municipal-seguranca-publica-rio-de-janeiro"
+        },
+        "config": {
+          "categorySlug": "projetos"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/TextBlock.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/Image.tsx",
+        "image": {
+          "src": "https://assets.decocache.com/novo-leme/036cbfa7-b038-4fc1-94a8-32a6c8df6851/project-img-example-2.png",
+          "alt": "Project"
+        },
+        "size": "Large",
+        "caption": {
+          "text": "Project photo caption etc etc project photo caption etc etc project photo caption etc etc",
+          "position": "Bottom"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/TextBlock.tsx",
+        "paragraph": [
+          {
+            "label": "Section",
+            "text": "<p><span>Still in the early stages of execution, the main expected results include the creation of a consolidated and validated database on the ASRO, the development of metrics and indicators to monitor these areas, and the formulation of strategies to mitigate the operational impacts caused by criminal groups. It is also expected that the generated products will help strengthen Light's position as an innovative company committed to public safety in the State of Rio de Janeiro, as well as support more effective public policies in the area of security.</span></p>"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/Image.tsx",
+        "image": {
+          "src": "https://assets.decocache.com/novo-leme/099cd8f5-d203-4a49-96e0-7fb6123c15ba/project-img-example.png",
+          "alt": "Project"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/TextBlock.tsx",
+        "paragraph": [
+          {
+            "label": "Results",
+            "text": "<p><span>Still in the early stages of execution, the main expected results include the creation of a consolidated and validated database on the ASRO, the development of metrics and indicators to monitor these areas, and the formulation of strategies to mitigate the operational impacts caused by criminal groups. It is also expected that the generated products will help strengthen Light's position as an innovative company committed to public safety in the State of Rio de Janeiro, as well as support more effective public policies in the area of security.</span></p>"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/HighlightNumbers.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/Documents.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/Links.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/MoreProjects.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "EN Footer"
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "name": "EN Media - News",
+  "path": "/en/media/news",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "EN Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Hero Midia"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "EN Title Media"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/PostsList.tsx",
+        "sidebarNav": {
+          "links": [
+            {
+              "label": "In the Media",
+              "url": "/en/media"
+            },
+            {
+              "label": "News",
+              "url": "/en/media/news",
+              "selected": true
+            }
+          ]
+        },
+        "posts": {
+          "__resolveType": "blog/loaders/BlogpostList.ts",
+          "postSlugs": [],
+          "sortBy": "date_desc",
+          "slug": "noticias"
+        },
+        "config": {
+          "categorySlug": "midia",
+          "showPostDate": true
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "EN Footer"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/sections/Seo/SeoV2.tsx",
+        "title": "News"
+      }
+    }
+  ]
+}

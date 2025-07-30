@@ -1,0 +1,150 @@
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "name": "EN Atuacao",
+  "path": "/en/activities",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "EN Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Hero.tsx",
+        "image": {
+          "src": "https://assets.decocache.com/novo-leme/5b2f24d6-dbdf-4fc4-b3e1-3104d9c0a485/hero-atuacao.svg"
+        },
+        "marginTop": true
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/PageTitle.tsx",
+        "title": "Our Work"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Atuacao.tsx",
+        "content": "<p><span>Leme focuses its work on identifying and addressing specific challenges in five key areas of public security, providing technical and strategic support to decision-makers.<br><br>This approach guides our projects, focusing on the design and evaluation of public policies, contributing to violence reduction through intensive use of data and scientific evidence.</span></p>",
+        "areas": [
+          {
+            "challenges": {
+              "list": [
+                {
+                  "label": "Conceptualize and measure the territorial control of armed groups, developing metrics to assess their presence and activities."
+                },
+                {
+                  "label": "Identify and qualify future leaders in public security through the formation of an active and committed network."
+                },
+                {
+                  "label": "Identify successful strategies and propose new approaches, producing and disseminating evidence."
+                }
+              ],
+              "title": "Challenges"
+            },
+            "label": "Control of Violent Organized Crime",
+            "description": "<p>Violent organized crime is one of the main public security issues faced by Latin American countries. In Brazil, its presence is mainly expressed through armed control of territories, exploiting businesses and limiting the presence of the State in these areas.</p>",
+            "url": "/"
+          },
+          {
+            "challenges": {
+              "list": [
+                {
+                  "label": "Conceptualize and measure the territorial control of armed groups, developing metrics to assess their presence and activities."
+                },
+                {
+                  "label": "Identify and qualify future leaders in public security through the formation of an active and committed network."
+                },
+                {
+                  "label": "Identify successful strategies and propose new approaches, producing and disseminating evidence."
+                }
+              ],
+              "title": "Challenges"
+            },
+            "label": "Strengthening Police Institutions",
+            "description": "<p>Violent organized crime is one of the main public security issues faced by Latin American countries. In Brazil, its presence is mainly expressed through armed control of territories, exploiting businesses and limiting the presence of the State in these areas.</p>",
+            "url": "/"
+          },
+          {
+            "challenges": {
+              "list": [
+                {
+                  "label": "Conceptualize and measure the territorial control of armed groups, developing metrics to assess their presence and activities."
+                },
+                {
+                  "label": "Identify and qualify future leaders in public security through the formation of an active and committed network."
+                },
+                {
+                  "label": "Identify successful strategies and propose new approaches, producing and disseminating evidence."
+                }
+              ],
+              "title": "Challenges"
+            },
+            "label": "Expanding Municipal Leadership",
+            "description": "<p>Violent organized crime is one of the main public security issues faced by Latin American countries. In Brazil, its presence is mainly expressed through armed control of territories, exploiting businesses and limiting the presence of the State in these areas.</p>",
+            "url": "/"
+          },
+          {
+            "challenges": {
+              "list": [
+                {
+                  "label": "Conceptualize and measure the territorial control of armed groups, developing metrics to assess their presence and activities."
+                },
+                {
+                  "label": "Identify and qualify future leaders in public security through the formation of an active and committed network."
+                },
+                {
+                  "label": "Identify successful strategies and propose new approaches, producing and disseminating evidence."
+                }
+              ],
+              "title": "Challenges"
+            },
+            "label": "Prevention of Youth Criminal Involvement",
+            "description": "<p>Violent organized crime is one of the main public security issues faced by Latin American countries. In Brazil, its presence is mainly expressed through armed control of territories, exploiting businesses and limiting the presence of the State in these areas.</p>",
+            "url": "/"
+          },
+          {
+            "challenges": {
+              "list": [
+                {
+                  "label": "Conceptualize and measure the territorial control of armed groups, developing metrics to assess their presence and activities."
+                },
+                {
+                  "label": "Identify and qualify future leaders in public security through the formation of an active and committed network."
+                },
+                {
+                  "label": "Identify successful strategies and propose new approaches, producing and disseminating evidence."
+                }
+              ],
+              "title": "Challenges"
+            },
+            "label": "Combating Violence Against Women",
+            "description": "<p>Violent organized crime is one of the main public security issues faced by Latin American countries. In Brazil, its presence is mainly expressed through armed control of territories, exploiting businesses and limiting the presence of the State in these areas.</p>",
+            "url": "/"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "EN Footer"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/sections/Seo/SeoV2.tsx",
+        "title": "Our Work"
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "name": "EN Contact",
+  "path": "/en/contact",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "EN Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Hero.tsx",
+        "image": {
+          "src": "https://assets.decocache.com/novo-leme/8b67bfbb-c10e-464a-8c66-8daa615a145a/hero-contato.svg"
+        },
+        "marginTop": true
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/PageTitle.tsx",
+        "description": "Channels to get in touch",
+        "title": "Contact"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Contato.tsx",
+        "form": {
+          "title": "Envie uma mensagem",
+          "name": "Name",
+          "email": "Email",
+          "message": "Message",
+          "submit": "Send"
+        },
+        "email": {
+          "title": "Our email",
+          "email": "contato@lemelab.org"
+        },
+        "successMessage": "Email sent successfuly",
+        "errorMessage": "Error: message not sent"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "EN Footer"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/sections/Seo/SeoV2.tsx",
+        "title": "Contact"
+      }
+    }
+  ]
+}

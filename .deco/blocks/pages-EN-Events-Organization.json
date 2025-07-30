@@ -1,0 +1,62 @@
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "name": "EN Events - Organization",
+  "path": "/en/events",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "EN Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Hero Eventos"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "EN Title Events"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/EventosParticipacao.tsx",
+        "events": [],
+        "sidebarNav": {
+          "links": [
+            {
+              "label": "Organization",
+              "url": "/en/events",
+              "selected": true
+            },
+            {
+              "label": "Participation",
+              "url": "/en/events/participation"
+            }
+          ]
+        },
+        "posts": null
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "EN Footer"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/sections/Seo/SeoV2.tsx",
+        "title": "Events - Organization"
+      }
+    }
+  ]
+}
