@@ -1,0 +1,70 @@
+{
+  "__resolveType": "site/sections/Header.tsx",
+  "navigation": {
+    "links": [
+      {
+        "label": "About",
+        "url": "/en/about",
+        "sublinks": []
+      },
+      {
+        "label": "Activities",
+        "url": "/en/activities",
+        "sublinks": []
+      },
+      {
+        "label": "Projects",
+        "url": "/en/projects",
+        "sublinks": []
+      },
+      {
+        "label": "Media",
+        "url": "/en/media",
+        "sublinks": [
+          {
+            "label": "In the Media",
+            "url": "/en/media"
+          },
+          {
+            "label": "News",
+            "url": "/en/media/news"
+          }
+        ]
+      },
+      {
+        "label": "Events",
+        "url": "/en/events",
+        "sublinks": [
+          {
+            "label": "Organization",
+            "url": "/en/events/organization"
+          },
+          {
+            "label": "Participation",
+            "url": "/en/events/participation"
+          }
+        ]
+      },
+      {
+        "label": "Transparency",
+        "url": "/en/transparency",
+        "sublinks": []
+      },
+      {
+        "label": "Contact",
+        "url": "/en/contact",
+        "sublinks": []
+      }
+    ]
+  },
+  "languages": [
+    {
+      "label": "PT",
+      "url": "/"
+    },
+    {
+      "label": "EN",
+      "url": "/en"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "__resolveType": "site/sections/Footer.tsx",
+  "navigation": {
+    "links": [
+      {
+        "label": "About",
+        "url": "/en/about"
+      },
+      {
+        "label": "Activities",
+        "url": "/en/activities"
+      },
+      {
+        "label": "Projects",
+        "url": "/en/projects"
+      },
+      {
+        "label": "Media",
+        "url": "/en/media"
+      },
+      {
+        "label": "Events",
+        "url": "/en/events"
+      },
+      {
+        "label": "Transparency",
+        "url": "/en/transparency"
+      },
+      {
+        "label": "Contact",
+        "url": "/en/contact"
+      }
+    ]
+  },
+  "copyrightText2": "All rights reserved."
+}

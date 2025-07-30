@@ -1,0 +1,170 @@
+{
+  "name": "EN Home",
+  "path": "/en",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "EN Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Hero.tsx",
+        "text": "We use data and scientific evidence to make Brazil a safer country."
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Home/Sobre.tsx",
+        "image": {
+          "src": "https://assets.decocache.com/novo-leme/d7de9589-1bf4-4016-bff7-1c922a6df2ef/Grafico-atuacao-v7.svg"
+        },
+        "cicleImage": {
+          "title": "Our Work",
+          "step1": "<p><strong>Identification</strong> of engaged leaders and program refinement with partners</p>",
+          "step2": "<p><strong>Design</strong> or refinement of programs</p>",
+          "step3": "<p><strong>Testing and monitoring</strong> of implementation</p>",
+          "step4": "<p><strong>Design and execution</strong> of impact evaluation with treatment and control protocol</p>",
+          "step5": "<p><strong>Program improvement</strong> based on evaluation learnings</p>",
+          "step6": "<p><strong>Promotion</strong> of effective and scalable programs</p>"
+        },
+        "text": "Leme is a non-profit organization that works in partnership with Public Security and Justice institutions and other organizations.",
+        "links": [
+          {
+            "label": "More about Leme",
+            "url": "/en/about"
+          },
+          {
+            "label": "Mission and Values",
+            "url": "/en/about/mission-and-values"
+          },
+          {
+            "label": "Our Team",
+            "url": "/en/about/team"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "site/sections/Home/HomePostsList.tsx",
+      "posts": {
+        "__resolveType": "blog/loaders/BlogpostList.ts",
+        "postSlugs": [],
+        "sortBy": "date_desc",
+        "slug": "projetos"
+      },
+      "title": "Projects",
+      "description": "Learn about our work through our projects",
+      "button": {
+        "label": "See more projects",
+        "url": "/en/projects"
+      },
+      "style": {
+        "slider": true,
+        "orientation": "Vertical",
+        "background": "Orange"
+      },
+      "label": "test",
+      "config": {
+        "categorySlug": "projects"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Home/Eventos.tsx",
+        "posts": {
+          "__resolveType": "blog/loaders/BlogpostList.ts",
+          "postSlugs": [],
+          "sortBy": "date_desc",
+          "slug": "events-participation"
+        },
+        "labels": {
+          "online": "Online",
+          "presencial": "In-person"
+        },
+        "button": {
+          "label": "See all events",
+          "url": "/en/events/participation"
+        },
+        "config": {
+          "categorySlug": "/en/events/participation"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Home/HomePostsList.tsx",
+        "posts": {
+          "__resolveType": "blog/loaders/BlogpostList.ts",
+          "postSlugs": [],
+          "sortBy": "date_desc",
+          "slug": "noticias"
+        },
+        "title": "News",
+        "description": "Stay up to date with Leme's latest news",
+        "button": {
+          "label": "See more news",
+          "url": "/en/media/news"
+        },
+        "style": {
+          "slider": true,
+          "orientation": "Vertical",
+          "background": "Blue"
+        },
+        "config": {
+          "showPostDate": true,
+          "categorySlug": "media/news"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Home/HomePostsList.tsx",
+        "posts": {
+          "__resolveType": "blog/loaders/BlogpostList.ts",
+          "postSlugs": [],
+          "sortBy": "date_desc",
+          "slug": "na-midia"
+        },
+        "title": "In the Media",
+        "description": "Reports about Leme in major media outlets",
+        "button": {
+          "label": "See all reports",
+          "url": "/en/media"
+        },
+        "style": {
+          "orientation": "Horizontal",
+          "background": "Neutral"
+        },
+        "config": {
+          "showPostDate": true,
+          "categorySlug": "media"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "EN Footer"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/sections/Seo/SeoV2.tsx",
+        "title": "Leme - Laboratory for Violence Reduction"
+      }
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website"
+  }
+}
