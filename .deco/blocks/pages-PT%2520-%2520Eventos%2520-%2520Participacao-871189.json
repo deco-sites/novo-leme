@@ -1,6 +1,6 @@
 {
   "__resolveType": "website/pages/Page.tsx",
-  "name": "PT - Eventos - Participacao",
+  "name": "PT Eventos - Participacao",
   "path": "/eventos/participacao",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
@@ -9,25 +9,19 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "Header"
+        "__resolveType": "PT Header"
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Hero.tsx",
-        "image": {
-          "src": "https://assets.decocache.com/novo-leme/517b6730-6d53-4374-ad62-97111bd812b4/hero-eventos.svg"
-        },
-        "marginTop": true
+        "__resolveType": "Hero Eventos"
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/PageTitle.tsx",
-        "description": "Fique por dentro dos eventos organizados e com participação do Leme",
-        "title": "Eventos"
+        "__resolveType": "PT Title Eventos"
       }
     },
     {
@@ -61,7 +55,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "Footer"
+        "__resolveType": "PT Footer"
       }
     },
     {
@@ -69,6 +63,12 @@
       "section": {
         "__resolveType": "website/sections/Seo/SeoV2.tsx",
         "title": "Eventos - Participação"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "PT Title Eventos"
       }
     }
   ]

@@ -1,6 +1,6 @@
 {
   "__resolveType": "website/pages/Page.tsx",
-  "name": "PT - Sobre - Equipe",
+  "name": "PT Sobre - Equipe",
   "path": "/sobre/equipe",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
@@ -9,25 +9,16 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "Header"
+        "__resolveType": "PT Header"
       }
+    },
+    {
+      "__resolveType": "Hero Sobre"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Hero.tsx",
-        "image": {
-          "src": "https://assets.decocache.com/novo-leme/b2a3b006-6769-45a8-91aa-3b6cfabc3975/Hero1.svg"
-        },
-        "marginTop": true
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/PageTitle.tsx",
-        "description": "Conheça nossa história e quem faz o Leme",
-        "title": "Sobre"
+        "__resolveType": "PT Title Sobre"
       }
     },
     {
@@ -171,7 +162,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "Footer"
+        "__resolveType": "PT Footer"
       }
     },
     {

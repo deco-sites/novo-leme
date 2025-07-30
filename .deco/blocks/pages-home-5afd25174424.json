@@ -1,11 +1,11 @@
 {
-  "name": "PT - Home",
+  "name": "PT Home",
   "path": "/",
   "sections": [
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "Header"
+        "__resolveType": "PT Header"
       }
     },
     {
@@ -151,7 +151,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "Footer"
+        "__resolveType": "PT Footer"
       }
     },
     {

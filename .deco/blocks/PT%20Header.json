@@ -1,0 +1,70 @@
+{
+  "__resolveType": "site/sections/Header.tsx",
+  "navigation": {
+    "links": [
+      {
+        "label": "Sobre",
+        "url": "/sobre",
+        "sublinks": []
+      },
+      {
+        "label": "Atuação",
+        "url": "/atuacao",
+        "sublinks": []
+      },
+      {
+        "label": "Projetos",
+        "url": "/projetos",
+        "sublinks": []
+      },
+      {
+        "label": "Mídia",
+        "url": "/midia",
+        "sublinks": [
+          {
+            "label": "Na Mídia",
+            "url": "/midia"
+          },
+          {
+            "label": "Notícias",
+            "url": "/midia/noticias"
+          }
+        ]
+      },
+      {
+        "label": "Eventos",
+        "url": "/eventos",
+        "sublinks": [
+          {
+            "label": "Organização",
+            "url": "/eventos/organizacao"
+          },
+          {
+            "label": "Participação",
+            "url": "/eventos/participacao"
+          }
+        ]
+      },
+      {
+        "label": "Transparência",
+        "url": "/transparencia",
+        "sublinks": []
+      },
+      {
+        "label": "Contato",
+        "url": "/contato",
+        "sublinks": []
+      }
+    ]
+  },
+  "languages": [
+    {
+      "label": "PT",
+      "url": "/"
+    },
+    {
+      "label": "EN",
+      "url": "/en"
+    }
+  ]
+}

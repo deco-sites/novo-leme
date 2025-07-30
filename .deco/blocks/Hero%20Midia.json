@@ -1,0 +1,7 @@
+{
+  "__resolveType": "site/sections/Hero.tsx",
+  "image": {
+    "src": "https://assets.decocache.com/novo-leme/9e4c949b-9447-4abe-bdf3-1dcf54777bed/hero-midia.svg"
+  },
+  "marginTop": true
+}

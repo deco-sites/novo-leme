@@ -1,31 +1,35 @@
 {
   "__resolveType": "website/pages/Page.tsx",
-  "name": "PT - Projetos - Detalhe do Projeto",
-  "path": "/projetos/projeto",
+  "name": "PT Projeto Exemplo",
+  "path": "/projetos/projeto-exemplo",
   "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "title": ""
   },
   "sections": [
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "Header"
+        "__resolveType": "PT Header"
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Hero.tsx",
-        "image": {
-          "src": "https://assets.decocache.com/novo-leme/1761d18c-f63c-4765-925d-42ce437227ae/hero-projetos.svg"
+        "__resolveType": "Hero Projetos"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/Header.tsx",
+        "page": {
+          "__resolveType": "blog/loaders/BlogPostPage.ts",
+          "slug": "desenho-planejamento-implementacao-politica-municipal-seguranca-publica-rio-de-janeiro"
         },
-        "marginTop": true
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Projeto/Header.tsx"
+        "config": {
+          "categorySlug": "projetos"
+        }
       }
     },
     {
@@ -110,14 +114,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "Footer"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "website/sections/Seo/SeoV2.tsx",
-        "title": "Nome do Projeto"
+        "__resolveType": "PT Footer"
       }
     }
   ]

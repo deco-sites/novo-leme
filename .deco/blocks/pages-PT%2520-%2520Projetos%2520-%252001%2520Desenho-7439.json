@@ -1,6 +1,6 @@
 {
   "__resolveType": "website/pages/Page.tsx",
-  "name": "PT - Projetos - 01 Desenho",
+  "name": "PT Projetos - 01 Desenho",
   "path": "/projetos/desenho-planejamento-implementacao-politica-municipal-seguranca-publica-rio-de-janeiro",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
@@ -9,17 +9,13 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "Header"
+        "__resolveType": "PT Header"
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Hero.tsx",
-        "image": {
-          "src": "https://assets.decocache.com/novo-leme/1761d18c-f63c-4765-925d-42ce437227ae/hero-projetos.svg"
-        },
-        "marginTop": true
+        "__resolveType": "Hero Projetos"
       }
     },
     {
@@ -117,7 +113,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "Footer"
+        "__resolveType": "PT Footer"
       }
     }
   ]
