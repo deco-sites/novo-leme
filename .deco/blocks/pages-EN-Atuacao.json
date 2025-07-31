@@ -1,7 +1,7 @@
 {
   "__resolveType": "website/pages/Page.tsx",
-  "name": "EN Atuacao",
-  "path": "/en/activities",
+  "name": "EN Our Work",
+  "path": "/en/our-work",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },

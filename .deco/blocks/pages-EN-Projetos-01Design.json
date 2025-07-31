@@ -1,7 +1,7 @@
 {
   "__resolveType": "website/pages/Page.tsx",
   "name": "EN Projects - 01 Design",
-  "path": "/en/projetos/desenho-planejamento-implementacao-politica-municipal-seguranca-publica-rio-de-janeiro",
+  "path": "/en/projects/design-planning-implementation-municipal-public-security-policy-rio-de-janeiro",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },
@@ -24,10 +24,11 @@
         "__resolveType": "site/sections/Projeto/Header.tsx",
         "page": {
           "__resolveType": "blog/loaders/BlogPostPage.ts",
-          "slug": "desenho-planejamento-implementacao-politica-municipal-seguranca-publica-rio-de-janeiro"
+          "slug": "design-planning-implementation-municipal-public-security-policy-rio-de-janeiro"
         },
         "config": {
-          "categorySlug": "projetos"
+          "categorySlug": "en/projects",
+          "removeCategoryFromTags": "en-projetos"
         }
       }
     },
@@ -107,7 +108,9 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Projeto/MoreProjects.tsx"
+        "__resolveType": "site/sections/Projeto/MoreProjects.tsx",
+        "label": "View more projects",
+        "url": "/en/projects"
       }
     },
     {

@@ -54,7 +54,7 @@
         "__resolveType": "blog/loaders/BlogpostList.ts",
         "postSlugs": [],
         "sortBy": "date_desc",
-        "slug": "projetos"
+        "slug": "en-projetos"
       },
       "title": "Projects",
       "description": "Learn about our work through our projects",
@@ -69,7 +69,7 @@
       },
       "label": "test",
       "config": {
-        "categorySlug": "projects"
+        "categorySlug": "en/projects"
       }
     },
     {
@@ -80,7 +80,7 @@
           "__resolveType": "blog/loaders/BlogpostList.ts",
           "postSlugs": [],
           "sortBy": "date_desc",
-          "slug": "events-participation"
+          "slug": "en-eventos-participacao"
         },
         "labels": {
           "online": "Online",

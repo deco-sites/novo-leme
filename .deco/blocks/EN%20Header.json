@@ -8,8 +8,8 @@
         "sublinks": []
       },
       {
-        "label": "Activities",
-        "url": "/en/activities",
+        "label": "Our Work",
+        "url": "/en/our-work",
         "sublinks": []
       },
       {
@@ -66,5 +66,11 @@
       "label": "EN",
       "url": "/en"
     }
-  ]
+  ],
+  "logo": {
+    "href": "/en",
+    "src": "https://assets.decocache.com/novo-leme/f2158298-142d-4585-8f72-5b77b71ca9b5/Logo.svg",
+    "alt": "Leme logo"
+  },
+  "currentLanguage": "EN"
 }

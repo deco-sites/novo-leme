@@ -1,0 +1,8 @@
+{
+  "name": "collections/blog/categories/837d2e4d29cc",
+  "__resolveType": "blog/loaders/Category.ts",
+  "category": {
+    "name": "Projects",
+    "slug": "en-projetos"
+  }
+}

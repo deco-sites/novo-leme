@@ -1,0 +1,8 @@
+{
+  "name": "collections/blog/categories/3b320d54283b",
+  "__resolveType": "blog/loaders/Category.ts",
+  "category": {
+    "name": "In the Media",
+    "slug": "en-na-midia"
+  }
+}

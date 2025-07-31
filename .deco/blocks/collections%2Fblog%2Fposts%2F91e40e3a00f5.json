@@ -1,0 +1,55 @@
+{
+  "name": "collections/blog/posts/91e40e3a00f5",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Events participation",
+        "slug": "en-eventos-participacao"
+      }
+    ],
+    "imageCarousel": {
+      "banners": [
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/90384b7e-6aa3-465a-823e-2aa8e34a87a1/1744397717_20250327_Fonacriad-(2).webp"
+          },
+          "mobile": {},
+          "alt": "First Technical Meeting of FONACRIAD"
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/7bafe280-29e3-497a-aad9-03e69179e5af/1744397717_20250327_Fonacriad-(5).webp"
+          },
+          "mobile": {},
+          "alt": "First Technical Meeting of FONACRIAD"
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/fd83c2e1-c872-4de5-88fe-a184078581a9/1744397717_20250327_Fonacriad-(7).webp"
+          },
+          "mobile": {},
+          "alt": "First Technical Meeting of FONACRIAD"
+        }
+      ]
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "excerpt": "The 1st Technical Meeting of the National Forum of Managers of the Socio-Educational Assistance System (FONACRIAD), held in São Paulo and promoted by the CASA Foundation, brought together managers from across the country, specialists and authorities to discuss guidelines for strengthening mental health in the socio-educational system.",
+    "title": "First Technical Meeting of FONACRIAD",
+    "image": "https://assets.decocache.com/novo-leme/e20356c1-b04a-4580-bac4-439f1276d89f/evento-3.webp",
+    "date": "2025-03-28",
+    "slug": "first-technical-meeting-fonacriad",
+    "content": "<p>The 1st Technical Meeting of the National Forum of Managers of the Socio-Educational Assistance System (FONACRIAD), held in São Paulo and promoted by the CASA Foundation, brought together managers from across the country, specialists and authorities to discuss guidelines for strengthening mental health in the socio-educational system.</p>"
+  }
+}

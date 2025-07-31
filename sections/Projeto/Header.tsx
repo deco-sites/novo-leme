@@ -7,6 +7,7 @@ export interface Props {
   config?: {
     /** @title Prefix URL */
     categorySlug?: string;
+    removeCategoryFromTags?: string;
   },
 }
 
@@ -31,7 +32,7 @@ const DEFAULT_PROPS: BlogPost = {
 
 export default function Header({
   page,
-  config = { categorySlug: '' },
+  config = { categorySlug: '', removeCategoryFromTags: 'projetos' },
 }: Props) {
   const { title, categories, extraProps } = page?.post || DEFAULT_PROPS;
   const pDate = extraProps?.find(item => item.key === "date");
@@ -39,7 +40,7 @@ export default function Header({
   const pStatus = extraProps?.find(item => item.key === "status");
   const catTags = []
   categories.map((cat) =>  {
-    config.categorySlug !== cat.slug ? catTags.push(cat.name) : '';
+    config.removeCategoryFromTags !== cat.slug ? catTags.push(cat.name) : '';
   })
 
   return (

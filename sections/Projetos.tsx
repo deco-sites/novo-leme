@@ -9,13 +9,14 @@ export interface Props {
   config?: {
     /** @title Prefix URL */
     categorySlug?: string;
+    removeCategoryFromTags?: string;
   },
 }
 
 export default function Projetos({
   sidebarNav,
   posts,
-  config = { categorySlug: '' },
+  config = { categorySlug: '', removeCategoryFromTags: 'projetos' },
 }: Props) {
   return (
     <div className="container px-6 md:px-44 flex flex-col md:flex-row gap-12 md:gap-44 my-6 md:my-12 text-neutral-950">
@@ -29,7 +30,7 @@ export default function Projetos({
           const pStatus = post.extraProps?.find(item => item.key === "status");
           const categories = []
           post.categories.map((cat) =>  {
-            config.categorySlug !== cat.slug ? categories.push(cat.name) : '';
+            config.removeCategoryFromTags !== cat.slug ? categories.push(cat.name) : '';
           })
 
           return (

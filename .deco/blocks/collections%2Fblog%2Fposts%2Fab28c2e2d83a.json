@@ -1,0 +1,46 @@
+{
+  "name": "collections/blog/posts/ab28c2e2d83a",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Projects",
+        "slug": "en-projetos"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [
+      {
+        "key": "date",
+        "value": "2025-atual"
+      },
+      {
+        "key": "status",
+        "value": "In progress"
+      },
+      {
+        "key": "place",
+        "value": "Rio de Janeiro City"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Design, planning and implementation of the Municipal Public Security Policy of the City of Rio de Janeiro",
+    "excerpt": "This project aims to provide technical assistance to the City of Rio de Janeiro in creating a municipal public safety policy guided by data, scientific evidence and international best practices.",
+    "content": "<p>This project aims to provide technical assistance to the City of Rio de Janeiro in creating a municipal public safety policy guided by data, scientific evidence and international best practices.</p>",
+    "slug": "design-planning-implementation-municipal-public-security-policy-rio-de-janeiro",
+    "date": "2025-01-02",
+    "image": "https://assets.decocache.com/novo-leme/4d6890c1-f5d8-49a7-b294-9c58d954ff6d/projeto-1.webp"
+  }
+}
