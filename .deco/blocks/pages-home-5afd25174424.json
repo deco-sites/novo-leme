@@ -22,15 +22,6 @@
         "image": {
           "src": "https://assets.decocache.com/novo-leme/d7de9589-1bf4-4016-bff7-1c922a6df2ef/Grafico-atuacao-v7.svg"
         },
-        "cicleImage": {
-          "title": "Nossa atuação",
-          "step1": "<p><strong>Identificação</strong> de lideranças engajadas e refinamento de programa com os parceiros</p>",
-          "step2": "<p><strong>Desenho</strong> ou refinamento de programas</p>",
-          "step3": "<p><strong>Teste e acompanhamento</strong> de implementação</p>",
-          "step4": "<p><strong>Desenho e execução</strong> da avaliação de impacto com protocolo de tratamento e controle</p>",
-          "step5": "<p><strong>Aprimoramento</strong> do programa a partir do aprendizado da avaliação</p>",
-          "step6": "<p><strong>Promoção</strong> de programas efetivos e escaláveis</p>"
-        },
         "text": "O Leme é uma organização sem fins lucrativos que atua em parceria com instituições de Segurança Pública e Justiça e com Organizações.",
         "links": [
           {
@@ -45,7 +36,16 @@
             "label": "Nossa Equipe",
             "url": "/sobre/equipe"
           }
-        ]
+        ],
+        "cycleImage": {
+          "title": "Nossa atuação",
+          "step1": "<p><strong>Identificação</strong> de lideranças engajadas e refinamento de programa com os parceiros</p>",
+          "step2": "<p><strong>Desenho</strong> ou refinamento de programas</p>",
+          "step3": "<p><strong>Teste e acompanhamento</strong> de implementação</p>",
+          "step4": "<p><strong>Desenho e execução</strong> da avaliação de impacto com protocolo de tratamento e controle</p>",
+          "step5": "<p><strong>Aprimoramento</strong> do programa a partir do aprendizado da avaliação</p>",
+          "step6": "<p><strong>Promoção</strong> de programas efetivos e escaláveis</p>"
+        }
       }
     },
     {

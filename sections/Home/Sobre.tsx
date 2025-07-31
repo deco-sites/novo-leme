@@ -1,11 +1,11 @@
 import Placeholder from  "../../components/ui/SectionPlaceholder.tsx";
-import Cicle, { Props as CicleProps } from  "../../components/ui/Cicle.tsx";
+import Cycle, { Props as CycleProps } from  "../../components/ui/Cycle.tsx";
 import FancyLink from  "../../components/ui/FancyLink.tsx";
 
 export interface Nav {
   /** @format textarea */
   text?: string;
-  cicleImage?: CicleProps;
+  cycleImage?: CycleProps;
   links?: {
     label?: string;
     url?: string;
@@ -14,7 +14,7 @@ export interface Nav {
 
 export default function About({
   text,
-  cicleImage,
+  cycleImage,
   links,
 }: Nav) {
   return (
@@ -22,14 +22,14 @@ export default function About({
       <div className="text-2xl md:text-5xl leading-tight font-serif">
         {text}
       </div>
-      <Cicle
-        title={cicleImage?.title}
-        step1={cicleImage?.step1}
-        step2={cicleImage?.step2}
-        step3={cicleImage?.step3}
-        step4={cicleImage?.step4}
-        step5={cicleImage?.step5}
-        step6={cicleImage?.step6}
+      <Cycle
+        title={cycleImage?.title}
+        step1={cycleImage?.step1}
+        step2={cycleImage?.step2}
+        step3={cycleImage?.step3}
+        step4={cycleImage?.step4}
+        step5={cycleImage?.step5}
+        step6={cycleImage?.step6}
       />
       {
         links && links.length > 0 ? (

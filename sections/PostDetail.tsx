@@ -53,7 +53,7 @@ export default function PostDetail({
     <div className="container px-6 md:px-12 flex flex-col md:flex-row gap-8 md:gap-44 my-6 md:my-12">
       <SideNav links={sidebarNav?.links} button={sidebarNav?.button}/>
       <div className="flex flex-auto flex-col gap-9">
-        <div className="flex flex-col gap-7">
+        <div className="flex flex-col gap-3">
           <Title label={title} serif titleSize="4xl" noClamp />
             {date ? (
               <div class="flex flex-wrap gap-3">
@@ -81,12 +81,25 @@ export default function PostDetail({
                 <Title label="Galeria" titleSize="2xl" serif />
               </div>
               <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+                {/* Mobile */}
+                {imageCarousel?.banners?.map((image, index) => (
+                  <div className="md:hidden">
+                    <Image
+                      className="w-full object-cover aspect-video max-h-[600px] md:hover:scale-105 transition-all duration-200"
+                      width={500}
+                      src={image.desktop.image || ""}
+                      alt={image.alt || ""}
+                    />
+                  </div>
+                ))}
+
+                {/* Desktop */}
                 <a id="images" className="hidden" />
                 {imageCarousel?.banners?.map((image, index) => (
-                  <div>
+                  <div className="hidden md:block">
                     <a href={`#modal-${index}`} className="cursor-zoom-in">
                       <Image
-                        className="w-full object-cover aspect-video max-h-[600px] hover:scale-105 transition-all duration-200"
+                        className="w-full object-cover aspect-video max-h-[600px] md:hover:scale-105 transition-all duration-200"
                         width={500}
                         src={image.desktop.image || ""}
                         alt={image.alt || ""}

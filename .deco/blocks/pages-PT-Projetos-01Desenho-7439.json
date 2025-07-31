@@ -27,7 +27,8 @@
           "slug": "desenho-planejamento-implementacao-politica-municipal-seguranca-publica-rio-de-janeiro"
         },
         "config": {
-          "categorySlug": "projetos"
+          "categorySlug": "projetos",
+          "removeCategoryFromTags": "projetos"
         }
       }
     },

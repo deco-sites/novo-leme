@@ -56,7 +56,7 @@ export default function SobreEquipe({
                       </div>
                       {
                         person.links?.website || person.links?.lattes || person.links?.linkedin ? (
-                          <ul className="flex flex-wrap gap-3 md:gap-4 text-secondary text-sm">
+                          <ul className="flex flex-wrap gap-x-6 gap-y-2 md:gap-4 text-secondary text-sm">
                             {
                               person.links?.website ? (
                                 <li>
@@ -99,7 +99,7 @@ export default function SobreEquipe({
                       }
                     </div>
                     <div className="line-clamp-3 text-sm text-neutral-950">{person.description}</div>
-                    <div className="invisible group-hover:visible"><a href={`#team-${indexGroup}-${index}`} className="font-semibold underline">{viewMoreText}</a></div>
+                    <div className="md:invisible md:group-hover:visible"><a href={`#team-${indexGroup}-${index}`} className="font-semibold underline">{viewMoreText}</a></div>
                   </div>
 
                   {/* Modal */}
@@ -111,7 +111,7 @@ export default function SobreEquipe({
                       href="#list"
                       className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 backdrop-blur-sm z-1 cursor-default"
                     ></a>
-                    <div className="flex gap-5 relative max-w-[780px] max-h-96 border-2 border-primary bg-white rounded-lg p-7 shadow-xl">
+                    <div className="flex flex-col md:flex-row gap-5 relative mx-4 max-w-[780px] md:max-h-96 border-2 border-primary bg-white rounded-lg p-7 shadow-xl">
                       <a href="#list" className="absolute right-5 top-5" >
                         <svg  xmlns="http://www.w3.org/2000/svg"  width="20"  height="20"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.5"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-x"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 6l-12 12" /><path d="M6 6l12 12" /></svg>
                       </a>
@@ -168,7 +168,7 @@ export default function SobreEquipe({
                             ) : ''
                           }
                         </div>
-                        <div className="flex-auto overflow-y-auto text-sm text-neutral-950 leading-normal">{person.description}</div>
+                        <div className="flex-auto overflow-y-auto max-h-[300px] md:max-h-max text-sm text-neutral-950 leading-normal">{person.description}</div>
                       </div>
                     </div>
                   </div>

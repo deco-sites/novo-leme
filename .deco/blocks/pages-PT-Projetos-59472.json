@@ -46,7 +46,8 @@
           "slug": "projetos"
         },
         "config": {
-          "categorySlug": "projetos"
+          "categorySlug": "projetos",
+          "removeCategoryFromTags": "projetos"
         }
       }
     },

@@ -70,8 +70,8 @@ export default function NewHeader({ logo = {
       <div className="flex md:hidden px-2 pt-6 justify-between z-30">
         {/* Logo */}
         <div className="flex items-center">
-          <a href={logo.href || "/"} className="block w-44 sm:w-auto">
-            <Image src={logo.src || ""} width={320} height={72} alt={logo.alt}/>
+          <a href={logo.href || "/"} className="block w-52 sm:w-auto">
+            <Image src={logo.src || ""} width={340} height={72} alt={logo.alt}/>
           </a>
         </div>
 

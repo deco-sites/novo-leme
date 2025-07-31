@@ -24,7 +24,7 @@ export default function CardDocument({
     <a
       href={url}
       target="_blank"
-      className="border-2 border-[#72C8ED] hover:bg-white hover:border-secondary hover:scale-105 transition-all rounded-lg flex flex-col gap-3 p-4"
+      className="border-2 border-[#72C8ED] md:hover:bg-white md:hover:border-secondary md:hover:scale-105 transition-all rounded-lg flex flex-col gap-3 p-4"
     >
       <div className="flex gap-2">
         <div className="flex-none">

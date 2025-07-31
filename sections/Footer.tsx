@@ -59,7 +59,7 @@ export default function NewFooter({
               </a>
             ))}
           </nav>
-          <div className="flex flex-col md:flex-row md:items-center gap-12 flex-none text-sm px-3 md:px-12 md:py-8">
+          <div className="flex flex-col md:flex-row md:items-center gap-12 flex-none text-sm px-3 md:px-12 py-2 md:py-8">
             <div className="flex-none flex justify-end items-center gap-3">
               <a href="/" target="_blank">
                   <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
