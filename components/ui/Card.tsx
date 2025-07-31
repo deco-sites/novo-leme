@@ -51,12 +51,6 @@ export default function Card({
     rgbHover = '0,82,112,1';
   }
 
-  const formattedDate = date ? new Date(date).toLocaleDateString("pt-BR", {
-    year: "numeric",
-    month: "short",
-    day: "numeric",
-  }) : null;
-
   return (
     <a
       key={label}
@@ -69,7 +63,7 @@ export default function Card({
           <Image class={`${orientation === "horizontal" ? '' : ''} w-full rounded-md`} src={image?.src || ""} alt={image?.alt} />
           {
             date ? (
-              <div className="absolute left-3 bottom-3 bg-base-100 rounded-md text-xs px-1 py-[2px]">{formattedDate}</div>
+              <div className="absolute left-3 bottom-3 bg-base-100 rounded-md text-xs px-1 py-[2px]">{date}</div>
             ) : ''
           }
         </div>

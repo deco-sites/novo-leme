@@ -103,7 +103,7 @@
           "__resolveType": "blog/loaders/BlogpostList.ts",
           "postSlugs": [],
           "sortBy": "date_desc",
-          "slug": "noticias"
+          "slug": "en-noticias"
         },
         "title": "News",
         "description": "Stay up to date with Leme's latest news",
@@ -118,7 +118,7 @@
         },
         "config": {
           "showPostDate": true,
-          "categorySlug": "media/news"
+          "categorySlug": "en/media/news"
         }
       }
     },
@@ -144,7 +144,7 @@
         },
         "config": {
           "showPostDate": true,
-          "categorySlug": "media"
+          "categorySlug": "en/media"
         }
       }
     },

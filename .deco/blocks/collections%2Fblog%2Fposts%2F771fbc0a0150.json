@@ -1,0 +1,33 @@
+{
+  "name": "collections/blog/posts/771fbc0a0150",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "News",
+        "slug": "en-noticias"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "excerpt": "Last week, Leme – Laboratory for Violence Reduction was approved in the Talent Attraction and Retention program of the Conhecimento Brasil program, an initiative of the National Council for Scientific and Technological Development (CNPq), with funding from the National Fund for Scientific and Technological Development (FNDCT) and managed by the Ministry of Science, Technology and Innovation (MCTI). The public call aimed to repatriate Brazilian scientists working abroad or who completed their doctorates or postdoctoral studies outside Brazil since 2019.",
+    "title": "Leme is approved in a CNPq call for proposals to map the territorial presence of armed criminal groups in Rio de Janeiro",
+    "date": "2024-06-05",
+    "slug": "leme-approved-cnpq-call-map-territorial-presence-armed-criminal-groups-rio-de-janeiro",
+    "content": "<p>Last week, Leme – Laboratory for Violence Reduction was approved in the Talent Attraction and Retention program of the Conhecimento Brasil program, an initiative of the National Council for Scientific and Technological Development (CNPq), with funding from the National Fund for Scientific and Technological Development (FNDCT) and managed by the Ministry of Science, Technology, and Innovation (MCTI). The public call aimed to repatriate Brazilian scientists working abroad or who completed their doctorate or postdoctoral studies outside of Brazil since 2019.</p><p></p><p>The project will be coordinated by economist and PhD Joana Monteiro, and will include the participation of researchers Mathias Lusquinos, who holds a master's degree from the University of Chicago (USA), and Ana Paula Pellegrino, a doctoral candidate at Georgetown University (USA). The project is expected to be completed this semester. During the research, the researchers will return to Brazil to contribute to the development of the research based on their international experiences.</p><p>The team will also have the support of Ramón Chaves, a researcher and project leader at Leme, and associate researchers Santiago Tobón of EAFIT (Colombia), Benjamin Lessing of the University of Chicago (USA), and Eduardo Fagundes, a doctoral student at Pompeu Fabra University (Spain).</p><p></p><p>About the project</p><p></p><p>The approved project seeks to measure the presence and territorial control of armed criminal groups in the Rio de Janeiro Metropolitan Region. In 2019, this work was initiated by Joana Monteiro, along with Ramón Chaves and Eduardo Fagundes, and researcher Mariana Carvalho of Brown University (USA). At the time, the research classified and analyzed anonymous reports from the Disque-Denúncia hotline to identify the presence and activities of these groups, revealing their territorial expansion and the diversity of economic activities they engaged in from 2009 to 2019.</p><p>This time, the current project aims to update and expand the previous mapping in order to understand the recent evolution of these groups' presence. To this end, data from public service providers, social media, news portals, and surveys in partnership with Disque-Denúncia will be used. The research will be divided into two main areas: the first aims to improve the database on economic activity and criminal governance, while the second will evaluate the impact of public policies on the territorial activities of these groups, using quasi-experimental econometric methodologies.</p><p></p><p>The project will last four years. Among the main deliverables are the creation of an updated database with information on the territorial presence, economic activity, and criminal governance of these groups. Furthermore, the team will produce academic articles discussing the measurement methodology and assessing the impact of public policies on reducing violence, to be published in national and international journals. Finally, methodological reports will be prepared to guide public officials and civil society organizations on how to interpret and use the data in formulating evidence-based security policies.</p>",
+    "image": "https://assets.decocache.com/novo-leme/dbbd603d-54a2-4ec9-85bd-2ee55eeeb04d/noticia-capa-1749148864.webp"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "__resolveType": "website/pages/Page.tsx",
-  "name": "PT Midia - Notícia",
-  "path": "/midia/noticias/:slug",
+  "name": "PT Media - News post",
+  "path": "/en/media/news/:slug",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },
@@ -9,7 +9,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "PT Header"
+        "__resolveType": "EN Header"
       }
     },
     {
@@ -21,7 +21,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "PT Title Midia"
+        "__resolveType": "EN Title Media"
       }
     },
     {
@@ -31,12 +31,12 @@
         "sidebarNav": {
           "links": [
             {
-              "label": "Na Mídia",
-              "url": "/midia/na-midia"
+              "label": "In the Media",
+              "url": "/en/media"
             },
             {
-              "label": "Notícias",
-              "url": "/midia/noticias",
+              "label": "News",
+              "url": "/en/media/news",
               "selected": true
             }
           ]
@@ -49,15 +49,15 @@
           }
         },
         "backToNews": {
-          "label": "Ver mais notícias",
-          "url": "/midia/noticias"
+          "label": "View more news",
+          "url": "/en/media/news"
         }
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "PT Footer"
+        "__resolveType": "EN Footer"
       }
     },
     {

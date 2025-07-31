@@ -45,10 +45,10 @@
           "__resolveType": "blog/loaders/BlogpostList.ts",
           "postSlugs": [],
           "sortBy": "date_desc",
-          "slug": "noticias"
+          "slug": "en-noticias"
         },
         "config": {
-          "categorySlug": "midia",
+          "categorySlug": "en/media/news",
           "showPostDate": true
         }
       }

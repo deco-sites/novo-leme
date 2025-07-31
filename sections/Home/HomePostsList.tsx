@@ -78,6 +78,16 @@ export default function PostsList(
                     {posts?.slice(0, 6).map((post, index) => {
                       const url = post.extraProps?.find(item => item.key === "url");
 
+                      let lang = "pt-BR";
+                      if (post.categories.some(item => item.slug.includes("en-"))) lang = "en-US";
+                      if (post.categories.some(item => item.slug.includes("es-"))) lang = "es-ES";
+                    
+                      const formattedDate = post.date ? new Date(post.date).toLocaleDateString(lang, {
+                        year: "numeric",
+                        month: "long",
+                        day: "numeric",
+                      }) : null;
+                    
                       return (
                         <Slider.Item
                         index={index}
@@ -88,7 +98,7 @@ export default function PostsList(
                             image={{src: post.image, alt: ''}}
                             label={post.title}
                             description={post.excerpt}
-                            date={config.showPostDate ? post.date : ''}
+                            date={config.showPostDate ? formattedDate : ''}
                             url={url?.value || `/${config.categorySlug}/${post.slug}`}
                             newTab={url?.value ? true : false}
                           />
@@ -129,13 +139,23 @@ export default function PostsList(
                 {posts?.slice(0, 6).map((post) =>  {
                   const url = post.extraProps?.find(item => item.key === "url");
 
+                  let lang = "pt-BR";
+                  if (config?.categorySlug?.includes("en/")) lang = "en-US";
+                  if (config?.categorySlug?.includes("es/")) lang = "es-ES";
+                
+                  const formattedDate = post.date ? new Date(post.date).toLocaleDateString(lang, {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                  }) : null;
+
                   return (
                     <Card
                       borderColor="primary"
                       image={{src: post.image, alt: ''}}
                       label={post.title}
                       description={post.excerpt}
-                      date={post.date}
+                      date={formattedDate}
                       url={url?.value || `/${config.categorySlug}/${post.slug}`}
                       newTab={url?.value ? true : false}
                     />

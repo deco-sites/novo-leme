@@ -26,13 +26,23 @@ export default function PostsList({
           {posts?.slice(0, 30).map((post) =>  {
             const url = post.extraProps?.find(item => item.key === "url");
 
+            let lang = "pt-BR";
+            if (config?.categorySlug?.includes("en/")) lang = "en-US";
+            if (config?.categorySlug?.includes("es/")) lang = "es-ES";
+    
+            const formattedDate = post.date ? new Date(post.date).toLocaleDateString(lang, {
+              year: "numeric",
+              month: "long",
+              day: "numeric",
+            }) : null;
+
             return (
               <Card
                 borderColor="primary"
                 image={{src: post.image, alt: ''}}
                 label={post.title}
                 description={post.excerpt}
-                date={post.date}
+                date={formattedDate}
                 url={url?.value || `/${config.categorySlug}/${post.slug}`}
                 newTab={url?.value ? true : false}
               />

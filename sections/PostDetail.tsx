@@ -38,8 +38,12 @@ export default function PostDetail({
   page,
   backToNews,
 }: Props) {
-  const { title, image, date, content, imageCarousel } = page?.post || DEFAULT_PROPS;
-  const formattedDate = date ? new Date(date).toLocaleDateString("pt-BR", {
+  const { title, image, date, categories, content, imageCarousel } = page?.post || DEFAULT_PROPS;
+  let lang = "pt-BR";
+  if (categories.some(item => item.slug.includes("en-"))) lang = "en-US";
+  if (categories.some(item => item.slug.includes("es-"))) lang = "es-ES";
+
+  const formattedDate = date ? new Date(date).toLocaleDateString(lang, {
     year: "numeric",
     month: "long",
     day: "numeric",
