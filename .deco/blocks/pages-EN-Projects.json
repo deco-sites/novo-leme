@@ -24,7 +24,7 @@
         "__resolveType": "site/sections/PageTitle.tsx",
         "description": "Discover our work through our projects",
         "title": "Projects",
-        "width": "normal"
+        "width": "wide"
       }
     },
     {
@@ -48,6 +48,15 @@
         "config": {
           "categorySlug": "en/projects",
           "removeCategoryFromTags": "en-projetos"
+        },
+        "texts": {
+          "areas": "Axes of action",
+          "allAreas": "All",
+          "locations": "Locations",
+          "allLocations": "All",
+          "statuses": "Statuses",
+          "allStatuses": "All",
+          "noResults": "No projects found. Try other filters."
         }
       }
     },

@@ -24,7 +24,7 @@
         "__resolveType": "site/sections/PageTitle.tsx",
         "description": "Conheça nossa atuação através dos nossos projetos",
         "title": "Projetos",
-        "width": "normal"
+        "width": "wide"
       }
     },
     {

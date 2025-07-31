@@ -36,9 +36,9 @@ export default function Header({
 }: Props) {
   const { title, categories, extraProps } = page?.post || DEFAULT_PROPS;
   const pDate = extraProps?.find(item => item.key === "date");
-  const pPlace = extraProps?.find(item => item.key === "place");
+  const pLocation = extraProps?.find(item => item.key === "location");
   const pStatus = extraProps?.find(item => item.key === "status");
-  const catTags = []
+  const catTags: string[] = []
   categories.map((cat) =>  {
     config.removeCategoryFromTags !== cat.slug ? catTags.push(cat.name) : '';
   })
@@ -53,7 +53,7 @@ export default function Header({
             <Tag label={tag}/>
           ))}
           {pDate ? <Tag type="date" label={pDate.value} color="secondary"/> : ''}
-          {pPlace ? <Tag type="place" label={pPlace.value} color="secondary"/> : ''}
+          {pLocation ? <Tag type="location" label={pLocation.value} color="secondary"/> : ''}
           {pStatus ? <Tag type="status" label={pStatus.value} color="secondary"/> : ''}
         </div>
       </div>

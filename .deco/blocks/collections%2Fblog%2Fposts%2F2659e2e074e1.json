@@ -7,12 +7,29 @@
       {
         "name": "Projetos",
         "slug": "projetos"
+      },
+      {
+        "name": "Enfrentamento da Violência Contra a Mulher",
+        "slug": "enfrentamento-violencia-contra-mulher"
       }
     ],
     "imageCarousel": {
       "banners": []
     },
-    "extraProps": [],
+    "extraProps": [
+      {
+        "key": "date",
+        "value": "2024-2025"
+      },
+      {
+        "key": "location",
+        "value": "Estado do Rio de Janeiro"
+      },
+      {
+        "key": "status",
+        "value": "Concluído"
+      }
+    ],
     "aggregateRating": {
       "@type": "AggregateRating"
     },

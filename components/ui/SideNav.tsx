@@ -8,15 +8,17 @@ export interface Props {
     label?: string;
     url?: string;
   }
+  mobileOrientation?: "horizontal" | "vertical"
 }
 
 export default function SideNav({
   links = [],
   button,
+  mobileOrientation = "horizontal",
 }: Props) {
   return (
     <div className="flex-none flex flex-col gap-6">
-      <ul className="flex md:flex-col gap-4 md:gap-2">
+      <ul className={`flex ${mobileOrientation === "vertical" ? "flex-col gap-2" : "flex-row gap-4"} md:flex-col md:gap-2`}>
         {links?.map((item) => (
           <li><a className={`font-semibold ${item.selected ? 'text-secondary' : 'text-primary hover:underline'}`} href={item.url}>{item.label}</a></li>
         ))}

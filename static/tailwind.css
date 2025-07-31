@@ -2900,6 +2900,9 @@ input.tab:checked + .tab-content,
 .w-52 {
   width: 13rem;
 }
+.w-56 {
+  width: 14rem;
+}
 .w-64 {
   width: 16rem;
 }
@@ -3474,6 +3477,9 @@ input.tab:checked + .tab-content,
 }
 .p-1 {
   padding: 0.25rem;
+}
+.p-10 {
+  padding: 2.5rem;
 }
 .p-2 {
   padding: 0.5rem;
@@ -4183,6 +4189,16 @@ input.tab:checked + .tab-content,
     margin-right: 4rem;
   }
 
+  .md\:mx-4 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .md\:mx-6 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
   .md\:my-12 {
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -4239,6 +4255,10 @@ input.tab:checked + .tab-content,
 
   .md\:mt-28 {
     margin-top: 7rem;
+  }
+
+  .md\:mt-6 {
+    margin-top: 1.5rem;
   }
 
   .md\:line-clamp-1 {

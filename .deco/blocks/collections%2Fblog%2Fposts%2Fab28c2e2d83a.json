@@ -7,6 +7,10 @@
       {
         "name": "Projects",
         "slug": "en-projetos"
+      },
+      {
+        "name": "Expansion of Municipal Protagonism",
+        "slug": "expansion-of-municipal-protagonism"
       }
     ],
     "imageCarousel": {
@@ -15,14 +19,14 @@
     "extraProps": [
       {
         "key": "date",
-        "value": "2025-atual"
+        "value": "2025-current"
       },
       {
         "key": "status",
         "value": "In progress"
       },
       {
-        "key": "place",
+        "key": "location",
         "value": "Rio de Janeiro City"
       }
     ],

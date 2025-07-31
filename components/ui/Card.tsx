@@ -18,7 +18,7 @@ export interface Props {
   tags?: string[];
   details?: {
     date?: string;
-    place?: string;
+    location?: string;
     status?: string;
   }
   newTab?: boolean;
@@ -81,7 +81,7 @@ export default function Card({
           <Tag label={tag}/>
         ))}
         {details?.date ? <Tag type="date" label={details?.date} color="secondary"/> : ''}
-        {details?.place ? <Tag type="place" label={details?.place} color="secondary"/> : ''}
+        {details?.location ? <Tag type="location" label={details?.location} color="secondary"/> : ''}
         {details?.status ? <Tag type="status" label={details?.status} color="secondary"/> : ''}
       </div>
       <span class="hidden shadow-[4px_4px_0_rgba(234,115,66,1)] md:hover:shadow-[4px_4px_0_rgba(234,115,66,1)] md:hover:border-primary"></span>
