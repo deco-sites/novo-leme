@@ -15,7 +15,7 @@ export default function FancyLink({
     <a
       key={label}
       href={url}
-      className="flex space-x-4 align-middle bg-base-100 text-secondary hover:text-primary transition-colors duration-200 font-semibold py-2 px-4 border-2 border-transparent hover:border-secondary rounded-md hover:shadow-[2px_2px_0_rgba(234,115,66,1)]"
+      className="flex space-x-4 align-middle bg-base-100 text-secondary md:hover:text-primary transition-colors duration-200 font-semibold py-2 px-4 border-2 border-transparent md:hover:border-secondary rounded-md md:hover:shadow-[2px_2px_0_rgba(234,115,66,1)]"
     >
       {
         iconLeft ? (
