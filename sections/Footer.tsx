@@ -39,14 +39,14 @@ export default function NewFooter({
   copyrightText2 =  "Todos os direitos reservados",
 }: Footer) {
   return (
-    <footer className="mt-16 md:mt-28">
+    <footer className="mt-16 lg:mt-28">
         {/* Logo */}
-        <div className="relative flex items-center justify-center w-full h-48 md:h-[328px] bg-primary overflow-hidden">
-            <Image className="absolute md:w-full object-cover object-center max-w-fit md:max-w-full" src={bgImage || ""} />
+        <div className="relative flex items-center justify-center w-full h-48 lg:h-[328px] bg-primary overflow-hidden">
+            <Image className="absolute 2xl:w-full object-cover object-center max-w-fit 2xl:max-w-full" src={bgImage || ""} />
             <Image className="relative z-10" src={logo.src || ""} width={122} height={71} alt={logo.alt} />
         </div>
-        <div className="container mx-auto flex items-end md:items-center md:space-x-3 py-8 md:py-0">
-          <nav className="flex flex-col md:flex-row flex-auto">
+        <div className="container mx-auto flex items-end lg:items-center lg:space-x-3 py-8 lg:py-0">
+          <nav className="flex flex-col lg:flex-row flex-auto">
             {navigation?.links.map((link) => (
               <a
                 key={link.label}
@@ -59,7 +59,7 @@ export default function NewFooter({
               </a>
             ))}
           </nav>
-          <div className="flex flex-col md:flex-row md:items-center gap-12 flex-none text-sm px-3 md:px-12 py-2 md:py-8">
+          <div className="flex flex-col lg:flex-row lg:items-center gap-12 flex-none text-sm px-3 lg:px-12 py-2 lg:py-8">
             <div className="flex-none flex justify-end items-center gap-3">
               <a href="/" target="_blank">
                   <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -78,8 +78,8 @@ export default function NewFooter({
                   contato@lemelab.org
               </div>
             </div>
-            <div className="flex flex-col md:flex-row gap-2 md:gap-1 items-end">
-                <span>{copyrightText}</span> <span class="hidden md:block">-</span> <span>{copyrightText2}</span>
+            <div className="flex flex-col lg:flex-row gap-2 lg:gap-1 items-end">
+                <span>{copyrightText}</span> <span class="hidden lg:block">-</span> <span>{copyrightText2}</span>
             </div>
           </div>
         </div>

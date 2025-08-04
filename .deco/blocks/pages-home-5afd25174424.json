@@ -3,17 +3,11 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "PT Header"
-      }
+      "__resolveType": "PT Header"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Hero.tsx",
-        "text": "Usamos dados e evidências científicas para fazer do Brasil um país seguro."
-      }
+      "__resolveType": "site/sections/Hero.tsx",
+      "text": "Usamos dados e evidências científicas para fazer do Brasil um país seguro."
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -73,86 +67,74 @@
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Home/Eventos.tsx",
-        "posts": {
-          "__resolveType": "blog/loaders/BlogpostList.ts",
-          "postSlugs": [],
-          "sortBy": "date_desc",
-          "slug": "eventos-participacao"
-        },
-        "labels": {
-          "online": "Online",
-          "presencial": "Presencial"
-        },
-        "button": {
-          "label": "Ver todos os eventos",
-          "url": "/eventos/participacao"
-        },
-        "config": {
-          "categorySlug": "/eventos/participacao"
-        }
+      "__resolveType": "site/sections/Home/Eventos.tsx",
+      "posts": {
+        "__resolveType": "blog/loaders/BlogpostList.ts",
+        "postSlugs": [],
+        "sortBy": "date_desc",
+        "slug": "eventos-participacao"
+      },
+      "labels": {
+        "online": "Online",
+        "presencial": "Presencial"
+      },
+      "button": {
+        "label": "Ver todos os eventos",
+        "url": "/eventos/participacao"
+      },
+      "config": {
+        "categorySlug": "/eventos/participacao"
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Home/HomePostsList.tsx",
-        "posts": {
-          "__resolveType": "blog/loaders/BlogpostList.ts",
-          "postSlugs": [],
-          "sortBy": "date_desc",
-          "slug": "noticias"
-        },
-        "title": "Notícias",
-        "description": "Fique por dentro das novidades do Leme",
-        "button": {
-          "label": "Ver mais notícias",
-          "url": "/midia/noticias"
-        },
-        "style": {
-          "slider": true,
-          "orientation": "Vertical",
-          "background": "Blue"
-        },
-        "config": {
-          "showPostDate": true,
-          "categorySlug": "midia/noticias"
-        }
+      "__resolveType": "site/sections/Home/HomePostsList.tsx",
+      "posts": {
+        "__resolveType": "blog/loaders/BlogpostList.ts",
+        "postSlugs": [],
+        "sortBy": "date_desc",
+        "slug": "noticias"
+      },
+      "title": "Notícias",
+      "description": "Fique por dentro das novidades do Leme",
+      "button": {
+        "label": "Ver mais notícias",
+        "url": "/midia/noticias"
+      },
+      "style": {
+        "slider": true,
+        "orientation": "Vertical",
+        "background": "Blue"
+      },
+      "config": {
+        "showPostDate": true,
+        "categorySlug": "midia/noticias"
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Home/HomePostsList.tsx",
-        "posts": {
-          "__resolveType": "blog/loaders/BlogpostList.ts",
-          "postSlugs": [],
-          "sortBy": "date_desc",
-          "slug": "na-midia"
-        },
-        "title": "Na Mídia",
-        "description": "Reportagens sobre o Leme nos principais veículos de comunicação",
-        "button": {
-          "label": "Ver todas as reportagens",
-          "url": "/midia"
-        },
-        "style": {
-          "orientation": "Horizontal",
-          "background": "Neutral"
-        },
-        "config": {
-          "showPostDate": true,
-          "categorySlug": "midia"
-        }
+      "__resolveType": "site/sections/Home/HomePostsList.tsx",
+      "posts": {
+        "__resolveType": "blog/loaders/BlogpostList.ts",
+        "postSlugs": [],
+        "sortBy": "date_desc",
+        "slug": "na-midia"
+      },
+      "title": "Na Mídia",
+      "description": "Reportagens sobre o Leme nos principais veículos de comunicação",
+      "button": {
+        "label": "Ver todas as reportagens",
+        "url": "/midia"
+      },
+      "style": {
+        "orientation": "Horizontal",
+        "background": "Neutral"
+      },
+      "config": {
+        "showPostDate": true,
+        "categorySlug": "midia"
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "PT Footer"
-      }
+      "__resolveType": "PT Footer"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
