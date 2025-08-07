@@ -4,8 +4,9 @@ import SideNav, { Props as SideNavProps } from  "../components/ui/SideNav.tsx";
 import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Title from  "../components/ui/Title.tsx";
-import Tag from  "../components/ui/Tag.tsx";
 import FancyLink from  "../components/ui/FancyLink.tsx";
+import { Section } from "deco/blocks/section.ts";
+import { text } from "node:stream/consumers";
 
 export interface Props {
   sidebarNav?: SideNavProps;
@@ -39,18 +40,7 @@ export interface Props {
     label?: string;
     image?: ImageWidget;
   }[];
-  texts?: {
-    description?: string;
-    date?: string;
-    dateStart?: string;
-    dateEnd?: string;
-    location?: string;
-    register?: string;
-    gallery?: string;
-    organization?: string;
-    partners?: string;
-    sponsors?: string;
-  }
+  texts?: Section;
   backToEvents?: {
     label?: string;
     url?: string;
@@ -74,7 +64,14 @@ export default function PostDetail({
   sponsors,
   gallery,
   date,
-  texts = {
+  texts,
+  backToEvents = {
+    label: "Ver outros eventos",
+    url: "/eventos",
+  },
+}: Props) {
+  const { title, categories } = page?.post || DEFAULT_PROPS;
+  const newTexts = texts?.props || {
     description: "Descrição",
     date: "Data",
     dateStart: "Início",
@@ -85,13 +82,8 @@ export default function PostDetail({
     organization: "Organização",
     partners: "Parceiros",
     sponsors: "Financiadores",
-  },
-  backToEvents = {
-    label: "Ver outros eventos",
-    url: "/eventos",
-  },
-}: Props) {
-  const { title, categories } = page?.post || DEFAULT_PROPS;
+  }
+
   let lang = "pt-BR";
   if (categories.some(item => item.slug.includes("en-"))) lang = "en-US";
   if (categories.some(item => item.slug.includes("es-"))) lang = "es-ES";
@@ -120,25 +112,25 @@ export default function PostDetail({
         <div className="flex flex-col md:flex-row gap-4 md:gap-12">
           <div className="flex flex-col gap-3">
             <div className="text-primary">
-              <Title label={texts?.description} titleSize="2xl" serif />
+              <Title label={newTexts?.description} titleSize="2xl" serif />
             </div>
             <div className="leading-relaxed text-neutral-950 space-y-6" dangerouslySetInnerHTML={{__html: description}}></div>
           </div>
           <div className="flex flex-col flex-none w-80 gap-5">
             <div className="flex flex-col gap-3">
               <div className="text-primary">
-                <Title label={texts?.date} titleSize="2xl" serif />
+                <Title label={newTexts?.date} titleSize="2xl" serif />
               </div>
               <div className="flex flex-col gap-1">
                 {formattedDate && formattedDate !== '' ? (
                   <div class="">
-                    {formattedDateEnd && <span>{texts?.dateStart}:{` `}</span>}
+                    {formattedDateEnd && <span>{newTexts?.dateStart}:{` `}</span>}
                     <span className="font-semibold text-neutral-950">{formattedDate}</span>
                   </div>
                 ) : ''}
                 {formattedDateEnd && formattedDateEnd !== '' ? (
                   <div class="">
-                    <span>{texts?.dateEnd}:{` `}</span>
+                    <span>{newTexts?.dateEnd}:{` `}</span>
                     <span className="font-semibold text-neutral-950">{formattedDateEnd}</span>
                   </div>
                 ) : ''}
@@ -146,7 +138,7 @@ export default function PostDetail({
             </div>
             <div className="flex flex-col gap-3 text-neutral-950">
               <div className="text-primary">
-                <Title label={texts?.location} titleSize="2xl" serif />
+                <Title label={newTexts?.location} titleSize="2xl" serif />
               </div>
               <div className="flex flex-col gap-1">
                 <div className="font-semibold">{location?.name}</div>
@@ -156,7 +148,7 @@ export default function PostDetail({
             {registrationUrl && (
               <div className="flex gap-1 mt-2">
                 <a href={registrationUrl} target="_blank" className="flex gap-4 align-middle bg-base-100 text-primary hover:bg-primary hover:text-white transition-colors duration-200 font-semibold py-2 px-4 border-2 border-secondary rounded-md shadow-[2px_2px_0_rgba(234,115,66,1)]">
-                  {texts?.register}
+                  {newTexts?.register}
                 </a>
               </div>
             )}
@@ -167,7 +159,7 @@ export default function PostDetail({
           organization && organization?.length > 0 && (
             <div className="flex flex-col gap-5">
               <div className="text-primary">
-                <Title label={texts?.organization} titleSize="2xl" serif />
+                <Title label={newTexts?.organization} titleSize="2xl" serif />
               </div>
               <div className="flex flex-col md:flex-row gap-7 max-h-[70px] flex-wrap">
                 {organization?.map((item) => (
@@ -185,7 +177,7 @@ export default function PostDetail({
           partners && partners?.length > 0 && (
             <div className="flex flex-col gap-5">
               <div className="text-primary">
-                <Title label={texts?.partners} titleSize="2xl" serif />
+                <Title label={newTexts?.partners} titleSize="2xl" serif />
               </div>
               <div className="flex flex-col md:flex-row gap-7 max-h-[70px] flex-wrap">
                 {partners?.map((item) => (
@@ -203,7 +195,7 @@ export default function PostDetail({
           sponsors && sponsors?.length > 0 && (
             <div className="flex flex-col gap-5">
               <div className="text-primary">
-                <Title label={texts?.sponsors} titleSize="2xl" serif />
+                <Title label={newTexts?.sponsors} titleSize="2xl" serif />
               </div>
               <div className="flex flex-col md:flex-row gap-7 max-h-[70px] flex-wrap">
                 {sponsors?.map((item) => (
@@ -221,7 +213,7 @@ export default function PostDetail({
           gallery && gallery?.length > 0 && (
             <div className="flex flex-col gap-4">
               <div className="text-primary">
-                <Title label={texts?.gallery} titleSize="2xl" serif />
+                <Title label={newTexts?.gallery} titleSize="2xl" serif />
               </div>
               <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
                 {/* Mobile */}

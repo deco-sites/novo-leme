@@ -1,0 +1,13 @@
+{
+  "__resolveType": "site/sections/EventoTextos.tsx",
+  "description": "Description",
+  "date": "Date",
+  "dateStart": "Start",
+  "dateEnd": "End",
+  "location": "Location",
+  "register": "Register now",
+  "gallery": "Gallery",
+  "organization": "Organization",
+  "partners": "Partners",
+  "sponsors": "Sponsors"
+}

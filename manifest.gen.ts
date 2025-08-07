@@ -12,32 +12,33 @@ import * as $$$$$$0 from "./sections/Atuacao.tsx";
 import * as $$$$$$1 from "./sections/Component.tsx";
 import * as $$$$$$2 from "./sections/Contato.tsx";
 import * as $$$$$$3 from "./sections/EventoOganizado.tsx";
-import * as $$$$$$4 from "./sections/Eventos.tsx";
-import * as $$$$$$5 from "./sections/Footer.tsx";
-import * as $$$$$$6 from "./sections/Header.tsx";
-import * as $$$$$$7 from "./sections/Hero.tsx";
-import * as $$$$$$8 from "./sections/Home/Eventos.tsx";
-import * as $$$$$$9 from "./sections/Home/HomePostsList.tsx";
-import * as $$$$$$10 from "./sections/Home/Sobre.tsx";
-import * as $$$$$$11 from "./sections/MainPost.tsx";
-import * as $$$$$$12 from "./sections/MidiaNoticiaDetalhe.tsx";
-import * as $$$$$$13 from "./sections/PageTitle.tsx";
-import * as $$$$$$14 from "./sections/PostDetail.tsx";
-import * as $$$$$$15 from "./sections/PostsList.tsx";
-import * as $$$$$$16 from "./sections/Projeto/Documents.tsx";
-import * as $$$$$$17 from "./sections/Projeto/Header.tsx";
-import * as $$$$$$18 from "./sections/Projeto/HighlightNumbers.tsx";
-import * as $$$$$$19 from "./sections/Projeto/Image.tsx";
-import * as $$$$$$20 from "./sections/Projeto/Links.tsx";
-import * as $$$$$$21 from "./sections/Projeto/MoreProjects.tsx";
-import * as $$$$$$22 from "./sections/Projeto/TextBlock.tsx";
-import * as $$$$$$23 from "./sections/Projetos.tsx";
-import * as $$$$$$24 from "./sections/SobreEquipe.tsx";
-import * as $$$$$$25 from "./sections/SobreLeme.tsx";
-import * as $$$$$$26 from "./sections/SobreMissaoValores.tsx";
-import * as $$$$$$27 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$28 from "./sections/Transparencia.tsx";
-import * as $$$$$$29 from "./sections/Watermark.tsx";
+import * as $$$$$$5 from "./sections/Eventos.tsx";
+import * as $$$$$$4 from "./sections/EventoTextos.tsx";
+import * as $$$$$$6 from "./sections/Footer.tsx";
+import * as $$$$$$7 from "./sections/Header.tsx";
+import * as $$$$$$8 from "./sections/Hero.tsx";
+import * as $$$$$$9 from "./sections/Home/Eventos.tsx";
+import * as $$$$$$10 from "./sections/Home/HomePostsList.tsx";
+import * as $$$$$$11 from "./sections/Home/Sobre.tsx";
+import * as $$$$$$12 from "./sections/MainPost.tsx";
+import * as $$$$$$13 from "./sections/MidiaNoticiaDetalhe.tsx";
+import * as $$$$$$14 from "./sections/PageTitle.tsx";
+import * as $$$$$$15 from "./sections/PostDetail.tsx";
+import * as $$$$$$16 from "./sections/PostsList.tsx";
+import * as $$$$$$17 from "./sections/Projeto/Documents.tsx";
+import * as $$$$$$18 from "./sections/Projeto/Header.tsx";
+import * as $$$$$$19 from "./sections/Projeto/HighlightNumbers.tsx";
+import * as $$$$$$20 from "./sections/Projeto/Image.tsx";
+import * as $$$$$$21 from "./sections/Projeto/Links.tsx";
+import * as $$$$$$22 from "./sections/Projeto/MoreProjects.tsx";
+import * as $$$$$$23 from "./sections/Projeto/TextBlock.tsx";
+import * as $$$$$$24 from "./sections/Projetos.tsx";
+import * as $$$$$$25 from "./sections/SobreEquipe.tsx";
+import * as $$$$$$26 from "./sections/SobreLeme.tsx";
+import * as $$$$$$27 from "./sections/SobreMissaoValores.tsx";
+import * as $$$$$$28 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$29 from "./sections/Transparencia.tsx";
+import * as $$$$$$30 from "./sections/Watermark.tsx";
 
 const manifest = {
   "sections": {
@@ -45,32 +46,33 @@ const manifest = {
     "site/sections/Component.tsx": $$$$$$1,
     "site/sections/Contato.tsx": $$$$$$2,
     "site/sections/EventoOganizado.tsx": $$$$$$3,
-    "site/sections/Eventos.tsx": $$$$$$4,
-    "site/sections/Footer.tsx": $$$$$$5,
-    "site/sections/Header.tsx": $$$$$$6,
-    "site/sections/Hero.tsx": $$$$$$7,
-    "site/sections/Home/Eventos.tsx": $$$$$$8,
-    "site/sections/Home/HomePostsList.tsx": $$$$$$9,
-    "site/sections/Home/Sobre.tsx": $$$$$$10,
-    "site/sections/MainPost.tsx": $$$$$$11,
-    "site/sections/MidiaNoticiaDetalhe.tsx": $$$$$$12,
-    "site/sections/PageTitle.tsx": $$$$$$13,
-    "site/sections/PostDetail.tsx": $$$$$$14,
-    "site/sections/PostsList.tsx": $$$$$$15,
-    "site/sections/Projeto/Documents.tsx": $$$$$$16,
-    "site/sections/Projeto/Header.tsx": $$$$$$17,
-    "site/sections/Projeto/HighlightNumbers.tsx": $$$$$$18,
-    "site/sections/Projeto/Image.tsx": $$$$$$19,
-    "site/sections/Projeto/Links.tsx": $$$$$$20,
-    "site/sections/Projeto/MoreProjects.tsx": $$$$$$21,
-    "site/sections/Projeto/TextBlock.tsx": $$$$$$22,
-    "site/sections/Projetos.tsx": $$$$$$23,
-    "site/sections/SobreEquipe.tsx": $$$$$$24,
-    "site/sections/SobreLeme.tsx": $$$$$$25,
-    "site/sections/SobreMissaoValores.tsx": $$$$$$26,
-    "site/sections/Theme/Theme.tsx": $$$$$$27,
-    "site/sections/Transparencia.tsx": $$$$$$28,
-    "site/sections/Watermark.tsx": $$$$$$29,
+    "site/sections/Eventos.tsx": $$$$$$5,
+    "site/sections/EventoTextos.tsx": $$$$$$4,
+    "site/sections/Footer.tsx": $$$$$$6,
+    "site/sections/Header.tsx": $$$$$$7,
+    "site/sections/Hero.tsx": $$$$$$8,
+    "site/sections/Home/Eventos.tsx": $$$$$$9,
+    "site/sections/Home/HomePostsList.tsx": $$$$$$10,
+    "site/sections/Home/Sobre.tsx": $$$$$$11,
+    "site/sections/MainPost.tsx": $$$$$$12,
+    "site/sections/MidiaNoticiaDetalhe.tsx": $$$$$$13,
+    "site/sections/PageTitle.tsx": $$$$$$14,
+    "site/sections/PostDetail.tsx": $$$$$$15,
+    "site/sections/PostsList.tsx": $$$$$$16,
+    "site/sections/Projeto/Documents.tsx": $$$$$$17,
+    "site/sections/Projeto/Header.tsx": $$$$$$18,
+    "site/sections/Projeto/HighlightNumbers.tsx": $$$$$$19,
+    "site/sections/Projeto/Image.tsx": $$$$$$20,
+    "site/sections/Projeto/Links.tsx": $$$$$$21,
+    "site/sections/Projeto/MoreProjects.tsx": $$$$$$22,
+    "site/sections/Projeto/TextBlock.tsx": $$$$$$23,
+    "site/sections/Projetos.tsx": $$$$$$24,
+    "site/sections/SobreEquipe.tsx": $$$$$$25,
+    "site/sections/SobreLeme.tsx": $$$$$$26,
+    "site/sections/SobreMissaoValores.tsx": $$$$$$27,
+    "site/sections/Theme/Theme.tsx": $$$$$$28,
+    "site/sections/Transparencia.tsx": $$$$$$29,
+    "site/sections/Watermark.tsx": $$$$$$30,
   },
   "actions": {
     "site/actions/sendContactEmailDirect.ts": $$$$$$$$$0,
