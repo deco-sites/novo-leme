@@ -27,11 +27,10 @@
       "video": null,
       "image": null
     },
-    "title": "Título do evento do Leme",
+    "title": "Exemplo Evento organizado pelo Leme",
     "content": "<p><span>A conferência Extra-Legal Governance in Global Perspective reúne estudiosos interessados em pesquisas que abordem como conceituamos vários tipos de governança (extralegal, criminal, rebelde, híbrida, etc.) e como tal governança molda e é moldada por conflitos, mercados ilícitos, tipo de regime, partidos políticos e elites e aplicação da lei. Estamos procurando quebrar os silos disciplinares e regionais dentro dos quais este tópico normalmente opera para criar uma língua/vocabulário comum e acumular descobertas. Nossa conversa também enfatizará uma ampla gama de regiões em todo o mundo.</span></p>",
     "excerpt": "A conferência Extra-Legal Governance in Global Perspective reúne estudiosos interessados em pesquisas que abordem como conceituamos vários tipos de governança (extralegal, criminal, rebelde, híbrida, etc.) e como tal governança molda e é moldada por conflitos, mercados ilícitos, tipo de regime, partidos políticos e elites e aplicação da lei.",
     "slug": "titulo-do-evento-do-leme",
-    "date": "2025-08-02",
-    "image": "https://assets.decocache.com/novo-leme/3e406056-67fd-45b8-a309-dd02016de9db/img.jpg"
+    "date": "2025-08-02"
   }
 }

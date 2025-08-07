@@ -1,7 +1,7 @@
 {
   "__resolveType": "website/pages/Page.tsx",
-  "name": "EN Events - Participation",
-  "path": "/en/events/participation",
+  "name": "EN Events",
+  "path": "/en/events",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },
@@ -27,18 +27,18 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/EventosParticipacao.tsx",
+        "__resolveType": "site/sections/Eventos.tsx",
         "events": [],
         "sidebarNav": {
           "links": [
             {
-              "label": "Organization",
-              "url": "/en/events"
+              "label": "All",
+              "url": "/en/events",
+              "selected": true
             },
             {
-              "label": "Participation",
-              "url": "/en/events/participation",
-              "selected": true
+              "label": "Oranized by Leme",
+              "url": "/en/events/organized"
             }
           ]
         },
@@ -46,10 +46,10 @@
           "__resolveType": "blog/loaders/BlogpostList.ts",
           "postSlugs": [],
           "sortBy": "date_desc",
-          "slug": "en-eventos-participacao"
+          "slug": "en-eventos"
         },
         "config": {
-          "categorySlug": "en/events/participation"
+          "categorySlug": "en/events"
         }
       }
     },
@@ -63,7 +63,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "website/sections/Seo/SeoV2.tsx",
-        "title": "Events - Participation"
+        "title": "Events"
       }
     }
   ]

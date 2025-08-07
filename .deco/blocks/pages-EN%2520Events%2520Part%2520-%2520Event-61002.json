@@ -1,7 +1,7 @@
 {
   "__resolveType": "website/pages/Page.tsx",
-  "name": "EN Events Part - Event",
-  "path": "/en/events/participation/:slug",
+  "name": "EN Events - Event",
+  "path": "/en/events/:slug",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },
@@ -31,13 +31,12 @@
         "sidebarNav": {
           "links": [
             {
-              "label": "Organization",
+              "label": "All",
               "url": "/en/events"
             },
             {
-              "label": "Participation",
-              "url": "/en/events/participation",
-              "selected": true
+              "label": "Oranized by Leme",
+              "url": "/en/events/organized"
             }
           ]
         },

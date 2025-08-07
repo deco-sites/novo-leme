@@ -42,6 +42,8 @@ export interface Props {
   texts?: {
     description?: string;
     date?: string;
+    dateStart?: string;
+    dateEnd?: string;
     location?: string;
     register?: string;
     gallery?: string;
@@ -75,6 +77,8 @@ export default function PostDetail({
   texts = {
     description: "Descrição",
     date: "Data",
+    dateStart: "Início",
+    dateEnd: "Fim",
     location: "Local",
     register: "Inscreva-se",
     gallery: "Galeria",
@@ -118,7 +122,7 @@ export default function PostDetail({
             <div className="text-primary">
               <Title label={texts?.description} titleSize="2xl" serif />
             </div>
-            <div className="leading-normal text-neutral-950 space-y-6" dangerouslySetInnerHTML={{__html: description}}></div>
+            <div className="leading-relaxed text-neutral-950 space-y-6" dangerouslySetInnerHTML={{__html: description}}></div>
           </div>
           <div className="flex flex-col flex-none w-80 gap-5">
             <div className="flex flex-col gap-3">
@@ -128,13 +132,13 @@ export default function PostDetail({
               <div className="flex flex-col gap-1">
                 {formattedDate && formattedDate !== '' ? (
                   <div class="">
-                    {formattedDateEnd && <span>Início:{` `}</span>}
+                    {formattedDateEnd && <span>{texts?.dateStart}:{` `}</span>}
                     <span className="font-semibold text-neutral-950">{formattedDate}</span>
                   </div>
                 ) : ''}
                 {formattedDateEnd && formattedDateEnd !== '' ? (
                   <div class="">
-                    <span>Fim:{` `}</span>
+                    <span>{texts?.dateEnd}:{` `}</span>
                     <span className="font-semibold text-neutral-950">{formattedDateEnd}</span>
                   </div>
                 ) : ''}

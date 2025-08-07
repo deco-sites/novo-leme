@@ -1,0 +1,8 @@
+{
+  "name": "collections/blog/categories/cbed412712b8",
+  "__resolveType": "blog/loaders/Category.ts",
+  "category": {
+    "name": "Events",
+    "slug": "en-eventos"
+  }
+}

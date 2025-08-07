@@ -1,6 +1,4 @@
 import { RichText } from "apps/admin/widgets.ts";
-import SideNav, { Props as SideNavProps } from  "../components/ui/SideNav.tsx";
-import Card from  "../components/ui/Card.tsx";
 
 export interface Props {
   content?: RichText;
@@ -57,7 +55,7 @@ export default function Atuacao({
               </div>
               <div className="flex-auto">{item.label}</div>
             </summary>
-            <div className="flex flex-col group-open:bg-white rounded-lg pt-6 pb-8 pl-12 md:pl-[52px] pr-6 gap-4">
+            <div className="details-content flex flex-col group-open:bg-white rounded-lg pt-6 pb-8 pl-12 md:pl-[52px] pr-6 gap-4">
               <div
                 dangerouslySetInnerHTML={{
                   __html: item.description,
@@ -75,6 +73,182 @@ export default function Atuacao({
           </details>
         ))}
       </div>
+      
+      {/* Smooth Accordion Script */}
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            (function() {
+              function initSmoothAccordion() {
+                const detailsElements = document.querySelectorAll('details');
+                if (detailsElements.length === 0) {
+                  setTimeout(initSmoothAccordion, 100);
+                  return;
+                }
+
+                detailsElements.forEach((details) => {
+                  if (details instanceof HTMLDetailsElement) {
+                    const content = details.querySelector('.details-content');
+                    
+                    if (content) {
+                      // Set initial state for closed details
+                      if (!details.open) {
+                        content.style.maxHeight = '0px';
+                        content.style.opacity = '0';
+                        content.style.overflow = 'hidden';
+                      }
+                      
+                      // Add smooth transitions
+                      content.style.transition = 'max-height 0.4s ease-in-out, opacity 0.4s ease-in-out';
+                    }
+
+                    // Add click handler to summary instead of toggle event
+                    const summary = details.querySelector('summary');
+                    if (summary) {
+                      summary.addEventListener('click', function(e) {
+                        const details = this.closest('details');
+                        const content = details.querySelector('.details-content');
+                        if (!content || details.dataset.animating) return;
+
+                        e.preventDefault();
+                        e.stopPropagation();
+                        
+                        if (!details.open) {
+                          // Opening animation
+                          details.dataset.animating = 'true';
+                          
+                          // Close all other details first
+                          detailsElements.forEach((otherDetails) => {
+                            if (otherDetails !== details && otherDetails instanceof HTMLDetailsElement && otherDetails.open) {
+                              const otherContent = otherDetails.querySelector('.details-content');
+                              if (otherContent) {
+                                otherDetails.dataset.animating = 'true';
+                                
+                                // Animate closing other details
+                                otherContent.style.maxHeight = otherContent.scrollHeight + 'px';
+                                otherContent.style.opacity = '1';
+                                
+                                // Force reflow
+                                otherContent.offsetHeight;
+                                
+                                // Animate to closed
+                                otherContent.style.maxHeight = '0px';
+                                otherContent.style.opacity = '0';
+                                otherContent.style.overflow = 'hidden';
+                                
+                                // Close the details element after animation
+                                setTimeout(() => {
+                                  otherDetails.open = false;
+                                  delete otherDetails.dataset.animating;
+                                }, 400);
+                              } else {
+                                otherDetails.open = false;
+                              }
+                            }
+                          });
+                          
+                          // Now open this details
+                          setTimeout(() => {
+                            details.open = true;
+                            
+                            content.style.maxHeight = '0px';
+                            content.style.opacity = '0';
+                            content.style.overflow = 'hidden';
+                            
+                            // Small delay to ensure the collapsed state is applied
+                            requestAnimationFrame(() => {
+                              // Force reflow
+                              content.offsetHeight;
+                              
+                              // Animate to full height
+                              content.style.maxHeight = content.scrollHeight + 'px';
+                              content.style.opacity = '1';
+                              
+                              // Set final height after animation
+                              setTimeout(() => {
+                                content.style.maxHeight = 'none';
+                                content.style.overflow = 'visible';
+                                delete details.dataset.animating;
+                              }, 400);
+                            });
+                          }, 50); // Small delay to ensure other details are closed first
+                          
+                        } else {
+                          // Closing animation
+                          details.dataset.animating = 'true';
+                          
+                          // Closing animation
+                          content.style.maxHeight = content.scrollHeight + 'px';
+                          content.style.opacity = '1';
+                          
+                          // Force reflow
+                          content.offsetHeight;
+                          
+                          // Animate to closed
+                          content.style.maxHeight = '0px';
+                          content.style.opacity = '0';
+                          content.style.overflow = 'hidden';
+                          
+                          setTimeout(() => {
+                            details.open = false;
+                            delete details.dataset.animating;
+                          }, 400);
+                        }
+                      });
+                    }
+                  }
+                });
+              }
+
+              // Start when DOM is ready
+              if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', initSmoothAccordion);
+              } else {
+                initSmoothAccordion();
+              }
+            })();
+          `
+        }}
+      />
+      
+      {/* Smooth Animation Styles */}
+      <style
+        dangerouslySetInnerHTML={{
+          __html: `
+            details summary {
+              transition: all 0.3s ease-in-out;
+            }
+            
+            details summary svg {
+              transition: transform 0.3s ease-in-out;
+            }
+            
+            .details-content {
+              transition: all 0.4s ease-in-out;
+              overflow: hidden;
+              max-height: 0;
+              opacity: 0;
+              padding-top: 0 !important;
+              padding-bottom: 0 !important;
+            }
+            
+            details[open] .details-content {
+              max-height: 1000px;
+              opacity: 1;
+              padding-top: 1.5rem !important;
+              padding-bottom: 2rem !important;
+            }
+            
+            @media (prefers-reduced-motion: reduce) {
+              details summary,
+              details summary svg,
+              .details-content {
+                transition: none;
+              }
+            }
+          `
+        }}
+      />
     </div>
   );
 }

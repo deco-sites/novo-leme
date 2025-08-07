@@ -1,0 +1,36 @@
+{
+  "name": "collections/blog/posts/2e1ad114af99",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Events",
+        "slug": "en-eventos"
+      },
+      {
+        "name": "Events organized",
+        "slug": "en-eventos-organizados"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Example Event Organized by Leme",
+    "excerpt": "The Extra-Legal Governance in Global Perspective conference brings together scholars interested in research that addresses how we conceptualize various types of governance (extra-legal, criminal, rebel, hybrid, etc.) and how such governance shapes and is shaped by conflict, illicit markets, regime type, political parties and elites, and law enforcement.",
+    "date": "2025-08-02",
+    "slug": "example-event-title",
+    "content": "<p>The Extra-Legal Governance in Global Perspective conference brings together scholars interested in research that addresses how we conceptualize various types of governance (extra-legal, criminal, rebel, hybrid, etc.) and how such governance shapes and is shaped by conflict, illicit markets, regime type, political parties and elites, and law enforcement.</p>"
+  }
+}

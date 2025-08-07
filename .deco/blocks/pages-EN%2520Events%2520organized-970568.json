@@ -1,7 +1,7 @@
 {
   "__resolveType": "website/pages/Page.tsx",
-  "name": "EN Events - Organization",
-  "path": "/en/events",
+  "name": "EN Events organized",
+  "path": "/en/events/organized",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },
@@ -27,22 +27,30 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/EventosParticipacao.tsx",
-        "events": [],
+        "__resolveType": "site/sections/Eventos.tsx",
         "sidebarNav": {
           "links": [
             {
-              "label": "Organization",
-              "url": "/en/events",
-              "selected": true
+              "label": "All",
+              "url": "/en/events"
             },
             {
-              "label": "Participation",
-              "url": "/en/events/participation"
+              "label": "Oranized by Leme",
+              "url": "/en/events/organized",
+              "selected": true
             }
           ]
         },
-        "posts": null
+        "posts": {
+          "__resolveType": "blog/loaders/BlogpostList.ts",
+          "postSlugs": [],
+          "sortBy": "date_desc",
+          "slug": "en-eventos-organizados"
+        },
+        "events": [],
+        "config": {
+          "categorySlug": "en/events"
+        }
       }
     },
     {
@@ -55,7 +63,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "website/sections/Seo/SeoV2.tsx",
-        "title": "Events - Organization"
+        "title": "Events organized by Leme"
       }
     }
   ]

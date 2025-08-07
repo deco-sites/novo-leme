@@ -37,11 +37,11 @@
         "sublinks": [
           {
             "label": "Todos",
-            "url": "/eventos/organizacao"
+            "url": "/eventos"
           },
           {
-            "label": "Participação",
-            "url": "/eventos/participacao"
+            "label": "Organizados pelo Leme",
+            "url": "/eventos/organizados"
           }
         ]
       },

@@ -1,6 +1,6 @@
 {
   "__resolveType": "website/pages/Page.tsx",
-  "name": "PT Eventos Part - Evento",
+  "name": "PT Eventos - Evento",
   "path": "/eventos/:slug",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
