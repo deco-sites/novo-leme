@@ -5,8 +5,7 @@ import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Title from  "../components/ui/Title.tsx";
 import FancyLink from  "../components/ui/FancyLink.tsx";
-import { Section } from "deco/blocks/section.ts";
-import { text } from "node:stream/consumers";
+import { type Section } from "@deco/deco/blocks";
 
 export interface Props {
   sidebarNav?: SideNavProps;
