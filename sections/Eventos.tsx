@@ -1,6 +1,6 @@
 import { BlogPost } from "apps/blog/types.ts";
 import SideNav, { Props as SideNavProps } from  "../components/ui/SideNav.tsx";
-import CardEvent, { Props as EventProps } from  "../components/ui/CardEvent.tsx";
+import CardEvent from  "../components/ui/CardEvent.tsx";
 
 export interface Props {
   sidebarNav?: SideNavProps;
@@ -15,10 +15,10 @@ export interface Props {
   }
 }
 
-export default function EventosParticipacao({
+export default function Eventos({
   sidebarNav,
   posts,
-  config = { categorySlug: 'eventos/participacao' },
+  config = { categorySlug: 'eventos' },
   labels = {
     online: "Online",
     presencial: "Presencial",
@@ -29,7 +29,7 @@ export default function EventosParticipacao({
       <SideNav links={sidebarNav?.links} button={sidebarNav?.button}/>
       <div className="flex-auto"> 
         <div className="flex flex-col space-y-6 md:space-y-2">
-          {posts?.slice(0, 6).map((post, index) => (
+          {posts?.slice(0, 30).map((post, index) => (
             <CardEvent
               label={post.title}
               description={post.excerpt}

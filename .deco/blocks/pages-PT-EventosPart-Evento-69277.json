@@ -1,7 +1,7 @@
 {
   "__resolveType": "website/pages/Page.tsx",
   "name": "PT Eventos Part - Evento",
-  "path": "/eventos/participacao/:slug",
+  "path": "/eventos/:slug",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },
@@ -31,13 +31,12 @@
         "sidebarNav": {
           "links": [
             {
-              "label": "Organização",
+              "label": "Todos",
               "url": "/eventos"
             },
             {
-              "label": "Participação",
-              "url": "/eventos/participacao",
-              "selected": true
+              "label": "Organizados pelo Leme",
+              "url": "/eventos/organizados"
             }
           ]
         },
@@ -50,7 +49,7 @@
         },
         "backToNews": {
           "label": "Ver outros eventos",
-          "url": "/eventos/participacao"
+          "url": "/eventos"
         }
       }
     },

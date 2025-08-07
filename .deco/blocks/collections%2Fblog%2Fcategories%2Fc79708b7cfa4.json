@@ -2,7 +2,7 @@
   "name": "collections/blog/categories/c79708b7cfa4",
   "__resolveType": "blog/loaders/Category.ts",
   "category": {
-    "name": "Eventos participação",
-    "slug": "eventos-participacao"
+    "name": "Eventos",
+    "slug": "eventos"
   }
 }
