@@ -77,10 +77,10 @@
       },
       "button": {
         "label": "See all events",
-        "url": "/en/events/participation"
+        "url": "/en/events"
       },
       "config": {
-        "categorySlug": "/en/events/participation"
+        "categorySlug": "/en/events"
       }
     },
     {
