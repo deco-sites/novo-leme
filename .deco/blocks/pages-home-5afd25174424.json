@@ -80,7 +80,7 @@
       },
       "button": {
         "label": "Ver todos os eventos",
-        "url": "/eventos/participacao"
+        "url": "/eventos"
       },
       "config": {
         "categorySlug": "/eventos/participacao"
