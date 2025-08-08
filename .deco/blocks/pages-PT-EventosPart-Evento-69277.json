@@ -25,32 +25,30 @@
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/PostDetail.tsx",
-        "sidebarNav": {
-          "links": [
-            {
-              "label": "Todos",
-              "url": "/eventos"
-            },
-            {
-              "label": "Organizados pelo Leme",
-              "url": "/eventos/organizados"
-            }
-          ]
-        },
-        "page": {
-          "__resolveType": "blog/loaders/BlogPostPage.ts",
-          "slug": {
-            "__resolveType": "website/functions/requestToParam.ts",
-            "param": "slug"
+      "__resolveType": "site/sections/PostDetail.tsx",
+      "sidebarNav": {
+        "__resolveType": "PT SideNav Eventos",
+        "links": [
+          {
+            "label": "Todos",
+            "url": "/eventos"
+          },
+          {
+            "label": "Organizados pelo Leme",
+            "url": "/eventos/organizados"
           }
-        },
-        "backToNews": {
-          "label": "Ver outros eventos",
-          "url": "/eventos"
+        ]
+      },
+      "page": {
+        "__resolveType": "blog/loaders/BlogPostPage.ts",
+        "slug": {
+          "__resolveType": "website/functions/requestToParam.ts",
+          "param": "slug"
         }
+      },
+      "backToNews": {
+        "label": "Ver outros eventos",
+        "url": "/eventos"
       }
     },
     {

@@ -25,33 +25,31 @@
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/PostsList.tsx",
-        "sidebarNav": {
-          "links": [
-            {
-              "label": "Na Mídia",
-              "url": "/midia",
-              "selected": false
-            },
-            {
-              "label": "Notícias",
-              "url": "/midia/noticias",
-              "selected": true
-            }
-          ]
-        },
-        "posts": {
-          "__resolveType": "blog/loaders/BlogpostList.ts",
-          "postSlugs": [],
-          "sortBy": "date_desc",
-          "slug": "noticias"
-        },
-        "config": {
-          "categorySlug": "midia/noticias",
-          "showPostDate": true
-        }
+      "__resolveType": "site/sections/PostsList.tsx",
+      "sidebarNav": {
+        "links": [
+          {
+            "label": "Na Mídia",
+            "url": "/midia",
+            "selected": false
+          },
+          {
+            "label": "Notícias",
+            "url": "/midia/noticias",
+            "selected": true
+          }
+        ],
+        "__resolveType": "PT SideNav Midia"
+      },
+      "posts": {
+        "__resolveType": "blog/loaders/BlogpostList.ts",
+        "postSlugs": [],
+        "sortBy": "date_desc",
+        "slug": "noticias"
+      },
+      "config": {
+        "categorySlug": "midia/noticias",
+        "showPostDate": true
       }
     },
     {

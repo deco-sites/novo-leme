@@ -25,30 +25,28 @@
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Eventos.tsx",
-        "sidebarNav": {
-          "links": [
-            {
-              "label": "Todos",
-              "url": "/eventos"
-            },
-            {
-              "label": "Organizados pelo Leme",
-              "url": "/eventos/organizados",
-              "selected": true
-            }
-          ]
-        },
-        "posts": {
-          "__resolveType": "blog/loaders/BlogpostList.ts",
-          "postSlugs": [],
-          "sortBy": "date_desc",
-          "slug": "eventos-organizados"
-        },
-        "events": []
-      }
+      "__resolveType": "site/sections/Eventos.tsx",
+      "sidebarNav": {
+        "__resolveType": "PT SideNav Eventos",
+        "links": [
+          {
+            "label": "Todos",
+            "url": "/eventos"
+          },
+          {
+            "label": "Organizados pelo Leme",
+            "url": "/eventos/organizados",
+            "selected": true
+          }
+        ]
+      },
+      "posts": {
+        "__resolveType": "blog/loaders/BlogpostList.ts",
+        "postSlugs": [],
+        "sortBy": "date_desc",
+        "slug": "eventos-organizados"
+      },
+      "events": []
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",

@@ -1,9 +1,9 @@
 import { BlogPost } from "apps/blog/types.ts";
-import SideNav, { Props as SideNavProps } from  "../components/ui/SideNav.tsx";
 import CardEvent from  "../components/ui/CardEvent.tsx";
+import { type Section } from "@deco/deco/blocks";
 
 export interface Props {
-  sidebarNav?: SideNavProps;
+  sidebarNav?: Section;
   posts?: BlogPost[] | null;
   config?: {
     /** @title Prefix URL */
@@ -24,9 +24,10 @@ export default function Eventos({
     presencial: "Presencial",
   },
 }: Props) {
+  const Nav = sidebarNav?.Component;
   return (
     <div className="container px-6 md:px-12 flex flex-col md:flex-row gap-8 md:gap-44 my-6 md:my-12 text-neutral-950">
-      <SideNav links={sidebarNav?.links} button={sidebarNav?.button}/>
+      {Nav && <div className="flex-none"><Nav {...(sidebarNav?.props ?? {})} /></div>}
       <div className="flex-auto"> 
         <div className="flex flex-col space-y-6 md:space-y-2">
           {posts?.slice(0, 30).map((post, index) => (

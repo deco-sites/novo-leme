@@ -22,53 +22,31 @@
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/SobreMissaoValores.tsx",
-        "sidebarNav": {
-          "links": [
-            {
-              "label": "About Leme",
-              "url": "/en/about",
-              "selected": false
-            },
-            {
-              "label": "Mission and Values",
-              "url": "/en/about/mission-and-values",
-              "selected": true
-            },
-            {
-              "label": "Team",
-              "url": "/en/about/team"
-            }
-          ],
-          "button": {
-            "label": "Portfolio",
-            "url": "/"
-          }
+      "__resolveType": "site/sections/SobreMissaoValores.tsx",
+      "sidebarNav": {
+        "__resolveType": "EN SideNav About"
+      },
+      "values": [
+        {
+          "label": "Independence",
+          "text": "We conduct objective and impartial analyses, minimizing the interference of political preferences, ensuring rigor and commitment to research."
         },
-        "values": [
-          {
-            "label": "Independence",
-            "text": "We conduct objective and impartial analyses, minimizing the interference of political preferences, ensuring rigor and commitment to research."
-          },
-          {
-            "label": "Commitment",
-            "text": "We are dedicated to identifying and proposing actions that generate positive and real impact on public security."
-          },
-          {
-            "label": "Community Appreciation",
-            "text": "We recognize the importance of the community and the populations served by the programs we evaluate, always seeking improvements for all involved."
-          },
-          {
-            "label": "Social Relevance",
-            "text": "We prioritize topics of high social relevance, presenting proposals that respond to the most urgent challenges in public security."
-          }
-        ],
-        "text": "Change the paradigm of public security, from a reactive approach to one focused on the prevention of violence and crime deterrence, so that violence no longer interrupts dreams.",
-        "title1": "Our Mission",
-        "title2": "Our Values"
-      }
+        {
+          "label": "Commitment",
+          "text": "We are dedicated to identifying and proposing actions that generate positive and real impact on public security."
+        },
+        {
+          "label": "Community Appreciation",
+          "text": "We recognize the importance of the community and the populations served by the programs we evaluate, always seeking improvements for all involved."
+        },
+        {
+          "label": "Social Relevance",
+          "text": "We prioritize topics of high social relevance, presenting proposals that respond to the most urgent challenges in public security."
+        }
+      ],
+      "text": "Change the paradigm of public security, from a reactive approach to one focused on the prevention of violence and crime deterrence, so that violence no longer interrupts dreams.",
+      "title1": "Our Mission",
+      "title2": "Our Values"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",

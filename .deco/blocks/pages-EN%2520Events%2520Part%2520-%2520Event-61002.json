@@ -38,7 +38,8 @@
               "label": "Oranized by Leme",
               "url": "/en/events/organized"
             }
-          ]
+          ],
+          "__resolveType": "EN SideNav Events"
         },
         "page": {
           "__resolveType": "blog/loaders/BlogPostPage.ts",

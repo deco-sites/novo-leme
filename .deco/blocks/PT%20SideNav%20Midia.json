@@ -1,0 +1,14 @@
+{
+  "__resolveType": "site/sections/SideNav.tsx",
+  "links": [
+    {
+      "label": "Na Mídia",
+      "url": "/midia"
+    },
+    {
+      "label": "Notícias",
+      "url": "/midia/noticias"
+    }
+  ],
+  "mobileOrientation": "horizontal"
+}

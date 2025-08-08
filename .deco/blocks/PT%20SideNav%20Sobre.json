@@ -1,0 +1,22 @@
+{
+  "__resolveType": "site/sections/SideNav.tsx",
+  "links": [
+    {
+      "label": "Sobre",
+      "url": "/sobre"
+    },
+    {
+      "label": "Missão e Valores",
+      "url": "/sobre/missao-e-valores"
+    },
+    {
+      "label": "Equipe",
+      "url": "/sobre/equipe"
+    }
+  ],
+  "mobileOrientation": "horizontal",
+  "button": {
+    "label": "Portfolio",
+    "url": "/"
+  }
+}

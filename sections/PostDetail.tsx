@@ -1,12 +1,12 @@
 import { type BlogPost, BlogPostPage } from "apps/blog/types.ts";
-import SideNav, { Props as SideNavProps } from  "../components/ui/SideNav.tsx";
 import Image from "apps/website/components/Image.tsx";
 import Title from  "../components/ui/Title.tsx";
 import Tag from  "../components/ui/Tag.tsx";
 import FancyLink from  "../components/ui/FancyLink.tsx";
+import { type Section } from "@deco/deco/blocks";
 
 export interface Props {
-  sidebarNav?: SideNavProps;
+  sidebarNav?: Section;
   page?: BlogPostPage | null;
   backToNews?: {
     label?: string;
@@ -39,6 +39,7 @@ export default function PostDetail({
   backToNews,
 }: Props) {
   const { title, image, date, categories, content, imageCarousel } = page?.post || DEFAULT_PROPS;
+  const Nav = sidebarNav?.Component;
   let lang = "pt-BR";
   if (categories.some(item => item.slug.includes("en-"))) lang = "en-US";
   if (categories.some(item => item.slug.includes("es-"))) lang = "es-ES";
@@ -51,7 +52,7 @@ export default function PostDetail({
 
   return (
     <div className="container px-6 md:px-12 flex flex-col md:flex-row gap-8 md:gap-44 my-6 md:my-12">
-      <SideNav links={sidebarNav?.links} button={sidebarNav?.button}/>
+      {Nav && <div className="flex-none"><Nav {...(sidebarNav?.props ?? {})} /></div>}
       <div className="flex flex-auto flex-col gap-9">
         <div className="flex flex-col gap-3">
           <Title label={title} serif titleSize="4xl" noClamp />

@@ -1,7 +1,7 @@
 import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Title from  "../components/ui/Title.tsx";
-import SideNav, { Props as SideNavProps } from  "../components/ui/SideNav.tsx";
+import { type Section } from "@deco/deco/blocks";
 
 export interface Person {
   photo?: ImageWidget;
@@ -18,7 +18,7 @@ export interface Person {
 }
 
 export interface Props {
-  sidebarNav?: SideNavProps;
+  sidebarNav?: Section;
   teamGroup?: {
     /** @title Group Name */
     label?: string;
@@ -32,10 +32,11 @@ export default function SobreEquipe({
   teamGroup,
   viewMoreText = "Ver mais",
 }: Props) {
+  const Nav = sidebarNav?.Component;
   return (
     <div className="container px-6 md:px-12 flex flex-col md:flex-row gap-12 md:gap-28 my-6 md:my-12">
       <a id="list" className="hidden" />
-      <SideNav links={sidebarNav?.links} button={sidebarNav?.button}/>
+      {Nav && <div className="flex-none"><Nav {...(sidebarNav?.props ?? {})} /></div>}
       <div className="flex-auto flex flex-col gap-14">
         {teamGroup?.map((group, indexGroup) => (
           <div>

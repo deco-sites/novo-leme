@@ -1,0 +1,14 @@
+{
+  "__resolveType": "site/sections/SideNav.tsx",
+  "links": [
+    {
+      "label": "Todos",
+      "url": "/eventos"
+    },
+    {
+      "label": "Organizados pelo Leme",
+      "url": "/eventos/organizados"
+    }
+  ],
+  "mobileOrientation": "horizontal"
+}

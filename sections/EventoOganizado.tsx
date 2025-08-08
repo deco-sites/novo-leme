@@ -1,6 +1,5 @@
 import { RichText } from "apps/admin/widgets.ts";
 import { type BlogPost, BlogPostPage } from "apps/blog/types.ts";
-import SideNav, { Props as SideNavProps } from  "../components/ui/SideNav.tsx";
 import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Title from  "../components/ui/Title.tsx";
@@ -8,7 +7,7 @@ import FancyLink from  "../components/ui/FancyLink.tsx";
 import { type Section } from "@deco/deco/blocks";
 
 export interface Props {
-  sidebarNav?: SideNavProps;
+  sidebarNav?: Section;
   page?: BlogPostPage | null;
   description?: RichText;
   date?: {
@@ -103,9 +102,10 @@ export default function PostDetail({
     minute: "2-digit",
   }) : '';
 
+  const Nav = sidebarNav?.Component;
   return (
     <div className="container px-6 md:px-12 flex flex-col md:flex-row gap-8 md:gap-44 my-6 md:my-12">
-      <SideNav links={sidebarNav?.links} button={sidebarNav?.button}/>
+      {Nav && <div className="flex-none"><Nav {...(sidebarNav?.props ?? {})} /></div>}
       <div className="flex flex-auto flex-col gap-10">
         <Title label={title} serif titleSize="4xl" noClamp />
         <div className="flex flex-col md:flex-row gap-4 md:gap-12">

@@ -33,12 +33,13 @@ import * as $$$$$$21 from "./sections/Projeto/Links.tsx";
 import * as $$$$$$22 from "./sections/Projeto/MoreProjects.tsx";
 import * as $$$$$$23 from "./sections/Projeto/TextBlock.tsx";
 import * as $$$$$$24 from "./sections/Projetos.tsx";
-import * as $$$$$$25 from "./sections/SobreEquipe.tsx";
-import * as $$$$$$26 from "./sections/SobreLeme.tsx";
-import * as $$$$$$27 from "./sections/SobreMissaoValores.tsx";
-import * as $$$$$$28 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$29 from "./sections/Transparencia.tsx";
-import * as $$$$$$30 from "./sections/Watermark.tsx";
+import * as $$$$$$25 from "./sections/SideNav.tsx";
+import * as $$$$$$26 from "./sections/SobreEquipe.tsx";
+import * as $$$$$$27 from "./sections/SobreLeme.tsx";
+import * as $$$$$$28 from "./sections/SobreMissaoValores.tsx";
+import * as $$$$$$29 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$30 from "./sections/Transparencia.tsx";
+import * as $$$$$$31 from "./sections/Watermark.tsx";
 
 const manifest = {
   "sections": {
@@ -67,12 +68,13 @@ const manifest = {
     "site/sections/Projeto/MoreProjects.tsx": $$$$$$22,
     "site/sections/Projeto/TextBlock.tsx": $$$$$$23,
     "site/sections/Projetos.tsx": $$$$$$24,
-    "site/sections/SobreEquipe.tsx": $$$$$$25,
-    "site/sections/SobreLeme.tsx": $$$$$$26,
-    "site/sections/SobreMissaoValores.tsx": $$$$$$27,
-    "site/sections/Theme/Theme.tsx": $$$$$$28,
-    "site/sections/Transparencia.tsx": $$$$$$29,
-    "site/sections/Watermark.tsx": $$$$$$30,
+    "site/sections/SideNav.tsx": $$$$$$25,
+    "site/sections/SobreEquipe.tsx": $$$$$$26,
+    "site/sections/SobreLeme.tsx": $$$$$$27,
+    "site/sections/SobreMissaoValores.tsx": $$$$$$28,
+    "site/sections/Theme/Theme.tsx": $$$$$$29,
+    "site/sections/Transparencia.tsx": $$$$$$30,
+    "site/sections/Watermark.tsx": $$$$$$31,
   },
   "actions": {
     "site/actions/sendContactEmailDirect.ts": $$$$$$$$$0,

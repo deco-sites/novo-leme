@@ -1,0 +1,15 @@
+{
+  "__resolveType": "site/sections/SideNav.tsx",
+  "links": [
+    {
+      "label": "All",
+      "url": "/en/events"
+    },
+    {
+      "label": "Organized by Leme",
+      "url": "/en/events/organized"
+    }
+  ],
+  "mobileOrientation": "horizontal",
+  "button": {}
+}

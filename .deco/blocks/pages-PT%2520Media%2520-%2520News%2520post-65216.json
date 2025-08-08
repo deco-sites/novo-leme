@@ -1,6 +1,6 @@
 {
   "__resolveType": "website/pages/Page.tsx",
-  "name": "PT Media - News post",
+  "name": "EN Media - News post",
   "path": "/en/media/news/:slug",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
@@ -25,33 +25,31 @@
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/PostDetail.tsx",
-        "sidebarNav": {
-          "links": [
-            {
-              "label": "In the Media",
-              "url": "/en/media"
-            },
-            {
-              "label": "News",
-              "url": "/en/media/news",
-              "selected": true
-            }
-          ]
-        },
-        "page": {
-          "__resolveType": "blog/loaders/BlogPostPage.ts",
-          "slug": {
-            "__resolveType": "website/functions/requestToParam.ts",
-            "param": "slug"
+      "__resolveType": "site/sections/PostDetail.tsx",
+      "sidebarNav": {
+        "links": [
+          {
+            "label": "In the Media",
+            "url": "/en/media"
+          },
+          {
+            "label": "News",
+            "url": "/en/media/news",
+            "selected": true
           }
-        },
-        "backToNews": {
-          "label": "View more news",
-          "url": "/en/media/news"
+        ],
+        "__resolveType": "EN SideNav Media"
+      },
+      "page": {
+        "__resolveType": "blog/loaders/BlogPostPage.ts",
+        "slug": {
+          "__resolveType": "website/functions/requestToParam.ts",
+          "param": "slug"
         }
+      },
+      "backToNews": {
+        "label": "View more news",
+        "url": "/en/media/news"
       }
     },
     {

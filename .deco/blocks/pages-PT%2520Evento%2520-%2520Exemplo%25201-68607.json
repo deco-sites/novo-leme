@@ -25,83 +25,81 @@
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/EventoOganizado.tsx",
-        "page": {
-          "__resolveType": "blog/loaders/BlogPostPage.ts",
-          "slug": "titulo-do-evento-do-leme"
-        },
-        "sidebarNav": {
-          "links": [
-            {
-              "label": "Todos",
-              "url": "/eventos"
-            },
-            {
-              "label": "Organizados pelo Leme",
-              "url": "/eventos/organizados"
-            }
-          ]
-        },
-        "description": "<p><span>A conferência Extra-Legal Governance in Global Perspective reúne estudiosos interessados em pesquisas que abordem como conceituamos vários tipos de governança (extralegal, criminal, rebelde, híbrida, etc.) e como tal governança molda e é moldada por conflitos, mercados ilícitos, tipo de regime, partidos políticos e elites e aplicação da lei. Estamos procurando quebrar os silos disciplinares e regionais dentro dos quais este tópico normalmente opera para criar uma língua/vocabulário comum e acumular descobertas. Nossa conversa também enfatizará uma ampla gama de regiões em todo o mundo.</span></p>",
-        "date": {
-          "start": "2025-08-01T16:00:00.000Z",
-          "end": "2025-08-10T21:00:00.000Z"
-        },
-        "location": {
-          "name": "Museu de Arte Moderna do Rio de Janeiro",
-          "address": "Av. Infante Dom Henrique, 85Parque do Flamengo, Rio de Janeiro - RJ"
-        },
-        "image": "https://assets.decocache.com/novo-leme/3e406056-67fd-45b8-a309-dd02016de9db/img.jpg",
-        "gallery": [
+      "__resolveType": "site/sections/EventoOganizado.tsx",
+      "page": {
+        "__resolveType": "blog/loaders/BlogPostPage.ts",
+        "slug": "titulo-do-evento-do-leme"
+      },
+      "sidebarNav": {
+        "__resolveType": "PT SideNav Eventos",
+        "links": [
           {
-            "image": "https://assets.decocache.com/novo-leme/fd83c2e1-c872-4de5-88fe-a184078581a9/1744397717_20250327_Fonacriad-(7).webp",
-            "label": "Reunião"
+            "label": "Todos",
+            "url": "/eventos"
           },
           {
-            "label": "Reunião",
-            "image": "https://assets.decocache.com/novo-leme/7bafe280-29e3-497a-aad9-03e69179e5af/1744397717_20250327_Fonacriad-(5).webp"
-          },
-          {
-            "label": "Reunião",
-            "image": "https://assets.decocache.com/novo-leme/90384b7e-6aa3-465a-823e-2aa8e34a87a1/1744397717_20250327_Fonacriad-(2).webp"
+            "label": "Organizados pelo Leme",
+            "url": "/eventos/organizados"
           }
-        ],
-        "registrationHref": "http://www.google.com/",
-        "registrationUrl": "http://www.google.com/",
-        "organization": [
-          {
-            "name": "Leme",
-            "image": "https://assets.decocache.com/novo-leme/cebbdd5a-1267-4e7c-b57d-53d70abfc243/leme.png",
-            "label": "Leme"
-          }
-        ],
-        "partners": [
-          {
-            "name": "Governo do Brasil",
-            "label": "Governo do Brasil",
-            "image": "https://assets.decocache.com/novo-leme/f689aa4e-99ed-4649-b889-57887ebbb1c5/br-gov.png"
-          },
-          {
-            "label": "Governo do Estado do Rio de Janeiro",
-            "image": "https://assets.decocache.com/novo-leme/339fa608-15e5-48b7-be77-3d30cb4cf143/rio-gov.png"
-          },
-          {
-            "label": "Prefeitura do Rio de Janeiro",
-            "image": "https://assets.decocache.com/novo-leme/b75c31a7-cd17-476e-a3b3-1738bb6528cc/rio-pref.png"
-          }
-        ],
-        "sponsors": [
-          {
-            "label": "BNDES",
-            "image": "https://assets.decocache.com/novo-leme/2cdc4686-04c6-4b38-bee5-97d8c3154696/bndes.png"
-          }
-        ],
-        "text": {
-          "__resolveType": "site/sections/EventoTextos.tsx",
-          "description": "olar"
+        ]
+      },
+      "description": "<p><span>A conferência Extra-Legal Governance in Global Perspective reúne estudiosos interessados em pesquisas que abordem como conceituamos vários tipos de governança (extralegal, criminal, rebelde, híbrida, etc.) e como tal governança molda e é moldada por conflitos, mercados ilícitos, tipo de regime, partidos políticos e elites e aplicação da lei. Estamos procurando quebrar os silos disciplinares e regionais dentro dos quais este tópico normalmente opera para criar uma língua/vocabulário comum e acumular descobertas. Nossa conversa também enfatizará uma ampla gama de regiões em todo o mundo.</span></p>",
+      "date": {
+        "start": "2025-08-01T16:00:00.000Z",
+        "end": "2025-08-10T21:00:00.000Z"
+      },
+      "location": {
+        "name": "Museu de Arte Moderna do Rio de Janeiro",
+        "address": "Av. Infante Dom Henrique, 85Parque do Flamengo, Rio de Janeiro - RJ"
+      },
+      "image": "https://assets.decocache.com/novo-leme/3e406056-67fd-45b8-a309-dd02016de9db/img.jpg",
+      "gallery": [
+        {
+          "image": "https://assets.decocache.com/novo-leme/fd83c2e1-c872-4de5-88fe-a184078581a9/1744397717_20250327_Fonacriad-(7).webp",
+          "label": "Reunião"
+        },
+        {
+          "label": "Reunião",
+          "image": "https://assets.decocache.com/novo-leme/7bafe280-29e3-497a-aad9-03e69179e5af/1744397717_20250327_Fonacriad-(5).webp"
+        },
+        {
+          "label": "Reunião",
+          "image": "https://assets.decocache.com/novo-leme/90384b7e-6aa3-465a-823e-2aa8e34a87a1/1744397717_20250327_Fonacriad-(2).webp"
         }
+      ],
+      "registrationHref": "http://www.google.com/",
+      "registrationUrl": "http://www.google.com/",
+      "organization": [
+        {
+          "name": "Leme",
+          "image": "https://assets.decocache.com/novo-leme/cebbdd5a-1267-4e7c-b57d-53d70abfc243/leme.png",
+          "label": "Leme"
+        }
+      ],
+      "partners": [
+        {
+          "name": "Governo do Brasil",
+          "label": "Governo do Brasil",
+          "image": "https://assets.decocache.com/novo-leme/f689aa4e-99ed-4649-b889-57887ebbb1c5/br-gov.png"
+        },
+        {
+          "label": "Governo do Estado do Rio de Janeiro",
+          "image": "https://assets.decocache.com/novo-leme/339fa608-15e5-48b7-be77-3d30cb4cf143/rio-gov.png"
+        },
+        {
+          "label": "Prefeitura do Rio de Janeiro",
+          "image": "https://assets.decocache.com/novo-leme/b75c31a7-cd17-476e-a3b3-1738bb6528cc/rio-pref.png"
+        }
+      ],
+      "sponsors": [
+        {
+          "label": "BNDES",
+          "image": "https://assets.decocache.com/novo-leme/2cdc4686-04c6-4b38-bee5-97d8c3154696/bndes.png"
+        }
+      ],
+      "text": {
+        "__resolveType": "site/sections/EventoTextos.tsx",
+        "description": "olar"
       }
     },
     {

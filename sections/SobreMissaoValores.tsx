@@ -1,8 +1,5 @@
-import { RichText } from "apps/admin/widgets.ts";
 import Title from  "../components/ui/Title.tsx";
-import SideNav from  "../components/ui/SideNav.tsx";
-import type {Props as SideNavProps} from  "../components/ui/SideNav.tsx";
-
+import { type Section } from "@deco/deco/blocks";
 export interface Value {
   label?: string;
   /** @format textarea */
@@ -10,7 +7,7 @@ export interface Value {
 }
 
 export interface Props {
-  sidebarNav?: SideNavProps;
+  sidebarNav?: Section;
   title1?: string;
   /** @format textarea */
   text?: string;
@@ -18,7 +15,7 @@ export interface Props {
   values?: Value[]
 }
 
-export default function SobreLeme({
+export default function SobreMissaoValores({
   sidebarNav,
   title1 = "Nossa Missão",
   text = "Text",
@@ -30,9 +27,10 @@ export default function SobreLeme({
     { label: "Valor", text: "Descrição" },
   ]
 }: Props) {
+  const Nav = sidebarNav?.Component;
   return (
     <div className="container px-6 md:px-12 flex flex-col md:flex-row gap-12 md:gap-44 my-6 md:my-12 text-neutral-950">
-      <SideNav links={sidebarNav?.links} button={sidebarNav?.button}/>
+      {Nav && <div className="flex-none"><Nav {...(sidebarNav?.props ?? {})} /></div>}
       <div className="flex-auto md:mx-12"> 
         <div className="mb-6 md:mb-12 md:mr-10">
           <div className="text-primary mb-4 md:mb-7 md:ml-8">

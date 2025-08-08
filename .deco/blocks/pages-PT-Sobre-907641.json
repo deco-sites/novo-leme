@@ -21,45 +21,24 @@
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/SobreLeme.tsx",
-        "title": "O Leme",
-        "text": "<p>O Leme é uma organização sem fins lucrativos que atua em parceria com instituições de Segurança Pública e Justiça e com Organizações da Sociedade Civil para identificar e testar intervenções para redução da violência que sejam efetivas, factíveis e escaláveis. Nosso objetivo é apoiar tomadores de decisão na transformação da segurança pública nacional, a partir de soluções ancoradas em ciência de dados e evidências científicas. Atuamos em todas as etapas do ciclo da política pública para promover inovação na área da segurança no Brasil.</p>",
-        "image": {
-          "src": "https://assets.decocache.com/novo-leme/aa60d0d7-e660-465f-a923-c562de989c10/SobreAtuacao.svg",
-          "alt": "Nossa atuação"
-        },
-        "sidebarNav": {
-          "links": [
-            {
-              "label": "O Leme",
-              "url": "/sobre",
-              "selected": true
-            },
-            {
-              "label": "Missão e Valores",
-              "url": "/sobre/missao-e-valores"
-            },
-            {
-              "label": "Equipe",
-              "url": "/sobre/equipe"
-            }
-          ],
-          "button": {
-            "label": "Portfolio",
-            "url": "/"
-          }
-        },
-        "cycleImage": {
-          "title": "Nossa atuação",
-          "step1": "<p><strong>Identificação</strong> de lideranças engajadas e refinamento de programa com os parceiros</p>",
-          "step2": "<p><strong>Desenho</strong> ou refinamento de programas</p>",
-          "step3": "<p><strong>Teste e acompanhamento</strong> de implementação</p>",
-          "step4": "<p><strong>Desenho e execução</strong> da avaliação de impacto com protocolo de tratamento e controle</p>",
-          "step5": "<p><strong>Aprimoramento</strong> do programa a partir do aprendizado da avaliação</p>",
-          "step6": "<p><strong>Promoção</strong> de programas efetivos e escaláveis</p>"
-        }
+      "__resolveType": "site/sections/SobreLeme.tsx",
+      "title": "O Leme",
+      "text": "<p>O Leme é uma organização sem fins lucrativos que atua em parceria com instituições de Segurança Pública e Justiça e com Organizações da Sociedade Civil para identificar e testar intervenções para redução da violência que sejam efetivas, factíveis e escaláveis. Nosso objetivo é apoiar tomadores de decisão na transformação da segurança pública nacional, a partir de soluções ancoradas em ciência de dados e evidências científicas. Atuamos em todas as etapas do ciclo da política pública para promover inovação na área da segurança no Brasil.</p>",
+      "image": {
+        "src": "https://assets.decocache.com/novo-leme/aa60d0d7-e660-465f-a923-c562de989c10/SobreAtuacao.svg",
+        "alt": "Nossa atuação"
+      },
+      "sidebarNav": {
+        "__resolveType": "PT SideNav Sobre"
+      },
+      "cycleImage": {
+        "title": "Nossa atuação",
+        "step1": "<p><strong>Identificação</strong> de lideranças engajadas e refinamento de programa com os parceiros</p>",
+        "step2": "<p><strong>Desenho</strong> ou refinamento de programas</p>",
+        "step3": "<p><strong>Teste e acompanhamento</strong> de implementação</p>",
+        "step4": "<p><strong>Desenho e execução</strong> da avaliação de impacto com protocolo de tratamento e controle</p>",
+        "step5": "<p><strong>Aprimoramento</strong> do programa a partir do aprendizado da avaliação</p>",
+        "step6": "<p><strong>Promoção</strong> de programas efetivos e escaláveis</p>"
       }
     },
     {

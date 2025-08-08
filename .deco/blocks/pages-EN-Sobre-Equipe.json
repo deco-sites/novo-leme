@@ -22,124 +22,101 @@
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/SobreEquipe.tsx",
-        "sidebarNav": {
-          "links": [
+      "__resolveType": "site/sections/SobreEquipe.tsx",
+      "sidebarNav": {
+        "__resolveType": "EN SideNav About"
+      },
+      "values": [
+        {
+          "label": "Independence",
+          "text": "We conduct objective and impartial analyses, minimizing the interference of political preferences, ensuring rigor and commitment to research."
+        },
+        {
+          "label": "Commitment",
+          "text": "We are dedicated to identifying and proposing actions that generate positive and real impact on public security."
+        },
+        {
+          "label": "Community Appreciation",
+          "text": "We recognize the importance of the community and the populations served by the programs we evaluate, always seeking improvements for all involved."
+        },
+        {
+          "label": "Social Relevance",
+          "text": "We prioritize topics of high social relevance, presenting proposals that respond to the most urgent challenges in public security."
+        }
+      ],
+      "text": "Change the paradigm of public security, from a reactive approach to one focused on the prevention of violence and crime deterrence, so that violence no longer interrupts dreams.",
+      "teamGroup": [
+        {
+          "people": [
             {
-              "label": "About Leme",
-              "url": "/en/about",
-              "selected": false
+              "photo": "https://assets.decocache.com/novo-leme/db438d32-8e0b-40b9-be41-252c9eca49d3/person.png",
+              "name": "Joana Monteiro",
+              "role": "Director and co-founder",
+              "description": "PhD in Economics (PUC-Rio) and Professor of Public Policy at FGV/EBAPE. Joana has held prominent positions in the Rio de Janeiro government, such as director of the Public Security Institute (2015-2018) and head of research at the State Public Prosecutor's Office (2019-2021). Previously, she was Tinker Visiting Professor at the University of Chicago (2023), Visiting Fellow at Columbia University (2021-2022), and Research Fellow at Harvard University (2009-2012). She is affiliated with Evidence in Governance and Politics (EGAP), guest researcher at J-PAL/MIT, member of the Global Initiative Against Transnational Organized Crime (GI-TOC), and a board member of the Multidimensional Security School (ESEM-IRI-USP) and LACEA-AlCapone. More information: Website, Lattes, and LinkedIn.",
+              "links": {
+                "website": "/",
+                "lattes": "/",
+                "linkedin": "/"
+              },
+              "label": "Joana Monteiro 1"
             },
             {
-              "label": "Mission and Values",
-              "url": "/en/about/mission-and-values",
-              "selected": false
+              "photo": "https://assets.decocache.com/novo-leme/db438d32-8e0b-40b9-be41-252c9eca49d3/person.png",
+              "name": "Joana Monteiro",
+              "role": "Director and co-founder",
+              "description": "PhD in Economics (PUC-Rio) and Professor of Public Policy at FGV/EBAPE. Joana has held prominent positions in the Rio de Janeiro government, such as director of the Public Security Institute (2015-2018) and head of research at the State Public Prosecutor's Office (2019-2021). Previously, she was Tinker Visiting Professor at the University of Chicago (2023), Visiting Fellow at Columbia University (2021-2022), and Research Fellow at Harvard University (2009-2012). She is affiliated with Evidence in Governance and Politics (EGAP), guest researcher at J-PAL/MIT, member of the Global Initiative Against Transnational Organized Crime (GI-TOC), and a board member of the Multidimensional Security School (ESEM-IRI-USP) and LACEA-AlCapone. More information: Website, Lattes, and LinkedIn.",
+              "links": {
+                "website": "/",
+                "lattes": "/",
+                "linkedin": "/"
+              },
+              "label": "Joana Monteiro 2"
             },
             {
-              "label": "Team",
-              "url": "/en/about/team",
-              "selected": true
+              "photo": "https://assets.decocache.com/novo-leme/db438d32-8e0b-40b9-be41-252c9eca49d3/person.png",
+              "name": "Joana Monteiro",
+              "role": "Director and co-founder",
+              "description": "PhD in Economics (PUC-Rio) and Professor of Public Policy at FGV/EBAPE. Joana has held prominent positions in the Rio de Janeiro government, such as director of the Public Security Institute (2015-2018) and head of research at the State Public Prosecutor's Office (2019-2021). Previously, she was Tinker Visiting Professor at the University of Chicago (2023), Visiting Fellow at Columbia University (2021-2022), and Research Fellow at Harvard University (2009-2012). She is affiliated with Evidence in Governance and Politics (EGAP), guest researcher at J-PAL/MIT, member of the Global Initiative Against Transnational Organized Crime (GI-TOC), and a board member of the Multidimensional Security School (ESEM-IRI-USP) and LACEA-AlCapone. More information: Website, Lattes, and LinkedIn.",
+              "links": {
+                "website": "/",
+                "lattes": "/",
+                "linkedin": "/"
+              },
+              "label": "Joana Monteiro 3"
+            },
+            {
+              "photo": "https://assets.decocache.com/novo-leme/db438d32-8e0b-40b9-be41-252c9eca49d3/person.png",
+              "name": "Joana Monteiro",
+              "role": "Director and co-founder",
+              "description": "PhD in Economics (PUC-Rio) and Professor of Public Policy at FGV/EBAPE. Joana has held prominent positions in the Rio de Janeiro government, such as director of the Public Security Institute (2015-2018) and head of research at the State Public Prosecutor's Office (2019-2021). Previously, she was Tinker Visiting Professor at the University of Chicago (2023), Visiting Fellow at Columbia University (2021-2022), and Research Fellow at Harvard University (2009-2012). She is affiliated with Evidence in Governance and Politics (EGAP), guest researcher at J-PAL/MIT, member of the Global Initiative Against Transnational Organized Crime (GI-TOC), and a board member of the Multidimensional Security School (ESEM-IRI-USP) and LACEA-AlCapone. More information: Website, Lattes, and LinkedIn.",
+              "links": {
+                "website": "/",
+                "lattes": "/",
+                "linkedin": "/"
+              },
+              "label": "Joana Monteiro 4"
             }
           ],
-          "button": {
-            "label": "Portfolio",
-            "url": "/"
-          }
+          "label": "Team"
         },
-        "values": [
-          {
-            "label": "Independence",
-            "text": "We conduct objective and impartial analyses, minimizing the interference of political preferences, ensuring rigor and commitment to research."
-          },
-          {
-            "label": "Commitment",
-            "text": "We are dedicated to identifying and proposing actions that generate positive and real impact on public security."
-          },
-          {
-            "label": "Community Appreciation",
-            "text": "We recognize the importance of the community and the populations served by the programs we evaluate, always seeking improvements for all involved."
-          },
-          {
-            "label": "Social Relevance",
-            "text": "We prioritize topics of high social relevance, presenting proposals that respond to the most urgent challenges in public security."
-          }
-        ],
-        "text": "Change the paradigm of public security, from a reactive approach to one focused on the prevention of violence and crime deterrence, so that violence no longer interrupts dreams.",
-        "teamGroup": [
-          {
-            "people": [
-              {
-                "photo": "https://assets.decocache.com/novo-leme/db438d32-8e0b-40b9-be41-252c9eca49d3/person.png",
-                "name": "Joana Monteiro",
-                "role": "Director and co-founder",
-                "description": "PhD in Economics (PUC-Rio) and Professor of Public Policy at FGV/EBAPE. Joana has held prominent positions in the Rio de Janeiro government, such as director of the Public Security Institute (2015-2018) and head of research at the State Public Prosecutor's Office (2019-2021). Previously, she was Tinker Visiting Professor at the University of Chicago (2023), Visiting Fellow at Columbia University (2021-2022), and Research Fellow at Harvard University (2009-2012). She is affiliated with Evidence in Governance and Politics (EGAP), guest researcher at J-PAL/MIT, member of the Global Initiative Against Transnational Organized Crime (GI-TOC), and a board member of the Multidimensional Security School (ESEM-IRI-USP) and LACEA-AlCapone. More information: Website, Lattes, and LinkedIn.",
-                "links": {
-                  "website": "/",
-                  "lattes": "/",
-                  "linkedin": "/"
-                },
-                "label": "Joana Monteiro 1"
+        {
+          "people": [
+            {
+              "photo": "https://assets.decocache.com/novo-leme/db438d32-8e0b-40b9-be41-252c9eca49d3/person.png",
+              "name": "Joana Monteiro",
+              "role": "Director and co-founder",
+              "description": "PhD in Economics (PUC-Rio) and Professor of Public Policy at FGV/EBAPE. Joana has held prominent positions in the Rio de Janeiro government, such as director of the Public Security Institute (2015-2018) and head of research at the State Public Prosecutor's Office (2019-2021). Previously, she was Tinker Visiting Professor at the University of Chicago (2023), Visiting Fellow at Columbia University (2021-2022), and Research Fellow at Harvard University (2009-2012). She is affiliated with Evidence in Governance and Politics (EGAP), guest researcher at J-PAL/MIT, member of the Global Initiative Against Transnational Organized Crime (GI-TOC), and a board member of the Multidimensional Security School (ESEM-IRI-USP) and LACEA-AlCapone. More information: Website, Lattes, and LinkedIn.",
+              "links": {
+                "website": "/",
+                "lattes": "/",
+                "linkedin": "/"
               },
-              {
-                "photo": "https://assets.decocache.com/novo-leme/db438d32-8e0b-40b9-be41-252c9eca49d3/person.png",
-                "name": "Joana Monteiro",
-                "role": "Director and co-founder",
-                "description": "PhD in Economics (PUC-Rio) and Professor of Public Policy at FGV/EBAPE. Joana has held prominent positions in the Rio de Janeiro government, such as director of the Public Security Institute (2015-2018) and head of research at the State Public Prosecutor's Office (2019-2021). Previously, she was Tinker Visiting Professor at the University of Chicago (2023), Visiting Fellow at Columbia University (2021-2022), and Research Fellow at Harvard University (2009-2012). She is affiliated with Evidence in Governance and Politics (EGAP), guest researcher at J-PAL/MIT, member of the Global Initiative Against Transnational Organized Crime (GI-TOC), and a board member of the Multidimensional Security School (ESEM-IRI-USP) and LACEA-AlCapone. More information: Website, Lattes, and LinkedIn.",
-                "links": {
-                  "website": "/",
-                  "lattes": "/",
-                  "linkedin": "/"
-                },
-                "label": "Joana Monteiro 2"
-              },
-              {
-                "photo": "https://assets.decocache.com/novo-leme/db438d32-8e0b-40b9-be41-252c9eca49d3/person.png",
-                "name": "Joana Monteiro",
-                "role": "Director and co-founder",
-                "description": "PhD in Economics (PUC-Rio) and Professor of Public Policy at FGV/EBAPE. Joana has held prominent positions in the Rio de Janeiro government, such as director of the Public Security Institute (2015-2018) and head of research at the State Public Prosecutor's Office (2019-2021). Previously, she was Tinker Visiting Professor at the University of Chicago (2023), Visiting Fellow at Columbia University (2021-2022), and Research Fellow at Harvard University (2009-2012). She is affiliated with Evidence in Governance and Politics (EGAP), guest researcher at J-PAL/MIT, member of the Global Initiative Against Transnational Organized Crime (GI-TOC), and a board member of the Multidimensional Security School (ESEM-IRI-USP) and LACEA-AlCapone. More information: Website, Lattes, and LinkedIn.",
-                "links": {
-                  "website": "/",
-                  "lattes": "/",
-                  "linkedin": "/"
-                },
-                "label": "Joana Monteiro 3"
-              },
-              {
-                "photo": "https://assets.decocache.com/novo-leme/db438d32-8e0b-40b9-be41-252c9eca49d3/person.png",
-                "name": "Joana Monteiro",
-                "role": "Director and co-founder",
-                "description": "PhD in Economics (PUC-Rio) and Professor of Public Policy at FGV/EBAPE. Joana has held prominent positions in the Rio de Janeiro government, such as director of the Public Security Institute (2015-2018) and head of research at the State Public Prosecutor's Office (2019-2021). Previously, she was Tinker Visiting Professor at the University of Chicago (2023), Visiting Fellow at Columbia University (2021-2022), and Research Fellow at Harvard University (2009-2012). She is affiliated with Evidence in Governance and Politics (EGAP), guest researcher at J-PAL/MIT, member of the Global Initiative Against Transnational Organized Crime (GI-TOC), and a board member of the Multidimensional Security School (ESEM-IRI-USP) and LACEA-AlCapone. More information: Website, Lattes, and LinkedIn.",
-                "links": {
-                  "website": "/",
-                  "lattes": "/",
-                  "linkedin": "/"
-                },
-                "label": "Joana Monteiro 4"
-              }
-            ],
-            "label": "Team"
-          },
-          {
-            "people": [
-              {
-                "photo": "https://assets.decocache.com/novo-leme/db438d32-8e0b-40b9-be41-252c9eca49d3/person.png",
-                "name": "Joana Monteiro",
-                "role": "Director and co-founder",
-                "description": "PhD in Economics (PUC-Rio) and Professor of Public Policy at FGV/EBAPE. Joana has held prominent positions in the Rio de Janeiro government, such as director of the Public Security Institute (2015-2018) and head of research at the State Public Prosecutor's Office (2019-2021). Previously, she was Tinker Visiting Professor at the University of Chicago (2023), Visiting Fellow at Columbia University (2021-2022), and Research Fellow at Harvard University (2009-2012). She is affiliated with Evidence in Governance and Politics (EGAP), guest researcher at J-PAL/MIT, member of the Global Initiative Against Transnational Organized Crime (GI-TOC), and a board member of the Multidimensional Security School (ESEM-IRI-USP) and LACEA-AlCapone. More information: Website, Lattes, and LinkedIn.",
-                "links": {
-                  "website": "/",
-                  "lattes": "/",
-                  "linkedin": "/"
-                },
-                "label": "Joana Monteiro"
-              }
-            ],
-            "label": "Associated Researchers"
-          }
-        ]
-      }
+              "label": "Joana Monteiro"
+            }
+          ],
+          "label": "Associated Researchers"
+        }
+      ]
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",

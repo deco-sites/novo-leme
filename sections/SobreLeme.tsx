@@ -1,11 +1,10 @@
 import Cycle, { Props as CycleProps } from  "../components/ui/Cycle.tsx";
 import { RichText } from "apps/admin/widgets.ts";
 import Title from  "../components/ui/Title.tsx";
-import SideNav from  "../components/ui/SideNav.tsx";
-import type {Props as SideNavProps} from  "../components/ui/SideNav.tsx";
+import { type Section } from "@deco/deco/blocks";
 
 export interface Props {
-  sidebarNav?: SideNavProps;
+  sidebarNav?: Section;
   title?: string;
   text?: RichText;
   cycleImage?: CycleProps;
@@ -17,10 +16,11 @@ export default function SobreLeme({
   text = "Text",
   cycleImage,
 }: Props) {
+  const Nav = sidebarNav?.Component;
   return (
     <div className="container px-0 md:px-12 flex flex-col md:flex-row gap-12 md:gap-44 my-6 md:my-12 text-neutral-950">
       <div className="mx-6 md:mx-0">          
-        <SideNav links={sidebarNav?.links} button={sidebarNav?.button}/>
+        {Nav && <div className="flex-none"><Nav {...(sidebarNav?.props ?? {})} /></div>}
       </div>
       <div className="flex-auto md:mx-12">
         <div className="mx-6 md:mx-0">          

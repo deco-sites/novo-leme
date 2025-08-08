@@ -21,45 +21,24 @@
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/SobreLeme.tsx",
-        "title": "About Leme",
-        "text": "<p>Leme is a non-profit organization that works in partnership with Public Security and Justice institutions and Civil Society Organizations to identify and test interventions to reduce violence that are effective, feasible, and scalable. Our goal is to support decision-makers in transforming national public security, based on solutions anchored in data science and scientific evidence. We operate at all stages of the public policy cycle to promote innovation in the area of security in Brazil.</p>",
-        "image": {
-          "src": "https://assets.decocache.com/novo-leme/aa60d0d7-e660-465f-a923-c562de989c10/SobreAtuacao.svg",
-          "alt": "Our work"
-        },
-        "sidebarNav": {
-          "links": [
-            {
-              "label": "About Leme",
-              "url": "/en/about",
-              "selected": true
-            },
-            {
-              "label": "Mission and Values",
-              "url": "/en/about/mission-and-values"
-            },
-            {
-              "label": "Team",
-              "url": "/en/about/team"
-            }
-          ],
-          "button": {
-            "label": "Portfolio",
-            "url": "/"
-          }
-        },
-        "cycleImage": {
-          "title": "Our work",
-          "step1": "<p><strong>Identification</strong> of engaged leaders and program refinement with partners</p>",
-          "step2": "<p><strong>Design</strong> or refinement of programs</p>",
-          "step3": "<p><strong>Testing and monitoring</strong> of implementation</p>",
-          "step4": "<p><strong>Design and execution</strong> of impact evaluation with treatment and control protocol</p>",
-          "step5": "<p><strong>Improvement</strong> of the program based on evaluation learning</p>",
-          "step6": "<p><strong>Promotion</strong> of effective and scalable programs</p>"
-        }
+      "__resolveType": "site/sections/SobreLeme.tsx",
+      "title": "About Leme",
+      "text": "<p>Leme is a non-profit organization that works in partnership with Public Security and Justice institutions and Civil Society Organizations to identify and test interventions to reduce violence that are effective, feasible, and scalable. Our goal is to support decision-makers in transforming national public security, based on solutions anchored in data science and scientific evidence. We operate at all stages of the public policy cycle to promote innovation in the area of security in Brazil.</p>",
+      "image": {
+        "src": "https://assets.decocache.com/novo-leme/aa60d0d7-e660-465f-a923-c562de989c10/SobreAtuacao.svg",
+        "alt": "Our work"
+      },
+      "sidebarNav": {
+        "__resolveType": "EN SideNav About"
+      },
+      "cycleImage": {
+        "title": "Our work",
+        "step1": "<p><strong>Identification</strong> of engaged leaders and program refinement with partners</p>",
+        "step2": "<p><strong>Design</strong> or refinement of programs</p>",
+        "step3": "<p><strong>Testing and monitoring</strong> of implementation</p>",
+        "step4": "<p><strong>Design and execution</strong> of impact evaluation with treatment and control protocol</p>",
+        "step5": "<p><strong>Improvement</strong> of the program based on evaluation learning</p>",
+        "step6": "<p><strong>Promotion</strong> of effective and scalable programs</p>"
       }
     },
     {

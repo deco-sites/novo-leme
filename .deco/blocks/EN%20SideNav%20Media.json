@@ -1,0 +1,14 @@
+{
+  "__resolveType": "site/sections/SideNav.tsx",
+  "links": [
+    {
+      "label": "In the Media",
+      "url": "/en/media"
+    },
+    {
+      "label": "News",
+      "url": "/en/media/news"
+    }
+  ],
+  "mobileOrientation": "horizontal"
+}
