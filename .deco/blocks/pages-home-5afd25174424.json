@@ -72,7 +72,7 @@
         "__resolveType": "blog/loaders/BlogpostList.ts",
         "postSlugs": [],
         "sortBy": "date_desc",
-        "slug": "eventos-participacao"
+        "slug": "eventos"
       },
       "labels": {
         "online": "Online",
