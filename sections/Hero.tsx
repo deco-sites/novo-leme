@@ -20,7 +20,7 @@ export default function LargeHero({
   return (
     <div className={`relative w-full max-h-[890px] mb-8 md:mb-16 overflow-hidden mt-6 ${marginTop ? 'md:mt-10' : 'mt-0'}`}>
       <div className="w-full opacity-60 md:h-auto">
-        <Image class="md:w-full max-w-prose md:max-w-full" src={image.src || ""} />
+        <Image class="md:w-full max-w-prose sm:max-w-full" src={image.src || ""} />
       </div>
       {
         text ? (

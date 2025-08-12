@@ -18,7 +18,7 @@ export default function About({
   links,
 }: Nav) {
   return (
-    <div className="container mx-auto md:px-32 flex flex-col space-y-6 md:space-y-16 mb-16">
+    <div className="container mx-auto xl:px-32 flex flex-col space-y-6 md:space-y-16 mb-16">
       <div 
         className="text-2xl md:text-5xl leading-tight font-serif"
         data-htmx-fade-in="true"

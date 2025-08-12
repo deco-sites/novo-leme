@@ -90,7 +90,7 @@ export default function Contato({
           </form>
           <div id="form-result" className="mt-6"></div>
         </div>
-        <div className="md:w-96 flex flex-col gap-5">
+        <div className="lg:w-96 flex flex-col gap-5">
           <h3 className="font-serif text-2xl">{email?.title}</h3>
           <p>{email?.email}</p>
         </div>

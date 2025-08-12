@@ -39,11 +39,11 @@ export default function PostsList(
   let containerClasses = "";
   switch (style?.orientation) {
     case "Horizontal":
-      containerClasses += "container mx-auto px-6 md:px-16 flex flex-col md:flex-row space-y-8 md:space-x-12 ";
+      containerClasses += "container mx-auto px-6 lg:px-16 flex flex-col lg:flex-row space-y-8 lg:space-x-12 ";
     break;
     case "Vertical":
     default:
-      containerClasses += "md:mx-16 py-8 md:py-16 flex-col space-y-6 md:space-y-6 ";
+      containerClasses += "lg:mx-16 py-8 lg:py-16 flex-col space-y-6 lg:space-y-6 ";
     break;
   }
   switch (style?.background) {
@@ -69,69 +69,67 @@ export default function PostsList(
       data-fade-easing="ease-out"
       data-fade-translate-y="30px"
     >
-      <div className={`${style?.orientation === 'Vertical' ? "px-6 md:px-32" : "flex-none md:w-60"}`}>
+      <div className={`${style?.orientation === 'Vertical' ? "px-6 lg:px-32" : "flex-none lg:w-60"}`}>
         <Title label={title} description={description} serif />
       </div>
       {
         style.slider ? (
-          <div className="flex flex-col flex-auto space-y-8 md:space-y-16 items-center px-6 md:px-24">
+          <div className="flex flex-col flex-auto space-y-8 xl:space-y-16 items-center px-6 lg:px-24">
             <div
             id={id}
-            class="relative grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-[min-content_1fr]"
+            class="relative grid grid-flow-row xl:grid-flow-col grid-cols-1 xl:grid-cols-[min-content_1fr]"
           >
             {/* Image Slider */}
-            <div class="col-start-1 col-span-1 sm:col-start-2">
-              <div class="h-min flex-grow">
-                <Slider class="carousel carousel-center gap-6 w-full p-4 md:p-8">
-                  {posts?.slice(0, 6).map((post, index) => {
-                    const url = post.extraProps?.find(item => item.key === "url");
+            <div class="col-start-1 col-span-1">
+              <Slider class="carousel carousel-center gap-6 w-full p-4 xl:p-8">
+                {posts?.slice(0, 6).map((post, index) => {
+                  const url = post.extraProps?.find(item => item.key === "url");
 
-                    let lang = "pt-BR";
-                    if (post.categories.some(item => item.slug.includes("en-"))) lang = "en-US";
-                    if (post.categories.some(item => item.slug.includes("es-"))) lang = "es-ES";
-                  
-                    const formattedDate = post.date ? new Date(post.date).toLocaleDateString(lang, {
-                      year: "numeric",
-                      month: "long",
-                      day: "numeric",
-                    }) : null;
-                  
-                    return (
-                      <Slider.Item
+                  let lang = "pt-BR";
+                  if (post.categories.some(item => item.slug.includes("en-"))) lang = "en-US";
+                  if (post.categories.some(item => item.slug.includes("es-"))) lang = "es-ES";
+                
+                  const formattedDate = post.date ? new Date(post.date).toLocaleDateString(lang, {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                  }) : null;
+                
+                  return (
+                    <Slider.Item
                       index={index}
-                      class="carousel-item w-full md:w-[calc(32.5%)]"
-                      >
-                        <Card
-                          borderColor={style?.background === "Orange" ? "primary" : "secondary"}
-                          image={{src: post.image, alt: ''}}
-                          label={post.title}
-                          description={post.excerpt}
-                          date={config.showPostDate ? (formattedDate || '') : ''}
-                          url={url?.value || `/${config.categorySlug}/${post.slug}`}
-                          newTab={url?.value ? true : false}
-                        />
-                      </Slider.Item>
-                    )
-                  })}
-                </Slider>
+                      class="carousel-item w-full md:w-[calc(48.2%)] xl:w-[calc(32.5%)]"
+                    >
+                      <Card
+                        borderColor={style?.background === "Orange" ? "primary" : "secondary"}
+                        image={{src: post.image, alt: ''}}
+                        label={post.title}
+                        description={post.excerpt}
+                        date={config.showPostDate ? (formattedDate || '') : ''}
+                        url={url?.value || `/${config.categorySlug}/${post.slug}`}
+                        newTab={url?.value ? true : false}
+                      />
+                    </Slider.Item>
+                  )
+                })}
+              </Slider>
 
-                <Slider.PrevButton
-                  class={`text-white no-animation absolute -left-6 md:-left-16 top-1/2 disabled:opacity-30 rounded-full ${style?.background === "Blue" ? "md:hover:bg-secondary" : "md:hover:bg-primary"}`}
-                >
-                  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M23.75 27.5L16.25 20L23.75 12.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                  </svg>
-                </Slider.PrevButton>
+              <Slider.PrevButton
+                class={`text-white no-animation absolute -left-6 xl:-left-16 top-1/2 disabled:opacity-30 rounded-full ${style?.background === "Blue" ? "md:hover:bg-secondary" : "md:hover:bg-primary"}`}
+              >
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M23.75 27.5L16.25 20L23.75 12.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </Slider.PrevButton>
 
-                <Slider.NextButton
-                  class={`text-white no-animation absolute -right-6 md:-right-16 top-1/2 disabled:opacity-30 rounded-full ${style?.background === "Blue" ? "md:hover:bg-secondary" : "md:hover:bg-primary"}`}
-                  disabled={posts && posts?.length < 2 ? true : false}
-                >
-                  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M16.25 12.5L23.75 20L16.25 27.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                  </svg>
-                </Slider.NextButton>
-              </div>
+              <Slider.NextButton
+                class={`text-white no-animation absolute -right-6 xl:-right-16 top-1/2 disabled:opacity-30 rounded-full ${style?.background === "Blue" ? "md:hover:bg-secondary" : "md:hover:bg-primary"}`}
+                disabled={posts && posts?.length < 2 ? true : false}
+              >
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16.25 12.5L23.75 20L16.25 27.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </Slider.NextButton>
             </div>
 
             <Slider.JS rootId={id} />
@@ -177,68 +175,66 @@ export default function PostsList(
             </div>
 
             {/* Mobile Image Slider */}
-            <div className="md:hidden flex flex-col flex-auto space-y-8 md:space-y-16 items-center px-0 md:px-24">
-                <div
+            <div className="md:hidden flex flex-col flex-auto space-y-8 xl:space-y-16 px-6 lg:px-24">
+              <div
                 id={id}
-                class="relative grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-[min-content_1fr]"
+                class="relative grid grid-flow-row xl:grid-flow-col grid-cols-1 xl:grid-cols-[min-content_1fr]"
               >
                 {/* Image Slider */}
-                <div class="col-start-1 col-span-1 sm:col-start-2">
-                  <div class="h-min flex-grow">
-                    <Slider class="carousel carousel-center gap-6 w-full p-4 md:p-8">
-                      {posts?.slice(0, 6).map((post, index) => {
-                        const url = post.extraProps?.find(item => item.key === "url");
+                <div class="col-start-1 col-span-1">
+                  <Slider class="carousel carousel-center gap-6 w-full p-4 xl:p-8">
+                    {posts?.slice(0, 6).map((post, index) => {
+                      const url = post.extraProps?.find(item => item.key === "url");
 
-                        let lang = "pt-BR";
-                        if (post.categories.some(item => item.slug.includes("en-"))) lang = "en-US";
-                        if (post.categories.some(item => item.slug.includes("es-"))) lang = "es-ES";
-                      
-                        const formattedDate = post.date ? new Date(post.date).toLocaleDateString(lang, {
-                          year: "numeric",
-                          month: "long",
-                          day: "numeric",
-                        }) : null;
-                      
-                        return (
-                          <Slider.Item
+                      let lang = "pt-BR";
+                      if (post.categories.some(item => item.slug.includes("en-"))) lang = "en-US";
+                      if (post.categories.some(item => item.slug.includes("es-"))) lang = "es-ES";
+                    
+                      const formattedDate = post.date ? new Date(post.date).toLocaleDateString(lang, {
+                        year: "numeric",
+                        month: "long",
+                        day: "numeric",
+                      }) : null;
+                    
+                      return (
+                        <Slider.Item
                           index={index}
-                          class="carousel-item w-full md:w-[calc(32.5%)]"
-                          >
-                            <Card
-                              borderColor={style?.background === "Blue" ? "secondary" : "primary"}
-                              image={{src: post.image, alt: ''}}
-                              label={post.title}
-                              description={post.excerpt}
-                              date={config.showPostDate ? (formattedDate || '') : ''}
-                              url={url?.value || `/${config.categorySlug}/${post.slug}`}
-                              newTab={url?.value ? true : false}
-                            />
-                          </Slider.Item>
-                        )
-                      })}
-                    </Slider>
+                          class="carousel-item w-full md:w-[calc(48.2%)] xl:w-[calc(32.5%)]"
+                        >
+                          <Card
+                            borderColor={style?.background === "Blue" ? "secondary" : "primary"}
+                            image={{src: post.image, alt: ''}}
+                            label={post.title}
+                            description={post.excerpt}
+                            date={config.showPostDate ? (formattedDate || '') : ''}
+                            url={url?.value || `/${config.categorySlug}/${post.slug}`}
+                            newTab={url?.value ? true : false}
+                          />
+                        </Slider.Item>
+                      )
+                    })}
+                  </Slider>
 
-                    <Slider.PrevButton
-                      class={`no-animation absolute -left-6 md:-left-16 top-1/2 disabled:opacity-30 rounded-full ${style?.background === "Neutral" ? "" : "text-white"}`}
-                    >
-                      <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M23.75 27.5L16.25 20L23.75 12.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                      </svg>
-                    </Slider.PrevButton>
+                  <Slider.PrevButton
+                    class={`no-animation absolute -left-6 xl:-left-16 top-1/2 disabled:opacity-30 rounded-full ${style?.background === "Neutral" ? "" : "text-white"}`}
+                  >
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M23.75 27.5L16.25 20L23.75 12.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </Slider.PrevButton>
 
-                    <Slider.NextButton
-                      class={`no-animation absolute -right-6 md:-right-16 top-1/2 disabled:opacity-30 rounded-full ${style?.background === "Neutral" ? "" : "text-white"}`}
-                      disabled={posts && posts?.length < 2 ? true : false}
-                    >
-                      <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M16.25 12.5L23.75 20L16.25 27.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                      </svg>
-                    </Slider.NextButton>
-                  </div>
+                  <Slider.NextButton
+                    class={`no-animation absolute -right-6 xl:-right-16 top-1/2 disabled:opacity-30 rounded-full ${style?.background === "Neutral" ? "" : "text-white"}`}
+                    disabled={posts && posts?.length < 2 ? true : false}
+                  >
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M16.25 12.5L23.75 20L16.25 27.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </Slider.NextButton>
                 </div>
-
-                <Slider.JS rootId={id} />
               </div>
+
+              <Slider.JS rootId={id} />
               <div class="flex px-6">
                 <FancyLink label={button?.label} url={button?.url} iconRight/>
               </div>

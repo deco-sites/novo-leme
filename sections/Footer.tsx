@@ -45,7 +45,7 @@ export default function NewFooter({
             <Image className="absolute 2xl:w-full object-cover object-center max-w-fit 2xl:max-w-full" src={bgImage || ""} />
             <Image className="relative z-10" src={logo.src || ""} width={122} height={71} alt={logo.alt} />
         </div>
-        <div className="container mx-auto flex items-end lg:items-center lg:space-x-3 py-8 lg:py-0">
+        <div className="container mx-auto flex flex-row lg:flex-col xl:flex-row items-end lg:items-center lg:space-x-3 py-8 xl:py-0">
           <nav className="flex flex-col lg:flex-row flex-auto">
             {navigation?.links.map((link) => (
               <a

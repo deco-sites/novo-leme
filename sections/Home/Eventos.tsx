@@ -34,7 +34,7 @@ export default function HomeEventos({
 }: Nav) {
   return (
     <div 
-      className="container mx-auto px-6 md:px-16 flex flex-col md:flex-row space-y-8 md:space-x-12 mb-16"
+      className="container mx-auto px-6 xl:px-16 flex flex-col lg:flex-row space-y-8 lg:space-x-12 mb-16"
       data-htmx-fade-in="true"
       data-fade-duration="1000"
       data-fade-delay="100"
@@ -42,11 +42,11 @@ export default function HomeEventos({
       data-fade-easing="ease-out"
       data-fade-translate-y="30px"
     >
-      <div className="flex-none md:w-60">
+      <div className="flex-none lg:w-60">
         <Title label={title} description={description} serif />
       </div>
       <div className="flex flex-col flex-auto space-y-5">
-        <div className="flex flex-col space-y-7 md:space-y-2 md:mr-40">
+        <div className="flex flex-col space-y-7 lg:space-y-2 xl:mr-40">
           {posts?.slice(0, 6).map((post, index) => (
             <CardEvent
               label={post.title}
@@ -56,7 +56,7 @@ export default function HomeEventos({
             />
           ))}
         </div>
-        <div class="flex md:px-6">
+        <div class="flex lg:px-6">
           <FancyLink label={button?.label} url={button?.url} iconRight/>
         </div>
       </div>
