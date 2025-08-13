@@ -80,7 +80,7 @@ export default function PostsList(
             class="relative grid grid-flow-row xl:grid-flow-col grid-cols-1 xl:grid-cols-[min-content_1fr]"
           >
             {/* Image Slider */}
-            <div class="col-start-1 col-span-1">
+            <div class="col-start-1 col-span-1 lg:col-start-2">
               <Slider class="carousel carousel-center gap-6 w-full p-4 xl:p-8">
                 {posts?.slice(0, 6).map((post, index) => {
                   const url = post.extraProps?.find(item => item.key === "url");
@@ -181,7 +181,7 @@ export default function PostsList(
                 class="relative grid grid-flow-row xl:grid-flow-col grid-cols-1 xl:grid-cols-[min-content_1fr]"
               >
                 {/* Image Slider */}
-                <div class="col-start-1 col-span-1">
+                <div class="col-start-1 col-span-1 lg:col-start-2">
                   <Slider class="carousel carousel-center gap-6 w-full p-4 xl:p-8">
                     {posts?.slice(0, 6).map((post, index) => {
                       const url = post.extraProps?.find(item => item.key === "url");

@@ -1,0 +1,8 @@
+{
+  "name": "collections/blog/categories/17e42116665a",
+  "__resolveType": "blog/loaders/Category.ts",
+  "category": {
+    "name": "Events participation",
+    "slug": "en-eventos-participacao"
+  }
+}

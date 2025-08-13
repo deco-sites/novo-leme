@@ -7,6 +7,10 @@
       {
         "name": "Events",
         "slug": "en-eventos"
+      },
+      {
+        "name": "Events participation",
+        "slug": "en-eventos-participacao"
       }
     ],
     "imageCarousel": {
