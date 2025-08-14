@@ -47,7 +47,7 @@ export default function SobreEquipe({
               {group.people?.map((person, index) => (
                 <div className="group flex gap-5">
                   <div className="flex-none">
-                    <Image class="rounded-md w-24 md:w-[138px]" src={person?.photo || ""} alt={person?.label} width={138} height={165} />
+                    <Image class="rounded-md w-24 md:w-[138px]" src={person?.photo || "https://assets.decocache.com/novo-leme/31b2a0a0-2c88-4731-902a-88bd35f79093/Placeholder.jpeg"} alt={person?.label} width={138} height={165} />
                   </div>
                   <div className="flex-auto flex flex-col gap-3">
                     <div className="flex flex-col gap-2">
