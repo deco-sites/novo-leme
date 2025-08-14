@@ -1,0 +1,47 @@
+{
+  "name": "collections/blog/posts/ae4000b30209",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Eventos",
+        "slug": "eventos"
+      }
+    ],
+    "imageCarousel": {
+      "banners": [
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/3fe58bfb-3c58-49b8-897c-18dfd26c085f/WhatsApp-Image-2024-12-19-at-08.20.37-(2).jpeg"
+          },
+          "mobile": {},
+          "alt": "13-reuniao-2"
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/fd20ce65-1ce8-4724-8389-e6471fb1a779/WhatsApp-Image-2024-12-19-at-08.20.37-1-(2).jpeg"
+          },
+          "mobile": {},
+          "alt": "13-reuniao"
+        }
+      ]
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "13ª Reunião Anual da Rede AL CAPONE",
+    "excerpt": "A 13ª Reunião Anual da Rede AL CAPONE, realizada na Universidade de Harvard, reuniu especialistas para discutirem pesquisas sobre crime e políticas públicas na América Latina e Caribe...",
+    "content": "<p>A 13ª Reunião Anual da Rede AL CAPONE, realizada na Universidade de Harvard, reuniu especialistas para discutirem pesquisas sobre crime e políticas públicas na América Latina e Caribe. Organizado pelo Centro David Rockefeller para Estudos Latino-Americanos (DRCLAS), em parceria com a rede AL CAPONE da LACEA, o evento abordou temas como comportamento policial, prevenção ao crime juvenil, drogas, justiça criminal e impactos econômicos sobre o crime. No encontro, Joana Monteiro, diretora do Leme, contribuiu com a apresentação da pesquisa “Motorizados e Mais Motivados? Patrulhas Militarizadas e o Crime no Ceará, Brasil”, destacando os efeitos das patrulhas militarizadas no combate ao crime. A programação incluiu a participação de acadêmicos renomados e da professora Crystal Yang (Harvard Law School) como oradora principal. </p>",
+    "slug": "13-reuniao-anual-rede-al-capone",
+    "date": "2024-05-10"
+  }
+}

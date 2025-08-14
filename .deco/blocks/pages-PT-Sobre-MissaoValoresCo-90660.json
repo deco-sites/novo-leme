@@ -127,6 +127,14 @@
             }
           ],
           "label": "Pesquisadores Associados"
+        },
+        {
+          "people": [],
+          "label": "Pesquisadores Afiliados"
+        },
+        {
+          "people": [],
+          "label": "Conselho Fiscal "
         }
       ]
     },

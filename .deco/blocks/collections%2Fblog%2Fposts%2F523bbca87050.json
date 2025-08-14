@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/523bbca87050",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Workshop Internacional de Perdas Não-Técnicas – ANEEL ",
+    "excerpt": "O Workshop Internacional de Perdas Não-Técnicas, promovido pela ANEEL na sede da Confederação Nacional da Indústria (CNI) em Brasília, reuniu especialistas, autoridades e representantes do setor elétrico...",
+    "date": "2024-07-04",
+    "slug": "workshop-internacional-perdas-nao-tecnicas-aneel",
+    "content": "<p>O Workshop Internacional de Perdas Não-Técnicas, promovido pela ANEEL na sede da Confederação Nacional da Indústria (CNI) em Brasília, reuniu especialistas, autoridades e representantes do setor elétrico para debaterem soluções sustentáveis voltadas à redução de fraudes em medidores de energia e ligações clandestinas. O evento abordou o impacto das perdas não-técnicas, que geravam prejuízos anuais estimados em R$ 10 bilhões, e discutiu práticas regulatórias e experiências internacionais. No encontro, Joana Monteiro, diretora do Leme, contribuiu com reflexões sobre a atuação de grupos criminosos armados e apresentou recomendações ao setor elétrico, destacando a importância da medição precisa do problema, da qualificação das investigações e da compreensão dos mecanismos criminosos envolvidos nas fraudes. </p>"
+  }
+}

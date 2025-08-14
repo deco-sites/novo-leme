@@ -1,7 +1,7 @@
 {
   "__resolveType": "website/pages/Page.tsx",
-  "name": "PT Evento - Exemplo 1",
-  "path": "/eventos/novas-abordagens-controle-grupos-criminosos-rj",
+  "name": "PT Evento Participa- ",
+  "path": "/example-path",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },
@@ -75,7 +75,7 @@
       ],
       "sponsors": [
         {
-          "image": "https://assets.decocache.com/novo-leme/a43f123d-04e2-4bb8-81ab-4ba1efc9d583/WhatsApp_Image_2025-08-14_at_13.14.13-removebg-preview.png",
+          "image": "https://assets.decocache.com/novo-leme/bf057f80-1edb-469d-9ddc-fad7afe70410/WhatsApp-Image-2025-08-14-at-13.14.11.jpeg",
           "label": "UChicago Global"
         },
         {

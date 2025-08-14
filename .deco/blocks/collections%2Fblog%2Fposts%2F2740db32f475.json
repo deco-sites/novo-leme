@@ -1,0 +1,29 @@
+{
+  "name": "collections/blog/posts/2740db32f475",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [
+      {}
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Semana do Ministério Público 2024 ",
+    "excerpt": "A Semana do MP 2024, promovida pelo Ministério Público do Estado da Bahia, abriu espaço para debates sobre os desafios na implementação de políticas de segurança pública...",
+    "content": "<p>A Semana do MP 2024, promovida pelo Ministério Público do Estado da Bahia, abriu espaço para debates sobre os desafios na implementação de políticas de segurança pública, com foco no cenário crítico enfrentado pela Bahia — estado que concentrava seis dos dez municípios mais violentos do país. No painel “Desafios na Implementação de Políticas de Segurança Pública”, especialistas discutiram estratégias frente à atuação de grupos criminosos armados e os limites das respostas estatais da época. No encontro, Joana Monteiro, diretora do Leme, contribuiu com análises sobre o poder estrutural das facções, defendendo abordagens mais sistêmicas e duradouras para conter a violência. Participaram também Bruno Paes Manso, o secretário Felipe Freitas e o promotor Hugo Casciano Sant’Anna. </p>",
+    "slug": "Sugiro este slug:  ``` semana-ministerio-publico-2024 ```",
+    "date": "2024-12-18"
+  }
+}

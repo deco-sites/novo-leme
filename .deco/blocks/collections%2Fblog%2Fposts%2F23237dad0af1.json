@@ -1,0 +1,26 @@
+{
+  "name": "collections/blog/posts/23237dad0af1",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Workshop sobre Crime Organizado e Violência na América Latina e Caribe",
+    "excerpt": "O workshop sobre Crime Organizado e Violência na América Latina e Caribe, realizado na Universidade de Harvard, promoveu debates entre especialistas de diferentes instituições sobre a magnitude...",
+    "date": "2024-05-09",
+    "slug": "workshop-crime-organizado-violencia-america-latina-caribe"
+  }
+}

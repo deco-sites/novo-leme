@@ -33,7 +33,17 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Transparencia.tsx"
+        "__resolveType": "site/sections/Transparencia.tsx",
+        "docs": [
+          {
+            "name": "Relatório de Atividades e Financeiro 2024",
+            "image": {
+              "src": "https://assets.decocache.com/novo-leme/e7c73d74-0992-4af2-9748-c3a39a42a1ee/transparencia-1744204769-(3)-1_page-0001.jpg"
+            },
+            "description": "Relatório de atividades e financeiro referente ao primeiro ano de atuação do Leme, disponibilizado para fins de transparência institucional.",
+            "url": "https://assets.decocache.com/novo-leme/6ee5314e-bec7-48ac-a848-0406387413dd/transparencia-1744204769-(3).pdf"
+          }
+        ]
       }
     },
     {

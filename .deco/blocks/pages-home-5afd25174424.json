@@ -16,7 +16,7 @@
         "image": {
           "src": "https://assets.decocache.com/novo-leme/d7de9589-1bf4-4016-bff7-1c922a6df2ef/Grafico-atuacao-v7.svg"
         },
-        "text": "O Leme é uma organização sem fins lucrativos que atua em parceria com instituições de Segurança Pública e Justiça e com Organizações.",
+        "text": "O Leme é uma organização sem fins lucrativos que atua em parceria com instituições de Segurança Pública e Justiça e sociedade civil para identificar e testar abordagens eficazes de prevenção e redução da violência no Brasil. \n",
         "links": [
           {
             "label": "Mais sobre o Leme",
@@ -33,10 +33,10 @@
         ],
         "cycleImage": {
           "title": "Nossa atuação",
-          "step1": "<p><strong>Identificação</strong> de lideranças engajadas e refinamento de programa com os parceiros</p>",
+          "step1": "<p><strong>Identificação</strong> de lideranças engajadas e fortalecimento de capacidadesde </p>",
           "step2": "<p><strong>Desenho</strong> ou refinamento de programas</p>",
           "step3": "<p><strong>Teste e acompanhamento</strong> de implementação</p>",
-          "step4": "<p><strong>Desenho e execução</strong> da avaliação de impacto com protocolo de tratamento e controle</p>",
+          "step4": "<p><strong>Desenho e execução</strong> da avaliação de impacto conforme protocolo de tratamento e controle</p>",
           "step5": "<p><strong>Aprimoramento</strong> do programa a partir do aprendizado da avaliação</p>",
           "step6": "<p><strong>Promoção</strong> de programas efetivos e escaláveis</p>"
         }
@@ -50,21 +50,21 @@
         "sortBy": "date_desc",
         "slug": "projetos"
       },
-      "title": "Projetos",
-      "description": "Conheça nossa atuação através dos nossos projetos",
       "button": {
         "label": "Ver mais projetos",
         "url": "/projetos"
       },
-      "style": {
-        "slider": true,
-        "orientation": "Vertical",
-        "background": "Orange"
-      },
-      "label": "test",
       "config": {
         "categorySlug": "projetos"
-      }
+      },
+      "title": "Projetos",
+      "description": "Conheça nossa atuação através dos nossos projetos",
+      "style": {
+        "orientation": "Vertical",
+        "background": "Orange",
+        "slider": true
+      },
+      "label": "test"
     },
     {
       "__resolveType": "site/sections/Home/Eventos.tsx",
@@ -74,41 +74,51 @@
         "sortBy": "date_desc",
         "slug": "eventos"
       },
-      "labels": {
-        "online": "Online",
-        "presencial": "Presencial"
-      },
       "button": {
         "label": "Ver todos os eventos",
         "url": "/eventos"
       },
       "config": {
         "categorySlug": "/eventos"
+      },
+      "labels": {
+        "online": "Online",
+        "presencial": "Presencial"
       }
     },
     {
-      "__resolveType": "site/sections/Home/HomePostsList.tsx",
-      "posts": {
-        "__resolveType": "blog/loaders/BlogpostList.ts",
-        "postSlugs": [],
-        "sortBy": "date_desc",
-        "slug": "noticias"
-      },
-      "title": "Notícias",
-      "description": "Fique por dentro das novidades do Leme",
-      "button": {
-        "label": "Ver mais notícias",
-        "url": "/midia/noticias"
-      },
-      "style": {
-        "slider": true,
-        "orientation": "Vertical",
-        "background": "Blue"
-      },
-      "config": {
-        "showPostDate": true,
-        "categorySlug": "midia/noticias"
-      }
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
+        {
+          "value": {
+            "__resolveType": "site/sections/Home/HomePostsList.tsx",
+            "posts": {
+              "__resolveType": "blog/loaders/BlogpostList.ts",
+              "postSlugs": [],
+              "sortBy": "date_desc",
+              "slug": "noticias"
+            },
+            "title": "Notícias",
+            "description": "Fique por dentro das novidades do Leme",
+            "button": {
+              "label": "Ver mais notícias",
+              "url": "/midia/noticias"
+            },
+            "style": {
+              "slider": true,
+              "orientation": "Vertical",
+              "background": "Blue"
+            },
+            "config": {
+              "showPostDate": true,
+              "categorySlug": "midia/noticias"
+            }
+          },
+          "rule": {
+            "__resolveType": "website/matchers/never.ts"
+          }
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Home/HomePostsList.tsx",
