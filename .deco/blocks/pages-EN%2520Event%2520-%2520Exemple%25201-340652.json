@@ -1,7 +1,7 @@
 {
   "__resolveType": "website/pages/Page.tsx",
   "name": "EN Event - Example 1",
-  "path": "/en/events/example-event-title",
+  "path": "/en/events/new-approaches-controlling-armed-criminal-groups-rj",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },
@@ -28,7 +28,7 @@
       "__resolveType": "site/sections/EventoOganizado.tsx",
       "page": {
         "__resolveType": "blog/loaders/BlogPostPage.ts",
-        "slug": "example-event-title"
+        "slug": "new-approaches-controlling-armed-criminal-groups-rj"
       },
       "sidebarNav": {
         "__resolveType": "EN SideNav Events",
@@ -43,32 +43,18 @@
           }
         ]
       },
-      "description": "<p>The Extra-Legal Governance in Global Perspective conference brings together scholars interested in research that addresses how we conceptualize various types of governance (extra-legal, criminal, rebel, hybrid, etc.) and how such governance shapes and is shaped by conflict, illicit markets, regime type, political parties and elites, and law enforcement. We seek to break down the disciplinary and regional silos within which this topic typically operates to create a common language/vocabulary and accumulate findings. Our conversation will also emphasize a wide range of regions across the globe.</p>",
+      "description": "<p>The event aims to discuss violent organized crime in Latin America and identify promising strategies for its reduction in the context of Rio de Janeiro, based on national and international experiences. To this end, we will host Professors Chris Blattman and Benjamin Lessing from the University of Chicago, and Carlos Schmidt-Padilla from the University of California—experts on the subject who have conducted field studies for years on the control and criminal governance of such groups in Colombia, Mexico, Brazil, El Salvador, and the United States.<br><br></p><p>This initiative reflects Leme’s core mission: fostering productive exchanges and connections between academics and decision-makers. With a dynamic and participatory format, the meeting will be invitation-only and will seek to create a collaborative environment for building practical solutions grounded in scientific evidence. Participants will include representatives from public security institutions, Brazilian and foreign researchers, as well as civil society organizations.<br><br></p><p>Access the full program <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://drive.google.com/drive/folders/19p86VDtM8wlKjAc_4l9xOmwBC-Ez7mZR\">here</a>.</p>",
       "date": {
-        "start": "2025-08-01T16:00:00.000Z",
-        "end": "2025-08-10T21:00:00.000Z"
+        "start": "2025-08-19T12:00:00.000Z",
+        "end": "2025-08-19T20:00:00.000Z"
       },
       "location": {
-        "name": "Museu de Arte Moderna do Rio de Janeiro",
-        "address": "Av. Infante Dom Henrique, 85Parque do Flamengo, Rio de Janeiro - RJ"
+        "name": "Casa das Garças",
+        "address": "Av. Padre Leonel Franca, 135 – Gávea, Rio de Janeiro – RJ"
       },
       "image": "https://assets.decocache.com/novo-leme/3e406056-67fd-45b8-a309-dd02016de9db/img.jpg",
-      "gallery": [
-        {
-          "image": "https://assets.decocache.com/novo-leme/fd83c2e1-c872-4de5-88fe-a184078581a9/1744397717_20250327_Fonacriad-(7).webp",
-          "label": "Reunião"
-        },
-        {
-          "label": "Reunião",
-          "image": "https://assets.decocache.com/novo-leme/7bafe280-29e3-497a-aad9-03e69179e5af/1744397717_20250327_Fonacriad-(5).webp"
-        },
-        {
-          "label": "Reunião",
-          "image": "https://assets.decocache.com/novo-leme/90384b7e-6aa3-465a-823e-2aa8e34a87a1/1744397717_20250327_Fonacriad-(2).webp"
-        }
-      ],
+      "gallery": [],
       "registrationHref": "http://www.google.com/",
-      "registrationUrl": "http://www.google.com/",
       "organization": [
         {
           "name": "Leme",
@@ -79,22 +65,22 @@
       "partners": [
         {
           "name": "Governo do Brasil",
-          "label": "Governo do Brasil",
-          "image": "https://assets.decocache.com/novo-leme/f689aa4e-99ed-4649-b889-57887ebbb1c5/br-gov.png"
+          "image": "https://assets.decocache.com/novo-leme/b846cd3a-e069-4fb6-b9ad-fab53aee1d5b/image-removebg-preview-(15).png",
+          "label": "Universidade de Chicago"
         },
         {
-          "label": "Governo do Estado do Rio de Janeiro",
-          "image": "https://assets.decocache.com/novo-leme/339fa608-15e5-48b7-be77-3d30cb4cf143/rio-gov.png"
-        },
-        {
-          "label": "Prefeitura do Rio de Janeiro",
-          "image": "https://assets.decocache.com/novo-leme/b75c31a7-cd17-476e-a3b3-1738bb6528cc/rio-pref.png"
+          "image": "https://assets.decocache.com/novo-leme/589575ee-bbab-44ac-be72-3074b02c969a/thumbnail_logo-iepe.jpg",
+          "label": "Instituto de Estudos de Política Econômica/Casa das Garças"
         }
       ],
       "sponsors": [
         {
-          "label": "BNDES",
-          "image": "https://assets.decocache.com/novo-leme/2cdc4686-04c6-4b38-bee5-97d8c3154696/bndes.png"
+          "label": "UChicago Global",
+          "image": "https://assets.decocache.com/novo-leme/a43f123d-04e2-4bb8-81ab-4ba1efc9d583/WhatsApp_Image_2025-08-14_at_13.14.13-removebg-preview.png"
+        },
+        {
+          "image": "https://assets.decocache.com/novo-leme/4c9b0f7f-0a2d-4a08-aa22-15421d3a7f58/jpal.png",
+          "label": "J-PAL América Latina e Caribe"
         }
       ],
       "texts": {

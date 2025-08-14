@@ -7,12 +7,29 @@
       {
         "name": "Projetos",
         "slug": "projetos"
+      },
+      {
+        "name": "Fortalecimento de Instituições Policiais",
+        "slug": "fortalecimento-instituicoes-policiais-controle-territorial-crime-organizado"
       }
     ],
     "imageCarousel": {
       "banners": []
     },
-    "extraProps": [],
+    "extraProps": [
+      {
+        "key": "date",
+        "value": "2023-2024"
+      },
+      {
+        "key": "location",
+        "value": "Estado do Ceará"
+      },
+      {
+        "key": "status",
+        "value": "Concluído"
+      }
+    ],
     "aggregateRating": {
       "@type": "AggregateRating"
     },

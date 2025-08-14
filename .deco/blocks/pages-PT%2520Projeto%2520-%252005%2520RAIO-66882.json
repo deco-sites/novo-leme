@@ -1,7 +1,7 @@
 {
   "__resolveType": "website/pages/Page.tsx",
-  "name": "PT Projeto - 04 ",
-  "path": "/projetos/avaliacao-experimental-policamento-pontos-quentes-brasil",
+  "name": "PT Projeto - 05 RAIO",
+  "path": "/projetos/avaliacao-impacto-programa-policiamento-raio",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },
@@ -24,7 +24,7 @@
         "__resolveType": "site/sections/Projeto/Header.tsx",
         "page": {
           "__resolveType": "blog/loaders/BlogPostPage.ts",
-          "slug": "avaliacao-experimental-policamento-pontos-quentes-brasil"
+          "slug": "avaliacao-impacto-programa-policiamento-raio"
         },
         "config": {
           "categorySlug": "projetos",
@@ -39,7 +39,7 @@
         "paragraph": [
           {
             "label": "Descrição",
-            "text": "<p>O projeto teve como objetivo realizar a primeira avaliação experimental de patrulhamento em pontos quentes no Brasil, estruturada a partir de um experimento controlado randomizado. A iniciativa foi liderada pelo Banco Interamericano de Desenvolvimento (BID) em parceria com a Polícia Militar do Paraná e da Secretaria de Segurança Pública do estado. Durante a pesquisa, foram identificados 422 segmentos de rua com alta incidência de roubos, mapeados a partir de dados georreferenciados e análises espaciais avançadas. Metade desses segmentos foi sorteada para receber patrulhamento adicional durante três meses e a outra metade foi utilizada como grupo de controle para identificar o impacto do projeto.</p>"
+            "text": "<p>O projeto teve como objetivo avaliar o impacto da expansão do programa de Rondas e Ações Intensivas e Ostensivas (RAIO) da Polícia Militar do Ceará, uma força especializada em patrulhamento rápido com motocicletas de alta potência e armas de alto calibre. A pesquisa consistiu em uma análise quantitativa dos indicadores criminais e na realização de uma pesquisa domiciliar para entender a percepção da população sobre a atuação policial, comparando os agentes do RAIO e a polícia militar convencional. Essa pesquisa incluiu experimentos visuais com imagens de policiais com os dois uniformes, portando ou não motocicletas e armas longas, a fim de identificar quais atributos são mais valorizados pela população em relação à sensação de segurança e confiança na atuação policial. Para conduzir a análise empírica, utiliza-se o fato que o RAIO foi expandido para os municípios em fases, o que permite identificar se há um efeito sistemático na redução de criminalidade nos municípios a partir do momento que recebem esse tipo de patrulhamento.</p>"
           }
         ]
       }
@@ -49,12 +49,12 @@
       "section": {
         "__resolveType": "site/sections/Projeto/Image.tsx",
         "image": {
-          "src": "https://assets.decocache.com/novo-leme/7a2890cf-567d-4b10-b7b5-b2d2f7c73d89/Visita2BPM-(1).jpeg",
+          "src": "https://assets.decocache.com/novo-leme/b9a1e8fa-5a04-4916-b17f-e39328f5bf71/projeto-5.webp",
           "alt": "Projeto"
         },
         "caption": {
-          "text": "Visita ao 2° Batalhão de Polícia Militar em Curitiba no Paraná.",
-          "position": "Left"
+          "text": "Programa de Rondas e Ações Intensivas e Ostensivas (RAIO).",
+          "position": "Bottom"
         }
       }
     },
@@ -103,7 +103,7 @@
         "paragraph": [
           {
             "label": "Resultados",
-            "text": "<p>O experimento gerou um aumento de 15 minutos em média nos segmentos tratados em relação ao grupo de controle, o que foi medido pelo uso de dados de GPS. Os dados da avaliação realizada apontaram uma redução de 22% nos roubos em áreas patrulhadas durante os dias de semana em relação ao grupo de controle, sem evidências de deslocamento do crime para segmentos vizinhos. Foi observado, entretanto, um aumento nos furtos nos segmentos tratados, possivelmente em decorrência da mudança de comportamento dos infratores ou da forma de registro policial. Além disso, a análise indicou que os efeitos positivos sobre os roubos persistiram por até três meses após o término do experimento, mas desapareceram posteriormente, reforçando a importância de manter estratégias de policiamento constantes e orientadas por dados para sustentar os resultados alcançados. O projeto foi uma oportunidade prática de treinamento em avaliação de impacto para a polícia militar do Paraná e usar dados de GPS para supervisionar a alocação policial. </p>"
+            "text": "<p>O estudo apontou uma redução significativa de homicídios, com queda média de 1,3 casos por município por mês, e de 17,2 roubos mensais após a instalação das bases do RAIO. Observou-se ainda uma diminuição no número de prisões, sugerindo que o efeito se deve mais à dissuasão do que à incapacidade dos criminosos. Além disso, a pesquisa de percepção indicou que a motocicleta é o principal atributo valorizado pela população para aumentar a sensação de segurança e eficácia do RAIO, seguida pelo uso de arma longa. O uniforme do RAIO foi identificado como o principal fator para reduzir percepções de abusos e corrupção, em comparação à polícia militar convencional.</p>"
           }
         ]
       }
@@ -129,7 +129,7 @@
         "docs": [
           {
             "name": "An Experimental Evaluation of Hot Spot Policing in Brazil",
-            "url": "https://assets.decocache.com/novo-leme/33d989a6-4f3e-457a-9329-b33627ae17a1/HSP_Curitiba-EN.pdf",
+            "url": "https://assets.decocache.com/novo-leme/a8f66abc-2594-4cb8-8009-2c061cbcd661/HSP_Curitiba-(2)-1_page-0001.jpg",
             "image": {
               "src": "https://assets.decocache.com/novo-leme/a8f66abc-2594-4cb8-8009-2c061cbcd661/HSP_Curitiba-(2)-1_page-0001.jpg"
             }
@@ -139,7 +139,7 @@
             "image": {
               "src": "https://assets.decocache.com/novo-leme/8dff79ef-0a67-49d6-ba54-8fbfcf2a0530/HSP_Curitiba-(3)-1_page-0001.jpg"
             },
-            "url": "https://assets.decocache.com/novo-leme/a5f1d374-9fb5-4fcc-80b4-1c9fc3dcfaed/HSP_Curitiba-(8).pdf"
+            "url": "https://assets.decocache.com/novo-leme/8dff79ef-0a67-49d6-ba54-8fbfcf2a0530/HSP_Curitiba-(3)-1_page-0001.jpg"
           }
         ]
       }
