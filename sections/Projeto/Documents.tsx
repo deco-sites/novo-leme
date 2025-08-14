@@ -11,29 +11,29 @@ export default function TextBlock({
   label = "Documentos",
   docs = [
     {
-      name: "Relatório Final da Execução do Projeto",
+      name: "Exemplo de documento",
       url: "/",
       image: {
         src: "https://assets.decocache.com/novo-leme/13cd6a48-e0fc-4941-839d-d87c4f37b3d8/img-1.png",
-        alt: "Relatório anual",
+        alt: "Exemplo de documento",
       },
-      description: "Ainda em fase inicial de execução, os principais resultados esperados incluem a criação de uma base de dados consolidada e validada sobre as ASRO, o desenvolvimento de métricas. Ainda em fase inicial de execução, os principais resultados esperados incluem a criação de uma base.",
+      description: "Exemplo de descrição de documento.",
     }, {
-      name: "Relatório Final da Execução do Projeto",
+      name: "Exemplo de documento",
       url: "/",
       image: {
         src: "https://assets.decocache.com/novo-leme/13cd6a48-e0fc-4941-839d-d87c4f37b3d8/img-1.png",
-        alt: "Relatório anual",
+        alt: "Exemplo de documento",
       },
-      description: "Ainda em fase inicial de execução, os principais resultados esperados incluem a criação de uma base de dados consolidada e validada sobre as ASRO, o desenvolvimento de métricas. Ainda em fase inicial de execução, os principais resultados esperados incluem a criação de uma base.",
+      description: "Exemplo de descrição de documento.",
     }, {
-      name: "Relatório Final da Execução do Projeto",
+      name: "Exemplo de documento",
       url: "/",
       image: {
         src: "https://assets.decocache.com/novo-leme/13cd6a48-e0fc-4941-839d-d87c4f37b3d8/img-1.png",
-        alt: "Relatório anual",
+        alt: "Exemplo de documento",
       },
-      description: "Ainda em fase inicial de execução, os principais resultados esperados incluem a criação de uma base de dados consolidada e validada sobre as ASRO, o desenvolvimento de métricas. Ainda em fase inicial de execução, os principais resultados esperados incluem a criação de uma base.",
+      description: "Exemplo de descrição de documento.",
     }
   ]
 }: Props) {
