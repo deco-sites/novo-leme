@@ -132,14 +132,16 @@
             "url": "https://assets.decocache.com/novo-leme/33d989a6-4f3e-457a-9329-b33627ae17a1/HSP_Curitiba-EN.pdf",
             "image": {
               "src": "https://assets.decocache.com/novo-leme/a8f66abc-2594-4cb8-8009-2c061cbcd661/HSP_Curitiba-(2)-1_page-0001.jpg"
-            }
+            },
+            "description": "O estudo em inglês sobre os desafios de implementação e lições para políticas de segurança baseadas em evidências."
           },
           {
             "name": "Avaliação Experimental de Policiamento em Pontos Quentes no Brasil",
             "image": {
               "src": "https://assets.decocache.com/novo-leme/8dff79ef-0a67-49d6-ba54-8fbfcf2a0530/HSP_Curitiba-(3)-1_page-0001.jpg"
             },
-            "url": "https://assets.decocache.com/novo-leme/a5f1d374-9fb5-4fcc-80b4-1c9fc3dcfaed/HSP_Curitiba-(8).pdf"
+            "url": "https://assets.decocache.com/novo-leme/a5f1d374-9fb5-4fcc-80b4-1c9fc3dcfaed/HSP_Curitiba-(8).pdf",
+            "description": "Relatório em português sobre desafios de implementação e lições para políticas de segurança baseadas em evidências."
           }
         ]
       }
