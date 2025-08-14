@@ -50,91 +50,251 @@
           "people": [
             {
               "photo": "https://assets.decocache.com/novo-leme/db438d32-8e0b-40b9-be41-252c9eca49d3/person.png",
-              "name": "Joana Monteiro",
               "role": "Diretora e cofundadora",
               "description": "Doutora em Economia (PUC-Rio) e Profª de políticas públicas na FGV/EBAPE. Joana ocupou cargos de destaque no governo do Rio de Janeiro, como diretora do Instituto de Segurança Pública (2015-2018) e chefe de pesquisa no Ministério Público do Estado (2019-2021). Anteriormente, foi Tinker Visiting Professor na Universidade de Chicago (2023), Visiting Fellow na Columbia University (2021-2022) e Research Fellow na Harvard University (2009-2012). É afiliada ao Evidence in Governance and Politics (EGAP), pesquisadora convidada do J-PAL/MIT, integrante da Global Initiative Against Transnational Organized Crime (GI-TOC) e membro do conselho da Escola de Segurança Multidimensional (ESEM-IRI-USP) e da LACEA-AlCapone. Mais informações: Site, Lattes e LinkedIn.",
               "links": {
-                "website": "/",
-                "lattes": "/",
-                "linkedin": "/"
+                "website": "https://joanacmmonteiro.com/",
+                "lattes": "http://lattes.cnpq.br/3274457132303211",
+                "linkedin": "https://www.linkedin.com/in/joanacmmonteiro/"
               },
               "label": "Joana Monteiro"
             },
             {
-              "photo": "https://assets.decocache.com/novo-leme/db438d32-8e0b-40b9-be41-252c9eca49d3/person.png",
-              "name": "Joana Monteiro",
+              "photo": "https://assets.decocache.com/novo-leme/1c570d08-119a-4f91-ad38-c987c7c56262/Equipe-Julia_Guerra.jpeg",
               "role": "Diretora e cofundadora",
-              "description": "Doutora em Economia (PUC-Rio) e Profª de políticas públicas na FGV/EBAPE. Joana ocupou cargos de destaque no governo do Rio de Janeiro, como diretora do Instituto de Segurança Pública (2015-2018) e chefe de pesquisa no Ministério Público do Estado (2019-2021). Anteriormente, foi Tinker Visiting Professor na Universidade de Chicago (2023), Visiting Fellow na Columbia University (2021-2022) e Research Fellow na Harvard University (2009-2012). É afiliada ao Evidence in Governance and Politics (EGAP), pesquisadora convidada do J-PAL/MIT, integrante da Global Initiative Against Transnational Organized Crime (GI-TOC) e membro do conselho da Escola de Segurança Multidimensional (ESEM-IRI-USP) e da LACEA-AlCapone. Mais informações: Site, Lattes e LinkedIn.",
+              "description": "Doutoranda em Administração Pública e Governo (FGV/EAESP) e mestre em economia (UFRJ). Julia possui dez anos de experiência em políticas públicas, atuando em órgãos governamentais e na academia. No Rio de Janeiro, atuou como subcoordenadora do centro de pesquisa do Ministério Público Estadual, como analista de políticas públicas no Instituto de Segurança Pública e gerente executiva na FGV, liderando projetos de desenho, monitoramento e avaliação de políticas de segurança. Atualmente, está no doutorado sanduíche na Universidade de Chicago (2023, 2024 – 2025). Também foi pesquisadora em organizações internacionais, como o BID, J-PAL/MIT e Banco Mundial, e integra a Columbia Women's Leadership Network da Columbia University, The Economy of Francesco e a Rede de Líderes Fundação Lemann. Mais informações: Lattes e LinkedIn.",
               "links": {
-                "website": "/",
-                "lattes": "/",
-                "linkedin": "/"
+                "lattes": "http://lattes.cnpq.br/2500968157504057",
+                "linkedin": "https://www.linkedin.com/in/julia-guerra-fernandes-353317177/"
               },
-              "label": "Joana Monteiro"
+              "label": "Julia Guerra"
             },
             {
-              "photo": "https://assets.decocache.com/novo-leme/db438d32-8e0b-40b9-be41-252c9eca49d3/person.png",
-              "name": "Joana Monteiro",
-              "role": "Diretora e cofundadora",
-              "description": "Doutora em Economia (PUC-Rio) e Profª de políticas públicas na FGV/EBAPE. Joana ocupou cargos de destaque no governo do Rio de Janeiro, como diretora do Instituto de Segurança Pública (2015-2018) e chefe de pesquisa no Ministério Público do Estado (2019-2021). Anteriormente, foi Tinker Visiting Professor na Universidade de Chicago (2023), Visiting Fellow na Columbia University (2021-2022) e Research Fellow na Harvard University (2009-2012). É afiliada ao Evidence in Governance and Politics (EGAP), pesquisadora convidada do J-PAL/MIT, integrante da Global Initiative Against Transnational Organized Crime (GI-TOC) e membro do conselho da Escola de Segurança Multidimensional (ESEM-IRI-USP) e da LACEA-AlCapone. Mais informações: Site, Lattes e LinkedIn.",
+              "photo": "https://assets.decocache.com/novo-leme/af903006-a583-4b2c-8ed3-517b3677be96/Equipe-Laura_Schiavon.png",
+              "role": "Cofundadora",
+              "description": "Doutora em Economia (PUC-Rio) e Profª Departamento de Economia na UFJF. Especialista em desenho e avaliação de impacto de políticas de redução da violência contra a mulher e promoção da justiça. Professora do Departamento de Economia da Universidade Federal de Juiz de Fora. Doutora em Economia pela Pontifícia Universidade Católica do Rio de Janeiro, com período sanduíche em University of California – Berkeley. Pesquisadora do Centro de Ciência Aplicada à Segurança Pública (FGV CCAS), da Sociedade de Economia da Família e do Gênero (GeFam) e do JPAL (JOI Brazil e Gender and Economic Agency Initiative). Atualmente está atuando no desenho, monitoramento e avaliação de uma série de políticas públicas em parceria com o Banco Interamericano de Desenvolvimento (BID), a Secretaria de Estado da Segurança Pública do Paraná (SESP/PR) e a Polícia Militar do Paraná (PMPR) para a identificação de ações efetivas para proteção da mulher e adoção em todo o país. Mais informações: Site, Lattes e LinkedIn.",
               "links": {
-                "website": "/",
-                "lattes": "/",
-                "linkedin": "/"
+                "website": "https://www.lauraschiavon.com/",
+                "lattes": "http://lattes.cnpq.br/7310926060594088",
+                "linkedin": "https://www.linkedin.com/in/laura-schiavon-b6aa33300/"
               },
-              "label": "Joana Monteiro"
+              "label": "Laura Schiavon"
+            },
+            {
+              "photo": "https://assets.decocache.com/novo-leme/1b443ed2-ab8e-42d5-be54-4bae6508bdda/Equipe-Ramon_Chaves.jpeg",
+              "role": "Líder de projetos",
+              "description": "Bacharel em Ciências Sociais (UERJ) e mestre em Ciências Sociais (UFRRJ). Ramón é professor, pesquisador e gestor de projetos, com mais de 13 anos de experiência no uso de dados e evidências científicas para fortalecer a capacidade institucional de governos e organizações. No Leme, lidera estudos sobre criminalidade violenta organizada e desenvolve intervenções em segurança pública. Durante oito anos, coordenou projetos orientados por dados no Ministério Público do Estado do Rio de Janeiro, apoiando a tomada de decisão institucional em diversas áreas do sistema de justiça. Atuou também como especialista em políticas públicas no Programa Caminho Melhor Jovem (2016) e como pesquisador no Laboratório de Análise da Violência (2013-2015). Mais informações: Lattes e LinkedIn.",
+              "links": {
+                "lattes": "http://lattes.cnpq.br/5373739151822909",
+                "linkedin": "https://www.linkedin.com/in/ramón-chaves-gomes-9a5564186/"
+              },
+              "label": "Ramón Chaves"
+            },
+            {
+              "photo": "https://assets.decocache.com/novo-leme/b4f4687f-e161-4fe6-9983-0768fe3ef082/Equipe-Elisa-Mello.jpg",
+              "role": "Administrativo Financeiro",
+              "description": "Profissional com 25 anos de experiência em gestão de pessoas e processos, atuando nas áreas financeiras e de recursos humanos em empresas globais. É pós-graduada em Gestão de Pessoas e Gestão Financeira pela FGV/RJ e bacharel em Ciências Contábeis pela UFRJ/RJ. Mais informações: LinkedIn.",
+              "links": {
+                "linkedin": "https://www.linkedin.com/in/elisa-mello-66217a17/"
+              },
+              "label": "Elisa Mello"
+            },
+            {
+              "photo": "https://assets.decocache.com/novo-leme/f12ea0cb-65bc-47db-9cd2-41400469af69/Equipe-Isis_Lira.JPG",
+              "role": "Pesquisadora",
+              "description": "Doutoranda em Economia (PUC-Rio) e Mestre em economia (UFJF). Ísis tem sólida formação em métodos de avaliação de impacto em políticas públicas e ampla experiência em projetos e pesquisas nas áreas de economia do trabalho, law enforcement, desigualdade de gênero, economia do setor público e economia do crime. No Leme, atua na elaboração e gestão de projetos em violência doméstica. Mais informações: Site, Lattes e Linkedin.",
+              "links": {
+                "website": "https://sites.google.com/view/isislira",
+                "lattes": "http://lattes.cnpq.br/5353815497319153",
+                "linkedin": "https://www.linkedin.com/in/ísis-ferreira-lira/"
+              },
+              "label": "Ísis Lira"
+            },
+            {
+              "photo": "https://assets.decocache.com/novo-leme/b32059c1-7bac-40c2-934d-4fd1cdd34d85/Equipe-Mathias_Lusquinos.png",
+              "role": "Pesquisador",
+              "description": "Mestre em Políticas Públicas (Universidade de Chicago) e bacharel em Administração Pública (FGV/EAESP). Possui experiência na estruturação de projetos de PPPs e Concessões nas áreas de saneamento básico, transporte coletivo e iluminação pública (Fundação Instituto de Pesquisas Econômicas) e na pesquisa relativa ao crime organizado no Brasil e no Haiti, atuando em projeto de consultoria para o Banco Interamericano de Desenvolvimento e tendo sido assistente de pesquisa na Harris School of Public Policy da Universidade de Chicago. Mais informações: Lattes.",
+              "links": {
+                "lattes": "http://lattes.cnpq.br/4230023346226177"
+              },
+              "label": "Mathias Lusquinos"
+            },
+            {
+              "photo": "https://assets.decocache.com/novo-leme/447d927d-9502-402e-8c96-5031dc693e35/Equipe-Vanessa-Campagnac.jpg",
+              "role": "Pesquisadora",
+              "description": "Graduada em Ciências Sociais pela UERJ, mestra em Estudos Populacionais e Pesquisas Sociais pela ENCE/IBGE e doutora em Ciência Política pela UFF. Atuou em governos, no terceiro setor e no Sistema S, com ampla experiência na área de pesquisa social e análise de dados de políticas públicas, especialmente nos temas de segurança pública, gestão de pessoas no setor público e participação social e política no Brasil. Trabalhou por mais de dez anos como pesquisadora e coordenadora de projetos no Instituto de Segurança Pública (ISP/RJ) e por quatro anos como Gerente de Dados e Comunicação na República.org. Também faz parte da Rede de Lideranças Femininas da Universidade de Columbia-NY. Mais informações: Lattes e LinkedIn.",
+              "links": {
+                "lattes": "http://lattes.cnpq.br/2091951359837969",
+                "linkedin": "https://www.linkedin.com/in/vanessacampagnac/"
+              },
+              "label": "Vanessa Campagnac"
+            },
+            {
+              "photo": "https://assets.decocache.com/novo-leme/4701f2f4-f41c-48fd-8681-a98c54939274/Equipe-Amsatou_Diop.jpg",
+              "role": "Pesquisador",
+              "description": "Mestrando em Ciência Política (IESP-UERJ) e Bacharel em Ciências Sociais (UFF). Amsatou tem experiência em análise de dados e pesquisa em políticas públicas, com atuação em projetos nas áreas de educação, segurança pública, adolescentes em conflito com a lei e medidas socioeducativas, desigualdades eleitorais e violência política. Trabalha na produção de diagnósticos e avaliações que orientam a formulação e o monitoramento de políticas públicas. Mais informações: Lattes e LinkedIn.",
+              "links": {
+                "lattes": "http://lattes.cnpq.br/8400353668140178",
+                "linkedin": "https://www.linkedin.com/in/amsatou-falilou-diop/"
+              },
+              "label": "Amsatou Diop"
+            },
+            {
+              "photo": "https://assets.decocache.com/novo-leme/77278447-da8c-475d-8d8a-e78acc2d0f38/Equipe-Daniela-Lisboa.jpg",
+              "role": "Pesquisadora",
+              "description": "Bacharel em Ciências Sociais pela UFJF, mestre e doutoranda em Sociologia pelo IESP-UERJ. Sua pesquisa aborda a relação entre a esfera pública e os intelectuais públicos. Ao longo de sua trajetória, desenvolveu experiência em pesquisas acadêmicas, educação política e divulgação científica voltada para diferentes públicos. Atualmente, é assistente editorial na DADOS – Revista de Ciências Sociais. No Leme, atua no desenvolvimento de análises e propostas voltadas à área de segurança pública. Mais informações: Lattes e LinkedIn.",
+              "links": {
+                "lattes": "http://lattes.cnpq.br/0675294956252578",
+                "linkedin": "https://www.linkedin.com/in/dani-alisboa/"
+              },
+              "label": "Daniela Lisbôa"
+            },
+            {
+              "photo": "https://assets.decocache.com/novo-leme/24669f19-da36-4c4c-aeef-86930034e226/Equipe-Isabela-Salgado.jpg",
+              "role": "Pesquisadora",
+              "description": "Mestre em Políticas Públicas (Universidade de Princeton) e bacharel em Economia (PUC-Rio). Isabela tem experiência em projetos de pesquisa em diversas áreas, com foco em avaliação de impacto e no uso de evidências científicas para o desenho de políticas públicas eficientes. Durante quatro anos trabalhou no setor de crime, violência e conflito do J-PAL, em Boston (EUA). No Leme, Isabela apoia o desenvolvimento de intervenções em segurança pública. Mais informações: LinkedIn.",
+              "links": {
+                "linkedin": "https://www.linkedin.com/in/isabela-salgado-silva-pereira-a4a652170/"
+              },
+              "label": "Isabela Salgado Pereira"
             }
           ],
           "label": "Equipe"
         },
         {
+          "label": "Pesquisadores Associados",
           "people": [
             {
-              "photo": "https://assets.decocache.com/novo-leme/db438d32-8e0b-40b9-be41-252c9eca49d3/person.png",
-              "name": "Joana Monteiro",
-              "role": "Diretora e cofundadora",
-              "description": "Doutora em Economia (PUC-Rio) e Profª de políticas públicas na FGV/EBAPE. Joana ocupou cargos de destaque no governo do Rio de Janeiro, como diretora do Instituto de Segurança Pública (2015-2018) e chefe de pesquisa no Ministério Público do Estado (2019-2021). Anteriormente, foi Tinker Visiting Professor na Universidade de Chicago (2023), Visiting Fellow na Columbia University (2021-2022) e Research Fellow na Harvard University (2009-2012). É afiliada ao Evidence in Governance and Politics (EGAP), pesquisadora convidada do J-PAL/MIT, integrante da Global Initiative Against Transnational Organized Crime (GI-TOC) e membro do conselho da Escola de Segurança Multidimensional (ESEM-IRI-USP) e da LACEA-AlCapone. Mais informações: Site, Lattes e LinkedIn.",
+              "photo": "https://assets.decocache.com/novo-leme/702bda4d-01ae-4f80-86fe-dfd67b0b8346/Equipe-Alessandra_Gomes.jpg",
+              "role": "Universidade de São Paulo, Brasil",
+              "description": "Mestre em Ciências (USP) com especialização em Ciência de Dados e Aprendizado de Máquinas (PUC-Campinas). Alessandra tem 11 anos de experiência na área acadêmica, com foco no desenvolvimento de novas tecnologias e na aplicação de Inteligência Artificial no estudo do plâncton, com destaque para os projetos Oceanografia Integrada do INCT-Mar COI e Coral Sol da PETROBRAS. Foi membro do ICES Working Group on Machine Learning in Marine Science entre 2017 e 2018. Nos últimos três anos, atuou como consultora em projetos de engenharia e ciência de dados, trabalhando na construção de bancos de dados relacionais e não relacionais, na implementação de pipelines para otimização de processos, no treinamento de algoritmos supervisionados e não-supervisionados de Machine Learning e na criação de dashboards para apoiar a tomada de decisões. Sua experiência abrange diversos setores, como energia, financeiro e varejo. Mais informações: LinkedIn.",
               "links": {
-                "website": "/",
-                "lattes": "/",
-                "linkedin": "/"
+                "linkedin": "https://www.linkedin.com/in/alessandracgomes/"
               },
-              "label": "Joana Monteiro"
+              "label": "Alessandra Gomes"
             },
             {
-              "photo": "https://assets.decocache.com/novo-leme/db438d32-8e0b-40b9-be41-252c9eca49d3/person.png",
-              "name": "Joana Monteiro",
-              "role": "Diretora e cofundadora",
-              "description": "Doutora em Economia (PUC-Rio) e Profª de políticas públicas na FGV/EBAPE. Joana ocupou cargos de destaque no governo do Rio de Janeiro, como diretora do Instituto de Segurança Pública (2015-2018) e chefe de pesquisa no Ministério Público do Estado (2019-2021). Anteriormente, foi Tinker Visiting Professor na Universidade de Chicago (2023), Visiting Fellow na Columbia University (2021-2022) e Research Fellow na Harvard University (2009-2012). É afiliada ao Evidence in Governance and Politics (EGAP), pesquisadora convidada do J-PAL/MIT, integrante da Global Initiative Against Transnational Organized Crime (GI-TOC) e membro do conselho da Escola de Segurança Multidimensional (ESEM-IRI-USP) e da LACEA-AlCapone. Mais informações: Site, Lattes e LinkedIn.",
-              "links": {
-                "website": "/",
-                "lattes": "/",
-                "linkedin": "/"
-              },
-              "label": "Joana Monteiro"
+              "photo": "https://assets.decocache.com/novo-leme/person.png",
+              "role": "University of Chicago, EUA",
+              "description": "Aluno de PhD em Economia e pesquisador na Universidade de Chicago. Possui experiência trabalhando como cientista de dados no mercado privado e assistente de pesquisador do Dr. Michael Kremer, ganhador do Nobel de Economia em 2019, no Development Innovation Lab. Desenvolve projetos de pesquisa na intersecção entre economia do desenvolvimento, economia do trabalho e comportamental, com projetos aplicados a mercados criminais na América Latina.",
+              "links": {},
+              "label": "Alexandre Simões"
             },
             {
-              "photo": "https://assets.decocache.com/novo-leme/db438d32-8e0b-40b9-be41-252c9eca49d3/person.png",
-              "name": "Joana Monteiro",
-              "role": "Diretora e cofundadora",
-              "description": "Doutora em Economia (PUC-Rio) e Profª de políticas públicas na FGV/EBAPE. Joana ocupou cargos de destaque no governo do Rio de Janeiro, como diretora do Instituto de Segurança Pública (2015-2018) e chefe de pesquisa no Ministério Público do Estado (2019-2021). Anteriormente, foi Tinker Visiting Professor na Universidade de Chicago (2023), Visiting Fellow na Columbia University (2021-2022) e Research Fellow na Harvard University (2009-2012). É afiliada ao Evidence in Governance and Politics (EGAP), pesquisadora convidada do J-PAL/MIT, integrante da Global Initiative Against Transnational Organized Crime (GI-TOC) e membro do conselho da Escola de Segurança Multidimensional (ESEM-IRI-USP) e da LACEA-AlCapone. Mais informações: Site, Lattes e LinkedIn.",
+              "photo": "https://assets.decocache.com/novo-leme/561cdd79-0e2a-49f0-a295-e633e14d9acd/Equipe-AnaPaula_Pellegrino.jpg",
+              "role": "Georgetown University, EUA",
+              "description": "Doutora no Departamento de Governo da Georgetown University. Possui graduação e mestrado em Relações Internacionais, além de um mestrado em Ciência de Dados pela Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio). Sua agenda de pesquisa inclui projetos sobre atores armados, incluindo organizações policiais e grupos criminosos; micro-dinâmicas da violência; e o desfechos de conflitos. Além da Georgetown University, sua pesquisa recebe apoio do programa Líderes da Fundação Estudar, do programa Emerging Scholars da Harry Frank Guggenheim Foundation, e do Peace Scholar Fellowship do US Institute of Peace e a Minerva Research Initiative, do Departamento de Estado do Governo dos Estados Unidos da América. Fora da academia, Ana Paula trabalhou em organizações da sociedade civil no Brasil, conduzindo pesquisas e advocacy, desenvolvendo tecnologia e liderando estratégias filantrópicas em instituições como o Instituto Igarapé, ImpulsoGov e o Instituto República. Ela é membro do Conselho da Cidade do Rio de Janeiro desde 2021 e foi International Strategy Fellow da turma de 2024. Mais informações: Site, Lattes e LinkedIn.",
               "links": {
-                "website": "/",
-                "lattes": "/",
-                "linkedin": "/"
+                "website": "https://anappellegrino.github.io/",
+                "lattes": "http://lattes.cnpq.br/5371031626531401",
+                "linkedin": "https://www.linkedin.com/in/appellegrino/"
               },
-              "label": "Joana Monteiro"
+              "label": "Ana Paula Pellegrino"
+            },
+            {
+              "photo": "https://assets.decocache.com/novo-leme/9df8a77d-65db-4eb0-8c75-75a191927562/Equipe-MariaEduarda_Perpetuo.jpg",
+              "role": "Universidade de Michigan, EUA",
+              "description": "Mestre em Economia pela UFRJ e Bacharel em Economia pela PUC-Rio. Maria Eduarda é pesquisadora na Universidade de Michigan, onde apoia a implementação de avaliações de impacto. Anteriormente, trabalhou na Stanford Graduate School of Education em pesquisas sobre desigualdades educacionais, e no Banco Interamericano de Desenvolvimento (BID), contribuindo com a divisão de Gênero e Diversidade, e de Mercado de Trabalho. Na área de segurança pública, trabalhou como assistente de pesquisa da professora e pesquisadora Joana C. M. Monteiro, na Fundação Getúlio Vargas (FGV), com ênfase em grupos criminosos e governança criminal. Sua agenda de pesquisa inclui projetos sobre grupos criminosos, violência doméstica e adolescentes infratores.",
+              "links": {},
+              "label": "Maria Eduarda Perpétuo"
+            },
+            {
+              "photo": "https://assets.decocache.com/novo-leme/7211f7ea-56ec-48ed-b0a0-7f999dbe99d7/Equipe-Matheus_Nascimento.JPG",
+              "role": "Universidade Federal de Juiz de Fora, Brasil",
+              "description": "Doutorando em Economia pela Universidade Federal de Juiz de Fora (UFJF), onde também concluiu o mestrado em Economia Aplicada. Sua pesquisa acadêmica aborda áreas como economia política, economia do crime e economia do trabalho. Durante seu período de formação acadêmica, colaborou em atividades de auditoria e investigação financeira no Ministério Público do Paraná, com foco em processos relacionados à administração pública. Atualmente, atua como analista de dados no Programa Paraná Seguro, que visa o desenvolvimento de um algoritmo preditivo para o risco de revitimização de mulheres em situação de violência doméstica. Mais informações: em: Lattes e Linkedin.",
+              "links": {
+                "lattes": "http://lattes.cnpq.br/3961512150905256",
+                "linkedin": "https://www.linkedin.com/in/matheus-nascimento-19a91113b/"
+              },
+              "label": "Matheus Nascimento"
+            },
+            {
+              "photo": "https://assets.decocache.com/novo-leme/83f38c30-8e15-46eb-a876-882c8622f499/Equipe-Thais_Custodio.jpg",
+              "role": "Universidade Federal Fluminense, Brasil",
+              "description": "Doutoranda em Economia (PPGE/UFF) e mestra em Economia Regional (PPGER/UFRRJ). Thais Custódio é cofundadora e coordenadora da Rede de Economistas Pretas e Pretos (REPP). Atuou em organizações da sociedade civil no Brasil, desenvolvendo pesquisas sobre segurança pública, criminalidade, violência armada, justiça criminal e direitos humanos, com foco nas dinâmicas de favelas e periferias. Possui experiência em pesquisas de campo. Sua área de pesquisa inclui projetos sobre grupos armados e governança criminal. Mais informações: Lattes e LinkedIn.",
+              "links": {
+                "lattes": "http://lattes.cnpq.br/9067743147256401",
+                "linkedin": "https://www.linkedin.com/in/thais-custodio/"
+              },
+              "label": "Thaís Custódio"
             }
-          ],
-          "label": "Pesquisadores Associados"
+          ]
         },
         {
-          "people": [],
-          "label": "Pesquisadores Afiliados"
+          "label": "Pesquisadores Afiliados",
+          "people": [
+            {
+              "photo": "https://assets.decocache.com/novo-leme/028ab269-ee77-40c6-863a-efc5232bf5df/Equipe-Patrick-Burke.jpeg",
+              "role": "Mount Mary University, EUA",
+              "description": "Patrick Burke é doutor em Criminologia pela Universidade de Illinois em Chicago e professor assistente no Departamento de Justiça da Mount Mary University. Sua pesquisa se concentra na violência armada entre grupos criminosos organizados em mercados de drogas e no desenvolvimento de estratégias de policiamento baseadas em inteligência para reduzir essa violência. Ele publicou em revistas de destaque da criminologia, como a British Journal of Criminology, a Justice Quarterly e o Journal of Criminal Justice. Seu trabalho acadêmico é profundamente influenciado pela experiência prévia como policial em Chicago, analista de inteligência criminal no Departamento de Polícia de Chicago e jornalista investigativo cobrindo violência de gangues. Mais informações: LinkedIn.",
+              "links": {
+                "linkedin": "https://www.linkedin.com/in/patrick-burke-a1b25578"
+              },
+              "label": "Patrick Burke"
+            },
+            {
+              "photo": "https://assets.decocache.com/novo-leme/06acc214-8f1f-4532-9d48-3252f1a8a32a/Equipe-Gaston-Pezzuchi.jpeg",
+              "role": "Polícia de Buenos Aires, Argentina",
+              "description": "Gastón é Comissário Geral do Agrupamento Comando e primeiro Superintendente de Análise Criminal da Polícia da Província de Buenos Aires. Desde 1996, ele se especializa em Análise e Mapeamento Criminal e atua como analista criminal há mais de 30 anos. É licenciado em informática, com mestrados em Sistemas de Informação Geográfica, Mineração de Dados e Gestão do Conhecimento, além de um Master of Science em Ciência e Sistemas de Informação Geográfica. É professor titular concursado na Universidade Católica de La Plata, além de lecionar na Universidade Austral, no Instituto Universitário da Polícia Federal Argentina e na Universidade Nacional de Quilmes, nas áreas de ciência de dados, tecnologia aplicada e criminologia.",
+              "links": {},
+              "label": "Gastón Pezzuchi"
+            },
+            {
+              "photo": "https://assets.decocache.com/novo-leme/d473b9ee-5d72-43ea-99f4-8f57e969fbd7/Equipe-Benjamin_Lessing.jpg",
+              "role": "University of Chicago, EUA",
+              "description": "Benjamin Lessing é Professor Associado de Ciência Política na Universidade de Chicago. Ele estuda conflitos armados e a governança por grupos criminosos que não buscam o poder estatal formal, como cartéis de drogas, facções prisionais e grupos paramilitares. Seu primeiro livro, Making Peace in Drug Wars (Cambridge University Press), examina o conflito armado entre cartéis de drogas e o Estado no Brasil, na Colômbia e no México. Seu segundo livro, Criminal Leviathans: How Gangs Govern From Behind Bars, em contrato com a Cambridge, argumenta que o encarceramento em massa e a repressão às drogas fomentaram governos paralelos criminosos dentro das prisões e nas periferias. Mais informações em: Site.",
+              "links": {
+                "website": "https://sites.google.com/view/benlessing"
+              },
+              "label": "Benjamin Lessing"
+            },
+            {
+              "photo": "https://assets.decocache.com/novo-leme/e77cd894-f8d0-4c5c-b573-6db53d5ec85f/Equipe-Santiago-Tobon.jpg",
+              "role": "Universidad EAFIT, Colômbia",
+              "description": "Professor de Economia e diretor do Centro de Pesquisa em Economia e Finanças na Universidad EAFIT, em Medellín (Colômbia), com período de pós-doutorado no Pearson Institute; Innovations for Poverty Action Peace and Recovery Program da Universidade de Chicago (EUA). Desenvolve pesquisa na área de economia do crime e violência. Conduz avaliações experimentais e quase-experimentais de políticas públicas e intervenções focadas na redução da violência. Mais informações em: Site.",
+              "links": {
+                "website": "https://sites.google.com/view/santiagotobon/home"
+              },
+              "label": "Santiago Tobón"
+            },
+            {
+              "photo": "https://assets.decocache.com/novo-leme/9fd5eceb-6ee5-4fa5-bfab-14a8441e5d02/Equipe-Michael_Weintraub.jpg",
+              "role": "Universidad de Los Andes, Colômbia",
+              "description": "Professor Associado no Departamento de Ciência Política e Estudos Globais da Universidad de los Andes, em Bogotá, Colômbia, e Diretor Interino do Centro de Estudos sobre Segurança e Drogas (CESED) no Departamento de Economia. Foi Pesquisador Visitante no Ash Center for Democratic Governance and Innovation da Harvard Kennedy School (2024), onde segue atuando como Non-Resident Fellow. Também é Pesquisador Convidado na Iniciativa de Proteção Humanitária e na Iniciativa de Meios de Vida de Deslocados do J-PAL, além de membro da rede Evidence in Governance and Politics (EGAP). Mais informações em: Site.",
+              "links": {
+                "website": "https://www.miweintraub.com/"
+              },
+              "label": "Michael Weintraub"
+            },
+            {
+              "photo": "https://assets.decocache.com/novo-leme/c7f16cfb-af06-4bcc-bb29-e46d902acb29/Equipe-Pedro_Souza.jpg",
+              "role": "Queen Mary University, Inglaterra",
+              "description": "PhD em Economia pela London School of Economics, e Professor Associado da Universidade Queen Mary em Londres no Reino Unido. Anteriormente, foi professor da Universidade de Warwick e da PUC-Rio. Sua pesquisa concentra-se em tópicos relacionados à avaliação de políticas públicas, em particular nas áreas de segurança, crime e policiamento. Mais informações em: Site.",
+              "links": {
+                "website": "https://www.pedroclsouza.com/"
+              },
+              "label": "Pedro CL Souza"
+            }
+          ]
         },
         {
-          "people": [],
-          "label": "Conselho Fiscal "
+          "label": "Conselho Fiscal",
+          "people": [
+            {
+              "photo": "https://assets.decocache.com/novo-leme/person.png",
+              "role": "Brasil",
+              "description": "Florencia é advogada especializada em direito penal e criminologia, formada pela Faculdade de Direito da Universidade de Buenos Aires, e possui mestrado em Direito (LL.M.) pela Harvard Law School. Com 25 anos de experiência nas áreas de segurança pública e justiça criminal no Brasil, atuou em diversas organizações do setor, como Viva Rio, FGV Direito Rio, Plataforma Democrática e Instituto Igarapé, desempenhando funções como pesquisadora, coordenadora de programa e diretora de relações institucionais. Atualmente, Florencia é membro do Conselho Consultivo do RenovaBR, instituto que ajudou a fundar, e da Fundação Darcy Vargas. Anteriormente, foi consultora na Secretaria Nacional de Segurança Pública (SENASP) do Ministério da Justiça do Brasil, atuando no grupo de trabalho sobre Segurança Municipal. Também trabalhou como consultora do Banco Mundial e pesquisadora do Projeto Justiça em Tempos de Transição na Universidade de Harvard.",
+              "links": {},
+              "label": "Florencia Robalinho"
+            },
+            {
+              "photo": "https://assets.decocache.com/novo-leme/f0ea74ac-22a4-4374-9064-7c06a2e8f497/Equipe-Lucas-Giannini.jpeg",
+              "role": "Brasil",
+              "description": "Lucas Giannini atua há mais de uma década no terceiro setor. Atualmente, é CEO da Fundação Behring, que desenvolve uma agenda filantrópica focada em educação, tecnologia e esporte no Brasil, com foco maior em Curitiba e no Rio de Janeiro. Antes disso, Lucas teve experiências em organizações sem fins lucrativos, públicas e privadas no Brasil e Estados Unidos, como Upstream USA, Chicago Public Schools, The Boston Consulting Group, Centro de Inovação para a Educação Brasileira e Instituto Natura. Lucas é também membro de conselhos consultivos e deliberativos de organizações da sociedade civil, entre elas Doebem, 42 Rio e Rio Aquatics. Como Lemann Fellow e bolsista da Fundação Estudar, Lucas possui um MBA/MA em Educação pela Universidade de Stanford, onde também obteve um Certificado em Gestão Pública e Inovação Social, além de ser formado em Economia pela Universidade de São Paulo.",
+              "links": {},
+              "label": "Lucas Giannini"
+            }
+          ]
         }
       ]
     },

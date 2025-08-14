@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/579879d2e8ca",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "  Public Prosecutor’s Office Week 2024",
+    "excerpt": "The 2024 Public Prosecutor’s Office Week, organized by the Public Prosecutor’s Office of the State of Bahia, provided a platform for debates on the challenges of implementing public security policies, focusing on the critical situation faced by Bahia — a state that, at the time, contained six of the ten most violent municipalities in the country. ",
+    "content": "<p><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">The 2024 Public Prosecutor’s Office Week, organized by the Public Prosecutor’s Office of the State of Bahia, provided a platform for debates on the challenges of implementing public security policies, focusing on the critical situation faced by Bahia — a state that, at the time, contained six of the ten most violent municipalities in the country. In the panel “Challenges in Implementing Public Security Policies,” experts discussed strategies to address the actions of armed criminal groups and the limits of state responses at the time. At the event, Joana Monteiro, Director of Leme, contributed analyses on the structural power of criminal factions, advocating for more systemic and long-lasting approaches to curbing violence. Other participants included Bruno Paes Manso, Secretary Felipe Freitas, and Prosecutor Hugo Casciano Sant’Anna.</span></p><p><br></p>",
+    "slug": "public-prosecutors-office-week-2024",
+    "date": "2024-12-18"
+  }
+}

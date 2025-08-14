@@ -35,17 +35,11 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Projeto/TextBlock.tsx"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
         "__resolveType": "site/sections/Projeto/TextBlock.tsx",
         "paragraph": [
           {
-            "label": "Seção",
-            "text": "<p><span>Ainda em fase inicial de execução, os principais resultados esperados incluem a criação de uma base de dados consolidada e validada sobre as ASRO, o desenvolvimento de métricas e indicadores para monitorar essas áreas e a formulação de estratégias para mitigar os impactos operacionais causados pelos grupos criminosos. Espera-se, ainda, que os produtos gerados contribuam para fortalecer a posição da Light como uma empresa inovadora, comprometida com a segurança pública do Estado do Rio de Janeiro, além de embasar políticas públicas mais eficazes na área de segurança.</span></p>"
+            "label": "Descrição",
+            "text": "<p>Utilizando técnicas de pesquisa quantitativas e qualitativas, este projeto tem como objetivo desenvolver e validar estratégias metodológicas para mapear, monitorar e mitigar os impactos da atuação de organizações criminosas violentas em Áreas com Severas Restrições Operativas (ASRO) na área de concessão da Light. A iniciativa integra dados internos da empresa a outras fontes públicas e privadas de informação, focando na identificação da extensão e evolução das ASRO, bem como na análise das dinâmicas territoriais específicas de cada grupo criminoso, mensurando especialmente o impacto que tais grupos exercem sobre o controle territorial e sua relação com o serviço de distribuição de energia elétrica. </p>"
           }
         ]
       }
@@ -55,15 +49,13 @@
       "section": {
         "__resolveType": "site/sections/Projeto/Image.tsx",
         "image": {
-          "src": "https://assets.decocache.com/novo-leme/099cd8f5-d203-4a49-96e0-7fb6123c15ba/project-img-example.png",
+          "src": "https://assets.decocache.com/novo-leme/7bf274ad-b364-4763-9129-c52b433468c3/projeto-2.webp",
           "alt": "Projeto"
+        },
+        "caption": {
+          "text": "Light Serviços de Eletricidade S\\A.",
+          "position": "Bottom"
         }
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Projeto/TextBlock.tsx"
       }
     },
     {
@@ -72,29 +64,97 @@
         "__resolveType": "site/sections/Projeto/TextBlock.tsx",
         "paragraph": [
           {
-            "label": "Resultados",
-            "text": "<p><span>Ainda em fase inicial de execução, os principais resultados esperados incluem a criação de uma base de dados consolidada e validada sobre as ASRO, o desenvolvimento de métricas e indicadores para monitorar essas áreas e a formulação de estratégias para mitigar os impactos operacionais causados pelos grupos criminosos. Espera-se, ainda, que os produtos gerados contribuam para fortalecer a posição da Light como uma empresa inovadora, comprometida com a segurança pública do Estado do Rio de Janeiro, além de embasar políticas públicas mais eficazes na área de segurança.</span></p>"
+            "label": "Resultados esperados",
+            "text": "<p>Ainda em fase inicial de execução, os principais resultados esperados incluem a criação de uma base de dados consolidada e validada sobre as ASRO, o desenvolvimento de métricas e indicadores para monitorar essas áreas e a formulação de estratégias para mitigar os impactos operacionais causados pelos grupos criminosos. Espera-se, ainda, que os produtos gerados contribuam para fortalecer a posição da Light como uma empresa inovadora, comprometida com a segurança pública do Estado do Rio de Janeiro, além de embasar políticas públicas mais eficazes na área de segurança.</p>"
           }
         ]
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Projeto/HighlightNumbers.tsx"
-      }
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
+        {
+          "value": {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Projeto/TextBlock.tsx"
+            }
+          },
+          "rule": {
+            "__resolveType": "website/matchers/never.ts"
+          }
+        }
+      ]
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Projeto/Documents.tsx"
-      }
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
+        {
+          "value": {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Projeto/TextBlock.tsx",
+              "paragraph": [
+                {
+                  "label": "Resultados",
+                  "text": "<p><span>Ainda em fase inicial de execução, os principais resultados esperados incluem a criação de uma base de dados consolidada e validada sobre as ASRO, o desenvolvimento de métricas e indicadores para monitorar essas áreas e a formulação de estratégias para mitigar os impactos operacionais causados pelos grupos criminosos. Espera-se, ainda, que os produtos gerados contribuam para fortalecer a posição da Light como uma empresa inovadora, comprometida com a segurança pública do Estado do Rio de Janeiro, além de embasar políticas públicas mais eficazes na área de segurança.</span></p>"
+                }
+              ]
+            }
+          },
+          "rule": {
+            "__resolveType": "website/matchers/never.ts"
+          }
+        }
+      ]
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Projeto/Links.tsx"
-      }
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
+        {
+          "value": {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Projeto/HighlightNumbers.tsx"
+            }
+          },
+          "rule": {
+            "__resolveType": "website/matchers/never.ts"
+          }
+        }
+      ]
+    },
+    {
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
+        {
+          "value": {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Projeto/Documents.tsx"
+            }
+          },
+          "rule": {
+            "__resolveType": "website/matchers/never.ts"
+          }
+        }
+      ]
+    },
+    {
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
+        {
+          "value": {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Projeto/Links.tsx"
+            }
+          },
+          "rule": {
+            "__resolveType": "website/matchers/never.ts"
+          }
+        }
+      ]
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",

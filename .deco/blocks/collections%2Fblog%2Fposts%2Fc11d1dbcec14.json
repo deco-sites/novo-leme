@@ -1,0 +1,35 @@
+{
+  "name": "collections/blog/posts/c11d1dbcec14",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Events",
+        "slug": "en-eventos"
+      },
+      {
+        "name": "Events participation",
+        "slug": "en-eventos-participacao"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "International Workshop on Non-Technical Losses – ANEEL",
+    "date": "2024-07-04",
+    "slug": "international-workshop-on-non-technical-losses-aneel",
+    "excerpt": " The International Workshop on Non-Technical Losses, organized by ANEEL at the headquarters of the National Confederation of Industry (CNI) in Brasília, brought together experts, authorities, and representatives of the electricity sector to discuss sustainable solutions aimed at reducing meter fraud and illegal connections."
+  }
+}

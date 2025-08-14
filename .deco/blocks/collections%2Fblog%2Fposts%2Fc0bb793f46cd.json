@@ -1,0 +1,36 @@
+{
+  "name": "collections/blog/posts/c0bb793f46cd",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Events",
+        "slug": "en-eventos"
+      },
+      {
+        "name": "Events participation",
+        "slug": "en-eventos-participacao"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Workshop on Organized Crime and Violence in Latin America and the Caribbean – Harvard University",
+    "excerpt": "The Workshop on Organized Crime and Violence in Latin America and the Caribbean, held at Harvard University, brought together experts from different institutions to discuss the magnitude, causes, and consequences of organized crime in the region. ",
+    "date": "2024-05-09",
+    "slug": "workshop-on-organized-crime-and-violence-in-latin-america-and-the-caribbean",
+    "content": "<p><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">The Workshop on Organized Crime and Violence in Latin America and the Caribbean, held at Harvard University, brought together experts from different institutions to discuss the magnitude, causes, and consequences of organized crime in the region. Organized by the Inter-American Development Bank (IDB), in partnership with the World Bank and the Development Bank of Latin America (CAF), the event followed the Chatham House Rule, ensuring an open exchange among participants. At the meeting, Joana Monteiro, Director of Leme, contributed to the opening panel with reflections on major illicit economies and their connections to violence, alongside Claudia López (former Mayor of Bogotá) and Juan Fernando Vargas (University of Turin).</span></p><p><br></p>"
+  }
+}

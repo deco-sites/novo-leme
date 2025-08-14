@@ -9,9 +9,10 @@
         "slug": "projetos"
       },
       {
-        "name": "Enfrentamento da Violência Contra a Mulher",
-        "slug": "enfrentamento-violencia-contra-mulher"
-      }
+        "name": "Controle do Crime Organizado Violento",
+        "slug": "controle-crime-organizado-violento"
+      },
+      {}
     ],
     "imageCarousel": {
       "banners": []
@@ -19,7 +20,7 @@
     "extraProps": [
       {
         "key": "date",
-        "value": "2024-2025"
+        "value": "2025-atual"
       },
       {
         "key": "location",
@@ -27,7 +28,7 @@
       },
       {
         "key": "status",
-        "value": "Concluído"
+        "value": "Em andamento"
       }
     ],
     "aggregateRating": {
@@ -44,7 +45,7 @@
     "excerpt": "Utilizando técnicas de pesquisa quantitativas e qualitativas, este projeto tem como objetivo desenvolver e validar estratégias metodológicas para mapear, monitorar e mitigar os impactos da atuação de organizações criminosas violentas em Áreas com Severas Restrições Operativas (ASRO) na área de concessão da Light.",
     "date": "2025-01-01",
     "slug": "mapeamento-analise-areas-tratamento-especial-regiao-concessao-light",
-    "content": "<p>Utilizando técnicas de pesquisa quantitativas e qualitativas, este projeto tem como objetivo desenvolver e validar estratégias metodológicas para mapear, monitorar e mitigar os impactos da atuação de organizações criminosas violentas em Áreas com Severas Restrições Operativas (ASRO) na área de concessão da Light.</p>",
+    "content": "<p>Utilizando técnicas de pesquisa quantitativas e qualitativas, este projeto tem como objetivo desenvolver e validar estratégias metodológicas para mapear, monitorar e mitigar os impactos da atuação de organizações criminosas violentas em Áreas com Severas Restrições Operativas (ASRO) na área de concessão da Light. A iniciativa integra dados internos da empresa a outras fontes públicas e privadas de informação, focando na identificação da extensão e evolução das ASRO, bem como na análise das dinâmicas territoriais específicas de cada grupo criminoso, mensurando especialmente o impacto que tais grupos exercem sobre o controle territorial e sua relação com o serviço de distribuição de energia elétrica.</p>",
     "image": "https://assets.decocache.com/novo-leme/7bf274ad-b364-4763-9129-c52b433468c3/projeto-2.webp"
   }
 }

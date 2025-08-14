@@ -24,7 +24,7 @@
         "__resolveType": "site/sections/Projeto/Header.tsx",
         "page": {
           "__resolveType": "blog/loaders/BlogPostPage.ts",
-          "slug": "mapeamento-analise-areas-tratamento-especial-regiao-concessao-light"
+          "slug": "algoritmo-preditivo-risco-revitimizacao-vitimas-violencia-domestica"
         },
         "config": {
           "categorySlug": "projetos",
@@ -35,17 +35,11 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Projeto/TextBlock.tsx"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
         "__resolveType": "site/sections/Projeto/TextBlock.tsx",
         "paragraph": [
           {
-            "label": "Seção",
-            "text": "<p><span>Ainda em fase inicial de execução, os principais resultados esperados incluem a criação de uma base de dados consolidada e validada sobre as ASRO, o desenvolvimento de métricas e indicadores para monitorar essas áreas e a formulação de estratégias para mitigar os impactos operacionais causados pelos grupos criminosos. Espera-se, ainda, que os produtos gerados contribuam para fortalecer a posição da Light como uma empresa inovadora, comprometida com a segurança pública do Estado do Rio de Janeiro, além de embasar políticas públicas mais eficazes na área de segurança.</span></p>"
+            "label": "Descrição",
+            "text": "<p>Este projeto, iniciado em 2024 e realizado em parceria com a Secretaria de Segurança Pública do Paraná (SESP-PR) e o Banco Interamericano de Desenvolvimento (BID), objetiva desenvolver um modelo preditivo e um algoritmo de predição para avaliar o risco de revitimização de mulheres em casos de violência doméstica ocorridos no Paraná. Essa ferramenta tem o potencial de classificar os casos conforme a probabilidade de ocorrerem novas vitimizações, fornecendo insumos para a focalização de políticas públicas destinadas a combater a revitimização e o feminicídio. O modelo e o algoritmo propostos visam contribuir para uma abordagem mais célere na identificação das vítimas de alto risco e no manejo dos casos de violência doméstica, que superam numericamente a capacidade atual de atendimento dos órgãos de proteção do estado.</p>"
           }
         ]
       }
@@ -57,14 +51,50 @@
         "image": {
           "src": "https://assets.decocache.com/novo-leme/099cd8f5-d203-4a49-96e0-7fb6123c15ba/project-img-example.png",
           "alt": "Projeto"
+        },
+        "caption": {
+          "text": "Visita a Casa da Mulher Brasileira em Curitiba no Paraná.",
+          "position": "Left"
         }
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Projeto/TextBlock.tsx"
-      }
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
+        {
+          "value": {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Projeto/TextBlock.tsx",
+              "paragraph": [
+                {
+                  "label": "Seção",
+                  "text": "<p><span>Ainda em fase inicial de execução, os principais resultados esperados incluem a criação de uma base de dados consolidada e validada sobre as ASRO, o desenvolvimento de métricas e indicadores para monitorar essas áreas e a formulação de estratégias para mitigar os impactos operacionais causados pelos grupos criminosos. Espera-se, ainda, que os produtos gerados contribuam para fortalecer a posição da Light como uma empresa inovadora, comprometida com a segurança pública do Estado do Rio de Janeiro, além de embasar políticas públicas mais eficazes na área de segurança.</span></p>"
+                }
+              ]
+            }
+          },
+          "rule": {
+            "__resolveType": "website/matchers/never.ts"
+          }
+        }
+      ]
+    },
+    {
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
+        {
+          "value": {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Projeto/TextBlock.tsx"
+            }
+          },
+          "rule": {
+            "__resolveType": "website/matchers/never.ts"
+          }
+        }
+      ]
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -79,22 +109,52 @@
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Projeto/HighlightNumbers.tsx"
-      }
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
+        {
+          "value": {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Projeto/HighlightNumbers.tsx"
+            }
+          },
+          "rule": {
+            "__resolveType": "website/matchers/never.ts"
+          }
+        }
+      ]
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Projeto/Documents.tsx"
-      }
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
+        {
+          "value": {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Projeto/Documents.tsx"
+            }
+          },
+          "rule": {
+            "__resolveType": "website/matchers/never.ts"
+          }
+        }
+      ]
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Projeto/Links.tsx"
-      }
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
+        {
+          "value": {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Projeto/Links.tsx"
+            }
+          },
+          "rule": {
+            "__resolveType": "website/matchers/never.ts"
+          }
+        }
+      ]
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",

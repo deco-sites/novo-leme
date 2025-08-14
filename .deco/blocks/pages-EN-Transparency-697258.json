@@ -26,14 +26,39 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/PageTitle.tsx",
-        "description": "Documents and reports",
+        "description": "Leme considers transparency a core principle in all its activities. We conduct internal and external audits and disclose our resource management and accountability in our annual report.",
         "title": "Transparency"
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Transparencia.tsx"
+        "__resolveType": "site/sections/Transparencia.tsx",
+        "docs": [
+          {
+            "name": "2024 Activity and Financial Report",
+            "image": {
+              "src": "https://assets.decocache.com/novo-leme/e7c73d74-0992-4af2-9748-c3a39a42a1ee/transparencia-1744204769-(3)-1_page-0001.jpg"
+            },
+            "description": " Report on Leme’s first year of operations, made available for institutional transparency purposes."
+          },
+          {
+            "name": "2024 Financial Statement ",
+            "url": "https://assets.decocache.com/novo-leme/6cd7455f-a159-45f0-b7ef-642549d4dc93/Balancete.pdf",
+            "image": {
+              "src": "https://assets.decocache.com/novo-leme/8c1794b4-1e0c-48ab-ac36-3dbe140dad98/capinha.jpg"
+            },
+            "description": " Financial statement for the 2024 fiscal year, made available for institutional transparency purposes."
+          },
+          {
+            "name": "Bylaws ",
+            "url": "https://assets.decocache.com/novo-leme/b894e5ba-cc7e-4bd8-bc59-0272e30c0a6f/Estatuto-Social.pdf",
+            "image": {
+              "src": "https://assets.decocache.com/novo-leme/8c1794b4-1e0c-48ab-ac36-3dbe140dad98/capinha.jpg"
+            },
+            "description": " Statutory document registered in 2024, made available for institutional transparency purposes."
+          }
+        ]
       }
     },
     {

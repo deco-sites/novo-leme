@@ -1,0 +1,36 @@
+{
+  "name": "collections/blog/posts/8e7bdb9467ee",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Events",
+        "slug": "en-eventos"
+      },
+      {
+        "name": "Events participation",
+        "slug": "en-eventos-participacao"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "13th Annual Meeting of the AL CAPONE Network – Harvard University",
+    "excerpt": "The 13th Annual Meeting of the AL CAPONE Network, held at Harvard University, brought together experts to discuss research on crime and public policy in Latin America and the Caribbean. ",
+    "date": "2024-05-10",
+    "slug": "13th-annual-meeting-of-the-al-capone-network",
+    "content": "<p><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">The 13th Annual Meeting of the AL CAPONE Network, held at Harvard University, brought together experts to discuss research on crime and public policy in Latin America and the Caribbean. Organized by the David Rockefeller Center for Latin American Studies (DRCLAS), in partnership with the AL CAPONE network of LACEA, the event addressed topics such as police behavior, youth crime prevention, drugs, criminal justice, and the economic impacts on crime. At the meeting, Joana Monteiro, Director of Leme, presented the research </span><em><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">“Motorized and More Motivated? Militarized Patrols and Crime in Ceará, Brazil”</span></em><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">, highlighting the effects of militarized patrols in combating crime. The program featured renowned academics and a keynote address by Professor Crystal Yang (Harvard Law School).</span></p><p style=\"text-align: justify\"><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">&nbsp;</span></p><p><br></p>"
+  }
+}

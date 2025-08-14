@@ -1,0 +1,35 @@
+{
+  "name": "collections/blog/posts/65064f1a6738",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Events participation",
+        "slug": "en-eventos-participacao"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "RIDGE Forum 2025",
+    "date": "2025-06-16",
+    "excerpt": "The RIDGE Forum took place in May 2025 in Lima, Peru, organized by the Red de Investigación en Desarrollo Económico (RIDGE). The event brought together researchers and international authorities to discuss progress and challenges in key topics of development economics, such as inequality, public policies, international finance, and sustainable economic growth.",
+    "content": "<p><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">The RIDGE Forum took place in May 2025 in Lima, Peru, organized by the Red de Investigación en Desarrollo Económico (RIDGE). The event brought together researchers and international authorities to discuss progress and challenges in key topics of development economics, such as inequality, public policies, international finance, and sustainable economic growth.</span></p>",
+    "slug": "ridge-forum-2025",
+    "seo": {
+      "image": "https://assets.decocache.com/novo-leme/8172cc06-8554-478d-8a7d-177ed621fab0/evento-1.webp"
+    }
+  }
+}

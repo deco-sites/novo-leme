@@ -1,0 +1,37 @@
+{
+  "name": "collections/blog/posts/be40e9f254d0",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Events",
+        "slug": "en-eventos"
+      },
+      {
+        "name": "Events participation",
+        "slug": "en-eventos-participacao"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "3rd Workshop on Criminal Justice and Organized Crime",
+    "excerpt": " The 3rd Workshop on Criminal Justice and Organized Crime took place on April 7–8, 2025, in Cali, Colombia, as part of the alliance between the World Bank, CAF, IDB, and the Laboratory for Justice and Criminal Policy. The event brought together experts and authorities from Latin America to discuss strategies against organized crime, such as focused deterrence, plea agreements, and cross-country collaboration. It also addressed challenges in evidence production, crime analysis, and conflict resolution mechanisms, as well as the importance of data and cooperation with civil society. Ramón Chaves, Project Leader at Leme, participated as a panelist in a session on institutional strategies in criminal justice. In his remarks, Ramón highlighted the importance of priority-setting, incorporating data scientists, and drawing on the experience of community health workers as a model for security policies.",
+    "image": "https://assets.decocache.com/novo-leme/624f49ef-4b19-4c40-be4b-9b66df4cc49f/evento-2.webp",
+    "date": "2025-04-07",
+    "slug": "3rd-workshop-on-criminal-justice-and-organized-crime",
+    "content": "<p><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">&nbsp;The 3rd Workshop on Criminal Justice and Organized Crime took place on April 7–8, 2025, in Cali, Colombia, as part of the alliance between the World Bank, CAF, IDB, and the Laboratory for Justice and Criminal Policy. The event brought together experts and authorities from Latin America to discuss strategies against organized crime, such as focused deterrence, plea agreements, and cross-country collaboration. It also addressed challenges in evidence production, crime analysis, and conflict resolution mechanisms, as well as the importance of data and cooperation with civil society. Ramón Chaves, Project Leader at Leme, participated as a panelist in a session on institutional strategies in criminal justice. In his remarks, Ramón highlighted the importance of priority-setting, incorporating data scientists, and drawing on the experience of community health workers as a model for security policies.<br><br></span></p><p><br></p>"
+  }
+}

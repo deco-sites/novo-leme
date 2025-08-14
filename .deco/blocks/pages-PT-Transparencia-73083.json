@@ -42,6 +42,22 @@
             },
             "description": "Relatório de atividades e financeiro referente ao primeiro ano de atuação do Leme, disponibilizado para fins de transparência institucional.",
             "url": "https://assets.decocache.com/novo-leme/6ee5314e-bec7-48ac-a848-0406387413dd/transparencia-1744204769-(3).pdf"
+          },
+          {
+            "name": "Balancete 2024",
+            "url": "https://assets.decocache.com/novo-leme/6cd7455f-a159-45f0-b7ef-642549d4dc93/Balancete.pdf",
+            "image": {
+              "src": "https://assets.decocache.com/novo-leme/8c1794b4-1e0c-48ab-ac36-3dbe140dad98/capinha.jpg"
+            },
+            "description": "Demonstrativo financeiro referente ao exercício de 2024, disponibilizado para fins de transparência institucional."
+          },
+          {
+            "name": "Estatuto Social",
+            "url": "https://assets.decocache.com/novo-leme/b894e5ba-cc7e-4bd8-bc59-0272e30c0a6f/Estatuto-Social.pdf",
+            "image": {
+              "src": "https://assets.decocache.com/novo-leme/8c1794b4-1e0c-48ab-ac36-3dbe140dad98/capinha.jpg"
+            },
+            "description": "Documento estatutário registrado em 2024, disponibilizado para fins de transparência institucional."
           }
         ]
       }

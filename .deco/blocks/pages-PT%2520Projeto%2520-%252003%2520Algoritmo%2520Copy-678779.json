@@ -1,7 +1,7 @@
 {
   "__resolveType": "website/pages/Page.tsx",
-  "name": "PT Projetos - 01 Desenho",
-  "path": "/projetos/desenho-planejamento-implementacao-politica-municipal-seguranca-publica-rio-de-janeiro",
+  "name": "PT Projeto - 04 ",
+  "path": "/projetos/avaliacao-experimental-policamento-pontos-quentes-brasil",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },
@@ -24,7 +24,7 @@
         "__resolveType": "site/sections/Projeto/Header.tsx",
         "page": {
           "__resolveType": "blog/loaders/BlogPostPage.ts",
-          "slug": "desenho-planejamento-implementacao-politica-municipal-seguranca-publica-rio-de-janeiro"
+          "slug": "avaliacao-experimental-policamento-pontos-quentes-brasil"
         },
         "config": {
           "categorySlug": "projetos",
@@ -39,7 +39,7 @@
         "paragraph": [
           {
             "label": "Descrição",
-            "text": "<p>Este projeto tem como objetivo assessorar tecnicamente a Prefeitura do Rio de Janeiro na criação de uma política municipal de segurança pública orientada por dados, evidências científicas e boas práticas internacionais. A iniciativa envolve o apoio ao desenho da Divisão de Elite Armada da Guarda Municipal e a formulação de um programa municipal de segurança voltado para a redução de crimes no espaço público urbano. Inclui ainda o desenho de um sistema de gestão inspirado em boas práticas como o CompStat — modelo criado em Nova York que aposta no uso de dados para orientar ações com foco em resultados — e a elaboração do Plano Municipal de Segurança Pública da cidade. Este consolida as diretrizes anteriores, além de definir metas e indicadores e estabelecer mecanismos de participação cidadã e de prestação de contas para os próximos anos. No que se refere  à Divisão Armada da Guarda, o trabalho do Leme inclui o apoio ao desenho dos processos de seleção, treinamento, mecanismos de controle e sistemas de informação.</p>"
+            "text": "<p>O projeto teve como objetivo realizar a primeira avaliação experimental de patrulhamento em pontos quentes no Brasil, estruturada a partir de um experimento controlado randomizado. A iniciativa foi liderada pelo Banco Interamericano de Desenvolvimento (BID) em parceria com a Polícia Militar do Paraná e da Secretaria de Segurança Pública do estado. Durante a pesquisa, foram identificados 422 segmentos de rua com alta incidência de roubos, mapeados a partir de dados georreferenciados e análises espaciais avançadas. Metade desses segmentos foi sorteada para receber patrulhamento adicional durante três meses e a outra metade foi utilizada como grupo de controle para identificar o impacto do projeto.</p>"
           }
         ]
       }
@@ -49,13 +49,12 @@
       "section": {
         "__resolveType": "site/sections/Projeto/Image.tsx",
         "image": {
-          "src": "https://assets.decocache.com/novo-leme/9474c4f7-9496-451c-a905-1fa37582882d/Design-sem-nome-(1).jpg",
+          "src": "https://assets.decocache.com/novo-leme/7a2890cf-567d-4b10-b7b5-b2d2f7c73d89/Visita2BPM-(1).jpeg",
           "alt": "Projeto"
         },
-        "size": "Medium",
         "caption": {
-          "position": "Bottom",
-          "text": "Prefeitura da Cidade do Rio de Janeiro."
+          "text": "Visita ao 2° Batalhão de Polícia Militar em Curitiba no Paraná.",
+          "position": "Left"
         }
       }
     },
@@ -88,11 +87,7 @@
           "value": {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
-              "__resolveType": "site/sections/Projeto/Image.tsx",
-              "image": {
-                "src": "https://assets.decocache.com/novo-leme/099cd8f5-d203-4a49-96e0-7fb6123c15ba/project-img-example.png",
-                "alt": "Projeto"
-              }
+              "__resolveType": "site/sections/Projeto/TextBlock.tsx"
             }
           },
           "rule": {
@@ -108,42 +103,46 @@
         "paragraph": [
           {
             "label": "Resultados",
-            "text": "<p>Os principais resultados esperados incluem: i) a consolidação do modelo institucional da Divisão de Elite Armada; ii) a estruturação do Programa Municipal de Segurança; iii) a implementação do sistema de gestão e monitoramento baseado em dados; e iv) a elaboração do Plano Municipal de Segurança Pública da cidade. Espera-se, com isso, promover a redução de crimes e irregularidades em espaços públicos urbanos, ampliar a sensação de segurança da população, fortalecer a imagem institucional dos órgãos municipais envolvidos no modelo de gestão, sobretudo da GM-Rio, e reforçar a autoridade da Prefeitura do Rio de Janeiro sobre o espaço público da cidade.</p>"
+            "text": "<p>O experimento gerou um aumento de 15 minutos em média nos segmentos tratados em relação ao grupo de controle, o que foi medido pelo uso de dados de GPS. Os dados da avaliação realizada apontaram uma redução de 22% nos roubos em áreas patrulhadas durante os dias de semana em relação ao grupo de controle, sem evidências de deslocamento do crime para segmentos vizinhos. Foi observado, entretanto, um aumento nos furtos nos segmentos tratados, possivelmente em decorrência da mudança de comportamento dos infratores ou da forma de registro policial. Além disso, a análise indicou que os efeitos positivos sobre os roubos persistiram por até três meses após o término do experimento, mas desapareceram posteriormente, reforçando a importância de manter estratégias de policiamento constantes e orientadas por dados para sustentar os resultados alcançados. O projeto foi uma oportunidade prática de treinamento em avaliação de impacto para a polícia militar do Paraná e usar dados de GPS para supervisionar a alocação policial. </p>"
           }
         ]
       }
     },
     {
-      "__resolveType": "website/flags/multivariate/section.ts",
-      "variants": [
-        {
-          "value": {
-            "__resolveType": "website/sections/Rendering/Lazy.tsx",
-            "section": {
-              "__resolveType": "site/sections/Projeto/HighlightNumbers.tsx"
-            }
-          },
-          "rule": {
-            "__resolveType": "website/matchers/never.ts"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/HighlightNumbers.tsx",
+        "highlights": [
+          {
+            "style": "Blue",
+            "number": "22%",
+            "text": "de redução de roubos"
           }
-        }
-      ]
+        ]
+      }
     },
     {
-      "__resolveType": "website/flags/multivariate/section.ts",
-      "variants": [
-        {
-          "value": {
-            "__resolveType": "website/sections/Rendering/Lazy.tsx",
-            "section": {
-              "__resolveType": "site/sections/Projeto/Documents.tsx"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/Documents.tsx",
+        "label": "Documentos",
+        "docs": [
+          {
+            "name": "An Experimental Evaluation of Hot Spot Policing in Brazil",
+            "url": "https://assets.decocache.com/novo-leme/a8f66abc-2594-4cb8-8009-2c061cbcd661/HSP_Curitiba-(2)-1_page-0001.jpg",
+            "image": {
+              "src": "https://assets.decocache.com/novo-leme/a8f66abc-2594-4cb8-8009-2c061cbcd661/HSP_Curitiba-(2)-1_page-0001.jpg"
             }
           },
-          "rule": {
-            "__resolveType": "website/matchers/never.ts"
+          {
+            "name": "Avaliação Experimental de Policiamento em Pontos Quentes no Brasil",
+            "image": {
+              "src": "https://assets.decocache.com/novo-leme/8dff79ef-0a67-49d6-ba54-8fbfcf2a0530/HSP_Curitiba-(3)-1_page-0001.jpg"
+            },
+            "url": "https://assets.decocache.com/novo-leme/8dff79ef-0a67-49d6-ba54-8fbfcf2a0530/HSP_Curitiba-(3)-1_page-0001.jpg"
           }
-        }
-      ]
+        ]
+      }
     },
     {
       "__resolveType": "website/flags/multivariate/section.ts",
