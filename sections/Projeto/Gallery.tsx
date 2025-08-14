@@ -22,7 +22,7 @@ export default function Gallery({
               <div className="text-primary">
                 <Title label="Galeria" titleSize="2xl" serif />
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {/* Mobile */}
                 {images?.map((image) => (
                   <div className="md:hidden">
