@@ -160,11 +160,12 @@ export default function PostDetail({
               <div className="text-primary">
                 <Title label={newTexts?.organization} titleSize="2xl" serif />
               </div>
-              <div className="flex flex-col md:flex-row gap-7 max-h-[70px] flex-wrap">
+              <div className="flex flex-col md:flex-row gap-7 flex-wrap">
                 {organization?.map((item) => (
                   <Image
                     src={item.image || ""}
                     alt={item.label || ""}
+                    className="max-h-[80px] max-w-[250px] object-scale-down"
                   />
                 ))}
               </div>
@@ -178,11 +179,12 @@ export default function PostDetail({
               <div className="text-primary">
                 <Title label={newTexts?.partners} titleSize="2xl" serif />
               </div>
-              <div className="flex flex-col md:flex-row gap-7 max-h-[70px] flex-wrap">
+              <div className="flex flex-col md:flex-row gap-7 flex-wrap">
                 {partners?.map((item) => (
                   <Image
                     src={item.image || ""}
                     alt={item.label || ""}
+                    className="max-h-[80px] max-w-[250px] object-scale-down"
                   />
                 ))}
               </div>
@@ -196,11 +198,12 @@ export default function PostDetail({
               <div className="text-primary">
                 <Title label={newTexts?.sponsors} titleSize="2xl" serif />
               </div>
-              <div className="flex flex-col md:flex-row gap-7 max-h-[70px] flex-wrap">
+              <div className="flex flex-col md:flex-row gap-7 flex-wrap">
                 {sponsors?.map((item) => (
                   <Image
                     src={item.image || ""}
                     alt={item.label || ""}
+                    className="max-h-[80px] max-w-[250px] object-scale-down"
                   />
                 ))}
               </div>
