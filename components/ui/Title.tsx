@@ -24,7 +24,7 @@ export default function Title({
       <h2 className={`leading-snug ${noClamp ? '' : 'line-clamp-2'} text-${titleSize} ${ serif ? 'font-serif' : '' } }`}>{label}</h2>
       {
         description ? (
-          <div class={`leading-normal line-clamp-4 ${descriptionColor ? 'text-' + descriptionColor : ''} text-${descriptionSize}`}>{description}</div>
+          <div class={`leading-normal md:line-clamp-2 xl:line-clamp-4 ${descriptionColor ? 'text-' + descriptionColor : ''} text-${descriptionSize}`}>{description}</div>
         ) : ''
       }
     </div>

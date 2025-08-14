@@ -2770,12 +2770,6 @@ input.tab:checked + .tab-content,
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
 }
-.line-clamp-4 {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
-}
 .line-clamp-6 {
   overflow: hidden;
   display: -webkit-box;
@@ -4258,6 +4252,13 @@ input.tab:checked + .tab-content,
     -webkit-line-clamp: 1;
   }
 
+  .md\:line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+
   .md\:block {
     display: block;
   }
@@ -4268,6 +4269,10 @@ input.tab:checked + .tab-content,
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:h-\[132px\] {
+    height: 132px;
   }
 
   .md\:h-auto {
@@ -4750,8 +4755,19 @@ input.tab:checked + .tab-content,
     margin-right: 10rem;
   }
 
+  .xl\:line-clamp-4 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+  }
+
   .xl\:h-\[165px\] {
     height: 165px;
+  }
+
+  .xl\:h-\[170px\] {
+    height: 170px;
   }
 
   .xl\:w-\[138px\] {
