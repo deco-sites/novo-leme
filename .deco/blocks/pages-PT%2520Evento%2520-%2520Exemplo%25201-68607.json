@@ -1,6 +1,6 @@
 {
   "__resolveType": "website/pages/Page.tsx",
-  "name": "PT Evento - Exemplo 1",
+  "name": "PT Evento 1 - Novas Abordagens",
   "path": "/eventos/novas-abordagens-controle-grupos-criminosos-rj",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
@@ -86,7 +86,8 @@
       "text": {
         "__resolveType": "site/sections/EventoTextos.tsx",
         "description": "olar"
-      }
+      },
+      "video": "https://assets.decocache.com/novo-leme/1d6a0e9c-133f-4838-9dd6-e5e1f94bd635/Evento1.mp4"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",

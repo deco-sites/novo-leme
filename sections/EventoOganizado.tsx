@@ -2,6 +2,7 @@ import { RichText } from "apps/admin/widgets.ts";
 import { type BlogPost, BlogPostPage } from "apps/blog/types.ts";
 import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
+import { VideoWidget as Video } from "apps/admin/widgets.ts";
 import Title from  "../components/ui/Title.tsx";
 import FancyLink from  "../components/ui/FancyLink.tsx";
 import { type Section } from "@deco/deco/blocks";
@@ -21,6 +22,7 @@ export interface Props {
     /** @format textarea */
     address?: string;
   }
+  video?: Video;
   registrationUrl?: string;
   organization?: {
     label?: string;
@@ -56,6 +58,7 @@ export default function PostDetail({
   page,
   description,
   location,
+  video,
   registrationUrl,
   organization,
   partners,
@@ -113,6 +116,16 @@ export default function PostDetail({
             <div className="text-primary">
               <Title label={newTexts?.description} titleSize="2xl" serif />
             </div>
+            {video && (
+              <div className="mb-4">
+                <video
+                  className="w-full h-full object-cover rounded-md shadow-sm"
+                  width={500}
+                  src={video}
+                  controls
+                ></video>
+              </div>
+            )}
             <div className="leading-relaxed text-neutral-950 space-y-6" dangerouslySetInnerHTML={{__html: description}}></div>
           </div>
           <div className="flex flex-col flex-none w-80 gap-5">
