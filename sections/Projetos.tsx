@@ -178,7 +178,7 @@ export default function Projetos({
   }) || [];
 
   return (
-    <div className="container px-6 md:px-12 flex flex-col md:flex-row gap-12 md:gap-20 my-6 md:my-12 text-neutral-950">
+    <div className="container px-6 md:px-12 flex flex-col lg:flex-row gap-12 md:gap-20 my-6 md:my-12 text-neutral-950">
       <div className="flex flex-col gap-7 flex-none w-56">
         <div className="flex flex-col gap-2">
           <h3 className="text-primary font-bold">{texts.areas}</h3>

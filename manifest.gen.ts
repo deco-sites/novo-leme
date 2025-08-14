@@ -26,20 +26,21 @@ import * as $$$$$$14 from "./sections/PageTitle.tsx";
 import * as $$$$$$15 from "./sections/PostDetail.tsx";
 import * as $$$$$$16 from "./sections/PostsList.tsx";
 import * as $$$$$$17 from "./sections/Projeto/Documents.tsx";
-import * as $$$$$$18 from "./sections/Projeto/Header.tsx";
-import * as $$$$$$19 from "./sections/Projeto/HighlightNumbers.tsx";
-import * as $$$$$$20 from "./sections/Projeto/Image.tsx";
-import * as $$$$$$21 from "./sections/Projeto/Links.tsx";
-import * as $$$$$$22 from "./sections/Projeto/MoreProjects.tsx";
-import * as $$$$$$23 from "./sections/Projeto/TextBlock.tsx";
-import * as $$$$$$24 from "./sections/Projetos.tsx";
-import * as $$$$$$25 from "./sections/SideNav.tsx";
-import * as $$$$$$26 from "./sections/SobreEquipe.tsx";
-import * as $$$$$$27 from "./sections/SobreLeme.tsx";
-import * as $$$$$$28 from "./sections/SobreMissaoValores.tsx";
-import * as $$$$$$29 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$30 from "./sections/Transparencia.tsx";
-import * as $$$$$$31 from "./sections/Watermark.tsx";
+import * as $$$$$$18 from "./sections/Projeto/Gallery.tsx";
+import * as $$$$$$19 from "./sections/Projeto/Header.tsx";
+import * as $$$$$$20 from "./sections/Projeto/HighlightNumbers.tsx";
+import * as $$$$$$21 from "./sections/Projeto/Image.tsx";
+import * as $$$$$$22 from "./sections/Projeto/Links.tsx";
+import * as $$$$$$23 from "./sections/Projeto/MoreProjects.tsx";
+import * as $$$$$$24 from "./sections/Projeto/TextBlock.tsx";
+import * as $$$$$$25 from "./sections/Projetos.tsx";
+import * as $$$$$$26 from "./sections/SideNav.tsx";
+import * as $$$$$$27 from "./sections/SobreEquipe.tsx";
+import * as $$$$$$28 from "./sections/SobreLeme.tsx";
+import * as $$$$$$29 from "./sections/SobreMissaoValores.tsx";
+import * as $$$$$$30 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$31 from "./sections/Transparencia.tsx";
+import * as $$$$$$32 from "./sections/Watermark.tsx";
 
 const manifest = {
   "sections": {
@@ -61,20 +62,21 @@ const manifest = {
     "site/sections/PostDetail.tsx": $$$$$$15,
     "site/sections/PostsList.tsx": $$$$$$16,
     "site/sections/Projeto/Documents.tsx": $$$$$$17,
-    "site/sections/Projeto/Header.tsx": $$$$$$18,
-    "site/sections/Projeto/HighlightNumbers.tsx": $$$$$$19,
-    "site/sections/Projeto/Image.tsx": $$$$$$20,
-    "site/sections/Projeto/Links.tsx": $$$$$$21,
-    "site/sections/Projeto/MoreProjects.tsx": $$$$$$22,
-    "site/sections/Projeto/TextBlock.tsx": $$$$$$23,
-    "site/sections/Projetos.tsx": $$$$$$24,
-    "site/sections/SideNav.tsx": $$$$$$25,
-    "site/sections/SobreEquipe.tsx": $$$$$$26,
-    "site/sections/SobreLeme.tsx": $$$$$$27,
-    "site/sections/SobreMissaoValores.tsx": $$$$$$28,
-    "site/sections/Theme/Theme.tsx": $$$$$$29,
-    "site/sections/Transparencia.tsx": $$$$$$30,
-    "site/sections/Watermark.tsx": $$$$$$31,
+    "site/sections/Projeto/Gallery.tsx": $$$$$$18,
+    "site/sections/Projeto/Header.tsx": $$$$$$19,
+    "site/sections/Projeto/HighlightNumbers.tsx": $$$$$$20,
+    "site/sections/Projeto/Image.tsx": $$$$$$21,
+    "site/sections/Projeto/Links.tsx": $$$$$$22,
+    "site/sections/Projeto/MoreProjects.tsx": $$$$$$23,
+    "site/sections/Projeto/TextBlock.tsx": $$$$$$24,
+    "site/sections/Projetos.tsx": $$$$$$25,
+    "site/sections/SideNav.tsx": $$$$$$26,
+    "site/sections/SobreEquipe.tsx": $$$$$$27,
+    "site/sections/SobreLeme.tsx": $$$$$$28,
+    "site/sections/SobreMissaoValores.tsx": $$$$$$29,
+    "site/sections/Theme/Theme.tsx": $$$$$$30,
+    "site/sections/Transparencia.tsx": $$$$$$31,
+    "site/sections/Watermark.tsx": $$$$$$32,
   },
   "actions": {
     "site/actions/sendContactEmailDirect.ts": $$$$$$$$$0,

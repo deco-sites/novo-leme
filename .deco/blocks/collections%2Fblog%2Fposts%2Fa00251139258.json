@@ -7,12 +7,29 @@
       {
         "name": "Projetos",
         "slug": "projetos"
+      },
+      {
+        "name": "Fortalecimento de Instituições Policiais",
+        "slug": "fortalecimento-instituicoes-policiais-controle-territorial-crime-organizado"
       }
     ],
     "imageCarousel": {
       "banners": []
     },
-    "extraProps": [],
+    "extraProps": [
+      {
+        "key": "date",
+        "value": "2023-2024"
+      },
+      {
+        "key": "location",
+        "value": "Estado do Paraná"
+      },
+      {
+        "key": "status",
+        "value": "Concluído"
+      }
+    ],
     "aggregateRating": {
       "@type": "AggregateRating"
     },
@@ -27,7 +44,7 @@
     "excerpt": "O projeto teve como objetivo realizar a primeira avaliação experimental de patrulhamento em pontos quentes no Brasil, estruturada a partir de um experimento controlado randomizado.",
     "image": "https://assets.decocache.com/novo-leme/9c8dc087-ccd2-46f6-82c9-d80b9512c215/projeto-4.webp",
     "date": "2023-01-02",
-    "slug": "avaliacao-experimental-policiamento-pontos-quentes-brasil",
-    "content": "<p>O projeto teve como objetivo realizar a primeira avaliação experimental de patrulhamento em pontos quentes no Brasil, estruturada a partir de um experimento controlado randomizado.</p>"
+    "slug": "avaliacao-experimental-policamento-pontos-quentes-brasil",
+    "content": "<p>O projeto teve como objetivo realizar a primeira avaliação experimental de patrulhamento em pontos quentes no Brasil, estruturada a partir de um experimento controlado randomizado. A iniciativa foi liderada pelo Banco Interamericano de Desenvolvimento (BID) em parceria com a Polícia Militar do Paraná e da Secretaria de Segurança Pública do estado. Durante a pesquisa, foram identificados 422 segmentos de rua com alta incidência de roubos, mapeados a partir de dados georreferenciados e análises espaciais avançadas. Metade desses segmentos foi sorteada para receber patrulhamento adicional durante três meses e a outra metade foi utilizada como grupo de controle para identificar o impacto do projeto.</p>"
   }
 }

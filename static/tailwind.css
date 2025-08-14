@@ -4292,6 +4292,10 @@ input.tab:checked + .tab-content,
     width: 138px;
   }
 
+  .md\:w-\[200px\] {
+    width: 200px;
+  }
+
   .md\:w-\[500px\] {
     width: 500px;
   }
@@ -4741,6 +4745,10 @@ input.tab:checked + .tab-content,
 
   .xl\:mr-40 {
     margin-right: 10rem;
+  }
+
+  .xl\:w-\[280px\] {
+    width: 280px;
   }
 
   .xl\:w-\[calc\(32\.5\%\)\] {
