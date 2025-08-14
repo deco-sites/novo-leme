@@ -7,12 +7,29 @@
       {
         "name": "Projetos",
         "slug": "projetos"
+      },
+      {
+        "name": "Enfrentamento da Violência Contra a Mulher",
+        "slug": "enfrentamento-violencia-contra-mulher"
       }
     ],
     "imageCarousel": {
       "banners": []
     },
-    "extraProps": [],
+    "extraProps": [
+      {
+        "key": "date",
+        "value": "2023-atual"
+      },
+      {
+        "key": "location",
+        "value": "Estado do Paraná"
+      },
+      {
+        "key": "status",
+        "value": "Em andamento"
+      }
+    ],
     "aggregateRating": {
       "@type": "AggregateRating"
     },
@@ -25,7 +42,7 @@
     },
     "title": "Algoritmo preditivo do risco de revitimização de vítimas de violência doméstica",
     "excerpt": "Este projeto, iniciado em 2024 e realizado em parceria com a Secretaria de Segurança Pública do Paraná (SESP-PR) e o Banco Interamericano de Desenvolvimento (BID), objetiva desenvolver um modelo preditivo e um algoritmo de predição para avaliar o risco de revitimização de mulheres em casos de violência doméstica ocorridos no Paraná.",
-    "date": "2023-01-01",
+    "date": "2024-12-31",
     "content": "<p>Este projeto, iniciado em 2024 e realizado em parceria com a Secretaria de Segurança Pública do Paraná (SESP-PR) e o Banco Interamericano de Desenvolvimento (BID), objetiva desenvolver um modelo preditivo e um algoritmo de predição para avaliar o risco de revitimização de mulheres em casos de violência doméstica ocorridos no Paraná.</p>",
     "slug": "algoritmo-preditivo-risco-revitimizacao-vitimas-violencia-domestica",
     "image": "https://assets.decocache.com/novo-leme/dfde13c8-3e37-4fd0-ae27-658a96c036c1/projeto-3.webp"
