@@ -52,7 +52,6 @@
         "name": "Casa das Garças",
         "address": "Av. Padre Leonel Franca, 135 – Gávea, Rio de Janeiro – RJ"
       },
-      "image": "https://assets.decocache.com/novo-leme/3e406056-67fd-45b8-a309-dd02016de9db/img.jpg",
       "gallery": [],
       "registrationHref": "http://www.google.com/",
       "organization": [
@@ -87,7 +86,10 @@
         "__resolveType": "site/sections/EventoTextos.tsx",
         "description": "olar"
       },
-      "video": "https://assets.decocache.com/novo-leme/1d6a0e9c-133f-4838-9dd6-e5e1f94bd635/Evento1.mp4"
+      "video": "https://assets.decocache.com/novo-leme/1d6a0e9c-133f-4838-9dd6-e5e1f94bd635/Evento1.mp4",
+      "media": {
+        "video": "https://assets.decocache.com/novo-leme/1d6a0e9c-133f-4838-9dd6-e5e1f94bd635/Evento1.mp4"
+      }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",

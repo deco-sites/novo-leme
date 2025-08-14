@@ -40,14 +40,14 @@ export default function SobreEquipe({
       <div className="flex-auto flex flex-col gap-14">
         {teamGroup?.map((group, indexGroup) => (
           <div>
-            <div className="text-primary mb-5">
+            <div className="text-primary mb-7">
               <Title label={group.label} titleSize="4xl" serif />
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-y-8 md:gap-x-12">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-y-8 md:gap-x-12">
               {group.people?.map((person, index) => (
                 <div className="group flex gap-5">
                   <div className="flex-none">
-                    <Image class="rounded-md w-24 md:w-[138px]" src={person?.photo || "https://assets.decocache.com/novo-leme/31b2a0a0-2c88-4731-902a-88bd35f79093/Placeholder.jpeg"} alt={person?.label} width={138} height={165} />
+                    <Image class="rounded-md w-24 xl:w-[138px] xl:h-[165px] object-cover" src={person?.photo || "https://assets.decocache.com/novo-leme/31b2a0a0-2c88-4731-902a-88bd35f79093/Placeholder.jpeg"} alt={person?.label} width={138} height={165} />
                   </div>
                   <div className="flex-auto flex flex-col gap-3">
                     <div className="flex flex-col gap-2">

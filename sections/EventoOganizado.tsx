@@ -22,7 +22,10 @@ export interface Props {
     /** @format textarea */
     address?: string;
   }
-  video?: Video;
+  media?: {
+    image?: ImageWidget;
+    video?: Video;
+  }
   registrationUrl?: string;
   organization?: {
     label?: string;
@@ -58,7 +61,7 @@ export default function PostDetail({
   page,
   description,
   location,
-  video,
+  media,
   registrationUrl,
   organization,
   partners,
@@ -113,19 +116,29 @@ export default function PostDetail({
         <Title label={title} serif titleSize="4xl" noClamp />
         <div className="flex flex-col md:flex-row gap-4 md:gap-12">
           <div className="flex flex-col gap-3">
-            <div className="text-primary">
-              <Title label={newTexts?.description} titleSize="2xl" serif />
-            </div>
-            {video && (
+            {media?.image && (
+              <div className="mb-4">
+                <Image
+                  className="w-full h-full object-cover rounded-md shadow-sm"
+                  width={500}
+                  src={media?.image || ""}
+                  alt={title}
+                />
+              </div>
+            )}
+            {media?.video && (
               <div className="mb-4">
                 <video
                   className="w-full h-full object-cover rounded-md shadow-sm"
                   width={500}
-                  src={video}
+                  src={media?.video}
                   controls
                 ></video>
               </div>
             )}
+            <div className="text-primary">
+              <Title label={newTexts?.description} titleSize="2xl" serif />
+            </div>
             <div className="leading-relaxed text-neutral-950 space-y-6" dangerouslySetInnerHTML={{__html: description}}></div>
           </div>
           <div className="flex flex-col flex-none w-80 gap-5">
