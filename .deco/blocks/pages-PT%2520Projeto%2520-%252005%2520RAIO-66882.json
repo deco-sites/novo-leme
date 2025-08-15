@@ -130,17 +130,17 @@
           {
             "style": "Neutral",
             "number": "20%",
-            "text": "de redução nos Crimes Violentos Patrimoniais"
+            "label": "de redução nos Crimes Violentos Patrimoniais"
           },
           {
             "style": "Orange",
             "number": "13%",
-            "text": "de redução nos Crimes Violentos Letais e Intencionais"
+            "label": "de redução nos Crimes Violentos Letais e Intencionais"
           },
           {
             "style": "Blue",
             "number": "9%",
-            "text": "redução nos furtos"
+            "label": "de redução nos furtos"
           }
         ]
       }

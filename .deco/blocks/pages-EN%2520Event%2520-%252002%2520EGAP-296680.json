@@ -1,7 +1,7 @@
 {
   "__resolveType": "website/pages/Page.tsx",
-  "name": "EN Event - 01 newscrish",
-  "path": "/en/events/new-approaches-controlling-armed-criminal-groups-rj",
+  "name": "EN Event - 02 EGAP",
+  "path": "/en/events/latin-american-initiatives-mapping-violent-criminal-groups",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },
@@ -28,7 +28,7 @@
       "__resolveType": "site/sections/EventoOganizado.tsx",
       "page": {
         "__resolveType": "blog/loaders/BlogPostPage.ts",
-        "slug": "new-approaches-controlling-armed-criminal-groups-rj"
+        "slug": "latin-american-initiatives-mapping-violent-criminal-groups"
       },
       "sidebarNav": {
         "__resolveType": "EN SideNav Events",
@@ -45,12 +45,12 @@
       },
       "description": "<p>The event aims to discuss violent organized crime in Latin America and identify promising strategies for its reduction in the context of Rio de Janeiro, based on national and international experiences. To this end, we will host Professors Chris Blattman and Benjamin Lessing from the University of Chicago, and Carlos Schmidt-Padilla from the University of California—experts on the subject who have conducted field studies for years on the control and criminal governance of such groups in Colombia, Mexico, Brazil, El Salvador, and the United States.<br><br></p><p>This initiative reflects Leme’s core mission: fostering productive exchanges and connections between academics and decision-makers. With a dynamic and participatory format, the meeting will be invitation-only and will seek to create a collaborative environment for building practical solutions grounded in scientific evidence. Participants will include representatives from public security institutions, Brazilian and foreign researchers, as well as civil society organizations.<br><br></p><p>Access the full program <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://drive.google.com/drive/folders/19p86VDtM8wlKjAc_4l9xOmwBC-Ez7mZR\">here</a>.</p>",
       "date": {
-        "start": "2025-08-19T12:00:00.000Z",
-        "end": "2025-08-19T20:00:00.000Z"
+        "start": "2024-10-08T12:00:00.000Z",
+        "end": "2024-10-08T21:00:00.000Z"
       },
       "location": {
-        "name": "Casa das Garças",
-        "address": "Av. Padre Leonel Franca, 135 – Gávea, Rio de Janeiro – RJ"
+        "name": "FGV Ibre",
+        "address": "St. Presidente Carlos de Campos, 417, Laranjeiras, Rio de Janeiro."
       },
       "image": "https://assets.decocache.com/novo-leme/3e406056-67fd-45b8-a309-dd02016de9db/img.jpg",
       "gallery": [],
@@ -58,31 +58,34 @@
       "organization": [
         {
           "name": "Leme",
-          "image": "https://assets.decocache.com/novo-leme/cebbdd5a-1267-4e7c-b57d-53d70abfc243/leme.png",
-          "label": "Leme"
+          "image": "https://assets.decocache.com/novo-leme/c5696a4f-8f8a-4b8f-bee7-635a76be1fa2/image-removebg-preview-(44).png",
+          "label": "EGAP"
         }
       ],
       "partners": [
         {
           "name": "Governo do Brasil",
-          "image": "https://assets.decocache.com/novo-leme/b846cd3a-e069-4fb6-b9ad-fab53aee1d5b/image-removebg-preview-(15).png",
-          "label": "Universidade de Chicago"
+          "image": "https://assets.decocache.com/novo-leme/f2158298-142d-4585-8f72-5b77b71ca9b5/Logo.svg",
+          "label": "Leme"
         },
         {
-          "image": "https://assets.decocache.com/novo-leme/589575ee-bbab-44ac-be72-3074b02c969a/thumbnail_logo-iepe.jpg",
-          "label": "Instituto de Estudos de Política Econômica/Casa das Garças"
-        }
-      ],
-      "sponsors": [
-        {
-          "label": "UChicago Global",
-          "image": "https://assets.decocache.com/novo-leme/a43f123d-04e2-4bb8-81ab-4ba1efc9d583/WhatsApp_Image_2025-08-14_at_13.14.13-removebg-preview.png"
+          "image": "https://assets.decocache.com/novo-leme/25031274-4ef9-4925-b94b-11df743cc77e/d15e6192-5918-4a10-82cb-16d792c26202.png",
+          "label": "FGV Ebape"
         },
         {
-          "image": "https://assets.decocache.com/novo-leme/4c9b0f7f-0a2d-4a08-aa22-15421d3a7f58/jpal.png",
-          "label": "J-PAL América Latina e Caribe"
+          "image": "https://assets.decocache.com/novo-leme/4458cf4e-f16b-4ac7-b031-aed1d5092fe5/image-removebg-preview-(45).png",
+          "label": "BID"
+        },
+        {
+          "image": "https://assets.decocache.com/novo-leme/4dad0c44-1d28-4a1e-a043-26afd1679a84/image-removebg-preview-(47).png",
+          "label": "Los Andes"
+        },
+        {
+          "image": "https://assets.decocache.com/novo-leme/667ad9bb-7318-49fc-8bda-c1530e1c9b23/Logo_EAFIT.svg.png",
+          "label": "EAFIT"
         }
       ],
+      "sponsors": [],
       "texts": {
         "__resolveType": "EN Event texts"
       },
@@ -90,9 +93,7 @@
         "label": "View more events",
         "url": "/en/events"
       },
-      "media": {
-        "video": "https://assets.decocache.com/novo-leme/1d6a0e9c-133f-4838-9dd6-e5e1f94bd635/Evento1.mp4"
-      }
+      "media": {}
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",

@@ -1,0 +1,36 @@
+{
+  "name": "collections/blog/posts/5ad840ce8933",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Events",
+        "slug": "en-eventos"
+      },
+      {
+        "name": "Events organized",
+        "slug": "en-eventos-organizados"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Latin American Initiatives for Mapping Violent Criminal Groups",
+    "date": "2024-10-08",
+    "slug": "latin-american-initiatives-mapping-violent-criminal-groups",
+    "excerpt": "The meeting is an initiative of the international research network Evidence in Governance and Politics (EGAP), in partnership with Leme – Violence Reduction Laboratory, the Brazilian School of Public and Business Administration at the Getulio Vargas Foundation (FGV EBAPE), the Inter-American Development Bank (IDB), and Los Andes and EAFIT Universities (Colombia).",
+    "content": "<p>The meeting is an initiative of the international research network Evidence in Governance and Politics (EGAP), in partnership with Leme – Violence Reduction Laboratory, the Brazilian School of Public and Business Administration at the Getulio Vargas Foundation (FGV EBAPE), the Inter-American Development Bank (IDB), and Los Andes and EAFIT Universities (Colombia).</p><p>The event aims to discuss various data-driven projects designed to measure the presence and activity of organized criminal groups in different Latin American contexts. To this end, a high-level discussion forum will be held to examine the usefulness, limitations, and validity of different methodologies developed in academia, civil society, and public security institutions.</p><p>This is an invitation-only meeting, with participants including representatives from Public Security and Criminal Justice forces of the State of Rio de Janeiro, the federal government, Colombia, Ecuador, Chile, and Argentina; 12 researchers from foreign universities; and civil society representatives working in public security. The meeting seeks to consolidate best practices and methodologies that can contribute to a systematic measurement of organized criminal group presence in Latin America.</p><p></p>"
+  }
+}

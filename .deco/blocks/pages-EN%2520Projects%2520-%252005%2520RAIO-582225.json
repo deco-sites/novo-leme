@@ -1,7 +1,7 @@
 {
   "__resolveType": "website/pages/Page.tsx",
-  "name": "EN Projects - 04 Ponto Quente",
-  "path": "/en/projects/experimental-evaluation-hotspot-policing-brazil",
+  "name": "EN Projects - 05 RAIO",
+  "path": "/en/projects/impact-evaluation-raio-policing-program",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },
@@ -24,7 +24,7 @@
         "__resolveType": "site/sections/Projeto/Header.tsx",
         "page": {
           "__resolveType": "blog/loaders/BlogPostPage.ts",
-          "slug": "experimental-evaluation-hotspot-policing-brazil"
+          "slug": "impact-evaluation-raio-policing-program"
         },
         "config": {
           "categorySlug": "en/projects",
@@ -37,12 +37,12 @@
       "section": {
         "__resolveType": "site/sections/Projeto/Image.tsx",
         "image": {
-          "src": "https://assets.decocache.com/novo-leme/4601da85-88d8-4437-ba7d-bbbeb2ff82cb/Design-sem-nome-(21).jpg",
+          "src": "https://assets.decocache.com/novo-leme/b9a1e8fa-5a04-4916-b17f-e39328f5bf71/projeto-5.webp",
           "alt": "Project"
         },
         "size": "Medium",
         "caption": {
-          "text": "Hotspot Patrolling carried out by the Paraná Military Police.\n",
+          "text": "Rondas e Ações Intensivas e Ostensivas (RAIO) Program.\n",
           "position": "Bottom"
         }
       }
@@ -54,7 +54,7 @@
         "paragraph": [
           {
             "label": "Description",
-            "text": "<p>The project aimed to conduct the first experimental evaluation of hotspot policing in Brazil, structured as a randomized controlled trial. The initiative was led by the Inter-American Development Bank (IDB) in partnership with the Paraná Military Police and the State Public Security Secretariat. During the study, 422 street segments with high robbery incidence were identified, mapped using georeferenced data and advanced spatial analyses. Half of these segments were randomly selected to receive additional patrolling for three months, while the other half served as a control group to measure the project’s impact.</p>"
+            "text": "<p>The project aimed to evaluate the impact of the expansion of the Rondas e Ações Intensivas e Ostensivas (RAIO) program of the Ceará Military Police, a specialized force focused on rapid patrolling with high-powered motorcycles and high-caliber firearms. The research involved a quantitative analysis of crime indicators and a household survey to understand the population’s perception of police performance, comparing RAIO officers with conventional military police. This survey included visual experiments using images of officers in both uniforms, with or without motorcycles and long guns, to identify which attributes the population values most regarding their sense of security and trust in police performance. For the empirical analysis, the fact that RAIO was expanded to municipalities in phases was used, allowing researchers to identify whether there is a systematic effect on crime reduction in municipalities once they receive this type of policing.</p>"
           }
         ]
       }
@@ -86,11 +86,11 @@
       "section": {
         "__resolveType": "site/sections/Projeto/Image.tsx",
         "image": {
-          "src": "https://assets.decocache.com/novo-leme/7a2890cf-567d-4b10-b7b5-b2d2f7c73d89/Visita2BPM-(1).jpeg",
+          "src": "https://assets.decocache.com/novo-leme/c2bcbb70-dbc6-493e-b505-d36d1a97dc7b/raio_meeting.jpg",
           "alt": "Project"
         },
         "caption": {
-          "text": "Visit to the 12th Military Police Battalion of Paraná.\n",
+          "text": "Visit to the Public Security Research and Strategy Superintendence of Ceará.\n",
           "position": "Left"
         }
       }
@@ -102,7 +102,7 @@
         "paragraph": [
           {
             "label": "Results",
-            "text": "<p>The experiment resulted in an average increase of 15 minutes in the treated segments compared to the control group, as measured using GPS data. Evaluation data indicated a 22% reduction in robberies in patrolled areas on weekdays compared to the control group, with no evidence of crime displacement to neighboring segments. However, an increase in thefts was observed in the treated segments, possibly due to changes in offender behavior or police recording practices. Additionally, the analysis showed that the positive effects on robberies persisted for up to three months after the experiment ended but disappeared afterward, highlighting the importance of maintaining continuous, data-driven policing strategies to sustain results. The project also provided a practical opportunity for impact evaluation training for the Paraná Military Police and for using GPS data to monitor police allocation.</p>"
+            "text": "<p>The study found a significant reduction in homicides, with an average decrease of 1.3 cases per municipality per month, and 17.2 fewer robberies per month following the establishment of RAIO bases. A decline in the number of arrests was also observed, suggesting that the effect is driven more by deterrence than by incapacitation of offenders. Additionally, the perception survey indicated that the motorcycle is the main attribute valued by the population for enhancing the sense of security and effectiveness of RAIO, followed by the use of long firearms. The RAIO uniform was identified as the key factor in reducing perceptions of abuse and corruption compared to conventional military police.</p>"
           }
         ]
       }
@@ -113,10 +113,20 @@
         "__resolveType": "site/sections/Projeto/HighlightNumbers.tsx",
         "highlights": [
           {
-            "style": "Blue",
-            "number": "22%",
+            "style": "Neutral",
+            "number": "20%",
             "text": "in robbery reduction",
-            "label": "in robbery reduction in patrolled areas"
+            "label": "in the reduction of Property Violent Crimes"
+          },
+          {
+            "style": "Orange",
+            "number": "13%",
+            "label": "in the reduction of Lethal and Intentional Violent Crimes"
+          },
+          {
+            "style": "Blue",
+            "number": "9%",
+            "label": "in theft reduction"
           }
         ]
       }
@@ -127,20 +137,12 @@
         "__resolveType": "site/sections/Projeto/Documents.tsx",
         "docs": [
           {
-            "name": "An Experimental Evaluation of Hot Spot Policing in Brazil",
-            "description": "The study in English on the challenges of implementation and lessons for evidence-based security policies.",
+            "name": "Avaliação de Impacto do Programa de Policiamento do RAIO, Ceará, BR",
+            "description": "Report in Portuguese on policing in hot spots in Ceará, highlighting experimental design, preliminary results, and implications for public security policies.",
             "image": {
-              "src": "https://assets.decocache.com/novo-leme/a8f66abc-2594-4cb8-8009-2c061cbcd661/HSP_Curitiba-(2)-1_page-0001.jpg"
+              "src": "https://assets.decocache.com/novo-leme/5a194ccf-9495-4994-86fd-3c9e609535e8/Ceary___first_paper_draft-1_page-0001.jpg"
             },
-            "url": "https://assets.decocache.com/novo-leme/544bd929-8297-4658-846d-773bec332db3/HSP_Curitiba-ENn.pdf"
-          },
-          {
-            "name": "Avaliação Experimental de Policiamento em Pontos Quentes no Brasil",
-            "url": "https://assets.decocache.com/novo-leme/4d0aa75a-cbdf-4099-8330-504028592efc/HSP_Curitiba-PT.pdf",
-            "image": {
-              "src": "https://assets.decocache.com/novo-leme/8dff79ef-0a67-49d6-ba54-8fbfcf2a0530/HSP_Curitiba-(3)-1_page-0001.jpg"
-            },
-            "description": "Report in Portuguese on the challenges of implementation and lessons for evidence-based security policies."
+            "url": "https://assets.decocache.com/novo-leme/1948c6b7-4f88-4437-905e-eefd2c45f710/Ceary___first_paper_draft.pdf"
           }
         ],
         "label": "Documents"
@@ -161,28 +163,6 @@
           }
         }
       ]
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Projeto/Gallery.tsx",
-        "images": [
-          {
-            "image": "https://assets.decocache.com/novo-leme/7a2890cf-567d-4b10-b7b5-b2d2f7c73d89/Visita2BPM-(1).jpeg",
-            "label": "Imagem 1"
-          },
-          {
-            "image": "https://assets.decocache.com/novo-leme/ec8a882f-8047-4bb0-a4e0-03ab0178729f/Treinamento2-(1).jpeg"
-          },
-          {
-            "image": "https://assets.decocache.com/novo-leme/b270687a-05fa-4853-b402-746bf43f3c87/ReuniaoCAPE-(1).JPG"
-          },
-          {
-            "image": "https://assets.decocache.com/novo-leme/e8c2f1c4-92f7-43cd-a8ea-aa4e591dd36f/ReuniaoSSP-PR-(1).png"
-          }
-        ],
-        "title": "Gallery"
-      }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",

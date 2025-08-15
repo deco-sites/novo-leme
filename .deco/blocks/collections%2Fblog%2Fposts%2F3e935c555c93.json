@@ -1,0 +1,50 @@
+{
+  "name": "collections/blog/posts/3e935c555c93",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Projects",
+        "slug": "en-projetos"
+      },
+      {
+        "name": "Strengthening Police Institutions",
+        "slug": "strengthening-police-institutions"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [
+      {
+        "key": "date",
+        "value": "2023-2024"
+      },
+      {
+        "key": "location",
+        "value": "State of Ceará"
+      },
+      {
+        "key": "status",
+        "value": "Finished"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Impact Evaluation of the RAIO Policing Program",
+    "excerpt": "The project aimed to evaluate the impact of the expansion of the Rondas e Ações Intensivas e Ostensivas (RAIO) program of the Ceará Military Police, a specialized force focused on rapid patrolling with high-powered motorcycles and high-caliber firearms. The research involved a quantitative analysis of crime indicators and a household survey to understand the population’s perception of police performance, comparing RAIO officers with conventional military police. This survey included visual experiments using images of officers in both uniforms, with or without motorcycles and long guns, to identify which attributes the population values most regarding their sense of security and trust in police performance. For the empirical analysis, the fact that RAIO was expanded to municipalities in phases was used, allowing researchers to identify whether there is a systematic effect on crime reduction in municipalities once they receive this type of policing.",
+    "date": "2021-08-06",
+    "image": "https://assets.decocache.com/novo-leme/b9a1e8fa-5a04-4916-b17f-e39328f5bf71/projeto-5.webp",
+    "slug": "impact-evaluation-raio-policing-program",
+    "content": "<p>The project aimed to evaluate the impact of the expansion of the Rondas e Ações Intensivas e Ostensivas (RAIO) program of the Ceará Military Police, a specialized force focused on rapid patrolling with high-powered motorcycles and high-caliber firearms. The research involved a quantitative analysis of crime indicators and a household survey to understand the population’s perception of police performance, comparing RAIO officers with conventional military police. This survey included visual experiments using images of officers in both uniforms, with or without motorcycles and long guns, to identify which attributes the population values most regarding their sense of security and trust in police performance. For the empirical analysis, the fact that RAIO was expanded to municipalities in phases was used, allowing researchers to identify whether there is a systematic effect on crime reduction in municipalities once they receive this type of policing.</p>"
+  }
+}
