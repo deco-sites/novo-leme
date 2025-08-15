@@ -40,7 +40,9 @@ export default function PostDetail({
   sidebarNav,
   page,
   backToNews,
-  texts,
+  texts = {
+    gallery: "Galeria",
+  },
 }: Props) {
   const { title, image, date, categories, content, imageCarousel } = page?.post || DEFAULT_PROPS;
   const Nav = sidebarNav?.Component;
