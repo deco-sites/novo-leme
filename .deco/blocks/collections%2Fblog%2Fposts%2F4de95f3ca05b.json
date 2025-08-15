@@ -1,0 +1,27 @@
+{
+  "name": "collections/blog/posts/4de95f3ca05b",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Brazil Journal: Não precisamos de uma PEC para transformar a segurança pública",
+    "excerpt": "Joana Monteiro, diretora do Leme, em autoria no artigo de opinião no Brazil Journal.",
+    "content": "<p><span style=\"color: rgb(42, 50, 44); font-size: 16px\">Joana Monteiro, diretora do Leme, em autoria no artigo de opinião no Brazil Journal.</span></p>",
+    "slug": "na-midia-4",
+    "date": "2024-08-10"
+  }
+}
