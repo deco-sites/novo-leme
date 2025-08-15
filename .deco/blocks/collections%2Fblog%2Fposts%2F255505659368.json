@@ -1,0 +1,38 @@
+{
+  "name": "collections/blog/posts/255505659368",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "In the Media",
+        "slug": "en-na-midia"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [
+      {
+        "key": "url",
+        "value": "https://tinyurl.com/5wt4dzhp"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Estadão: The federal government should lead the initiative to design Brazil's public security",
+    "excerpt": "Joana Monteiro, director of Leme, in an interview with the Estadão newspaper.",
+    "content": "<p><span style=\"color: rgb(42, 50, 44); font-size: 16px\">Joana Monteiro, director of Leme, in an interview with the Estadão newspaper.</span></p>",
+    "slug": "in-the-media-8",
+    "date": "2024-05-08",
+    "image": "https://assets.decocache.com/novo-leme/95957c63-d845-4f02-83f8-ad70d0e1fcfa/na-midia-8.webp"
+  }
+}

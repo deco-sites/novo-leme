@@ -52,6 +52,7 @@ export default function HomeEventos({
               label={post.title}
               description={post.excerpt}
               date={post.date}
+              categories={post.categories}
               url={`${config.categorySlug}/${post.slug}`}
             />
           ))}

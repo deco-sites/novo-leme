@@ -93,6 +93,7 @@ export default function PostsList(
                     year: "numeric",
                     month: "long",
                     day: "numeric",
+                    timeZone: "America/Sao_Paulo"
                   }) : null;
                 
                   return (

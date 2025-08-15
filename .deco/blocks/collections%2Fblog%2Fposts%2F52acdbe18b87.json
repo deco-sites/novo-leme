@@ -1,0 +1,38 @@
+{
+  "name": "collections/blog/posts/52acdbe18b87",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "In the Media",
+        "slug": "en-na-midia"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [
+      {
+        "key": "url",
+        "value": "https://www.povertyactionlab.org/blog/12-4-24/julia-guerra-fernandes-j-pal-17-public-safety-and-evidence-use-brazil"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "J-PAL Blog: Julia Guerra Fernandes, J-PAL '17, on public safety and evidence use in Brazil",
+    "excerpt": "Julia Guerra in an interview for the Alumni Spotlight series of J-PAL/MIT Latin America. During the interview, Julia also shared how this journey led to the founding of Leme, alongside her partners Joana Monteiro and Laura Schiavon.",
+    "slug": "in-the-media-3",
+    "content": "<p><span style=\"color: rgb(42, 50, 44); font-size: 16px\">Julia Guerra in an interview for the Alumni Spotlight series of J-PAL/MIT Latin America. During the interview, Julia also shared how this journey led to the founding of Leme, alongside her partners Joana Monteiro and Laura Schiavon.</span></p>",
+    "date": "2024-12-04",
+    "image": "https://assets.decocache.com/novo-leme/077f54e9-d16b-4153-bdef-34fa53d84a66/na-midia-3.webp"
+  }
+}

@@ -5,6 +5,9 @@ export interface Props {
   description: string;
   /** @format date */
   date: string;
+  categories: {
+    slug: string;
+  }[];
   online?: boolean;
   url: string;
   labels?: {
@@ -17,14 +20,19 @@ export default function CardEvent({
   label = "I Reunião Técnica do FONACRIAD",
   description = "O Fórum RIDGE foi realizado em maio de 2025, em Lima (Peru), organizado pela Red de Investigación en Desarrollo Económico (RIDGE).. O evento reuniu pesquisadores e autoridades internacionais para discutir avanços e desafios em temas centrais da economia do desenvolvimento, como desigualdade, políticas públicas, finanças internacionais e crescimento econômico sustentável.",
   date = "2025-11-31",
+  categories,
   online = false,
   url = "/",
   labels,
 }: Props) {
+  let lang = "pt-BR";
+  if (categories?.some(item => item.slug.includes("en-"))) lang = "en-US";
+  if (categories?.some(item => item.slug.includes("es-"))) lang = "es-ES";
+
   const formattedDate = { day: '', month: '', year: '' }
-  formattedDate.day = new Date(date).toLocaleDateString("pt-BR", { day: "numeric" });
-  formattedDate.month = new Date(date).toLocaleDateString("pt-BR", { month: "short" });
-  formattedDate.year = new Date(date).toLocaleDateString("pt-BR", { year: "numeric" });
+  formattedDate.day = new Date(date).toLocaleDateString(lang, { day: "numeric", timeZone: "America/Sao_Paulo" });
+  formattedDate.month = new Date(date).toLocaleDateString(lang, { month: "short", timeZone: "America/Sao_Paulo" });
+  formattedDate.year = new Date(date).toLocaleDateString(lang, { year: "numeric", timeZone: "America/Sao_Paulo" });
 
   return (
     <a

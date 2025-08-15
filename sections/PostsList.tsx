@@ -28,9 +28,9 @@ export default function PostsList({
             const url = post.extraProps?.find(item => item.key === "url");
 
             let lang = "pt-BR";
-            if (config?.categorySlug?.includes("en/")) lang = "en-US";
-            if (config?.categorySlug?.includes("es/")) lang = "es-ES";
-    
+            if (post.categories.some(item => item.slug.includes("en-"))) lang = "en-US";
+            if (post.categories.some(item => item.slug.includes("es-"))) lang = "es-ES";
+          
             const formattedDate = post.date ? new Date(post.date).toLocaleDateString(lang, {
               year: "numeric",
               month: "long",

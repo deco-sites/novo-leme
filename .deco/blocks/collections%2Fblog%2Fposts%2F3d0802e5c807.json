@@ -1,0 +1,38 @@
+{
+  "name": "collections/blog/posts/3d0802e5c807",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Na Mídia",
+        "slug": "en-na-midia"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [
+      {
+        "key": "url",
+        "value": "https://tinyurl.com/5n8pw2cv"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Valor Econômico: The central role of the Union in the fight against organized crime",
+    "excerpt": "Joana Monteiro, director of Leme, as author of an opinion article in the Valor Econômico newspaper.",
+    "content": "<p><span style=\"color: rgb(42, 50, 44); font-size: 16px\">Joana Monteiro, director of Leme, as author of an opinion article in the Valor Econômico newspaper.</span></p>",
+    "image": "https://assets.decocache.com/novo-leme/6d404027-7ad6-4d93-8050-9f1cfc97c231/na-midia-10.webp",
+    "date": "2024-01-30",
+    "slug": "na-midia-9"
+  }
+}

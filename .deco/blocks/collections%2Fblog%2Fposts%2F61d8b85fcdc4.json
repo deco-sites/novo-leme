@@ -1,12 +1,12 @@
 {
-  "name": "collections/blog/posts/4508c1a3b966",
+  "name": "collections/blog/posts/61d8b85fcdc4",
   "__resolveType": "blog/loaders/Blogpost.ts",
   "post": {
     "authors": [],
     "categories": [
       {
-        "name": "Na Mídia",
-        "slug": "na-midia"
+        "name": "In the Media",
+        "slug": "en-na-midia"
       }
     ],
     "imageCarousel": {
@@ -28,10 +28,10 @@
       "video": null,
       "image": null
     },
-    "title": "Jornal Hoje: Série sobre a expansão das milícias no Rio de Janeiro",
-    "excerpt": "Joana Monteiro, diretora do Leme, em entrevista ao Jornal Hoje.",
-    "content": "<p><span style=\"color: rgb(42, 50, 44); font-size: 16px\">Joana Monteiro, diretora do Leme, em entrevista ao Jornal Hoje.</span></p>",
-    "slug": "na-midia-6",
+    "title": "Jornal Hoje: Series on the expansion of militias in Rio de Janeiro",
+    "excerpt": "Joana Monteiro, director of Leme, in an interview with Jornal Hoje.",
+    "content": "<p><span style=\"color: rgb(42, 50, 44); font-size: 16px\">Joana Monteiro, director of Leme, in an interview with Jornal Hoje.</span></p>",
+    "slug": "in-the-media-6",
     "image": "https://assets.decocache.com/novo-leme/778a79d7-54c5-41e6-956c-9a66d9d59fe9/na-midia-6.webp",
     "date": "2024-07-19"
   }

@@ -1,0 +1,38 @@
+{
+  "name": "collections/blog/posts/0fd5483f6c20",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "In the Media",
+        "slug": "en-na-midia"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [
+      {
+        "key": "url",
+        "value": "https://tinyurl.com/3t4rmvhe"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Miriam Leitão Program: How to confront police violence and organized crime, in the opinion of two specialists",
+    "excerpt": "Joana Monteiro, director of Leme, in an interview with Daniel Hirata (UFF), on the Miriam Leitão Program.",
+    "slug": "in-the-media-1",
+    "content": "<p>Joana Monteiro, director of Leme, in an interview with Daniel Hirata (UFF), on the Miriam Leitão Program.</p>",
+    "image": "https://assets.decocache.com/novo-leme/f117e75a-bf53-458c-b630-bd8731dc7b03/na-midia-1.webp",
+    "date": "2024-12-19"
+  }
+}
