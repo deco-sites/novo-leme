@@ -4,10 +4,7 @@
   "emailTo": [
     "augustocbarbosa@gmail.com"
   ],
-  "emailFrom": {
-    "name": "Leme",
-    "domain": "lemelab.org"
-  },
+  "emailFrom": {},
   "subject": "Contato a partir do site!",
   "apiKey": {
     "__resolveType": "website/loaders/secret.ts",
