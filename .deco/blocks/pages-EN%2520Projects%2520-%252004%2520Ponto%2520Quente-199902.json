@@ -164,6 +164,28 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Projeto/Gallery.tsx",
+        "images": [
+          {
+            "image": "https://assets.decocache.com/novo-leme/7a2890cf-567d-4b10-b7b5-b2d2f7c73d89/Visita2BPM-(1).jpeg",
+            "label": "Imagem 1"
+          },
+          {
+            "image": "https://assets.decocache.com/novo-leme/ec8a882f-8047-4bb0-a4e0-03ab0178729f/Treinamento2-(1).jpeg"
+          },
+          {
+            "image": "https://assets.decocache.com/novo-leme/b270687a-05fa-4853-b402-746bf43f3c87/ReuniaoCAPE-(1).JPG"
+          },
+          {
+            "image": "https://assets.decocache.com/novo-leme/e8c2f1c4-92f7-43cd-a8ea-aa4e591dd36f/ReuniaoSSP-PR-(1).png"
+          }
+        ],
+        "title": "Gallery"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Projeto/MoreProjects.tsx",
         "label": "View more projects",
         "url": "/en/projects"
