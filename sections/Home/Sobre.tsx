@@ -5,6 +5,8 @@ import FancyLink from  "../../components/ui/FancyLink.tsx";
 export interface Nav {
   /** @format textarea */
   text?: string;
+  /** @format textarea */
+  text2?: string;
   cycleImage?: CycleProps;
   links?: {
     label?: string;
@@ -14,13 +16,14 @@ export interface Nav {
 
 export default function About({
   text,
+  text2,
   cycleImage,
   links,
 }: Nav) {
   return (
-    <div className="container mx-auto xl:px-32 flex flex-col space-y-6 md:space-y-16 mb-16">
+    <div className="container mx-auto xl:px-44 flex flex-col space-y-8 md:space-y-16 mb-16">
       <div 
-        className="text-2xl md:text-5xl leading-tight font-serif"
+        className="flex flex-col gap-3 md:gap-6"
         data-htmx-fade-in="true"
         data-fade-duration="1200"
         data-fade-delay="200"
@@ -28,7 +31,12 @@ export default function About({
         data-fade-easing="ease-out"
         data-fade-translate-y="40px"
       >
-        {text}
+        <div className="text-2xl md:text-5xl leading-tight font-serif">
+          {text}
+        </div>
+        <div className="md:text-xl">
+          {text2}
+        </div>
       </div>
       <Cycle
         title={cycleImage?.title}
