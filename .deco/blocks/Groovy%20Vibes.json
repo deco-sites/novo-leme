@@ -3,8 +3,8 @@
   "colorScheme": "any",
   "buttonStyle": {
     "--border-btn": "1px",
-    "--rounded-btn": "2rem",
-    "--btn-focus-scale": "0.95",
+    "--rounded-btn": "0.2rem",
+    "--btn-focus-scale": 0.95,
     "--animation-btn": "0.25s"
   },
   "otherStyles": {
@@ -14,19 +14,63 @@
     "--tab-border": "1px",
     "--tab-radius": "0.5rem"
   },
+  "mode": "light",
   "mainColors": {
-    "base-100": "#FDE5BE",
-    "primary": "#FF6502",
-    "secondary": "#FEC902",
-    "tertiary": "#FF91B2",
-    "neutral": "#9934A6",
-    "info": "#2e72d2",
-    "error": "#d82c0d",
-    "warning": "#ffc453",
-    "success": "#008060"
+    "base-100": "#F9F7F1",
+    "primary": "#005270",
+    "secondary": "#EA7342",
+    "tertiary": "#72C8ED",
+    "neutral": "#2A333C"
+  },
+  "complementaryColors": {
+    "base-200": "#FFAB49",
+    "base-300": "#FFCB8F",
+    "base-content": "#005270",
+    "primary-content": "#F9F7F1",
+    "secondary-content": "#F9F7F1",
+    "tertiary-content": "#005270",
+    "neutral-content": "#005270"
   },
   "font": {
     "__resolveType": "website/loaders/fonts/googleFonts.ts",
-    "fonts": [{ "variations": [], "family": "Shrikhand" }]
+    "fonts": [
+      {
+        "variations": [
+          {
+            "weight": "100"
+          },
+          {
+            "weight": "300"
+          },
+          {
+            "weight": "400"
+          },
+          {
+            "weight": "500"
+          },
+          {
+            "weight": "600"
+          },
+          {
+            "weight": "700"
+          },
+          {
+            "weight": "800"
+          }
+        ],
+        "family": "Open Sans"
+      },
+      {
+        "variations": [
+          {
+            "weight": "100"
+          },
+          {
+            "weight": "400"
+          }
+        ],
+        "family": "DM Serif Display"
+      }
+    ]
   }
 }
