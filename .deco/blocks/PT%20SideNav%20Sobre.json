@@ -15,8 +15,5 @@
     }
   ],
   "mobileOrientation": "horizontal",
-  "button": {
-    "label": "Portfolio",
-    "url": "/"
-  }
+  "button": {}
 }
