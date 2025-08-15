@@ -36,6 +36,25 @@
   [data-dot] div .dot {
     background-color: #E4E4E7;
   }
+
+  .custom-list {
+    list-style-type: none;
+  }
+  
+  .custom-list li {
+    display: flex;
+    gap: 0.6rem;
+  }
+    
+  .custom-list li::before {
+    flex: none;
+    content: "";
+    margin-top: 0.6rem;
+    width: 0.3rem; /* Equivalente a w-2.5 */
+    height: 0.3rem; /* Equivalente a h-2.5 */
+    background-color: #72C8ED; /* Cor verde do Tailwind (green-500) */
+    border-radius: 9999px; /* Equivalente a rounded-full */
+  }
 }
 
 @layer utilities {

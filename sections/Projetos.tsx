@@ -182,15 +182,15 @@ export default function Projetos({
       <div className="flex flex-col gap-7 flex-none w-56">
         <div className="flex flex-col gap-2">
           <h3 className="text-primary font-bold">{texts.areas}</h3>
-          <SideNav links={categories} mobileOrientation="vertical"/>
+          <SideNav links={categories} mobileOrientation="vertical" showBullet/>
         </div>
         <div className="flex flex-col gap-2">
           <h3 className="text-primary font-bold">{texts.locations}</h3>
-          <SideNav links={places} mobileOrientation="vertical"/>
+          <SideNav links={places} mobileOrientation="vertical" showBullet/>
         </div>
         <div className="flex flex-col gap-2">
           <h3 className="text-primary font-bold">{texts.statuses}</h3>
-          <SideNav links={statuses} mobileOrientation="vertical"/>
+          <SideNav links={statuses} mobileOrientation="vertical" showBullet/>
         </div>
       </div>
       

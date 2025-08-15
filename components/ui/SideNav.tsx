@@ -9,16 +9,18 @@ export interface Props {
     url?: string;
   }
   mobileOrientation?: "horizontal" | "vertical"
+  showBullet?: boolean
 }
 
 export default function SideNav({
   links = [],
   button,
   mobileOrientation = "horizontal",
+  showBullet = false,
 }: Props) {
   return (
     <div className="flex-none flex flex-col gap-6">
-      <ul className={`flex ${mobileOrientation === "vertical" ? "flex-col gap-2" : "flex-row gap-4"} md:flex-col md:gap-2`}>
+      <ul className={`flex ${mobileOrientation === "vertical" ? "flex-col gap-2" : "flex-row gap-4"} ${showBullet ? 'custom-list' : ''} md:flex-col md:gap-2`}>
         {links?.map((item) => (
           <li>
             <a 
