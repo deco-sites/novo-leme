@@ -11,7 +11,7 @@
     },
     {
       "__resolveType": "site/sections/Home/Sobre.tsx",
-      "text": "Leme is a non-profit organization that works in partnership with public security and justice institutions, as well as civil society organizations, to identify and test effective approaches to preventing and reducing violence in Brazil.",
+      "text": "Leme is a nonprofit that identifies and tests effective approaches to prevent and reduce violence in Brazil.",
       "image": {
         "src": "https://assets.decocache.com/novo-leme/d7de9589-1bf4-4016-bff7-1c922a6df2ef/Grafico-atuacao-v7.svg"
       },
@@ -37,7 +37,8 @@
         "step4": "<p><strong>Design and execution</strong> of impact evaluation based on scientific protocols</p><p></p>",
         "step5": "<p><strong>Program improvement</strong> based on evaluation learnings</p>",
         "step6": "<p><strong>Promotion</strong> of effective and scalable programs</p>"
-      }
+      },
+      "text2": "We work in partnership with Public Security and Justice institutions, as well as civil society organizations, supporting the design and implementation of data-driven actions and programs grounded in scientific evidence. In doing so, we contribute to decision-making at all stages of the public policy cycle."
     },
     {
       "__resolveType": "site/sections/Home/HomePostsList.tsx",
