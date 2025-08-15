@@ -7,7 +7,7 @@
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
-      "text": "We use data and scientific evidence to make Brazil a safer country."
+      "text": "We use data and scientific evidence to make Brazil a safer place."
     },
     {
       "__resolveType": "site/sections/Home/Sobre.tsx",
@@ -48,7 +48,7 @@
         "slug": "en-projetos"
       },
       "title": "Projects",
-      "description": "Discover our projects",
+      "description": "Explore our work across different themes",
       "button": {
         "label": "See more projects",
         "url": "/en/projects"
@@ -126,7 +126,7 @@
         "sortBy": "date_desc",
         "slug": "en-na-midia"
       },
-      "title": "In the Media",
+      "title": "Media",
       "button": {
         "label": "See all reports",
         "url": "/en/media"
@@ -138,7 +138,8 @@
       "config": {
         "showPostDate": true,
         "categorySlug": "en/media"
-      }
+      },
+      "description": "Stay informed about Leme's news and updates"
     },
     {
       "__resolveType": "EN Footer"

@@ -22,7 +22,6 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/PageTitle.tsx",
-        "description": "Conheça nossa atuação através dos nossos projetos",
         "title": "Projetos",
         "width": "wide"
       }

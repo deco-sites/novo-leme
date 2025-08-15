@@ -8,7 +8,7 @@
     "name": "Leme",
     "domain": "lemelab.org"
   },
-  "subject": "Contato a partir do site",
+  "subject": "Contato a partir do site!",
   "apiKey": {
     "__resolveType": "website/loaders/secret.ts",
     "encrypted": "4cec24132eeaad92a07a9662ca611cd808f5c8aa67b20053bf8357259d3ff0f7549060e0ca7de9e7c61481fe3c2c6e02"
