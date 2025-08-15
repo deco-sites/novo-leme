@@ -1,0 +1,50 @@
+{
+  "name": "collections/blog/posts/00f4b633ad33",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Projects",
+        "slug": "en-projetos"
+      },
+      {
+        "name": "Strengthening Police Institutions",
+        "slug": "strengthening-police-institutions"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [
+      {
+        "key": "date",
+        "value": "2023-2024"
+      },
+      {
+        "key": "location",
+        "value": "State of Paraná"
+      },
+      {
+        "key": "status",
+        "value": "Finished"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Experimental Evaluation of Hotspot Policing in Brazil",
+    "excerpt": "The project aimed to conduct the first experimental evaluation of hot-spot policing in Brazil, structured as a randomized controlled trial. The initiative was led by the Inter-American Development Bank (IDB) in partnership with the Paraná Military Police and the State Public Security Secretariat. During the research, 422 street segments with high robbery incidence were identified, mapped using georeferenced data and advanced spatial analyses. Half of these segments were randomly selected to receive additional policing for three months, while the other half served as a control group to assess the project’s impact.",
+    "content": "<p>The project aimed to conduct the first experimental evaluation of hot-spot policing in Brazil, structured as a randomized controlled trial. The initiative was led by the Inter-American Development Bank (IDB) in partnership with the Paraná Military Police and the State Public Security Secretariat. During the research, 422 street segments with high robbery incidence were identified, mapped using georeferenced data and advanced spatial analyses. Half of these segments were randomly selected to receive additional policing for three months, while the other half served as a control group to assess the project’s impact.</p>",
+    "slug": "experimental-evaluation-hotspot-policing-brazil",
+    "date": "2024-07-16",
+    "image": "https://assets.decocache.com/novo-leme/4601da85-88d8-4437-ba7d-bbbeb2ff82cb/Design-sem-nome-(21).jpg"
+  }
+}

@@ -35,21 +35,9 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Projeto/TextBlock.tsx",
-        "paragraph": [
-          {
-            "label": "Descrição",
-            "text": "<p>Este projeto tem como objetivo assessorar tecnicamente a Prefeitura do Rio de Janeiro na criação de uma política municipal de segurança pública orientada por dados, evidências científicas e boas práticas internacionais. A iniciativa envolve o apoio ao desenho da Divisão de Elite Armada da Guarda Municipal e a formulação de um programa municipal de segurança voltado para a redução de crimes no espaço público urbano. Inclui ainda o desenho de um sistema de gestão inspirado em boas práticas como o CompStat — modelo criado em Nova York que aposta no uso de dados para orientar ações com foco em resultados — e a elaboração do Plano Municipal de Segurança Pública da cidade. Este consolida as diretrizes anteriores, além de definir metas e indicadores e estabelecer mecanismos de participação cidadã e de prestação de contas para os próximos anos. No que se refere  à Divisão Armada da Guarda, o trabalho do Leme inclui o apoio ao desenho dos processos de seleção, treinamento, mecanismos de controle e sistemas de informação.</p>"
-          }
-        ]
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
         "__resolveType": "site/sections/Projeto/Image.tsx",
         "image": {
-          "src": "https://assets.decocache.com/novo-leme/9474c4f7-9496-451c-a905-1fa37582882d/Design-sem-nome-(1).jpg",
+          "src": "https://assets.decocache.com/novo-leme/283efd89-f3d5-472c-9e83-3d6304640987/Design-sem-nome-(22).jpg",
           "alt": "Projeto"
         },
         "size": "Medium",
@@ -57,6 +45,18 @@
           "position": "Bottom",
           "text": "Prefeitura da Cidade do Rio de Janeiro."
         }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/TextBlock.tsx",
+        "paragraph": [
+          {
+            "label": "Descrição",
+            "text": "<p>Este projeto tem como objetivo assessorar tecnicamente a Prefeitura do Rio de Janeiro na criação de uma política municipal de segurança pública orientada por dados, evidências científicas e boas práticas internacionais. A iniciativa envolve o apoio ao desenho da Divisão de Elite Armada da Guarda Municipal e a formulação de um programa municipal de segurança voltado para a redução de crimes no espaço público urbano. Inclui ainda o desenho de um sistema de gestão inspirado em boas práticas como o CompStat — modelo criado em Nova York que aposta no uso de dados para orientar ações com foco em resultados — e a elaboração do Plano Municipal de Segurança Pública da cidade. Este consolida as diretrizes anteriores, além de definir metas e indicadores e estabelecer mecanismos de participação cidadã e de prestação de contas para os próximos anos. No que se refere  à Divisão Armada da Guarda, o trabalho do Leme inclui o apoio ao desenho dos processos de seleção, treinamento, mecanismos de controle e sistemas de informação.</p>"
+          }
+        ]
       }
     },
     {
@@ -107,7 +107,7 @@
         "__resolveType": "site/sections/Projeto/TextBlock.tsx",
         "paragraph": [
           {
-            "label": "Resultados",
+            "label": "Resultados Esperados",
             "text": "<p>Os principais resultados esperados incluem: i) a consolidação do modelo institucional da Divisão de Elite Armada; ii) a estruturação do Programa Municipal de Segurança; iii) a implementação do sistema de gestão e monitoramento baseado em dados; e iv) a elaboração do Plano Municipal de Segurança Pública da cidade. Espera-se, com isso, promover a redução de crimes e irregularidades em espaços públicos urbanos, ampliar a sensação de segurança da população, fortalecer a imagem institucional dos órgãos municipais envolvidos no modelo de gestão, sobretudo da GM-Rio, e reforçar a autoridade da Prefeitura do Rio de Janeiro sobre o espaço público da cidade.</p>"
           }
         ]

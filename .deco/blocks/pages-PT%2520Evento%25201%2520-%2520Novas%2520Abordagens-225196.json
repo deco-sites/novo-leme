@@ -1,0 +1,118 @@
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "name": "PT Evento 1 - Novas Abordagens",
+  "path": "/eventos/iniciativas-latino-americanas-mapeamento-grupos-criminais",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "PT Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Hero Eventos"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "PT Title Eventos"
+      }
+    },
+    {
+      "__resolveType": "site/sections/EventoOganizado.tsx",
+      "page": {
+        "__resolveType": "blog/loaders/BlogPostPage.ts",
+        "slug": "iniciativas-latino-americanas-mapeamento-grupos-criminais"
+      },
+      "sidebarNav": {
+        "__resolveType": "PT SideNav Eventos",
+        "links": [
+          {
+            "label": "Todos",
+            "url": "/eventos"
+          },
+          {
+            "label": "Organizados pelo Leme",
+            "url": "/eventos/organizados"
+          }
+        ]
+      },
+      "description": "<p></p><p>O encontro é uma iniciativa da rede internacional de pesquisadores Evidence in Governance and Politics (EGAP), em parceria com o o Leme - Laboratório de Redução da Violência, a Escola Brasileira de Administração Pública e de Empresas da Fundação Getulio Vargas (FGV EBAPE), o Banco Interamericano de Desenvolvimento (BID) e as universidades Los Andes e EAFIT (Colômbia). </p><p>O evento tem como objetivo debater diferentes projetos de dados que visam mensurar a presença e atividade de grupos criminais organizados em diferentes contextos latino-americanos. Para tanto, será promovido um fórum de discussão em alto nível para discutir a utilidade, limitações e validades de diferentes metodologias que tem sido desenvolvida, no meio acadêmico, pela sociedade civil e instituições de segurança pública. </p><p>Este é um encontro restrito a convidados e terá como participantes representantes das forças de Segurança Pública e Justiça Criminal do estado do Rio de Janeiro, do governo federal, da Colômbia, Ecuador, Chile e Argentina; 12 pesquisadores de universidades estrangeiras; e representantes da sociedade civil que atuam na área de segurança pública. A partir desse encontro, pretende-se consolidar boas práticas e metodologias que possam contribuir para uma mensuração sistemática da presença de grupos criminais organizados na América Latina. </p><p></p>",
+      "date": {
+        "start": "2024-10-08T12:00:00.000Z",
+        "end": "2024-10-08T21:00:00.000Z"
+      },
+      "location": {
+        "name": "FGV Ibre",
+        "address": "Rua Presidente Carlos de Campos, 417, Laranjeiras, Rio de Janeiro"
+      },
+      "gallery": [
+        {
+          "image": "https://assets.decocache.com/novo-leme/0efa3240-7e2f-4ca4-8d8a-8690a67d8cdb/Egap.JPG"
+        },
+        {
+          "image": "https://assets.decocache.com/novo-leme/b0a11d3b-73c1-40da-99c0-8426f57b03b1/Evento-Egap-2-(1).jpg"
+        },
+        {
+          "image": "https://assets.decocache.com/novo-leme/f769fe16-e0d7-408b-a929-5809bcfe4f40/evento-egap.jpg"
+        }
+      ],
+      "registrationHref": "http://www.google.com/",
+      "organization": [
+        {
+          "image": "https://assets.decocache.com/novo-leme/c5696a4f-8f8a-4b8f-bee7-635a76be1fa2/image-removebg-preview-(44).png",
+          "label": "EGAP"
+        }
+      ],
+      "partners": [
+        {
+          "label": "Leme",
+          "image": "https://assets.decocache.com/novo-leme/cebbdd5a-1267-4e7c-b57d-53d70abfc243/leme.png"
+        },
+        {
+          "label": "FGV Ebape",
+          "image": "https://assets.decocache.com/novo-leme/25031274-4ef9-4925-b94b-11df743cc77e/d15e6192-5918-4a10-82cb-16d792c26202.png",
+          "name": "Governo do Brasil"
+        },
+        {
+          "image": "https://assets.decocache.com/novo-leme/4458cf4e-f16b-4ac7-b031-aed1d5092fe5/image-removebg-preview-(45).png",
+          "label": "BID"
+        },
+        {
+          "label": "Los Andes",
+          "image": "https://assets.decocache.com/novo-leme/4dad0c44-1d28-4a1e-a043-26afd1679a84/image-removebg-preview-(47).png"
+        },
+        {
+          "label": "EAFIT",
+          "image": "https://assets.decocache.com/novo-leme/667ad9bb-7318-49fc-8bda-c1530e1c9b23/Logo_EAFIT.svg.png"
+        }
+      ],
+      "sponsors": [],
+      "text": {
+        "__resolveType": "site/sections/EventoTextos.tsx",
+        "description": "olar"
+      },
+      "video": "https://assets.decocache.com/novo-leme/1d6a0e9c-133f-4838-9dd6-e5e1f94bd635/Evento1.mp4",
+      "media": {}
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "PT Footer"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/sections/Seo/SeoV2.tsx",
+        "title": "Evento"
+      }
+    }
+  ]
+}

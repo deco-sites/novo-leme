@@ -1,0 +1,8 @@
+{
+  "name": "collections/blog/categories/4f2853f4c58d",
+  "__resolveType": "blog/loaders/Category.ts",
+  "category": {
+    "name": "Tackling Violence Against Women",
+    "slug": "tackling-violence-against-women"
+  }
+}

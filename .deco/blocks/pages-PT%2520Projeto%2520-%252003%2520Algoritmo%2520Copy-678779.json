@@ -35,6 +35,20 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Projeto/Image.tsx",
+        "image": {
+          "src": "https://assets.decocache.com/novo-leme/4601da85-88d8-4437-ba7d-bbbeb2ff82cb/Design-sem-nome-(21).jpg",
+          "alt": "Projeto"
+        },
+        "caption": {
+          "position": "Bottom",
+          "text": "Patrulhamento em Ponto Quente realizado pela Polícia Militar do Paraná."
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Projeto/TextBlock.tsx",
         "paragraph": [
           {
@@ -42,20 +56,6 @@
             "text": "<p>O projeto teve como objetivo realizar a primeira avaliação experimental de patrulhamento em pontos quentes no Brasil, estruturada a partir de um experimento controlado randomizado. A iniciativa foi liderada pelo Banco Interamericano de Desenvolvimento (BID) em parceria com a Polícia Militar do Paraná e da Secretaria de Segurança Pública do estado. Durante a pesquisa, foram identificados 422 segmentos de rua com alta incidência de roubos, mapeados a partir de dados georreferenciados e análises espaciais avançadas. Metade desses segmentos foi sorteada para receber patrulhamento adicional durante três meses e a outra metade foi utilizada como grupo de controle para identificar o impacto do projeto.</p>"
           }
         ]
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Projeto/Image.tsx",
-        "image": {
-          "src": "https://assets.decocache.com/novo-leme/7a2890cf-567d-4b10-b7b5-b2d2f7c73d89/Visita2BPM-(1).jpeg",
-          "alt": "Projeto"
-        },
-        "caption": {
-          "text": "Visita ao 2° Batalhão de Polícia Militar em Curitiba no Paraná.",
-          "position": "Left"
-        }
       }
     },
     {
@@ -95,6 +95,20 @@
           }
         }
       ]
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/Image.tsx",
+        "image": {
+          "src": "https://assets.decocache.com/novo-leme/7a2890cf-567d-4b10-b7b5-b2d2f7c73d89/Visita2BPM-(1).jpeg",
+          "alt": "Projeto"
+        },
+        "caption": {
+          "text": "Visita ao 12° Batalhão de Polícia Militar do Paraná.",
+          "position": "Bottom"
+        }
+      }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -168,8 +182,17 @@
         "__resolveType": "site/sections/Projeto/Gallery.tsx",
         "images": [
           {
-            "image": "https://assets.decocache.com/novo-leme/9c8dc087-ccd2-46f6-82c9-d80b9512c215/projeto-4.webp",
+            "image": "https://assets.decocache.com/novo-leme/7a2890cf-567d-4b10-b7b5-b2d2f7c73d89/Visita2BPM-(1).jpeg",
             "label": "Imagem 1"
+          },
+          {
+            "image": "https://assets.decocache.com/novo-leme/ec8a882f-8047-4bb0-a4e0-03ab0178729f/Treinamento2-(1).jpeg"
+          },
+          {
+            "image": "https://assets.decocache.com/novo-leme/b270687a-05fa-4853-b402-746bf43f3c87/ReuniaoCAPE-(1).JPG"
+          },
+          {
+            "image": "https://assets.decocache.com/novo-leme/e8c2f1c4-92f7-43cd-a8ea-aa4e591dd36f/ReuniaoSSP-PR-(1).png"
           }
         ]
       }

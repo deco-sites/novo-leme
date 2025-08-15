@@ -1,0 +1,50 @@
+{
+  "name": "collections/blog/posts/ca38fa8abc30",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Projects",
+        "slug": "en-projetos"
+      },
+      {
+        "name": "Tackling Violence Against Women",
+        "slug": "tackling-violence-against-women"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [
+      {
+        "key": "date",
+        "value": "2023-current"
+      },
+      {
+        "key": "location",
+        "value": "State of Paraná"
+      },
+      {
+        "key": "status",
+        "value": "Ongoin"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Predictive Algorithm for the Risk of Revictimization of Domestic Violence Victims",
+    "excerpt": "This project, launched in 2024 and conducted in partnership with the Paraná State Public Security Secretariat (SESP-PR) and the Inter-American Development Bank (IDB), aims to develop a predictive model and algorithm to assess the risk of revictimization of women in domestic violence cases in Paraná. This tool has the potential to classify cases according to the likelihood of further victimization, providing inputs to target public policies aimed at preventing revictimization and femicide. The proposed model and algorithm seek to contribute to a faster approach in identifying high-risk victims and managing domestic violence cases, which currently exceed the capacity of the state’s protection agencies.",
+    "image": "https://assets.decocache.com/novo-leme/7de04ec9-b729-4567-8d82-88d4cff0b601/VD---Casa-da-Mulher-Brasileira-(1)-(2).jpg",
+    "slug": "predictive-algorithm-risk-revictimization-domestic-violence-victims",
+    "date": "2024-11-30",
+    "content": "<p>This project, launched in 2024 and conducted in partnership with the Paraná State Public Security Secretariat (SESP-PR) and the Inter-American Development Bank (IDB), aims to develop a predictive model and algorithm to assess the risk of revictimization of women in domestic violence cases in Paraná. This tool has the potential to classify cases according to the likelihood of further victimization, providing inputs to target public policies aimed at preventing revictimization and femicide. The proposed model and algorithm seek to contribute to a faster approach in identifying high-risk victims and managing domestic violence cases, which currently exceed the capacity of the state’s protection agencies.</p>"
+  }
+}

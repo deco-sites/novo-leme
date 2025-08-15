@@ -1,0 +1,8 @@
+{
+  "name": "collections/blog/categories/9d27c76edbf0",
+  "__resolveType": "blog/loaders/Category.ts",
+  "category": {
+    "name": "Violent Organized Crime Control",
+    "slug": "violent-organized-crime-control"
+  }
+}

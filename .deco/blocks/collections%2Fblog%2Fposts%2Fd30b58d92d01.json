@@ -1,0 +1,50 @@
+{
+  "name": "collections/blog/posts/d30b58d92d01",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Projects",
+        "slug": "en-projetos"
+      },
+      {
+        "name": "Violent Organized Crime Control",
+        "slug": "violent-organized-crime-control"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [
+      {
+        "key": "date",
+        "value": "2025-current"
+      },
+      {
+        "key": "location",
+        "value": "City of Rio de Janeiro"
+      },
+      {
+        "key": "status",
+        "value": "Ongoin"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Mapping and Analysis of Special Treatment Areas in the Light Concession Area",
+    "slug": "mapping-analysis-special-treatment-areas-light-concession",
+    "date": "2025-01-01",
+    "content": "<p>Using quantitative and qualitative research techniques, this project aims to develop and validate methodological strategies to map, monitor, and mitigate the impacts of violent criminal organizations in Areas with Severe Operational Restrictions (ASRO) within Light’s concession area. The initiative integrates the company’s internal data with other public and private information sources, focusing on identifying the extent and evolution of ASROs, as well as analyzing the specific territorial dynamics of each criminal group, particularly measuring the impact these groups have on territorial control and their relationship with electricity distribution services.</p><p></p>",
+    "excerpt": "Using quantitative and qualitative research techniques, this project aims to develop and validate methodological strategies to map, monitor, and mitigate the impacts of violent criminal organizations in Areas with Severe Operational Restrictions (ASRO) within Light’s concession area. The initiative integrates the company’s internal data with other public and private information sources, focusing on identifying the extent and evolution of ASROs, as well as analyzing the specific territorial dynamics of each criminal group, particularly measuring the impact these groups have on territorial control and their relationship with electricity distribution services.",
+    "image": "https://assets.decocache.com/novo-leme/7bf274ad-b364-4763-9129-c52b433468c3/projeto-2.webp"
+  }
+}

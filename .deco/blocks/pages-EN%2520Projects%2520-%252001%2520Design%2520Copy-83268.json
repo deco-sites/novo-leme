@@ -1,7 +1,7 @@
 {
   "__resolveType": "website/pages/Page.tsx",
-  "name": "EN Projects - 01 Design",
-  "path": "/en/projects/design-planning-implementation-municipal-public-security-policy-rio-de-janeiro",
+  "name": "EN Projects - 02 Map",
+  "path": "/en/projects/mapping-analysis-special-treatment-areas-light-concession",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },
@@ -24,7 +24,7 @@
         "__resolveType": "site/sections/Projeto/Header.tsx",
         "page": {
           "__resolveType": "blog/loaders/BlogPostPage.ts",
-          "slug": "design-planning-implementation-municipal-public-security-policy-rio-de-janeiro"
+          "slug": "mapping-analysis-special-treatment-areas-light-concession"
         },
         "config": {
           "categorySlug": "en/projects",
@@ -37,12 +37,12 @@
       "section": {
         "__resolveType": "site/sections/Projeto/Image.tsx",
         "image": {
-          "src": "https://assets.decocache.com/novo-leme/283efd89-f3d5-472c-9e83-3d6304640987/Design-sem-nome-(22).jpg",
+          "src": "https://assets.decocache.com/novo-leme/036cbfa7-b038-4fc1-94a8-32a6c8df6851/project-img-example-2.png",
           "alt": "Project"
         },
         "size": "Medium",
         "caption": {
-          "text": "City Hall of Rio de Janeiro.",
+          "text": "Project photo caption etc etc project photo caption etc etc project photo caption etc etc",
           "position": "Bottom"
         }
       }
@@ -54,7 +54,7 @@
         "paragraph": [
           {
             "label": "Description",
-            "text": "<p>This project aims to provide technical support to the City of Rio de Janeiro in creating a municipal public safety policy guided by data, scientific evidence, and international best practices. The initiative involves supporting the design of the Armed Elite Division of the Municipal Guard and the formulation of a municipal security program focused on reducing crime in urban public spaces. It also includes the design of a management system inspired by best practices such as CompStat — a model developed in New York that relies on data to guide actions with a results-oriented focus — and the development of the city’s Municipal Public Safety Plan. This plan consolidates previous guidelines, defines goals and indicators, and establishes mechanisms for citizen participation and accountability for the coming years. Regarding the Armed Division of the Guard, Leme’s work includes support in designing selection processes, training, control mechanisms, and information systems.</p>"
+            "text": "<p>Using quantitative and qualitative research techniques, this project aims to develop and validate methodological strategies to map, monitor, and mitigate the impacts of violent criminal organizations in Areas with Severe Operational Restrictions (ASRO) within Light’s concession area. The initiative integrates the company’s internal data with other public and private information sources, focusing on identifying the extent and evolution of ASROs, as well as analyzing the specific territorial dynamics of each criminal group, particularly measuring the impact these groups have on territorial control and their relationship with electricity distribution services.</p>"
           }
         ]
       }
@@ -108,7 +108,7 @@
         "paragraph": [
           {
             "label": "Expected Outcomes",
-            "text": "<p>The main expected outcomes include: i) the consolidation of the institutional model of the Armed Elite Division; ii) the structuring of the Municipal Security Program; iii) the implementation of a data-driven management and monitoring system; and iv) the development of the City’s Municipal Public Security Plan. These efforts aim to reduce crimes and irregularities in urban public spaces, enhance the population’s sense of security, strengthen the institutional image of the municipal agencies involved in the management model—especially GM-Rio—and reinforce the authority of the Rio de Janeiro City Hall over the city’s public spaces.</p>"
+            "text": "<p>Still in the initial phase of implementation, the main expected outcomes include the creation of a consolidated and validated database on ASROs, the development of metrics and indicators to monitor these areas, and the formulation of strategies to mitigate the operational impacts caused by criminal groups. It is also expected that the outputs generated will help strengthen Light’s position as an innovative company committed to public safety in the State of Rio de Janeiro, as well as provide a basis for more effective public policies in the area of security.</p>"
           }
         ]
       }

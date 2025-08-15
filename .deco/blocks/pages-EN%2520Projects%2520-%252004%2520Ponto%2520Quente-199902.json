@@ -1,0 +1,179 @@
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "name": "EN Projects - 04 Ponto Quente",
+  "path": "/en/projects/experimental-evaluation-hotspot-policing-brazil",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "EN Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Hero Projetos"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/Header.tsx",
+        "page": {
+          "__resolveType": "blog/loaders/BlogPostPage.ts",
+          "slug": "experimental-evaluation-hotspot-policing-brazil"
+        },
+        "config": {
+          "categorySlug": "en/projects",
+          "removeCategoryFromTags": "en-projetos"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/Image.tsx",
+        "image": {
+          "src": "https://assets.decocache.com/novo-leme/4601da85-88d8-4437-ba7d-bbbeb2ff82cb/Design-sem-nome-(21).jpg",
+          "alt": "Project"
+        },
+        "size": "Medium",
+        "caption": {
+          "text": "Hotspot Patrolling carried out by the Paraná Military Police.\n",
+          "position": "Bottom"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/TextBlock.tsx",
+        "paragraph": [
+          {
+            "label": "Description",
+            "text": "<p>The project aimed to conduct the first experimental evaluation of hotspot policing in Brazil, structured as a randomized controlled trial. The initiative was led by the Inter-American Development Bank (IDB) in partnership with the Paraná Military Police and the State Public Security Secretariat. During the study, 422 street segments with high robbery incidence were identified, mapped using georeferenced data and advanced spatial analyses. Half of these segments were randomly selected to receive additional patrolling for three months, while the other half served as a control group to measure the project’s impact.</p>"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
+        {
+          "value": {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Projeto/TextBlock.tsx",
+              "paragraph": [
+                {
+                  "label": "Section",
+                  "text": "<p><span>Still in the early stages of execution, the main expected results include the creation of a consolidated and validated database on the ASRO, the development of metrics and indicators to monitor these areas, and the formulation of strategies to mitigate the operational impacts caused by criminal groups. It is also expected that the generated products will help strengthen Light's position as an innovative company committed to public safety in the State of Rio de Janeiro, as well as support more effective public policies in the area of security.</span></p>"
+                }
+              ]
+            }
+          },
+          "rule": {
+            "__resolveType": "website/matchers/never.ts"
+          }
+        }
+      ]
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/Image.tsx",
+        "image": {
+          "src": "https://assets.decocache.com/novo-leme/7a2890cf-567d-4b10-b7b5-b2d2f7c73d89/Visita2BPM-(1).jpeg",
+          "alt": "Project"
+        },
+        "caption": {
+          "text": "Visit to the 12th Military Police Battalion of Paraná.\n",
+          "position": "Left"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/TextBlock.tsx",
+        "paragraph": [
+          {
+            "label": "Results",
+            "text": "<p>The experiment resulted in an average increase of 15 minutes in the treated segments compared to the control group, as measured using GPS data. Evaluation data indicated a 22% reduction in robberies in patrolled areas on weekdays compared to the control group, with no evidence of crime displacement to neighboring segments. However, an increase in thefts was observed in the treated segments, possibly due to changes in offender behavior or police recording practices. Additionally, the analysis showed that the positive effects on robberies persisted for up to three months after the experiment ended but disappeared afterward, highlighting the importance of maintaining continuous, data-driven policing strategies to sustain results. The project also provided a practical opportunity for impact evaluation training for the Paraná Military Police and for using GPS data to monitor police allocation.</p>"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/HighlightNumbers.tsx",
+        "highlights": [
+          {
+            "style": "Blue",
+            "number": "22%",
+            "text": "in robbery reduction"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/Documents.tsx",
+        "docs": [
+          {
+            "name": "An Experimental Evaluation of Hot Spot Policing in Brazil",
+            "description": "The study in English on the challenges of implementation and lessons for evidence-based security policies.",
+            "image": {
+              "src": "https://assets.decocache.com/novo-leme/a8f66abc-2594-4cb8-8009-2c061cbcd661/HSP_Curitiba-(2)-1_page-0001.jpg"
+            },
+            "url": "https://assets.decocache.com/novo-leme/544bd929-8297-4658-846d-773bec332db3/HSP_Curitiba-ENn.pdf"
+          },
+          {
+            "name": "Avaliação Experimental de Policiamento em Pontos Quentes no Brasil",
+            "url": "https://assets.decocache.com/novo-leme/4d0aa75a-cbdf-4099-8330-504028592efc/HSP_Curitiba-PT.pdf",
+            "image": {
+              "src": "https://assets.decocache.com/novo-leme/8dff79ef-0a67-49d6-ba54-8fbfcf2a0530/HSP_Curitiba-(3)-1_page-0001.jpg"
+            },
+            "description": "Report in Portuguese on the challenges of implementation and lessons for evidence-based security policies."
+          }
+        ],
+        "label": "Documents"
+      }
+    },
+    {
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
+        {
+          "value": {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Projeto/Links.tsx"
+            }
+          },
+          "rule": {
+            "__resolveType": "website/matchers/never.ts"
+          }
+        }
+      ]
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Projeto/MoreProjects.tsx",
+        "label": "View more projects",
+        "url": "/en/projects"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "EN Footer"
+      }
+    }
+  ]
+}
