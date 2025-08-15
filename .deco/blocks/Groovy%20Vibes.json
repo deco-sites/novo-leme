@@ -35,42 +35,10 @@
     "__resolveType": "website/loaders/fonts/googleFonts.ts",
     "fonts": [
       {
-        "variations": [
-          {
-            "weight": "100"
-          },
-          {
-            "weight": "300"
-          },
-          {
-            "weight": "400"
-          },
-          {
-            "weight": "500"
-          },
-          {
-            "weight": "600"
-          },
-          {
-            "weight": "700"
-          },
-          {
-            "weight": "800"
-          }
-        ],
-        "family": "Open Sans"
-      },
-      {
-        "variations": [
-          {
-            "weight": "100"
-          },
-          {
-            "weight": "400"
-          }
-        ],
-        "family": "DM Serif Display"
+        "variations": [],
+        "family": "Shrikhand"
       }
     ]
-  }
+  },
+  "mode": "light"
 }
