@@ -14,7 +14,29 @@
       }
     ],
     "imageCarousel": {
-      "banners": []
+      "banners": [
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/9e79081a-a52b-442a-9fa1-f97417f081d8/e3368072-4ad6-4f2a-997a-211637781326.jpg"
+          },
+          "mobile": {},
+          "alt": "co1"
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/73ce3198-5e12-403e-8fa3-43fdf56eba3e/WhatsApp-Image-2025-03-26-at-15.16.31.jpeg"
+          },
+          "mobile": {},
+          "alt": "co2"
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/bece06c8-d604-4d0b-944d-7823097048c4/WhatsApp-Image-2025-03-26-at-15.28.59.jpeg"
+          },
+          "mobile": {},
+          "alt": "co3"
+        }
+      ]
     },
     "extraProps": [],
     "aggregateRating": {
@@ -29,9 +51,9 @@
     },
     "title": "International Seminar Strategic Criminal Prosecution",
     "excerpt": " The International Seminar “Strategic Criminal Prosecution,” held in Bogotá, Colombia, brought together authorities and experts to discuss the challenges of criminal justice and public security in the country.",
-    "image": "https://assets.decocache.com/novo-leme/707b2fbd-57a1-4857-97d2-ffdb563200f2/JOana-Collombia-2.jpg",
     "date": "2024-11-29",
     "slug": "international-seminar-strategic-criminal-prosecution",
-    "content": "<p><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">brought together authorities and experts to discuss the challenges of criminal justice and public security in the country. The agenda covered topics such as the “Total Peace” policy, strategies for criminal prosecution, and the use of technologies in state action. The event featured the participation of the Attorney General, representatives from the Ministry of Justice, the Office of the High Commissioner for Peace, and international researchers. At the seminar, Joana Monteiro, Director of Leme, contributed reflections on conditional repression, focused deterrence, and the prioritization of state interventions, as well as conducting technical visits in Medellín and participating in meetings at EAFIT University.</span></p><p><br></p>"
+    "content": "<p>The international seminar \"Strategic Criminal Prosecution,\" held in Bogotá, Colombia, brought together authorities and experts to discuss the challenges of criminal justice and public security in the country. The agenda covered topics such as the “Total Peace” policy, criminal prosecution strategies, and the use of technology in state actions. The event featured the participation of the Fiscal General de la Nación, representatives from the Ministry of Justice, the Office of the High Commissioner for Peace, and international researchers. At the meeting, Joana Monteiro, director of Leme, contributed insights on conditional enforcement, focused deterrence, and the prioritization of state interventions, in addition to conducting technical visits in Medellín and participating in meetings at EAFIT University.</p>",
+    "seo": {}
   }
 }

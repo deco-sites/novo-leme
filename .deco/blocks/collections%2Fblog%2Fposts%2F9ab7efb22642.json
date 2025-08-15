@@ -1,0 +1,38 @@
+{
+  "name": "collections/blog/posts/9ab7efb22642",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Na Mídia",
+        "slug": "na-midia"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [
+      {
+        "key": "url",
+        "value": "https://tinyurl.com/4bp8ek3r"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Folha de São Paulo: Uso de dados e apoio da sociedade civil favorecem segurança pública",
+    "excerpt": "Joana Monteiro, diretora do Leme, e Ramón Chaves, pesquisador associado, em autoria no artigo de opinião do jornal Folha de São Paulo.",
+    "content": "<p><span style=\"color: rgb(42, 50, 44); font-size: 16px\">Joana Monteiro, diretora do Leme, e Ramón Chaves, pesquisador associado, em autoria no artigo de opinião do jornal Folha de São Paulo.</span></p>",
+    "slug": "na-midia-7",
+    "date": "2024-05-08",
+    "image": "https://assets.decocache.com/novo-leme/3c99da5f-9f5e-4add-9e4c-b97310883556/na-midia-7.webp"
+  }
+}

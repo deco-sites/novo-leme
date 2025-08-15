@@ -9,12 +9,34 @@
         "slug": "en-eventos"
       },
       {
-        "name": "Events participation",
-        "slug": "en-eventos-participacao"
+        "name": "Eventos participação",
+        "slug": "eventos-participacao"
       }
     ],
     "imageCarousel": {
-      "banners": []
+      "banners": [
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/cb32ec42-99c7-4f71-87f4-aeed63c41825/_mg_9478-(1).jpg"
+          },
+          "mobile": {},
+          "alt": "mp1"
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/42becebf-e50b-4974-be89-79f943bbf253/whatsapp_image_2024-12-18_at_16.48.17.jpeg"
+          },
+          "mobile": {},
+          "alt": "mp2"
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/eb61b5d9-4dca-40bc-a8ed-0ee0d9ce29ca/WhatsApp-Image-2024-12-19-at-08.17.41-1-(1).jpeg"
+          },
+          "mobile": {},
+          "alt": "mp3"
+        }
+      ]
     },
     "extraProps": [],
     "aggregateRating": {

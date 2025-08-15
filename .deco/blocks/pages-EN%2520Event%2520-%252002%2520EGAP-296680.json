@@ -53,7 +53,17 @@
         "address": "St. Presidente Carlos de Campos, 417, Laranjeiras, Rio de Janeiro."
       },
       "image": "https://assets.decocache.com/novo-leme/3e406056-67fd-45b8-a309-dd02016de9db/img.jpg",
-      "gallery": [],
+      "gallery": [
+        {
+          "image": "https://assets.decocache.com/novo-leme/b0a11d3b-73c1-40da-99c0-8426f57b03b1/Evento-Egap-2-(1).jpg"
+        },
+        {
+          "image": "https://assets.decocache.com/novo-leme/f769fe16-e0d7-408b-a929-5809bcfe4f40/evento-egap.jpg"
+        },
+        {
+          "image": "https://assets.decocache.com/novo-leme/0efa3240-7e2f-4ca4-8d8a-8690a67d8cdb/Egap.JPG"
+        }
+      ],
       "registrationHref": "http://www.google.com/",
       "organization": [
         {

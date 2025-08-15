@@ -14,7 +14,29 @@
       }
     ],
     "imageCarousel": {
-      "banners": []
+      "banners": [
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/9e79081a-a52b-442a-9fa1-f97417f081d8/e3368072-4ad6-4f2a-997a-211637781326.jpg"
+          },
+          "mobile": {},
+          "alt": "co1"
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/73ce3198-5e12-403e-8fa3-43fdf56eba3e/WhatsApp-Image-2025-03-26-at-15.16.31.jpeg"
+          },
+          "mobile": {},
+          "alt": "co2"
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/bece06c8-d604-4d0b-944d-7823097048c4/WhatsApp-Image-2025-03-26-at-15.28.59.jpeg"
+          },
+          "mobile": {},
+          "alt": "co3"
+        }
+      ]
     },
     "extraProps": [],
     "aggregateRating": {
@@ -31,7 +53,6 @@
     "excerpt": "O seminário internacional \"Persecução Penal Estratégica\", realizado em Bogotá, Colômbia, reuniu autoridades e especialistas para discutirem os desafios da justiça criminal e da segurança pública no país...",
     "date": "2024-11-29",
     "slug": "seminario-internacional-persecucao-penal-estrategica-bogota",
-    "content": "<p>O seminário internacional \"Persecução Penal Estratégica\", realizado em Bogotá, Colômbia, reuniu autoridades e especialistas para discutirem os desafios da justiça criminal e da segurança pública no país. A agenda incluiu temas como a política de “Paz Total”, estratégias de persecução penal e o uso de tecnologias na atuação estatal. O evento contou com a participação da Fiscal General de la Nación, de representantes do Ministério da Justiça, da Oficina do Alto Comissariado para a Paz e de pesquisadores internacionais. No encontro, Joana Monteiro, diretora do Leme, contribuiu com reflexões sobre repressão condicional, dissuasão focada e priorização de intervenções estatais, além de realizar visitas técnicas em Medellín e participar de encontros na Universidade EAFIT. </p>",
-    "image": "https://assets.decocache.com/novo-leme/707b2fbd-57a1-4857-97d2-ffdb563200f2/JOana-Collombia-2.jpg"
+    "content": "<p>O seminário internacional \"Persecução Penal Estratégica\", realizado em Bogotá, Colômbia, reuniu autoridades e especialistas para discutirem os desafios da justiça criminal e da segurança pública no país. A agenda incluiu temas como a política de “Paz Total”, estratégias de persecução penal e o uso de tecnologias na atuação estatal. O evento contou com a participação da Fiscal General de la Nación, de representantes do Ministério da Justiça, da Oficina do Alto Comissariado para a Paz e de pesquisadores internacionais. No encontro, Joana Monteiro, diretora do Leme, contribuiu com reflexões sobre repressão condicional, dissuasão focada e priorização de intervenções estatais, além de realizar visitas técnicas em Medellín e participar de encontros na Universidade EAFIT. </p>"
   }
 }

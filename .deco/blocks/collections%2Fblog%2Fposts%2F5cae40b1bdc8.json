@@ -30,9 +30,7 @@
           "alt": "I Reunião Técnica do FONACRIAD"
         },
         {
-          "desktop": {
-            "image": "https://assets.decocache.com/novo-leme/fd83c2e1-c872-4de5-88fe-a184078581a9/1744397717_20250327_Fonacriad-(7).webp"
-          },
+          "desktop": {},
           "mobile": {},
           "alt": "I Reunião Técnica do FONACRIAD"
         }
@@ -53,7 +51,6 @@
     "excerpt": "A I Reunião Técnica do Fórum Nacional dos Gestores do Sistema de Atendimento Socioeducativo (FONACRIAD), realizada em São Paulo e promovida pela Fundação CASA, reuniu gestores de todo o país, especialistas e autoridades para debater diretrizes de fortalecimento da saúde mental no sistema socioeducativo.",
     "title": "I Reunião Técnica do FONACRIAD",
     "date": "2025-03-28",
-    "slug": "i-reuniao-tecnica-fonacriad",
-    "image": "https://assets.decocache.com/novo-leme/e20356c1-b04a-4580-bac4-439f1276d89f/evento-3.webp"
+    "slug": "i-reuniao-tecnica-fonacriad"
   }
 }

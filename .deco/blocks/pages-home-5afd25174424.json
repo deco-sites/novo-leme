@@ -58,7 +58,7 @@
         "categorySlug": "projetos"
       },
       "title": "Projetos",
-      "description": "Conheça nossa atuação através dos nossos projetos",
+      "description": "Conheça nossos projetos",
       "style": {
         "orientation": "Vertical",
         "background": "Orange",
@@ -129,7 +129,6 @@
         "slug": "na-midia"
       },
       "title": "Na Mídia",
-      "description": "Reportagens sobre o Leme nos principais veículos de comunicação",
       "button": {
         "label": "Ver todas as reportagens",
         "url": "/midia"

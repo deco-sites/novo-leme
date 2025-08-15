@@ -1,0 +1,38 @@
+{
+  "name": "collections/blog/posts/cbf85e5ba1aa",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Na Mídia",
+        "slug": "na-midia"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [
+      {
+        "key": "url",
+        "value": "https://tinyurl.com/5wt4dzhp"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Estadão: Quem deve liderar a iniciativa de desenhar a segurança pública do Brasil é o governo federal",
+    "excerpt": "Joana Monteiro, diretora do Leme, em entrevista ao jornal Estadão.",
+    "content": "<p><span style=\"color: rgb(42, 50, 44); font-size: 16px\">Joana Monteiro, diretora do Leme, em entrevista ao jornal Estadão.</span></p>",
+    "slug": "na-midia-8",
+    "date": "2024-05-08",
+    "image": "https://assets.decocache.com/novo-leme/95957c63-d845-4f02-83f8-ad70d0e1fcfa/na-midia-8.webp"
+  }
+}

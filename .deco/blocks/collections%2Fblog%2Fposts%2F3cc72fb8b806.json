@@ -1,0 +1,38 @@
+{
+  "name": "collections/blog/posts/3cc72fb8b806",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Na Mídia",
+        "slug": "na-midia"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [
+      {
+        "key": "url",
+        "value": "https://tinyurl.com/ymjuyp52"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Valor Econômico: Segurança precisa de modelo semelhante ao SUS",
+    "excerpt": "Joana Monteiro, diretora do Leme, em entrevista ao jornal Valor Econômico.",
+    "slug": "na-midia-5",
+    "content": "<p>Joana Monteiro, diretora do Leme, em entrevista ao jornal Valor Econômico.</p>",
+    "date": "2024-08-04",
+    "image": "https://assets.decocache.com/novo-leme/dfd0b545-3181-48af-b64e-3e5e61234c2b/na-midia-5.webp"
+  }
+}

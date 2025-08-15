@@ -14,7 +14,20 @@
       }
     ],
     "imageCarousel": {
-      "banners": []
+      "banners": [
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/19337499-836d-44ce-8ee9-de93e27fe01a/90f146d9-e36e-4013-ba55-9544ec480ccd-(2).jpg"
+          },
+          "mobile": {}
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/9431e4d2-592b-4afd-a8b0-9b4c3bcc1524/WhatsApp-Image-2025-03-26-at-15.30.26.jpeg"
+          },
+          "mobile": {}
+        }
+      ]
     },
     "extraProps": [],
     "aggregateRating": {
@@ -29,7 +42,6 @@
     },
     "title": "2º Encontro Técnico da Renorcrim – Rede Nacional de Unidades Especializadas",
     "excerpt": "O 2º Encontro Técnico da Rede Nacional de Unidades Especializadas de Enfrentamento das Organizações Criminosas (Renorcrim), realizado em Brasília, reuniu representantes das polícias civis de todo o país...",
-    "image": "https://assets.decocache.com/novo-leme/19337499-836d-44ce-8ee9-de93e27fe01a/90f146d9-e36e-4013-ba55-9544ec480ccd-(2).jpg",
     "date": "2025-03-11",
     "slug": "2-encontro-tecnico-renorcrim-rede-nacional-unidades-especializadas",
     "content": "<p>O 2º Encontro Técnico da Rede Nacional de Unidades Especializadas de Enfrentamento das Organizações Criminosas (Renorcrim), realizado em Brasília, reuniu representantes das polícias civis de todo o país, da Polícia Federal, do Ministério da Justiça e de instituições do sistema de justiça para debaterem estratégias integradas de combate ao crime organizado. A programação incluiu mesas-redondas, workshops e discussões sobre novas metodologias de investigação, boas práticas e desafios enfrentados pelas forças de segurança. No encontro, Joana Monteiro, diretora do Leme, contribuiu junto com Ana Paula Pellegrino (pesquisadora) e Ramón Chaves (líder de projetos) no desenvolvimento de definições conceituais sobre organizações criminosas violentas, controle territorial e estruturas criminais, com base em pesquisa aplicada realizada com os participantes do evento. </p>"

@@ -14,7 +14,22 @@
       }
     ],
     "imageCarousel": {
-      "banners": []
+      "banners": [
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/740c38a2-4b5e-4aee-9749-33049df3ea92/36913ae1-f6c7-41d2-8516-0373baaa5053.jpg"
+          },
+          "mobile": {},
+          "alt": "fo1"
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/a3be6495-5845-4f5c-9c0a-5ec5fff00b69/2cb71c17-4719-4229-a806-fd38156e9e65.jpg"
+          },
+          "mobile": {},
+          "alt": "fo2"
+        }
+      ]
     },
     "extraProps": [],
     "aggregateRating": {
@@ -32,7 +47,6 @@
     "date": "2024-08-13",
     "slug": "18-encontro-forum-brasileiro-seguranca-publica",
     "content": "<p>O Encontro do Fórum Brasileiro de Segurança Pública, em sua 18ª edição, promoveu debates sobre os principais desafios e soluções para a segurança pública no Brasil. Realizado na Universidade Católica de Pernambuco (Unicap), no Recife, o evento reuniu especialistas, gestores públicos, profissionais da segurança, acadêmicos e representantes da sociedade civil. A programação incluiu temas como enfrentamento ao crime organizado, segurança baseada em evidências, controle de armas, violências de gênero, uso de tecnologias e dinâmicas regionais específicas das regiões Norte e Nordeste. No encontro, Joana Monteiro, diretora do Leme, contribuiu em dois painéis: \"Enfrentamento ao Crime Organizado\" e \"Segurança Pública Baseada em Evidências\", trazendo perspectivas analíticas e práticas sobre o uso de dados para orientar políticas públicas. </p>",
-    "seo": {},
-    "image": "https://assets.decocache.com/novo-leme/34e93107-0283-476b-a9b3-4be3ad13ab3c/36913ae1-f6c7-41d2-8516-0373baaa5053-(2).jpg"
+    "seo": {}
   }
 }

@@ -14,7 +14,22 @@
       }
     ],
     "imageCarousel": {
-      "banners": []
+      "banners": [
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/740c38a2-4b5e-4aee-9749-33049df3ea92/36913ae1-f6c7-41d2-8516-0373baaa5053.jpg"
+          },
+          "mobile": {},
+          "alt": "fo1"
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/a3be6495-5845-4f5c-9c0a-5ec5fff00b69/2cb71c17-4719-4229-a806-fd38156e9e65.jpg"
+          },
+          "mobile": {},
+          "alt": "fo2"
+        }
+      ]
     },
     "extraProps": [],
     "aggregateRating": {
@@ -29,9 +44,9 @@
     },
     "title": "18th Meeting of the Brazilian Forum on Public Security",
     "excerpt": "The 18th edition of the Brazilian Forum on Public Security Meeting fostered debates on the main challenges and solutions for public security in Brazil. Held at the Catholic University of Pernambuco (Unicap) in Recife, the event brought together experts, public managers, security professionals, academics, and civil society representatives. ",
-    "content": "<p><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">The 18th edition of the Brazilian Forum on Public Security Meeting fostered debates on the main challenges and solutions for public security in Brazil. Held at the Catholic University of Pernambuco (Unicap) in Recife, the event brought together experts, public managers, security professionals, academics, and civil society representatives. The program covered topics such as combating organized crime, evidence-based security, arms control, gender-based violence, the use of technologies, and specific regional dynamics in the North and Northeast of the country. At the meeting, Joana Monteiro, Director of Leme, participated in two panels — “Combating Organized Crime” and “Evidence-Based Public Security” — offering analytical and practical perspectives on the use of data to guide public policies.</span></p><p><br></p>",
-    "image": "https://assets.decocache.com/novo-leme/34e93107-0283-476b-a9b3-4be3ad13ab3c/36913ae1-f6c7-41d2-8516-0373baaa5053-(2).jpg",
+    "content": "<p><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">The 18th edition of the Brazilian Forum on Public Security Meeting fostered debates on the main challenges and solutions for public security in Brazil. Held at the Catholic University of Pernambuco (Unicap) in Recife, the event brought together experts, public managers, security professionals, academics, and civil society representatives. The program covered topics such as combating organized crime, evidence-based security, arms control, gender-based violence, the use of technologies, and specific regional dynamics in the North and Northeast of the country. At the meeting, Joana Monteiro, Director of Leme, participated in two panels — “Combating Organized Crime” and “Evidence-Based Public Security” — offering analytical and practical perspectives on the use of data to guide public policies.</span></p>",
     "date": "2024-08-13",
-    "slug": "18th-meeting-of-the-brazilian-forum-on-public-security"
+    "slug": "18th-meeting-of-the-brazilian-forum-on-public-security",
+    "seo": {}
   }
 }

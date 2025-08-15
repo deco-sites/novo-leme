@@ -3,11 +3,21 @@
   "__resolveType": "blog/loaders/Blogpost.ts",
   "post": {
     "authors": [],
-    "categories": [],
+    "categories": [
+      {
+        "name": "Na Mídia",
+        "slug": "na-midia"
+      }
+    ],
     "imageCarousel": {
       "banners": []
     },
-    "extraProps": [],
+    "extraProps": [
+      {
+        "key": "url",
+        "value": "https://tinyurl.com/bde4bjkj"
+      }
+    ],
     "aggregateRating": {
       "@type": "AggregateRating"
     },
@@ -22,6 +32,7 @@
     "excerpt": "Joana Monteiro, diretora do Leme, em autoria no artigo de opinião no Brazil Journal.",
     "content": "<p><span style=\"color: rgb(42, 50, 44); font-size: 16px\">Joana Monteiro, diretora do Leme, em autoria no artigo de opinião no Brazil Journal.</span></p>",
     "slug": "na-midia-4",
-    "date": "2024-11-25"
+    "date": "2024-08-10",
+    "image": "https://assets.decocache.com/novo-leme/27a798dc-a42a-4ac4-9bdb-aac4d80cd06e/na-midia-4.webp"
   }
 }

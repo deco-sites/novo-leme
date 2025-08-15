@@ -1,0 +1,33 @@
+{
+  "name": "collections/blog/posts/2d8ea65011cb",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [
+      {
+        "key": "url",
+        "value": "https://tinyurl.com/5n8pw2cv"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Valor Econômico: O papel central da União no combate ao crime organizado",
+    "excerpt": "Joana Monteiro, diretora do Leme, em autoria no artigo de opinião do jornal Valor Econômico.",
+    "content": "<p><span style=\"color: rgb(42, 50, 44); font-size: 16px\">Joana Monteiro, diretora do Leme, em autoria no artigo de opinião do jornal Valor Econômico.</span></p>",
+    "slug": "na-midia-9",
+    "date": "2024-01-30",
+    "image": "https://assets.decocache.com/novo-leme/9a3a60fb-c557-4860-8130-e8bbd784187b/na-midia-9.webp"
+  }
+}

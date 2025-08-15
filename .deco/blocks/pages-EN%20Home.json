@@ -48,7 +48,7 @@
         "slug": "en-projetos"
       },
       "title": "Projects",
-      "description": "Learn about our work through our projects",
+      "description": "Discover our projects",
       "button": {
         "label": "See more projects",
         "url": "/en/projects"
@@ -126,7 +126,6 @@
         "slug": "na-midia"
       },
       "title": "In the Media",
-      "description": "Reports about Leme in major media outlets",
       "button": {
         "label": "See all reports",
         "url": "/en/media"
