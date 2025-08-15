@@ -8,6 +8,9 @@ import { type Section } from "@deco/deco/blocks";
 export interface Props {
   sidebarNav?: Section;
   page?: BlogPostPage | null;
+  texts?: {
+    gallery?: string;
+  };
   backToNews?: {
     label?: string;
     url?: string;
@@ -37,6 +40,7 @@ export default function PostDetail({
   sidebarNav,
   page,
   backToNews,
+  texts,
 }: Props) {
   const { title, image, date, categories, content, imageCarousel } = page?.post || DEFAULT_PROPS;
   const Nav = sidebarNav?.Component;
@@ -80,7 +84,7 @@ export default function PostDetail({
           imageCarousel && imageCarousel?.banners && imageCarousel?.banners?.length > 0 && (
             <div className="flex flex-col gap-4">
               <div className="text-primary">
-                <Title label="Galeria" titleSize="2xl" serif />
+                <Title label={texts?.gallery} titleSize="2xl" serif />
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {/* Mobile */}

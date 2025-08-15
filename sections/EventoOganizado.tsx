@@ -245,7 +245,7 @@ export default function PostDetail({
               <div className="text-primary">
                 <Title label={newTexts?.gallery} titleSize="2xl" serif />
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {/* Mobile */}
                 {gallery?.map((item, index) => (
                   <div className="md:hidden">
