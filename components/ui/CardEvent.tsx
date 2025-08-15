@@ -38,7 +38,7 @@ export default function CardEvent({
     <a
       key={label}
       href={url}
-      className="group block md:px-3 hover:px-0 transition-[padding]"
+      className="group block md:px-3 md:hover:px-0 transition-[padding]"
     >
       <div className="flex space-x-5 md:px-8 md:py-5 md:hover:bg-white rounded-xl">
         <div className="flex-none p-2 w-14 bg-secondary rounded-lg text-white flex flex-col justify-center">
@@ -48,7 +48,7 @@ export default function CardEvent({
         </div>
         <div className="flex flex-col gap-1 justify-center text-neutral-950">
           <div className="flex flex-row gap-1 md:gap-5">
-            <h3 className="flex-auto line-clamp-2 md:line-clamp-1 text-lg md:text-xl group-hover:text-secondary">{label}</h3>
+            <h3 className="flex-auto line-clamp-2 md:line-clamp-1 text-lg md:text-xl md:group-hover:text-secondary">{label}</h3>
             {
               labels ? (
                 <div className="flex-none">
