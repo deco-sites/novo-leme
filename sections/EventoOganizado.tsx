@@ -98,6 +98,7 @@ export default function PostDetail({
     day: "numeric",
     hour: "2-digit",
     minute: "2-digit",
+    timeZone: "America/Sao_Paulo"
   }) : '';
 
   const formattedDateEnd = date && date.end ? new Date(date.end).toLocaleDateString(lang, {
@@ -106,6 +107,7 @@ export default function PostDetail({
     day: "numeric",
     hour: "2-digit",
     minute: "2-digit",
+    timeZone: "America/Sao_Paulo"
   }) : '';
 
   const Nav = sidebarNav?.Component;
