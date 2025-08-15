@@ -51,6 +51,9 @@
         "backToNews": {
           "label": "View other events",
           "url": "/en/events"
+        },
+        "texts": {
+          "gallery": "Gallery"
         }
       }
     },

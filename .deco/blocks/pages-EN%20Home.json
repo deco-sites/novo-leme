@@ -123,7 +123,7 @@
         "__resolveType": "blog/loaders/BlogpostList.ts",
         "postSlugs": [],
         "sortBy": "date_desc",
-        "slug": "na-midia"
+        "slug": "en-na-midia"
       },
       "title": "In the Media",
       "button": {
