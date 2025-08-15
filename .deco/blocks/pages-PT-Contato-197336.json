@@ -7,51 +7,36 @@
   },
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "PT Header"
+      "__resolveType": "PT Header"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "image": {
+        "src": "https://assets.decocache.com/novo-leme/8b67bfbb-c10e-464a-8c66-8daa615a145a/hero-contato.svg"
+      },
+      "marginTop": true
+    },
+    {
+      "__resolveType": "site/sections/PageTitle.tsx",
+      "description": "Canais para entrar em contato com o Leme",
+      "title": "Contato"
+    },
+    {
+      "__resolveType": "site/sections/Contato.tsx",
+      "form": {
+        "title": "Envie uma mensagem",
+        "name": "Nome",
+        "email": "Email",
+        "message": "Mensagem",
+        "submit": "Enviar"
+      },
+      "email": {
+        "title": "Nosso email",
+        "email": "contato@lemelab.org"
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Hero.tsx",
-        "image": {
-          "src": "https://assets.decocache.com/novo-leme/8b67bfbb-c10e-464a-8c66-8daa615a145a/hero-contato.svg"
-        },
-        "marginTop": true
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/PageTitle.tsx",
-        "description": "Canais para entrar em contato com o Leme",
-        "title": "Contato"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Contato.tsx",
-        "form": {
-          "title": "Envie uma mensagem",
-          "name": "Nome",
-          "email": "Email",
-          "message": "Mensagem",
-          "submit": "Enviar"
-        },
-        "email": {
-          "title": "Nosso email",
-          "email": "contato@lemelab.org"
-        }
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "PT Footer"
-      }
+      "__resolveType": "PT Footer"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
