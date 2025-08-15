@@ -41,7 +41,7 @@ export default function TextBlock({
     <div className="container flex gap-16 mb-9">
       <div className="hidden md:block flex-none w-44"/>
       <div className="flex-auto flex flex-col gap-5">
-        <Title label={label} titleSize="xl" serif />
+        <Title label={label} titleSize="2xl" serif />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {docs?.map((doc) => (
             <CardDocument

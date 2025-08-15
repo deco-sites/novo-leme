@@ -23,7 +23,7 @@ export interface Nav {
 
 export default function HomeEventos({
   title = "Eventos",
-  description = "Acompanhe a participação do Leme em eventos",
+  description = "",
   posts,
   config = { categorySlug: 'eventos/participacao' },
   labels = {

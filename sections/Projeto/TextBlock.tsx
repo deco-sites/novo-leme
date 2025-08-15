@@ -27,7 +27,7 @@ export default function TextBlock({
       <div className="flex-auto flex flex-col gap-6 md:gap-9">
         {paragraph?.map((p) => (
           <div class="flex flex-col gap-4">
-            {p.label ? <Title label={p.label} titleSize="xl" serif /> : ''}
+            {p.label ? <Title label={p.label} titleSize="2xl" serif /> : ''}
             <div
               className="leading-relaxed text-neutral-950"
               dangerouslySetInnerHTML={{

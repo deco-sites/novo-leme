@@ -29,7 +29,7 @@ export default function Links({
     <div className="container flex gap-16 mb-9">
       <div className="hidden md:block flex-none w-44"/>
       <div className="flex-auto flex flex-col gap-5">
-        <Title label={label} titleSize="xl" serif/>
+        <Title label={label} titleSize="2xl" serif/>
         <div className="flex flex-col gap-4">
           {links?.map((link) => (
             <div>

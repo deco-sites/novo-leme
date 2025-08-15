@@ -3,6 +3,7 @@ import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 
 export interface Props {
+  title?: string;
   images?: {
     label?: string;
     image: ImageWidget;
@@ -10,6 +11,7 @@ export interface Props {
 }
 
 export default function Gallery({
+  title = "Galeria",
   images = []
 }: Props) {
   return (
@@ -20,7 +22,7 @@ export default function Gallery({
           images && images?.length > 0 && (
             <div className="flex flex-col gap-4">
               <div className="text-primary">
-                <Title label="Galeria" titleSize="2xl" serif />
+                <Title label={title} titleSize="2xl" serif />
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {/* Mobile */}
