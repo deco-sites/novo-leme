@@ -1,4 +1,5 @@
 import { RichText } from "apps/admin/widgets.ts";
+import FancyLink from "../components/ui/FancyLink.tsx";
 
 export interface Props {
   content?: RichText;
@@ -6,7 +7,6 @@ export interface Props {
     /** @title Name */
     label?: string;
     description?: RichText;
-    url?: string;
     challenges?: {
       title?: string;
       list?: {
@@ -15,6 +15,10 @@ export interface Props {
         label?: string;
       }[]
     };
+    button?: {
+      label?: string;
+      url?: string;
+    }
   }[];
 }
 
@@ -32,6 +36,10 @@ export default function Atuacao({
           { label: "Identificar e qualificar futuras lideranças da área de segurança pública, através da formação de uma rede ativa e comprometida." },
           { label: "Identificar estratégias bem-sucedidas e propor novas abordagens de enfrentamento, produzindo e disseminando evidências." },
         ],
+      },
+      button: {
+        label: "Ver projetos",
+        url: "/projetos",
       },
     },
   ],
@@ -69,6 +77,11 @@ export default function Atuacao({
                   ))}
                 </ul>
               </div>
+              {item.button && item.button.label && (
+                <div className="flex justify-end mt-2">
+                  <FancyLink label={item.button?.label} url={item.button?.url} iconRight />
+                </div>
+              )}
             </div>
           </details>
         ))}

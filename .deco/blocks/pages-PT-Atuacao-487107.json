@@ -52,7 +52,11 @@
             },
             "label": "Controle do Crime Organizado Violento",
             "description": "<p>O crime organizado violento é um dos principais problemas públicos de segurança enfrentados pelos países latino-americanos. No Brasil, sua atuação se expressa principalmente pelo controle armado de territórios, explorando negócios e limitando a presença do Estado nesses espaços.  Nesse tema, oferecemos apoio para os seguintes desafios: </p>",
-            "url": "/"
+            "url": "/",
+            "button": {
+              "label": "Ver projetos",
+              "url": "/projetos?category=Controle+do+Crime+Organizado+Violento"
+            }
           },
           {
             "challenges": {
@@ -71,7 +75,11 @@
             },
             "label": "Fortalecimento de Instituições Policiais",
             "description": "<p>No Brasil, as instituições policiais ainda operam de forma fragmentada, sem planejamento estratégico e com pouco uso de dados e evidências científicas. Essa fragilidade impede que os órgãos operem sob a lógica de uma política pública efetiva, que depende de diagnósticos, prioridades claras e decisões bem fundamentadas. Nesse tema, oferecemos apoio para os seguintes desafios:  </p><p></p>",
-            "url": "/"
+            "url": "/",
+            "button": {
+              "label": "Ver projetos",
+              "url": "/projetos?category=Fortalecimento+de+Instituições+Policiais"
+            }
           },
           {
             "challenges": {
@@ -87,7 +95,11 @@
             },
             "label": "Ampliação do Protagonismo Municipal",
             "description": "<p>Os governos municipais têm um papel fundamental na prevenção da violência, reconhecido pela Lei do SUSP, que estabelece diretrizes de cooperação entre municípios e os demais entes federativos. Essa definição exige que as prefeituras articulem ações no nível local para coordenar políticas integradas de segurança. Nesse tema, oferecemos apoio para o seguinte desafio:  </p><p></p>",
-            "url": "/"
+            "url": "/",
+            "button": {
+              "label": "Ver projetos",
+              "url": "/projetos?category=Ampliação+do+Protagonismo+Municipal"
+            }
           },
           {
             "challenges": {
@@ -122,7 +134,10 @@
             },
             "label": "Enfrentamento da Violência Contra a Mulher",
             "description": "<p>Em 2025, 4 a cada 10 brasileiras foram vítimas de alguma violência apenas por serem mulheres (FBSP e Datafolha). A dimensão desse fenômeno desafia a estrutura de proteção existente, exigindo estratégias de mapeamento, implementação e avaliação de iniciativas voltadas à prevenção da (re)vitimização. Nesse tema, oferecemos apoio para os seguintes desafios: </p><p></p>",
-            "url": "/"
+            "button": {
+              "label": "Ver projetos",
+              "url": "/projetos?category=Enfrentamento+da+Violência+Contra+a+Mulher"
+            }
           }
         ]
       }

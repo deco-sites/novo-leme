@@ -52,7 +52,11 @@
             },
             "label": "Control of Violent Organized Crime",
             "description": "<p>Violent organized crime is one of the main public security challenges faced by Latin American countries. In Brazil, it is primarily expressed through the armed control of territories, exploiting businesses, and the restriction of state presence in these areas. In this area, we provide support for the following challenges:</p><p></p>",
-            "url": "/"
+            "url": "/",
+            "button": {
+              "label": "View projects",
+              "url": "/en/projects?category=Violent+Organized+Crime+Control"
+            }
           },
           {
             "challenges": {
@@ -71,7 +75,11 @@
             },
             "label": "Strengthening Police Institutions",
             "description": "<p>In Brazil, police institutions still operate in a fragmented manner, lacking strategic planning and making limited use of data and scientific evidence. This fragility prevents these agencies from functioning according to an effective public policy framework, which relies on diagnostics, clear priorities, and well-founded decisions. In this area, we provide support for the following challenges:</p><p></p>",
-            "url": "/"
+            "url": "/",
+            "button": {
+              "label": "View projects",
+              "url": "/en/projects?category=Strengthening+Police+Institutions"
+            }
           },
           {
             "challenges": {
@@ -87,7 +95,11 @@
             },
             "label": "Expanding Municipal Leadership",
             "description": "<p>Municipal governments play a fundamental role in violence prevention, as recognized by the SUSP Law, which establishes guidelines for cooperation between municipalities and other levels of government. This framework requires municipalities to coordinate local actions to implement integrated public security policies. In this area, we provide support for the following challenge:</p><p></p>",
-            "url": "/"
+            "url": "/",
+            "button": {
+              "label": "View projects",
+              "url": "/en/projects?category=Expansion+of+Municipal+Protagonism"
+            }
           },
           {
             "challenges": {
@@ -122,7 +134,11 @@
             },
             "label": "Combating Violence Against Women",
             "description": "<p>In 2025, 4 in 10 Brazilian women experienced some form of violence solely for being women (FBSP and Datafolha). The scale of this phenomenon challenges the existing protection framework, requiring strategies for mapping, implementing, and evaluating initiatives aimed at preventing (re)victimization. In this area, we provide support for the following challenges:</p><p></p>",
-            "url": "/"
+            "url": "/",
+            "button": {
+              "url": "/en/projects?category=Tackling+Violence+Against+Women",
+              "label": "View projects"
+            }
           }
         ]
       }
