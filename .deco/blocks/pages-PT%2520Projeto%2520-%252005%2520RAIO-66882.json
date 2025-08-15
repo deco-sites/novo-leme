@@ -114,9 +114,19 @@
         "__resolveType": "site/sections/Projeto/HighlightNumbers.tsx",
         "highlights": [
           {
+            "style": "Neutral",
+            "number": "20%",
+            "label": "de redução nos Crimes Violentos Patrimoniais"
+          },
+          {
+            "style": "Orange",
+            "number": "13%",
+            "label": "de redução nos Crimes Violentos Letais e Intencionais"
+          },
+          {
             "style": "Blue",
-            "number": "22%",
-            "text": "de redução de roubos"
+            "number": "9%",
+            "label": "redução nos furtos"
           }
         ]
       }
