@@ -81,7 +81,8 @@
       "labels": {
         "online": "Online",
         "presencial": "In-person"
-      }
+      },
+      "title": "Events"
     },
     {
       "__resolveType": "website/flags/multivariate/section.ts",
