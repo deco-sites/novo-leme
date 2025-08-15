@@ -26,7 +26,6 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/PageTitle.tsx",
-        "description": "Channels to get in touch",
         "title": "Contact"
       }
     },
@@ -35,7 +34,7 @@
       "section": {
         "__resolveType": "site/sections/Contato.tsx",
         "form": {
-          "title": "Envie uma mensagem",
+          "title": "Send us a message",
           "name": "Name",
           "email": "Email",
           "message": "Message",
