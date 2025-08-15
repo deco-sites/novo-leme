@@ -1,5 +1,4 @@
 import { useSection } from "@deco/deco/hooks";
-import { useComponent } from "./Component.tsx";
 import sendContactEmailDirect from "../actions/sendContactEmailDirect.ts";
 
 export interface Props {

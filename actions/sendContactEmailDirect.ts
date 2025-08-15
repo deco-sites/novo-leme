@@ -4,12 +4,55 @@ export interface Props {
   message: string;
 }
 
+// Function to get Resend configuration
+async function getResendConfig() {
+  try {
+    const configPath = ".deco/blocks/deco-resend.json";
+    const configText = await Deno.readTextFile(configPath);
+    const config = JSON.parse(configText);
+    
+    return {
+      emailTo: config.emailTo || ["augustocbarbosa@gmail.com"],
+      emailFrom: config.emailFrom || { name: "Leme", domain: "resend.dev" },
+      subject: config.subject || "Contato a partir do site",
+      apiKey: config.apiKey
+    };
+  } catch (error) {
+    console.log("Could not load Resend config, using defaults:", error);
+    return {
+      emailTo: ["augustocbarbosa@gmail.com"],
+      emailFrom: { name: "Leme", domain: "resend.dev" },
+      subject: "Contato a partir do site",
+      apiKey: null
+    };
+  }
+}
+
 export default async function sendContactEmailDirect({ name, email, message }: Props) {
   try {
     console.log("Attempting to send email with data:", { name, email, message: message.substring(0, 50) + "..." });
 
-    // Get Resend API key from environment
-    const resendApiKey = Deno.env.get("RESEND_API_KEY");
+    // Get Resend configuration
+    const config = await getResendConfig();
+    console.log("Resend config loaded:", { 
+      emailTo: config.emailTo, 
+      emailFrom: config.emailFrom, 
+      subject: config.subject 
+    });
+
+    // Get API key from environment or config
+    let resendApiKey = Deno.env.get("RESEND_API_KEY");
+    
+    if (!resendApiKey && config.apiKey?.encrypted) {
+      // Try to decrypt the API key from config if available
+      try {
+        // This would require the secret loader implementation
+        // For now, we'll use the environment variable
+        console.log("API key found in config but decryption not implemented");
+      } catch (decryptError) {
+        console.log("Could not decrypt API key from config:", decryptError);
+      }
+    }
     
     if (!resendApiKey) {
       console.error("RESEND_API_KEY not found in environment variables");
@@ -20,6 +63,10 @@ export default async function sendContactEmailDirect({ name, email, message }: P
       };
     }
 
+    // Build sender email from config
+    const senderEmail = `${config.emailFrom.name}@${config.emailFrom.domain}`;
+    console.log("Using sender:", senderEmail);
+
     // Send email directly using Resend API
     const response = await fetch("https://api.resend.com/emails", {
       method: "POST",
@@ -28,10 +75,10 @@ export default async function sendContactEmailDirect({ name, email, message }: P
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        from: "onboarding@resend.dev", // Using Resend's default verified domain
-        to: ["augustocbarbosa@gmail.com"],
+        from: "Leme site <onboarding@resend.dev>",
+        to: config.emailTo,
         reply_to: email, // This allows replying directly to the person who sent the message
-        subject: `Nova mensagem de contato de ${name}`,
+        subject: config.subject,
         html: `
           <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
             <h2 style="color: #333; border-bottom: 2px solid #eee; padding-bottom: 10px;">Nova mensagem de contato</h2>
@@ -86,22 +133,24 @@ export default async function sendContactEmailDirect({ name, email, message }: P
       success: true,
       message: "Mensagem enviada com sucesso! Entraremos em contato em breve."
     };
-  } catch (error) {
+  } catch (error: unknown) {
     console.error("Error sending email:", error);
     
     // Return more specific error information
     let errorMessage = "Erro ao enviar mensagem. Tente novamente mais tarde.";
     
-    if (error.message?.includes("API key")) {
-      errorMessage = "Erro de configuração do serviço de email. Entre em contato pelo email diretamente.";
-    } else if (error.message?.includes("domain")) {
-      errorMessage = "Erro de domínio do email. Entre em contato pelo email diretamente.";
+    if (error instanceof Error) {
+      if (error.message?.includes("API key")) {
+        errorMessage = "Erro de configuração do serviço de email. Entre em contato pelo email diretamente.";
+      } else if (error.message?.includes("domain")) {
+        errorMessage = "Erro de domínio do email. Entre em contato pelo email diretamente.";
+      }
     }
 
     return {
       success: false,
       message: errorMessage,
-      error: error.message
+      error: error instanceof Error ? error.message : String(error)
     };
   }
 }
