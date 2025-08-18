@@ -90,9 +90,7 @@
         "label": "View more events",
         "url": "/en/events"
       },
-      "media": {
-        "video": "https://assets.decocache.com/novo-leme/1d6a0e9c-133f-4838-9dd6-e5e1f94bd635/Evento1.mp4"
-      }
+      "media": {}
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
