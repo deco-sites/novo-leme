@@ -150,7 +150,8 @@
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
       "title": "Leme - Laboratório para Redução da Violência",
       "description": "Usamos dados e evidências científicas para fazer do Brasil um país seguro.",
-      "image": "https://assets.decocache.com/novo-leme/483aa851-7ac2-46a7-939e-14c92eb2407e/Social.png"
+      "image": "https://assets.decocache.com/novo-leme/d870d9e4-8188-40cb-af35-0eb211631684/leme-social.png",
+      "type": "website"
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
