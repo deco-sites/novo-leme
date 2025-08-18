@@ -3,6 +3,13 @@
   "path": "/",
   "sections": [
     {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Leme - Laboratório para Redução da Violência",
+      "description": "Usamos dados e evidências científicas para fazer do Brasil um país seguro.",
+      "image": "https://assets.decocache.com/novo-leme/d870d9e4-8188-40cb-af35-0eb211631684/leme-social.png",
+      "type": "website"
+    },
+    {
       "__resolveType": "PT Header"
     },
     {
@@ -10,38 +17,35 @@
       "text": "Usamos dados e evidências científicas para fazer do Brasil um país seguro."
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Home/Sobre.tsx",
-        "image": {
-          "src": "https://assets.decocache.com/novo-leme/d7de9589-1bf4-4016-bff7-1c922a6df2ef/Grafico-atuacao-v7.svg"
+      "__resolveType": "site/sections/Home/Sobre.tsx",
+      "image": {
+        "src": "https://assets.decocache.com/novo-leme/d7de9589-1bf4-4016-bff7-1c922a6df2ef/Grafico-atuacao-v7.svg"
+      },
+      "text": "O Leme é uma organização sem fins lucrativos que atua para identificar e testar abordagens eficazes para a prevenção e a redução da violência no Brasil.",
+      "links": [
+        {
+          "label": "Mais sobre o Leme",
+          "url": "/sobre"
         },
-        "text": "O Leme é uma organização sem fins lucrativos que atua para identificar e testar abordagens eficazes para a prevenção e a redução da violência no Brasil.",
-        "links": [
-          {
-            "label": "Mais sobre o Leme",
-            "url": "/sobre"
-          },
-          {
-            "label": "Missão e Valores",
-            "url": "/sobre/missao-e-valores"
-          },
-          {
-            "label": "Nossa Equipe",
-            "url": "/sobre/equipe"
-          }
-        ],
-        "cycleImage": {
-          "title": "Nossa atuação",
-          "step1": "<p><strong>Identificação</strong> de lideranças engajadas e fortalecimento de capacidades</p>",
-          "step2": "<p><strong>Desenho</strong> ou refinamento de programas</p>",
-          "step3": "<p><strong>Teste e acompanhamento</strong> de implementação</p>",
-          "step4": "<p><strong>Desenho e execução</strong> da avaliação de impacto conforme protocolo científico</p>",
-          "step5": "<p><strong>Aprimoramento</strong> do programa a partir do aprendizado da avaliação</p>",
-          "step6": "<p><strong>Promoção</strong> de programas efetivos e escaláveis</p>"
+        {
+          "label": "Missão e Valores",
+          "url": "/sobre/missao-e-valores"
         },
-        "text2": "Atuamos em parceria com as instituições de Segurança Pública, Justiça e entidades da Sociedade Civil, oferecendo suporte ao desenho e à implementação de ações e programas efetivos, baseados em dados e evidências científicas. Assim, apoiamos a tomada de decisão em todas as etapas do ciclo de políticas públicas."
-      }
+        {
+          "label": "Nossa Equipe",
+          "url": "/sobre/equipe"
+        }
+      ],
+      "cycleImage": {
+        "title": "Nossa atuação",
+        "step1": "<p><strong>Identificação</strong> de lideranças engajadas e fortalecimento de capacidades</p>",
+        "step2": "<p><strong>Desenho</strong> ou refinamento de programas</p>",
+        "step3": "<p><strong>Teste e acompanhamento</strong> de implementação</p>",
+        "step4": "<p><strong>Desenho e execução</strong> da avaliação de impacto conforme protocolo científico</p>",
+        "step5": "<p><strong>Aprimoramento</strong> do programa a partir do aprendizado da avaliação</p>",
+        "step6": "<p><strong>Promoção</strong> de programas efetivos e escaláveis</p>"
+      },
+      "text2": "Atuamos em parceria com as instituições de Segurança Pública, Justiça e entidades da Sociedade Civil, oferecendo suporte ao desenho e à implementação de ações e programas efetivos, baseados em dados e evidências científicas. Assim, apoiamos a tomada de decisão em todas as etapas do ciclo de políticas públicas."
     },
     {
       "__resolveType": "site/sections/Home/HomePostsList.tsx",
@@ -145,13 +149,6 @@
     },
     {
       "__resolveType": "PT Footer"
-    },
-    {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx",
-      "title": "Leme - Laboratório para Redução da Violência",
-      "description": "Usamos dados e evidências científicas para fazer do Brasil um país seguro.",
-      "image": "https://assets.decocache.com/novo-leme/d870d9e4-8188-40cb-af35-0eb211631684/leme-social.png",
-      "type": "website"
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
