@@ -60,7 +60,7 @@ export default function Card({
     >
       <div className={`flex ${orientation === "vertical" ? 'flex-col gap-4' : 'flex-col md:flex-row gap-4 md:gap-8'}`}>
         <div className={`relative ${orientation === "horizontal" ? 'flex-none' : ''}`} src={image?.src || ""}>
-          <Image class={`${orientation === "horizontal" ? 'md:w-[200px] md:h-[132px] xl:w-[280px] xl:h-[170px] object-cover' : 'w-full'} rounded-md`} src={image?.src || ""} alt={image?.alt} />
+          <Image class={`${orientation === "horizontal" ? 'md:w-[200px] md:h-[132px] xl:w-[280px] xl:h-[170px] object-cover' : 'w-full aspect-[3/2] object-cover'} rounded-md`} src={image?.src || ""} alt={image?.alt} />
           {
             date ? (
               <div className="absolute left-3 bottom-3 bg-base-100 rounded-md text-xs px-1 py-[2px]">{date}</div>
