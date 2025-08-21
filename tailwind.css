@@ -41,12 +41,14 @@
     list-style-type: none;
   }
   
-  .custom-list ul li {
+  .custom-list ul li,
+  .post-content ul li {
     display: flex;
     gap: 0.6rem;
   }
     
-  .custom-list ul li::before {
+  .custom-list ul li::before,
+  .post-content ul li::before {
     flex: none;
     content: "";
     margin-top: 0.65rem;
@@ -54,6 +56,11 @@
     height: 0.3rem; /* Equivalente a h-2.5 */
     background-color: #72C8ED; /* Cor verde do Tailwind (green-500) */
     border-radius: 9999px; /* Equivalente a rounded-full */
+  }
+
+  .post-content a {
+    color: #005270;
+    text-decoration: underline;
   }
 }
 

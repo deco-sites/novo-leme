@@ -29,7 +29,7 @@ export default function TextBlock({
           <div class="flex flex-col gap-4">
             {p.label ? <Title label={p.label} titleSize="2xl" serif /> : ''}
             <div
-              className="leading-relaxed text-neutral-950 custom-list"
+              className="leading-relaxed text-neutral-950 post-content"
               dangerouslySetInnerHTML={{
                 __html: p.text,
               }}

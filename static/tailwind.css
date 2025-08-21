@@ -2445,11 +2445,13 @@ input.tab:checked + .tab-content,
 .custom-list {
     list-style-type: none;
   }
-.custom-list ul li {
+.custom-list ul li,
+  .post-content ul li {
     display: flex;
     gap: 0.6rem;
   }
-.custom-list ul li::before {
+.custom-list ul li::before,
+  .post-content ul li::before {
     flex: none;
     content: "";
     margin-top: 0.65rem;
@@ -2457,6 +2459,10 @@ input.tab:checked + .tab-content,
     height: 0.3rem; /* Equivalente a h-2.5 */
     background-color: #72C8ED; /* Cor verde do Tailwind (green-500) */
     border-radius: 9999px; /* Equivalente a rounded-full */
+  }
+.post-content a {
+    color: #005270;
+    text-decoration: underline;
   }
 .sr-only {
   position: absolute;
@@ -2875,6 +2881,9 @@ input.tab:checked + .tab-content,
 }
 .max-h-\[55px\] {
   max-height: 55px;
+}
+.max-h-\[560px\] {
+  max-height: 560px;
 }
 .max-h-\[600px\] {
   max-height: 600px;
