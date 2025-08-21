@@ -1,0 +1,33 @@
+{
+  "name": "collections/blog/posts/1958a52b5d4a",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Notícias",
+        "slug": "noticias"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "content": "<p>No dia 19 de agosto, o Leme – Laboratório para Redução da Violência realizou o evento Novas abordagens para o controle a grupos criminosos armados no Rio de Janeiro para discutir estratégias para combater o crime organizado violento no estado, a partir de experiências nacionais e internacionais. O encontro foi realizado no Instituto de Estudos de Política Econômica/Casa das Garças em parceria com a instituição e a Universidade de Chicago e financiado pela Universidade de Chicago Global e o J-PAL América Latina e Caribe.<br></p><p>O evento foi restrito a convidados e contou com a presença de formuladores de políticas públicas, representantes de instituições de segurança, acadêmicos brasileiros e estrangeiros, além de organizações da sociedade civil. O modelo interativo, que combinou falas, mesas de discussão e momentos de perguntas, buscou criar um ambiente colaborativo de construção de soluções sustentadas por evidências.<br></p><p>O encontro durou o dia todo e incluiu dois painéis principais. O primeiro discutiu o diagnóstico da criminalidade organizada e a evolução e expansão dos grupos armados no Rio de Janeiro apresentado pela Joana Monteiro, diretora e cofundadora do Leme. Ana Paula Pellegrino, pós doutoranda pesquisadora associada do Leme, foi responsável pela mediação deste e dos outros painéis. <br></p><p>O segundo trouxe iniciativas nacionais e internacionais de enfrentamento. Mario Souza, diretor do Departamento Estadual de Homicídios e Proteção à Pessoa e Thiago Benemmann, diretor da Divisão de Inteligência do Departamento, falaram sobre a experiência de Programa Dissuasão Focada no Rio Grande do Sul. Em seguida, Carlos Schmidt-Padilla, professor da Universidade da Califórnia em Berkeley, apresentou o caso de El Salvador, ressaltando os desafios e contradições da retomada territorial naquele país. <br></p><p>O debate ajudou a discutir alternativas promissoras para o caso do Rio de Janeiro, com foco em estratégias possíveis de adaptação à realidade local. Essa iniciativa materializa a premissa central do Leme: promover trocas qualificadas entre acadêmicos e tomadores de decisão, com vistas a subsidiar políticas públicas mais efetivas para reduzir o poder e a violência de grupos criminosos armados no Brasil.<br><br>Veja fotos do evento <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.lemelab.org/eventos/novas-abordagens-controle-grupos-criminosos-rj\">aqui</a>.</p><p></p>",
+    "title": "Leme reúne autoridades e especialistas em evento fechado sobre o crime organizado violento no Rio de Janeiro",
+    "excerpt": "No dia 19 de agosto, o Leme – Laboratório para Redução da Violência realizou o evento Novas abordagens para o controle a grupos criminosos armados no Rio de Janeiro para discutir estratégias para combater o crime organizado violento no estado, a partir de experiências nacionais e internacionais. O encontro foi realizado no Instituto de Estudos de Política Econômica/Casa das Garças em parceria com a instituição e a Universidade de Chicago e financiado pela Universidade de Chicago Global e o J-PAL América Latina e Caribe.",
+    "slug": "leme-reune-autoridades-e-especialistas-sobre-crime-organizado-violento-no-rio",
+    "date": "2025-08-22",
+    "image": "https://assets.decocache.com/novo-leme/df0508ed-e5ca-43c1-91ff-258b4cfff3bd/IMG_7773.jpg"
+  }
+}
