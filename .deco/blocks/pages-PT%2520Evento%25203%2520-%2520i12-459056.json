@@ -1,0 +1,129 @@
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "name": "PT Evento 3 - i12",
+  "path": "/eventos/crime-organizado-violento-rio-de-janeiro-medellin-san-salvador",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "PT Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Hero Eventos"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "PT Title Eventos"
+      }
+    },
+    {
+      "__resolveType": "site/sections/EventoOganizado.tsx",
+      "page": {
+        "__resolveType": "blog/loaders/BlogPostPage.ts",
+        "slug": "crime-organizado-violento-rio-de-janeiro-medellin-san-salvador"
+      },
+      "sidebarNav": {
+        "__resolveType": "PT SideNav Eventos",
+        "links": [
+          {
+            "label": "Todos",
+            "url": "/eventos"
+          },
+          {
+            "label": "Organizados pelo Leme",
+            "url": "/eventos/organizados"
+          }
+        ]
+      },
+      "description": "<p>O Instituto 12 e o Leme - Laboratório para Redução da Violência recebem quatro das maiores referências mundiais no estudo do crime organizado e políticas de segurança pública na América Latina.<br></p><p>Durante o encontro, Joana Monteiro - Diretora do Leme - entrevistará Chris Blattman (Universidade de Chicago), Benjamin Lessing (Universidade de Chicago), e Carlos Schmidt-Padilla&nbsp;(UC&nbsp;Berkeley), especialistas reconhecidos internacionalmente por suas pesquisas sobre violência, crime organizado e governança em contextos de alta criminalidade. <br></p><p>Neste encontro, serão discutidos temas como:</p><ul><li><p>O que a ciência já sabe sobre como reduzir o poder e a violência do crime organizado.</p></li><li><p>Experiências bem-sucedidas e seus aprendizados para a realidade brasileira.</p></li><li><p>Caminhos para repensar a segurança pública no Rio de Janeiro e na região.<br></p></li></ul><p>Uma oportunidade única para acadêmicos, formuladores de políticas, jornalistas e cidadãos interessados em compreender, com base em evidências, como enfrentar um dos maiores desafios da nossa cidade e da América Latina.</p>",
+      "date": {
+        "start": "2025-08-18T21:30:00.000Z",
+        "end": "2025-08-19T00:30:00.000Z"
+      },
+      "location": {
+        "name": "Instituto 12",
+        "address": "Av. Ataulfo de Paiva, 1120 - Leblon, Rio de Janeiro - RJ"
+      },
+      "gallery": [
+        {
+          "image": "https://assets.decocache.com/novo-leme/8297ae5c-113a-467b-9217-91f8d64f6c84/Instituto-12---i12-Talks-Seguranca-em-Foco-(77).jpg",
+          "label": "1"
+        },
+        {
+          "image": "https://assets.decocache.com/novo-leme/47b8d19e-c654-4f87-9751-8b3b096d7215/Instituto-12---i12-Talks-Seguranca-em-Foco-(83).jpg",
+          "label": "2"
+        },
+        {
+          "image": "https://assets.decocache.com/novo-leme/c5402f56-75af-4280-b6c9-4aec1ea58d5e/Instituto-12---i12-Talks-Seguranca-em-Foco-(67).jpg",
+          "label": "3"
+        },
+        {
+          "image": "https://assets.decocache.com/novo-leme/1e4153e4-e3db-4cf3-bc10-fff190050c3a/Instituto-12---i12-Talks-Seguranca-em-Foco-(72).jpg",
+          "label": "4"
+        },
+        {
+          "image": "https://assets.decocache.com/novo-leme/bc7a4808-b095-45b4-89a2-5c7275aa4f0a/Instituto-12---i12-Talks-Seguranca-em-Foco-(81).jpg",
+          "label": "5"
+        },
+        {
+          "image": "https://assets.decocache.com/novo-leme/71c10cdd-8700-4b90-81f5-534248d97ea2/Instituto-12---i12-Talks-Seguranca-em-Foco-(62).jpg",
+          "label": "6"
+        },
+        {
+          "image": "https://assets.decocache.com/novo-leme/61db6dd9-12d3-4760-9e12-a98aafefeb31/Instituto-12---i12-Talks-Seguranca-em-Foco-(63).jpg",
+          "label": "7"
+        },
+        {
+          "image": "https://assets.decocache.com/novo-leme/60dc08ce-9d81-427f-9a1f-bf1523e296d7/Instituto-12---i12-Talks-Seguranca-em-Foco-(79)-(1).jpg",
+          "label": "8"
+        }
+      ],
+      "registrationHref": "http://www.google.com/",
+      "organization": [
+        {
+          "image": "https://assets.decocache.com/novo-leme/32d693f8-7bc8-4933-9fd1-2a0f5b1728d7/Design-sem-nome-(5).png",
+          "label": "Instituto 12"
+        },
+        {
+          "image": "https://assets.decocache.com/novo-leme/cebbdd5a-1267-4e7c-b57d-53d70abfc243/leme.png",
+          "label": "Leme",
+          "name": "Leme"
+        }
+      ],
+      "partners": [],
+      "sponsors": [
+        {
+          "image": "https://assets.decocache.com/novo-leme/d2456666-71e8-44b0-8bf4-e6face35c1e0/cropped-logo_gabriel-02.png",
+          "label": "Gabriel"
+        }
+      ],
+      "text": {
+        "__resolveType": "site/sections/EventoTextos.tsx",
+        "description": "olar"
+      },
+      "video": "https://assets.decocache.com/novo-leme/1d6a0e9c-133f-4838-9dd6-e5e1f94bd635/Evento1.mp4",
+      "media": {}
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "PT Footer"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/sections/Seo/SeoV2.tsx",
+        "title": "Evento"
+      }
+    }
+  ]
+}

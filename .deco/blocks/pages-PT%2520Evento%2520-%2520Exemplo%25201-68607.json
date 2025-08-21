@@ -52,7 +52,40 @@
         "name": "Casa das Garças",
         "address": "Av. Padre Leonel Franca, 135 – Gávea, Rio de Janeiro – RJ"
       },
-      "gallery": [],
+      "gallery": [
+        {
+          "image": "https://assets.decocache.com/novo-leme/cbea802d-23e5-425c-8656-78e8e519130c/IMG_7753.jpg",
+          "label": "1"
+        },
+        {
+          "image": "https://assets.decocache.com/novo-leme/df0508ed-e5ca-43c1-91ff-258b4cfff3bd/IMG_7773.jpg",
+          "label": "2"
+        },
+        {
+          "image": "https://assets.decocache.com/novo-leme/c7e7f35e-2abc-46e7-9808-6c9bba6988ed/IMG_7881.jpg",
+          "label": "3"
+        },
+        {
+          "image": "https://assets.decocache.com/novo-leme/72027063-760b-41d7-a8d2-e11f0ec7c4bf/IMG_7864.jpg",
+          "label": "4"
+        },
+        {
+          "image": "https://assets.decocache.com/novo-leme/c567920d-a659-4432-a12a-20b0aafdf089/IMG_7878.jpg",
+          "label": "5"
+        },
+        {
+          "image": "https://assets.decocache.com/novo-leme/f5d4c5a2-09e0-4eb9-a622-0a40efa34003/IMG_7850.jpg",
+          "label": "6"
+        },
+        {
+          "image": "https://assets.decocache.com/novo-leme/d4b1c00c-09ab-4509-8dd0-be0d51b9b9f7/IMG_7748-(1).jpg",
+          "label": "7"
+        },
+        {
+          "image": "https://assets.decocache.com/novo-leme/ef01d4fb-8660-4490-85d8-de39b71265a1/IMG_7858.jpg",
+          "label": "8"
+        }
+      ],
       "registrationHref": "http://www.google.com/",
       "organization": [
         {
