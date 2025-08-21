@@ -10,7 +10,14 @@
       }
     ],
     "imageCarousel": {
-      "banners": []
+      "banners": [
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/8297ae5c-113a-467b-9217-91f8d64f6c84/Instituto-12---i12-Talks-Seguranca-em-Foco-(77).jpg"
+          },
+          "mobile": {}
+        }
+      ]
     },
     "extraProps": [],
     "aggregateRating": {
