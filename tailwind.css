@@ -41,15 +41,15 @@
     list-style-type: none;
   }
   
-  .custom-list li {
+  .custom-list ul li {
     display: flex;
     gap: 0.6rem;
   }
     
-  .custom-list li::before {
+  .custom-list ul li::before {
     flex: none;
     content: "";
-    margin-top: 0.6rem;
+    margin-top: 0.65rem;
     width: 0.3rem; /* Equivalente a w-2.5 */
     height: 0.3rem; /* Equivalente a h-2.5 */
     background-color: #72C8ED; /* Cor verde do Tailwind (green-500) */

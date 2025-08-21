@@ -141,7 +141,7 @@ export default function PostDetail({
             <div className="text-primary">
               <Title label={newTexts?.description} titleSize="2xl" serif />
             </div>
-            <div className="leading-relaxed text-neutral-950 space-y-6" dangerouslySetInnerHTML={{__html: description}}></div>
+            <div className="leading-relaxed text-neutral-950 space-y-6 custom-list" dangerouslySetInnerHTML={{__html: description}}></div>
           </div>
           <div className="flex flex-col flex-none w-80 gap-5">
             <div className="flex flex-col gap-3">

@@ -79,7 +79,7 @@ export default function PostDetail({
               />
             ) : ''
           }
-          <div className="leading-normal text-neutral-950 space-y-6" dangerouslySetInnerHTML={{__html: content}}></div>
+          <div className="leading-normal text-neutral-950 space-y-6 custom-list" dangerouslySetInnerHTML={{__html: content}}></div>
         </div>
 
         {
