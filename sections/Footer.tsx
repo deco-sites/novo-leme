@@ -61,7 +61,7 @@ export default function NewFooter({
           </nav>
           <div className="flex flex-col lg:flex-row lg:items-center gap-12 flex-none text-sm px-3 lg:px-12 py-2 lg:py-8">
             <div className="flex-none flex justify-end items-center gap-3">
-              <a href="/" target="_blank">
+              <a href="https://www.linkedin.com/company/lemelaboratorioparareducaodaviolencia/" target="_blank">
                   <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0_448_3868)">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M2.22222 20.7925H17.7778C19.0051 20.7925 20 19.7976 20 18.5703V3.0147C20 1.7874 19.0051 0.79248 17.7778 0.79248H2.22222C0.994923 0.79248 0 1.7874 0 3.0147V18.5703C0 19.7976 0.994923 20.7925 2.22222 20.7925Z" fill="#005270"/>
