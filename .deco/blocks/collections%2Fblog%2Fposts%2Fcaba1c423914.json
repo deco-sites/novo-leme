@@ -1,0 +1,49 @@
+{
+  "name": "collections/blog/posts/caba1c423914",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [],
+    "imageCarousel": {
+      "banners": [
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/33dd4e25-a3cf-4f98-b151-9a2f7985eec1/WhatsApp-Image-2025-08-21-at-14.27.26.jpeg"
+          },
+          "mobile": {},
+          "alt": "1"
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/f8128133-10f8-46c3-8d5c-45eed73eddcb/WhatsApp-Image-2025-08-21-at-14.27.26-(1).jpeg"
+          },
+          "mobile": {},
+          "alt": "2"
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/cb96fe0e-cadc-45a5-9e7b-943b4bb25ef2/WhatsApp-Image-2025-08-21-at-14.27.27.jpeg"
+          },
+          "mobile": {},
+          "alt": "3"
+        }
+      ]
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "content": "<p>O 19º Encontro do Fórum Brasileiro de Segurança Pública (FBSP), realizado entre 13 e 15 de agosto em Manaus, promoveu debates sobre os desafios da segurança pública na Amazônia, articulando as complexidades locais às urgências globais da emergência climática e da proteção das cidades e da floresta. No painel “Cidades seguras para quem? Diálogos sobre segurança pública no âmbito local”, Ramon Chaves, líder de projetos do Leme, apresentou reflexões sobre o papel dos municípios na redução dos crimes de rua em médias e grandes cidades, destacando as vantagens da atuação municipal, as evidências que relacionam o ambiente urbano às dinâmicas criminais e o impacto das mudanças normativas recentes, como a decisão do STF que reconhece a função das Guardas Municipais no policiamento ostensivo.</p><p></p>",
+    "title": "19º Encontro do Fórum Brasileiro de Segurança Pública",
+    "excerpt": "O 19º Encontro do Fórum Brasileiro de Segurança Pública (FBSP), realizado entre 13 e 15 de agosto em Manaus, promoveu debates sobre os desafios da segurança pública na Amazônia, articulando as complexidades locais às urgências globais da emergência climática e da proteção das cidades e da floresta. No painel “Cidades seguras para quem? Diálogos sobre segurança pública no âmbito local”, Ramon Chaves, líder de projetos do Leme, apresentou reflexões sobre o papel dos municípios na redução dos crimes de rua em médias e grandes cidades, destacando as vantagens da atuação municipal, as evidências que relacionam o ambiente urbano às dinâmicas criminais e o impacto das mudanças normativas recentes, como a decisão do STF que reconhece a função das Guardas Municipais no policiamento ostensivo.",
+    "slug": "19-encontro-forum-brasileiro-seguranca-publica",
+    "date": "2025-08-14"
+  }
+}
