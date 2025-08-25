@@ -1,0 +1,33 @@
+{
+  "name": "collections/blog/posts/5606ef27ae8e",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "News",
+        "slug": "en-noticias"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Leme Brings Together Authorities and Experts in a Closed-Door Event on Violent Organized Crime in Rio de Janeiro",
+    "excerpt": "On August 19, Leme – Laboratory for Violence Reduction held the event “New Approaches to Controlling Armed Criminal Groups in Rio de Janeiro” to discuss strategies to combat violent organized crime in the state, drawing on both national and international experiences. The meeting took place at the Institute for Studies on Economic Policy/Casa das Garças, in partnership with the institution and the University of Chicago, and was funded by University of Chicago Global and J-PAL Latin America and the Caribbean.",
+    "date": "2025-08-22",
+    "slug": "leme-brings-together-authorities-experts-closed-door-event-violent-organized-crime-rio-de-janeiro",
+    "image": "https://assets.decocache.com/novo-leme/df0508ed-e5ca-43c1-91ff-258b4cfff3bd/IMG_7773.jpg",
+    "content": "<p>On August 19, Leme – Laboratory for Violence Reduction held the event <em>“New Approaches to Controlling Armed Criminal Groups in Rio de Janeiro”</em> to discuss strategies to combat violent organized crime in the state, drawing on both national and international experiences. The meeting took place at the Institute for Studies on Economic Policy/Casa das Garças, in partnership with the institution and the University of Chicago, and was funded by University of Chicago Global and J-PAL Latin America and the Caribbean.</p><p></p><p>The event was closed to invited guests and brought together policymakers, representatives of security institutions, Brazilian and foreign academics, as well as civil society organizations. The interactive format — combining presentations, discussion panels, and Q\\&amp;A sessions — aimed to create a collaborative environment for building evidence-based solutions.</p><p></p><p>The meeting lasted the entire day and included two main panels. The first addressed the diagnosis of organized crime and the evolution and expansion of armed groups in Rio de Janeiro, presented by Joana Monteiro, director and cofounder of Leme. Ana Paula Pellegrino, postdoctoral researcher and associate at Leme, moderated this and the other panels.</p><p></p><p>The second panel highlighted national and international initiatives for confronting organized crime. Mario Souza, Director of the State Department of Homicide and Protection of Persons, and Thiago Benemmann, Director of the Department’s Intelligence Division, spoke about the experience of the Focused Deterrence Program in Rio Grande do Sul. Following that, Carlos Schmidt-Padilla, professor at the University of California, Berkeley, presented the case of El Salvador, stressing the challenges and contradictions of territorial recovery in that country.</p><p></p><p>The debate helped identify promising alternatives for Rio de Janeiro, with an emphasis on strategies that could be adapted to the local context. This initiative reflects Leme’s central mission: to promote meaningful exchanges between academics and decision-makers in order to support more effective public policies that reduce the power and violence of armed criminal groups in Brazil.</p><p></p><p>See photos of the event here. </p><p></p>"
+  }
+}
