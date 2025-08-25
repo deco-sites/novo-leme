@@ -1,0 +1,37 @@
+{
+  "name": "collections/blog/posts/1c7913fbc255",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Events",
+        "slug": "en-eventos"
+      },
+      {
+        "name": "Events organized",
+        "slug": "en-eventos-organizados"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Violent Organized Crime: What Rio de Janeiro Can Learn from the Experiences of Medellín and San Salvador",
+    "excerpt": "Instituto 12 and Leme – Laboratory for Violence Reduction Host Four of the World’s Leading Experts in Organized Crime and Public Security Policies in Latin America",
+    "image": "https://assets.decocache.com/novo-leme/8297ae5c-113a-467b-9217-91f8d64f6c84/Instituto-12---i12-Talks-Seguranca-em-Foco-(77).jpg",
+    "date": "2025-08-19",
+    "slug": "crime-organizado-violento-rio-de-janeiro-aprende-medellin-san-salvador",
+    "content": "<p>Instituto 12 and Leme – Laboratory for Violence Reduction Host Four of the World’s Leading Experts in Organized Crime and Public Security Policies in Latin America.</p><p></p><p>During the event, Joana Monteiro – Director of Leme – will interview Chris Blattman (University of Chicago), Benjamin Lessing (University of Chicago), and Carlos Schmidt-Padilla (UC Berkeley), internationally recognized experts in research on violence, organized crime, and governance in high-crime contexts.</p><p></p><p>The discussion will cover topics such as:</p><ul><li><p>What science already knows about reducing the power and violence of organized crime.</p></li><li><p>Successful experiences and the lessons they offer for the Brazilian context.</p></li><li><p>Paths to rethink public security in Rio de Janeiro and the region.</p><p></p></li></ul><p>A unique opportunity for academics, policymakers, journalists, and citizens interested in understanding, based on evidence, how to address one of the greatest challenges facing our city and Latin America.</p><p></p>"
+  }
+}
