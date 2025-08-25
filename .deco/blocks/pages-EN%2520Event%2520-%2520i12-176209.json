@@ -1,0 +1,109 @@
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "name": "EN Event - i12",
+  "path": "/en/events/crime-organizado-violento-rio-de-janeiro-aprende-medellin-san-salvador",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "EN Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Hero Eventos"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "EN Title Events"
+      }
+    },
+    {
+      "__resolveType": "site/sections/EventoOganizado.tsx",
+      "page": {
+        "__resolveType": "blog/loaders/BlogPostPage.ts",
+        "slug": "new-approaches-controlling-armed-criminal-groups-rj"
+      },
+      "sidebarNav": {
+        "__resolveType": "EN SideNav Events",
+        "links": [
+          {
+            "label": "All",
+            "url": "/en/events"
+          },
+          {
+            "label": "Oranized by Leme",
+            "url": "/en/events/organized"
+          }
+        ]
+      },
+      "description": "<p>The event aims to discuss violent organized crime in Latin America and identify promising strategies for its reduction in the context of Rio de Janeiro, based on national and international experiences. To this end, we will host Professors Chris Blattman and Benjamin Lessing from the University of Chicago, and Carlos Schmidt-Padilla from the University of California—experts on the subject who have conducted field studies for years on the control and criminal governance of such groups in Colombia, Mexico, Brazil, El Salvador, and the United States.<br><br></p><p>This initiative reflects Leme’s core mission: fostering productive exchanges and connections between academics and decision-makers. With a dynamic and participatory format, the meeting will be invitation-only and will seek to create a collaborative environment for building practical solutions grounded in scientific evidence. Participants will include representatives from public security institutions, Brazilian and foreign researchers, as well as civil society organizations.<br><br></p><p>Access the full program <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://drive.google.com/drive/folders/19p86VDtM8wlKjAc_4l9xOmwBC-Ez7mZR\">here</a>.</p>",
+      "date": {
+        "start": "2025-08-19T12:00:00.000Z",
+        "end": "2025-08-19T20:00:00.000Z"
+      },
+      "location": {
+        "name": "Casa das Garças",
+        "address": "Av. Padre Leonel Franca, 135 – Gávea, Rio de Janeiro – RJ"
+      },
+      "image": "https://assets.decocache.com/novo-leme/3e406056-67fd-45b8-a309-dd02016de9db/img.jpg",
+      "gallery": [],
+      "registrationHref": "http://www.google.com/",
+      "organization": [
+        {
+          "name": "Leme",
+          "image": "https://assets.decocache.com/novo-leme/cebbdd5a-1267-4e7c-b57d-53d70abfc243/leme.png",
+          "label": "Leme"
+        }
+      ],
+      "partners": [
+        {
+          "name": "Governo do Brasil",
+          "image": "https://assets.decocache.com/novo-leme/b846cd3a-e069-4fb6-b9ad-fab53aee1d5b/image-removebg-preview-(15).png",
+          "label": "Universidade de Chicago"
+        },
+        {
+          "image": "https://assets.decocache.com/novo-leme/589575ee-bbab-44ac-be72-3074b02c969a/thumbnail_logo-iepe.jpg",
+          "label": "Instituto de Estudos de Política Econômica/Casa das Garças"
+        }
+      ],
+      "sponsors": [
+        {
+          "label": "UChicago Global",
+          "image": "https://assets.decocache.com/novo-leme/a43f123d-04e2-4bb8-81ab-4ba1efc9d583/WhatsApp_Image_2025-08-14_at_13.14.13-removebg-preview.png"
+        },
+        {
+          "image": "https://assets.decocache.com/novo-leme/4c9b0f7f-0a2d-4a08-aa22-15421d3a7f58/jpal.png",
+          "label": "J-PAL América Latina e Caribe"
+        }
+      ],
+      "texts": {
+        "__resolveType": "EN Event texts"
+      },
+      "backToEvents": {
+        "label": "View more events",
+        "url": "/en/events"
+      },
+      "media": {}
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "EN Footer"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/sections/Seo/SeoV2.tsx",
+        "title": "Evento"
+      }
+    }
+  ]
+}
