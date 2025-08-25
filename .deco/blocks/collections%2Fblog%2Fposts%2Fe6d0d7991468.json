@@ -1,0 +1,58 @@
+{
+  "name": "collections/blog/posts/e6d0d7991468",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Events",
+        "slug": "en-eventos"
+      },
+      {
+        "name": "Events participation",
+        "slug": "en-eventos-participacao"
+      }
+    ],
+    "imageCarousel": {
+      "banners": [
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/33dd4e25-a3cf-4f98-b151-9a2f7985eec1/WhatsApp-Image-2025-08-21-at-14.27.26.jpeg"
+          },
+          "mobile": {},
+          "alt": "1"
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/f8128133-10f8-46c3-8d5c-45eed73eddcb/WhatsApp-Image-2025-08-21-at-14.27.26-(1).jpeg"
+          },
+          "mobile": {},
+          "alt": "2"
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/cb96fe0e-cadc-45a5-9e7b-943b4bb25ef2/WhatsApp-Image-2025-08-21-at-14.27.27.jpeg"
+          },
+          "mobile": {},
+          "alt": "3"
+        }
+      ]
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "19th Meeting of the Brazilian Public Security Forum",
+    "date": "2025-08-14",
+    "slug": "19th-brazilian-public-security-forum",
+    "content": "<p>The 19th Meeting of the Brazilian Public Security Forum (FBSP), held from August 13 to 15 in Manaus, fostered debates on the challenges of public security in the Amazon, linking local complexities to the global urgencies of the climate emergency and the protection of cities and the forest. In the panel “Safe Cities for Whom? Dialogues on Public Security at the Local Level,” Ramon Chaves, project leader at Leme, shared reflections on the role of municipalities in reducing street crime in medium and large cities, highlighting the advantages of municipal action, the evidence connecting the urban environment to criminal dynamics, and the impact of recent regulatory changes, such as the Supreme Federal Court (STF) decision recognizing the role of Municipal Guards in ostensive policing.</p><p></p>",
+    "excerpt": "The 19th Meeting of the Brazilian Public Security Forum (FBSP), held from August 13 to 15 in Manaus, fostered debates on the challenges of public security in the Amazon, linking local complexities to the global urgencies of the climate emergency and the protection of cities and the forest. In the panel “Safe Cities for Whom? Dialogues on Public Security at the Local Level,” Ramon Chaves, project leader at Leme, shared reflections on the role of municipalities in reducing street crime in medium and large cities, highlighting the advantages of municipal action, the evidence connecting the urban environment to criminal dynamics, and the impact of recent regulatory changes, such as the Supreme Federal Court (STF) decision recognizing the role of Municipal Guards in ostensive policing."
+  }
+}
