@@ -1,0 +1,33 @@
+{
+  "name": "collections/blog/posts/2714afcf4bdc",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "News",
+        "slug": "en-noticias"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Leme Participates in the 19th Meeting of the Brazilian Public Security Forum",
+    "date": "2025-08-26",
+    "slug": "leme-participates-19th-meeting-brazilian-public-security-forum",
+    "content": "<p>Between August 13 and 15, Leme participated in the 19th Meeting of the Brazilian Public Security Forum (FBSP), held in Manaus, Amazonas. The event brought together specialists, managers, academics, and civil society representatives to discuss public security challenges in the Amazon, integrating the debate with the climate emergency and the need to protect both cities and the forest.</p><p></p><p>During the meeting, Ramon Chaves, Leme’s project leader, took part in the panel <em>“Safe Cities for Whom? Dialogues on Public Security at the Local Level.”</em> In his presentation, Ramon emphasized the importance of strengthening the role of municipalities in reducing street crimes in medium and large Brazilian cities. </p><p></p><p>He highlighted that local governments have greater knowledge of their territories, more capacity to integrate urban policies, and robust evidence showing that the urban environment directly influences the occurrence of crimes such as robberies and thefts.</p><p></p><p>Additionally, the researcher addressed recent regulatory changes that have expanded municipalities’ responsibilities in public security, including the Supreme Federal Court decision recognizing the role of Municipal Guards in ostensive policing.</p><p></p><p>“For Leme, this is a central topic: investing in cities’ institutional capacity as a path to reduce violence and increase the population’s sense of security,” Ramon stated.</p><p></p>",
+    "excerpt": "Between August 13 and 15, Leme participated in the 19th Meeting of the Brazilian Public Security Forum (FBSP), held in Manaus, Amazonas. The event brought together specialists, managers, academics, and civil society representatives to discuss public security challenges in the Amazon, integrating the debate with the climate emergency and the need to protect both cities and the forest.",
+    "image": "https://assets.decocache.com/novo-leme/33dd4e25-a3cf-4f98-b151-9a2f7985eec1/WhatsApp-Image-2025-08-21-at-14.27.26.jpeg"
+  }
+}
