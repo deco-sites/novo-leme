@@ -1,0 +1,33 @@
+{
+  "name": "collections/blog/posts/108cc459edcc",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "News",
+        "slug": "en-noticias"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Leme Hosts Discussion with International Experts on Violent Organized Crime in Rio de Janeiro",
+    "excerpt": "On August 18, Leme – Laboratory for Violence Reduction held the event “Violent Organized Crime: What Rio de Janeiro Can Learn from the Experiences of Medellín and San Salvador”, hosted at Instituto 12, in Leblon, in partnership with the institution and sponsored by Gabriel.",
+    "date": "2025-08-21",
+    "slug": "leme-discussion-international-experts-violent-organized-crime-rio",
+    "content": "<p>On August 18, Leme – Laboratory for Violence Reduction held the event <em>“Violent Organized Crime: What Rio de Janeiro Can Learn from the Experiences of Medellín and San Salvador”</em>, hosted at Instituto 12, in Leblon, in partnership with the institution and sponsored by Gabriel.</p><p>During the event, Joana Monteiro, director and cofounder of Leme, interviewed professors Chris Blattman and Benjamin Lessing from the University of Chicago, as well as professor Carlos Schmidt-Padilla from the University of California, Berkeley. They are international references in research on the subject in Latin America, with a focus on conflicts in Medellín, Colombia, and San Salvador, El Salvador.</p><p></p><p>The debate presented evidence on how to reduce the power and violence of armed criminal groups, discussing possible alternatives for Rio de Janeiro’s reality. The experts emphasized that understanding the internal logic of these organizations is essential to designing more effective public policies.</p><p></p><p>The event was open to the public with prior registration and gathered around 100 participants. There was also space for questions, allowing the audience to engage directly with the speakers on ways to rethink public security in Brazil and the region.</p><p></p><p>This event marked the first of two organized by Leme during the specialists’ visit to Brazil. On the following day, the second activity took place, restricted to invited guests, focusing on internal discussions about public policies and strategies to confront violent organized crime.</p><p></p><p>See the event photos here.</p><p></p>",
+    "image": "https://assets.decocache.com/novo-leme/8297ae5c-113a-467b-9217-91f8d64f6c84/Instituto-12---i12-Talks-Seguranca-em-Foco-(77).jpg"
+  }
+}
