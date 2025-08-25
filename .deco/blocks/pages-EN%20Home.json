@@ -86,6 +86,30 @@
       "title": "Events"
     },
     {
+      "__resolveType": "site/sections/Home/HomePostsList.tsx",
+      "posts": {
+        "__resolveType": "blog/loaders/BlogpostList.ts",
+        "postSlugs": [],
+        "sortBy": "date_desc",
+        "slug": "en-noticias"
+      },
+      "button": {
+        "label": "See more news",
+        "url": "/en/media/news"
+      },
+      "config": {
+        "categorySlug": "en/media/news",
+        "showPostDate": true
+      },
+      "title": "News",
+      "description": "Stay up to date with Leme's latest news",
+      "style": {
+        "slider": true,
+        "orientation": "Vertical",
+        "background": "Blue"
+      }
+    },
+    {
       "__resolveType": "website/flags/multivariate/section.ts",
       "variants": [
         {
@@ -95,52 +119,28 @@
               "__resolveType": "blog/loaders/BlogpostList.ts",
               "postSlugs": [],
               "sortBy": "date_desc",
-              "slug": "en-noticias"
+              "slug": "en-na-midia"
             },
+            "title": "Media",
             "button": {
-              "label": "See more news",
-              "url": "/en/media/news"
+              "label": "See all reports",
+              "url": "/en/media"
+            },
+            "style": {
+              "orientation": "Horizontal",
+              "background": "Neutral"
             },
             "config": {
-              "categorySlug": "en/media/news",
-              "showPostDate": true
+              "showPostDate": true,
+              "categorySlug": "en/media"
             },
-            "title": "News",
-            "description": "Stay up to date with Leme's latest news",
-            "style": {
-              "slider": true,
-              "orientation": "Vertical",
-              "background": "Blue"
-            }
+            "description": "Stay informed about Leme's news and updates"
           },
           "rule": {
             "__resolveType": "website/matchers/never.ts"
           }
         }
       ]
-    },
-    {
-      "__resolveType": "site/sections/Home/HomePostsList.tsx",
-      "posts": {
-        "__resolveType": "blog/loaders/BlogpostList.ts",
-        "postSlugs": [],
-        "sortBy": "date_desc",
-        "slug": "en-na-midia"
-      },
-      "title": "Media",
-      "button": {
-        "label": "See all reports",
-        "url": "/en/media"
-      },
-      "style": {
-        "orientation": "Horizontal",
-        "background": "Neutral"
-      },
-      "config": {
-        "showPostDate": true,
-        "categorySlug": "en/media"
-      },
-      "description": "Stay informed about Leme's news and updates"
     },
     {
       "__resolveType": "EN Footer"
