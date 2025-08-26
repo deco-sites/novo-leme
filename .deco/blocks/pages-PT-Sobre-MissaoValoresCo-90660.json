@@ -100,15 +100,34 @@
               "label": "Elisa Mello"
             },
             {
+              "photo": "https://assets.decocache.com/novo-leme/1c36c0cd-120b-442e-b605-a87e1815fece/Foto-Alexandre-(2).jpeg",
+              "role": "Analista Financeiro",
+              "description": "Graduado em Ciências Contábeis, Pós Graduação com Especialização em Auditoria e Controladoria, e MBA em Controladoria e Finanças pela Universidade Cândido Mendes.  Alexandre possui experiência nas áreas de Tesouraria, Auditoria Interna, Contabilidade, Compliance, Controle Interno, Contas a Pagar, e Operações de Câmbio. Por quase 30 anos trabalhou em empresas de óleo e gás e também em uma instituição financeira. Atuou em diversos projetos na área contábil/financeira, no fortalecimento do ambiente de controle interno, e em parcerias com Bancos/Instituições Financeiras. Mais informações: LinkedIn.",
+              "links": {
+                "linkedin": "https://www.linkedin.com/in/alexandresantanna/"
+              },
+              "label": "Alexandre Santanna"
+            },
+            {
               "photo": "https://assets.decocache.com/novo-leme/f12ea0cb-65bc-47db-9cd2-41400469af69/Equipe-Isis_Lira.JPG",
               "role": "Pesquisadora",
               "description": "Doutoranda em Economia (PUC-Rio) e Mestre em economia (UFJF). Ísis tem sólida formação em métodos de avaliação de impacto em políticas públicas e ampla experiência em projetos e pesquisas nas áreas de economia do trabalho, law enforcement, desigualdade de gênero, economia do setor público e economia do crime. No Leme, atua na elaboração e gestão de projetos em violência doméstica. Mais informações: Site, Lattes e Linkedin.",
               "links": {
-                "website": "https://sites.google.com/view/isislira",
                 "lattes": "http://lattes.cnpq.br/5353815497319153",
-                "linkedin": "https://www.linkedin.com/in/ísis-ferreira-lira/"
+                "linkedin": "https://www.linkedin.com/in/ísis-ferreira-lira/",
+                "website": "https://sites.google.com/view/isislira"
               },
               "label": "Ísis Lira"
+            },
+            {
+              "photo": "https://assets.decocache.com/novo-leme/4701f2f4-f41c-48fd-8681-a98c54939274/Equipe-Amsatou_Diop.jpg",
+              "role": "Pesquisador",
+              "description": "Mestrando em Ciência Política (IESP-UERJ) e Bacharel em Ciências Sociais (UFF). Amsatou tem experiência em análise de dados e pesquisa em políticas públicas, com atuação em projetos nas áreas de educação, segurança pública, adolescentes em conflito com a lei e medidas socioeducativas, desigualdades eleitorais e violência política. Trabalha na produção de diagnósticos e avaliações que orientam a formulação e o monitoramento de políticas públicas. Mais informações: Lattes e LinkedIn.",
+              "links": {
+                "lattes": "http://lattes.cnpq.br/8400353668140178",
+                "linkedin": "https://www.linkedin.com/in/amsatou-falilou-diop/"
+              },
+              "label": "Amsatou Diop"
             },
             {
               "photo": "https://assets.decocache.com/novo-leme/b32059c1-7bac-40c2-934d-4fd1cdd34d85/Equipe-Mathias_Lusquinos.png",
@@ -130,33 +149,23 @@
               "label": "Vanessa Campagnac"
             },
             {
-              "photo": "https://assets.decocache.com/novo-leme/4701f2f4-f41c-48fd-8681-a98c54939274/Equipe-Amsatou_Diop.jpg",
-              "role": "Pesquisador",
-              "description": "Mestrando em Ciência Política (IESP-UERJ) e Bacharel em Ciências Sociais (UFF). Amsatou tem experiência em análise de dados e pesquisa em políticas públicas, com atuação em projetos nas áreas de educação, segurança pública, adolescentes em conflito com a lei e medidas socioeducativas, desigualdades eleitorais e violência política. Trabalha na produção de diagnósticos e avaliações que orientam a formulação e o monitoramento de políticas públicas. Mais informações: Lattes e LinkedIn.",
-              "links": {
-                "lattes": "http://lattes.cnpq.br/8400353668140178",
-                "linkedin": "https://www.linkedin.com/in/amsatou-falilou-diop/"
-              },
-              "label": "Amsatou Diop"
-            },
-            {
               "photo": "https://assets.decocache.com/novo-leme/77278447-da8c-475d-8d8a-e78acc2d0f38/Equipe-Daniela-Lisboa.jpg",
               "role": "Pesquisadora",
               "description": "Bacharel em Ciências Sociais pela UFJF, mestre e doutoranda em Sociologia pelo IESP-UERJ. Sua pesquisa aborda a relação entre a esfera pública e os intelectuais públicos. Ao longo de sua trajetória, desenvolveu experiência em pesquisas acadêmicas, educação política e divulgação científica voltada para diferentes públicos. Atualmente, é assistente editorial na DADOS – Revista de Ciências Sociais. No Leme, atua no desenvolvimento de análises e propostas voltadas à área de segurança pública. Mais informações: Lattes e LinkedIn.",
               "links": {
-                "lattes": "http://lattes.cnpq.br/0675294956252578",
-                "linkedin": "https://www.linkedin.com/in/dani-alisboa/"
+                "linkedin": "https://www.linkedin.com/in/dani-alisboa/",
+                "lattes": "http://lattes.cnpq.br/0675294956252578"
               },
               "label": "Daniela Lisbôa"
             },
             {
-              "photo": "https://assets.decocache.com/novo-leme/24669f19-da36-4c4c-aeef-86930034e226/Equipe-Isabela-Salgado.jpg",
+              "label": "Isabela Salgado Pereira",
               "role": "Pesquisadora",
               "description": "Mestre em Políticas Públicas (Universidade de Princeton) e bacharel em Economia (PUC-Rio). Isabela tem experiência em projetos de pesquisa em diversas áreas, com foco em avaliação de impacto e no uso de evidências científicas para o desenho de políticas públicas eficientes. Durante quatro anos trabalhou no setor de crime, violência e conflito do J-PAL, em Boston (EUA). No Leme, Isabela apoia o desenvolvimento de intervenções em segurança pública. Mais informações: LinkedIn.",
               "links": {
                 "linkedin": "https://www.linkedin.com/in/isabela-salgado-silva-pereira-a4a652170/"
               },
-              "label": "Isabela Salgado Pereira"
+              "photo": "https://assets.decocache.com/novo-leme/24669f19-da36-4c4c-aeef-86930034e226/Equipe-Isabela-Salgado.jpg"
             }
           ],
           "label": "Equipe"
