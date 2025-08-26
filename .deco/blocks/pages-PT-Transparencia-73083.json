@@ -45,11 +45,11 @@
           },
           {
             "name": "Balancete 2024",
-            "url": "https://assets.decocache.com/novo-leme/6cd7455f-a159-45f0-b7ef-642549d4dc93/Balancete.pdf",
             "image": {
               "src": "https://assets.decocache.com/novo-leme/8c1794b4-1e0c-48ab-ac36-3dbe140dad98/capinha.jpg"
             },
-            "description": "Demonstrativo financeiro referente ao exercício de 2024, disponibilizado para fins de transparência institucional."
+            "description": "Demonstrativo financeiro referente ao exercício de 2024, disponibilizado para fins de transparência institucional.",
+            "url": "https://assets.decocache.com/novo-leme/6515c816-b1c0-451d-974d-a2fc2cd990d9/Balanco-2024.pdf"
           },
           {
             "name": "Estatuto Social",
