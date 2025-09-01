@@ -182,7 +182,7 @@
               "label": "Alessandra Gomes"
             },
             {
-              "photo": "",
+              "photo": "https://assets.decocache.com/novo-leme/a096f64c-1956-4578-90c5-dafc5259cc02/WhatsApp-Image-2025-03-04-at-1.55.49-PM-(1).jpeg",
               "role": "University of Chicago, USA",
               "description": "PhD student in Economics and researcher at the University of Chicago. He has experience working as a data scientist in the private sector and as a research assistant to Dr. Michael Kremer, Nobel Prize laureate in Economics (2019), at the Development Innovation Lab. His research focuses on the intersection of development economics, labor economics, and behavioral economics, with applied projects on criminal markets in Latin America.",
               "links": {},
@@ -283,6 +283,11 @@
                 "website": "https://www.pedroclsouza.com/"
               },
               "label": "Pedro CL Souza"
+            },
+            {
+              "description": "Associate Professor of Economics and Political Science at the Instituto Tecnológico Autónomo de México (ITAM) in Mexico City. His research interests are primarily in political economy and economic development, using both theory and empirics, with a focus on political accountability and voter behavior in Africa and Latin America. Horacio received his PhD in Economics from the Massachusetts Institute of Technology.",
+              "label": "Horacio Larreguy",
+              "photo": "https://assets.decocache.com/novo-leme/16a279f9-7740-4d3e-9fc6-db119cb024ac/horacio-larreguy.jpg"
             }
           ]
         },
@@ -290,7 +295,7 @@
           "label": "Fiscal Council",
           "people": [
             {
-              "photo": "",
+              "photo": "https://assets.decocache.com/novo-leme/6da4e428-52b4-405d-a95d-f9f8171d43cf/PHOTO-2025-08-14-17-23-54-(1).jpg",
               "role": "Brazil",
               "description": "Florencia is a lawyer specialized in criminal law and criminology, graduated from the Faculty of Law at the University of Buenos Aires, and holds an LL.M. from Harvard Law School. With 25 years of experience in public security and criminal justice in Brazil, she has worked in various sector organizations, including Viva Rio, FGV Direito Rio, Plataforma Democrática, and the Instituto Igarapé, serving as a researcher, program coordinator, and director of institutional relations. She is currently a member of the Advisory Board of RenovaBR, an institute she helped found, and of the Darcy Vargas Foundation. Previously, she served as a consultant for the National Public Security Secretariat (SENASP) of the Brazilian Ministry of Justice, working on the Municipal Security task force. She has also worked as a consultant for the World Bank and as a researcher for the *Justice in Transition* Project at Harvard University.",
               "links": {},
