@@ -287,7 +287,8 @@
             {
               "description": "Associate Professor of Economics and Political Science at the Instituto Tecnológico Autónomo de México (ITAM) in Mexico City. His research interests are primarily in political economy and economic development, using both theory and empirics, with a focus on political accountability and voter behavior in Africa and Latin America. Horacio received his PhD in Economics from the Massachusetts Institute of Technology.",
               "label": "Horacio Larreguy",
-              "photo": "https://assets.decocache.com/novo-leme/16a279f9-7740-4d3e-9fc6-db119cb024ac/horacio-larreguy.jpg"
+              "photo": "https://assets.decocache.com/novo-leme/16a279f9-7740-4d3e-9fc6-db119cb024ac/horacio-larreguy.jpg",
+              "role": "Autonomous Technological Institute of Mexico, Mexico"
             }
           ]
         },
