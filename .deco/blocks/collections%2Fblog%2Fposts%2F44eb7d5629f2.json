@@ -1,0 +1,38 @@
+{
+  "name": "collections/blog/posts/44eb7d5629f2",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "In the Media",
+        "slug": "en-na-midia"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [
+      {
+        "key": "url",
+        "value": "https://www.supesp.ce.gov.br/2025/08/27/previo-diretoria-da-supesp-acompanha-visita-de-tecnicos-do-laboratorio-leme-e-da-universidade-de-chicago/"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "excerpt": "Julia Guerra, director and co-founder of Leme, on a technical visit to the Na Paz project, part of the Integrated Program for Violence Prevention and Reduction of the Government of the State of Ceará (PreVio).",
+    "title": "PreVio: Supesp board accompanies visit by technicians from the Leme Laboratory and the University of Chicago.",
+    "date": "2025-09-28",
+    "slug": "previo-supesp-acompanha-visita-leme",
+    "image": "https://assets.decocache.com/novo-leme/9f8c2234-89c3-4f4b-907f-ca59d90a7523/IMG_0333-1200x800.jpg",
+    "content": "<p>Julia Guerra, director and co-founder of Leme, on a technical visit to the Na Paz project, part of the Integrated Program for Violence Prevention and Reduction of the Government of the State of Ceará (PreVio).</p>"
+  }
+}
