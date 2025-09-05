@@ -1,0 +1,32 @@
+{
+  "name": "collections/blog/posts/b0d9d6311904",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [
+      {
+        "key": "url",
+        "value": "https://www.supesp.ce.gov.br/2025/08/27/previo-diretoria-da-supesp-acompanha-visita-de-tecnicos-do-laboratorio-leme-e-da-universidade-de-chicago"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "PreVio: diretoria da Supesp acompanha visita de técnicos do Laboratório Leme e da Universidade de Chicago",
+    "excerpt": "Julia Guerra, diretora e co-fundadora do Leme, em visita técnica à Superintendência de Pesquisa e Estratégia de Segurança Pública do Estado do Ceará.",
+    "date": "2025-08-28",
+    "content": "<p>Julia Guerra, diretora e co-fundadora do Leme, em visita técnica à Superintendência de Pesquisa e Estratégia de Segurança Pública do Estado do Ceará.</p>",
+    "slug": "visita-supesp-leme"
+  }
+}
