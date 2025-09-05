@@ -3,7 +3,12 @@
   "__resolveType": "blog/loaders/Blogpost.ts",
   "post": {
     "authors": [],
-    "categories": [],
+    "categories": [
+      {
+        "name": "Na Mídia",
+        "slug": "na-midia"
+      }
+    ],
     "imageCarousel": {
       "banners": []
     },
