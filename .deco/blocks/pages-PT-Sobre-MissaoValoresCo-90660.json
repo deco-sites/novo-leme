@@ -131,50 +131,50 @@
             },
             {
               "photo": "https://assets.decocache.com/novo-leme/b32059c1-7bac-40c2-934d-4fd1cdd34d85/Equipe-Mathias_Lusquinos.png",
-              "role": "Pesquisador",
               "description": "Mestre em Políticas Públicas (Universidade de Chicago) e bacharel em Administração Pública (FGV/EAESP). Possui experiência na estruturação de projetos de PPPs e Concessões nas áreas de saneamento básico, transporte coletivo e iluminação pública (Fundação Instituto de Pesquisas Econômicas) e na pesquisa relativa ao crime organizado no Brasil e no Haiti, atuando em projeto de consultoria para o Banco Interamericano de Desenvolvimento e tendo sido assistente de pesquisa na Harris School of Public Policy da Universidade de Chicago. Mais informações: Lattes.",
               "links": {
                 "lattes": "http://lattes.cnpq.br/4230023346226177"
               },
-              "label": "Mathias Lusquinos"
+              "label": "Mathias Lusquinos",
+              "role": "Pesquisador"
+            },
+            {
+              "photo": "https://assets.decocache.com/novo-leme/8a918279-35fc-44fa-a8fd-4d30a0e2f08f/Afonso-Silva-IMG_7546-(5)-(1).jpg",
+              "description": "Mestre em Estatística (UFRJ) e graduado em Estatística (ENCE/IBGE). Possui sólida experiência em pesquisas quantitativas na área de segurança pública e sistema de justiça criminal, e no desenvolvimento de produtos de dados que orientam as decisões das instituições. Já atuou como analista de dados no Instituto de Segurança Pública (ISP/RJ), no Centro de Pesquisas do Ministério Público do Estado do Rio de Janeiro (CENPE/MPRJ) e na FGV Direito Rio. Mais informações: Lattes e LinkedIn.",
+              "links": {
+                "lattes": "http://lattes.cnpq.br/6418263600955607",
+                "linkedin": "https://br.linkedin.com/in/afonsoborges92"
+              },
+              "label": "Afonso Borges"
             },
             {
               "photo": "https://assets.decocache.com/novo-leme/f06faa21-4eb0-42ba-a865-f3bd55855215/Vanessa-Campagnac-(1).jpg",
               "role": "Pesquisadora",
               "description": "Graduada em Ciências Sociais pela UERJ, mestra em Estudos Populacionais e Pesquisas Sociais pela ENCE/IBGE e doutora em Ciência Política pela UFF. Atuou em governos, no terceiro setor e no Sistema S, com ampla experiência na área de pesquisa social e análise de dados de políticas públicas, especialmente nos temas de segurança pública, gestão de pessoas no setor público e participação social e política no Brasil. Trabalhou por mais de dez anos como pesquisadora e coordenadora de projetos no Instituto de Segurança Pública (ISP/RJ) e por quatro anos como Gerente de Dados e Comunicação na República.org. Também faz parte da Rede de Lideranças Femininas da Universidade de Columbia-NY. Mais informações: Lattes e LinkedIn.",
               "links": {
-                "lattes": "http://lattes.cnpq.br/2091951359837969",
-                "linkedin": "https://www.linkedin.com/in/vanessacampagnac/"
+                "linkedin": "https://www.linkedin.com/in/vanessacampagnac/",
+                "lattes": "http://lattes.cnpq.br/2091951359837969"
               },
               "label": "Vanessa Campagnac"
             },
             {
-              "photo": "https://assets.decocache.com/novo-leme/77278447-da8c-475d-8d8a-e78acc2d0f38/Equipe-Daniela-Lisboa.jpg",
+              "label": "Daniela Lisbôa",
               "role": "Pesquisadora",
               "description": "Bacharel em Ciências Sociais pela UFJF, mestre e doutoranda em Sociologia pelo IESP-UERJ. Sua pesquisa aborda a relação entre a esfera pública e os intelectuais públicos. Ao longo de sua trajetória, desenvolveu experiência em pesquisas acadêmicas, educação política e divulgação científica voltada para diferentes públicos. Atualmente, é assistente editorial na DADOS – Revista de Ciências Sociais. No Leme, atua no desenvolvimento de análises e propostas voltadas à área de segurança pública. Mais informações: Lattes e LinkedIn.",
               "links": {
                 "linkedin": "https://www.linkedin.com/in/dani-alisboa/",
                 "lattes": "http://lattes.cnpq.br/0675294956252578"
               },
-              "label": "Daniela Lisbôa"
+              "photo": "https://assets.decocache.com/novo-leme/77278447-da8c-475d-8d8a-e78acc2d0f38/Equipe-Daniela-Lisboa.jpg"
             },
             {
               "label": "Isabela Salgado Pereira",
-              "role": "Pesquisadora",
               "description": "Mestre em Políticas Públicas (Universidade de Princeton) e bacharel em Economia (PUC-Rio). Isabela tem experiência em projetos de pesquisa em diversas áreas, com foco em avaliação de impacto e no uso de evidências científicas para o desenho de políticas públicas eficientes. Durante quatro anos trabalhou no setor de crime, violência e conflito do J-PAL, em Boston (EUA). No Leme, Isabela apoia o desenvolvimento de intervenções em segurança pública. Mais informações: LinkedIn.",
+              "photo": "https://assets.decocache.com/novo-leme/24669f19-da36-4c4c-aeef-86930034e226/Equipe-Isabela-Salgado.jpg",
               "links": {
                 "linkedin": "https://www.linkedin.com/in/isabela-salgado-silva-pereira-a4a652170/"
               },
-              "photo": "https://assets.decocache.com/novo-leme/24669f19-da36-4c4c-aeef-86930034e226/Equipe-Isabela-Salgado.jpg"
-            },
-            {
-              "label": "Afonso Borges",
-              "description": "Mestre em Estatística (UFRJ) e graduado em Estatística (ENCE/IBGE). Possui sólida experiência em pesquisas quantitativas na área de segurança pública e sistema de justiça criminal, e no desenvolvimento de produtos de dados que orientam as decisões das instituições. Já atuou como analista de dados no Instituto de Segurança Pública (ISP/RJ), no Centro de Pesquisas do Ministério Público do Estado do Rio de Janeiro (CENPE/MPRJ) e na FGV Direito Rio. Mais informações: Lattes e LinkedIn.",
-              "photo": "https://assets.decocache.com/novo-leme/8a918279-35fc-44fa-a8fd-4d30a0e2f08f/Afonso-Silva-IMG_7546-(5)-(1).jpg",
-              "links": {
-                "linkedin": "https://br.linkedin.com/in/afonsoborges92",
-                "lattes": "http://lattes.cnpq.br/6418263600955607"
-              }
+              "role": "Pesquisadora"
             }
           ],
           "label": "Equipe"
