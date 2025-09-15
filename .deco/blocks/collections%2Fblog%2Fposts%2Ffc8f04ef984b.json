@@ -1,0 +1,61 @@
+{
+  "name": "collections/blog/posts/fc8f04ef984b",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "News",
+        "slug": "en-noticias"
+      }
+    ],
+    "imageCarousel": {
+      "banners": [
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/1a0a4f53-c43f-4d97-8832-9c7d6a30cd94/IMG-20250826-WA0027.jpg"
+          },
+          "mobile": {},
+          "alt": "1"
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/9edb88ed-4aaf-409f-9a35-b8b9ade4e4df/IMG-20250826-WA0028.jpg"
+          },
+          "mobile": {},
+          "alt": "2"
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/318a36af-8e05-4be7-a343-7b1eaffdf784/IMG-20250826-WA0035.jpg"
+          },
+          "mobile": {},
+          "alt": "3"
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/3a00bb73-f180-4350-ae31-b89c12b70e44/IMG-20250826-WA0038.jpg"
+          },
+          "mobile": {}
+        }
+      ]
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Leme, in partnership with the University of Chicago, visits institutions focused on preventing youth violence in Ceará",
+    "excerpt": "In recent weeks, Leme carried out a series of visits to institutions and facilities in Fortaleza, Ceará, to learn firsthand about initiatives aimed at preventing violence and reintegrating young people.",
+    "date": "2025-09-16",
+    "content": "<p>In recent weeks, Leme carried out a series of visits to institutions and facilities in Fortaleza, Ceará, to learn firsthand about initiatives aimed at preventing violence and reintegrating young people. The agenda included Julia Guerra, director and co-founder of Leme; Chris Blattman, economist and professor at the University of Chicago; Moustafa El-Kashlan, PhD candidate in Economics at the University of Chicago; and Alexandre Simões, PhD candidate in Economics at the University of Chicago and associate researcher at Leme.</p><p></p><p>The program included visits to juvenile detention centers, community facilities, and meetings with public managers. During the agenda, the researchers visited the Cardeal Aloísio Lorscheider and Dom Bosco Juvenile Detention Centers, accompanied by directors Neuton Santos and Ramon Nascimento, and the management and communication coordinator, Fabiana Pimenta. On that occasion, they discussed the changes introduced since the creation of the State Socio-Educational System Superintendence (Seas).</p><p></p><p><em>“Since 2017, these units have operated without separating young people by territory or gang affiliation. It was very interesting to observe this change up close, especially in the way it strengthens inclusion and dialogue between youth and staff,”</em> noted Simões.</p><p></p><p>At another point, the team also visited Na Paz, a facility of the Ceará State Government’s Integrated Program for the Prevention and Reduction of Violence (PreVio), which serves at-risk youth. The researchers were welcomed by Franklin Torres, Director of Statistics at the Superintendence for Public Security Research and Strategy (Supesp); Eudázio Sampaio, Director of Security Policy Evaluation Research; project managers Marília Goya and Emanoela Pinheiro; and coordinator Márcio Catanho.</p><p></p><p>The visit aimed to better understand the facilities and activities developed there. During the meeting, the researchers heard accounts from professionals and discussed how adolescents take on active roles in projects such as Na Paz, Young Mediators, Empower, and Turning the Game.</p><p></p><p><em>“The [Turning the Game] program focuses on young people who have dropped out of school and are not formally employed. We took the opportunity to observe how the unit identifies and reaches these high-risk adolescents, either through official education data or through the work of community agents and social workers,”</em> said Simões.</p><p></p><p>Another item on the agenda was a meeting with Roberto Bassan Peixoto, superintendent of the State Socio-Educational System (Seas). The meeting reinforced the willingness for cooperation between Leme and the institution, focusing on strengthening the monitoring of young people in custody and carrying out more robust impact evaluations of programs in Fortaleza.</p><p></p><p>Finally, the team was welcomed at the Urban Center for Culture, Art, Science and Sports (Cuca) in Mondubim by Fortaleza’s Secretary of Youth, Júlio Brizzi, and coordinator Cibely Moura. The group discussed the facility’s infrastructure and the possibility of developing an impact evaluation on the role of these centers in school engagement and reducing youth involvement in violence.</p><p></p><p>For Leme, this series of meetings represented an opportunity to enable cooperation with public managers and local initiatives, reinforcing its commitment to developing rigorous evaluations that help measure results, support public policy decisions, and expand the reach of programs aimed at adolescents in situations of greater social risk</p>",
+    "slug": "leme-university-chicago-youth-violence-prevention-ceara",
+    "image": "https://assets.decocache.com/novo-leme/1a0a4f53-c43f-4d97-8832-9c7d6a30cd94/IMG-20250826-WA0027.jpg"
+  }
+}
