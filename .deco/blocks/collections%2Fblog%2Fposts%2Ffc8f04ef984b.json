@@ -36,7 +36,15 @@
           "desktop": {
             "image": "https://assets.decocache.com/novo-leme/3a00bb73-f180-4350-ae31-b89c12b70e44/IMG-20250826-WA0038.jpg"
           },
-          "mobile": {}
+          "mobile": {},
+          "alt": "4"
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/345a6fb2-7d4e-4a9f-8311-81fdd9873793/WhatsApp-Image-2025-09-10-at-12.01.31-PM.jpeg"
+          },
+          "mobile": {},
+          "alt": "5"
         }
       ]
     },
