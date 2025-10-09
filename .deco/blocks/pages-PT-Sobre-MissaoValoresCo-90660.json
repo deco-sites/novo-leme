@@ -115,24 +115,24 @@
               "label": "Juca Casal"
             },
             {
-              "photo": "https://assets.decocache.com/novo-leme/f12ea0cb-65bc-47db-9cd2-41400469af69/Equipe-Isis_Lira.JPG",
+              "photo": "https://assets.decocache.com/novo-leme/b2322334-329c-4cb3-b857-13a831043616/IMG_20250314_215023_602.jpg",
               "role": "Pesquisadora",
+              "description": "Graduada em Ciências Sociais pela Universidade Estadual do Maranhão (UEMA), tem experiência em projetos socioambientais, culturais e de direitos humanos, com atuação junto a comunidades quilombolas, movimentos sociais e populações tradicionais da Amazônia Legal. Desenvolve pesquisas em temas como violência, desigualdades sociais, dinâmicas territoriais e justiça climática, integrando metodologias participativas e interseccionais.",
+              "links": {
+                "lattes": "http://lattes.cnpq.br/1270585732989624",
+                "linkedin": "https://www.linkedin.com/in/brenda-fernandes-146276217?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              },
+              "label": "Brenda Fernandes"
+            },
+            {
+              "photo": "https://assets.decocache.com/novo-leme/f12ea0cb-65bc-47db-9cd2-41400469af69/Equipe-Isis_Lira.JPG",
               "description": "Doutoranda em Economia (PUC-Rio) e Mestre em economia (UFJF). Ísis tem sólida formação em métodos de avaliação de impacto em políticas públicas e ampla experiência em projetos e pesquisas nas áreas de economia do trabalho, law enforcement, desigualdade de gênero, economia do setor público e economia do crime. No Leme, atua na elaboração e gestão de projetos em violência doméstica. Mais informações: Site, Lattes e Linkedin.",
+              "label": "Ísis Lira",
+              "role": "Pesquisadora",
               "links": {
                 "lattes": "http://lattes.cnpq.br/5353815497319153",
                 "linkedin": "https://www.linkedin.com/in/ísis-ferreira-lira/",
                 "website": "https://sites.google.com/view/isislira"
-              },
-              "label": "Ísis Lira"
-            },
-            {
-              "photo": "https://assets.decocache.com/novo-leme/b2322334-329c-4cb3-b857-13a831043616/IMG_20250314_215023_602.jpg",
-              "description": "Graduada em Ciências Sociais pela Universidade Estadual do Maranhão (UEMA), tem experiência em projetos socioambientais, culturais e de direitos humanos, com atuação junto a comunidades quilombolas, movimentos sociais e populações tradicionais da Amazônia Legal. Desenvolve pesquisas em temas como violência, desigualdades sociais, dinâmicas territoriais e justiça climática, integrando metodologias participativas e interseccionais.",
-              "label": "Brenda Fernandes",
-              "role": "Pesquisadora",
-              "links": {
-                "lattes": "http://lattes.cnpq.br/1270585732989624",
-                "linkedin": "https://www.linkedin.com/in/brenda-fernandes-146276217?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               }
             },
             {
@@ -165,24 +165,14 @@
               "photo": "https://assets.decocache.com/novo-leme/5e509555-865f-4eeb-8d3b-bd8423e148a7/Afonso-Silva-IMG_7546-(5)-(1)-(1).jpg"
             },
             {
-              "label": "Vanessa Campagnac",
-              "description": "Graduada em Ciências Sociais pela UERJ, mestra em Estudos Populacionais e Pesquisas Sociais pela ENCE/IBGE e doutora em Ciência Política pela UFF. Atuou em governos, no terceiro setor e no Sistema S, com ampla experiência na área de pesquisa social e análise de dados de políticas públicas, especialmente nos temas de segurança pública, gestão de pessoas no setor público e participação social e política no Brasil. Trabalhou por mais de dez anos como pesquisadora e coordenadora de projetos no Instituto de Segurança Pública (ISP/RJ) e por quatro anos como Gerente de Dados e Comunicação na República.org. Também faz parte da Rede de Lideranças Femininas da Universidade de Columbia-NY. Mais informações: Lattes e LinkedIn.",
-              "photo": "https://assets.decocache.com/novo-leme/f06faa21-4eb0-42ba-a865-f3bd55855215/Vanessa-Campagnac-(1).jpg",
-              "links": {
-                "linkedin": "https://www.linkedin.com/in/vanessacampagnac/",
-                "lattes": "http://lattes.cnpq.br/2091951359837969"
-              },
-              "role": "Pesquisadora"
-            },
-            {
               "label": "Daniela Lisbôa",
-              "role": "Pesquisadora",
               "description": "Bacharel em Ciências Sociais pela UFJF, mestre e doutoranda em Sociologia pelo IESP-UERJ. Sua pesquisa aborda a relação entre a esfera pública e os intelectuais públicos. Ao longo de sua trajetória, desenvolveu experiência em pesquisas acadêmicas, educação política e divulgação científica voltada para diferentes públicos. Atualmente, é assistente editorial na DADOS – Revista de Ciências Sociais. No Leme, atua no desenvolvimento de análises e propostas voltadas à área de segurança pública. Mais informações: Lattes e LinkedIn.",
               "photo": "https://assets.decocache.com/novo-leme/77278447-da8c-475d-8d8a-e78acc2d0f38/Equipe-Daniela-Lisboa.jpg",
               "links": {
                 "linkedin": "https://www.linkedin.com/in/dani-alisboa/",
                 "lattes": "http://lattes.cnpq.br/0675294956252578"
-              }
+              },
+              "role": "Pesquisadora"
             },
             {
               "label": "Isabela Salgado",
