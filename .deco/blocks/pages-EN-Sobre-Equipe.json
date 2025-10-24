@@ -126,59 +126,68 @@
               "label": "Ísis Lira"
             },
             {
+              "role": "Trainee",
+              "description": "Social Communication student – Radio and TV at the Federal University of Rio de Janeiro (UFRJ). Currently, he works at LEME as a Communications Intern, contributing to content production and supporting the laboratory’s communication initiatives. He develops activities related to audiovisual production, integrated communication, and media management.",
+              "links": {
+                "linkedin": "https://www.linkedin.com/in/wellsantt/"
+              },
+              "label": "Wellington Santos",
+              "photo": "https://assets.decocache.com/novo-leme/320deb2b-fc0a-411d-8062-defe3b347177/Midia-(1).jpg"
+            },
+            {
               "photo": "https://assets.decocache.com/novo-leme/b2322334-329c-4cb3-b857-13a831043616/IMG_20250314_215023_602.jpg",
-              "role": "Researcher",
               "description": "Graduated in Social Sciences from the State University of Maranhão (UEMA), she has experience in socio-environmental, cultural, and human rights projects, working with quilombola communities, social movements, and traditional populations in the Legal Amazon. She conducts research on topics such as violence, social inequalities, territorial dynamics, and climate justice, integrating participatory and intersectional methodologies.",
               "links": {
                 "lattes": "http://lattes.cnpq.br/1270585732989624",
                 "linkedin": "https://www.linkedin.com/in/brenda-fernandes-146276217?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               },
-              "label": "Brenda Fernandes"
+              "label": "Brenda Fernandes",
+              "role": "Researcher"
             },
             {
               "photo": "https://assets.decocache.com/novo-leme/4701f2f4-f41c-48fd-8681-a98c54939274/Equipe-Amsatou_Diop.jpg",
+              "role": "Researcher",
               "description": "Master’s student in Political Science (IESP-UERJ) and Bachelor in Social Sciences (UFF). Amsatou has experience in data analysis and public policy research, working on projects in the areas of education, public security, adolescents in conflict with the law and socio-educational measures, electoral inequalities, and political violence. He works on producing diagnostics and evaluations that inform the design and monitoring of public policies. More information: Lattes and LinkedIn.",
               "links": {
                 "lattes": "http://lattes.cnpq.br/8400353668140178",
                 "linkedin": "https://www.linkedin.com/in/amsatou-falilou-diop/"
               },
-              "label": "Amsatou Diop",
-              "role": "Researcher"
+              "label": "Amsatou Diop"
             },
             {
-              "photo": "https://assets.decocache.com/novo-leme/b32059c1-7bac-40c2-934d-4fd1cdd34d85/Equipe-Mathias_Lusquinos.png",
+              "label": "Mathias Lusquinos",
               "role": "Researcher",
               "description": "Master in Public Policy (University of Chicago) and Bachelor in Public Administration (FGV/EAESP). He has experience in structuring PPP and concession projects in basic sanitation, public transportation, and public lighting (Fundação Instituto de Pesquisas Econômicas), as well as in research on organized crime in Brazil and Haiti. He has worked on a consulting project for the Inter-American Development Bank and served as a research assistant at the Harris School of Public Policy, University of Chicago. More information: Lattes.",
               "links": {
                 "lattes": "http://lattes.cnpq.br/4230023346226177"
               },
-              "label": "Mathias Lusquinos"
+              "photo": "https://assets.decocache.com/novo-leme/b32059c1-7bac-40c2-934d-4fd1cdd34d85/Equipe-Mathias_Lusquinos.png"
             },
             {
               "label": "Afonso Borges",
-              "role": "Researcher",
               "description": "Master’s degree in Statistics (UFRJ) and Bachelor’s degree in Statistics (ENCE/IBGE). Has solid experience in quantitative research in the areas of public security and the criminal justice system, as well as in the development of data products that guide institutional decision-making. Previously worked as a data analyst at the Institute of Public Security (ISP/RJ), the Research Center of the Public Prosecutor’s Office of Rio de Janeiro State (CENPE/MPRJ), and at FGV Direito Rio. More information: Lattes and LinkedIn.",
               "links": {
                 "linkedin": "https://br.linkedin.com/in/afonsoborges92",
                 "lattes": "http://lattes.cnpq.br/6418263600955607"
               },
-              "photo": "https://assets.decocache.com/novo-leme/5e509555-865f-4eeb-8d3b-bd8423e148a7/Afonso-Silva-IMG_7546-(5)-(1)-(1).jpg"
+              "photo": "https://assets.decocache.com/novo-leme/5e509555-865f-4eeb-8d3b-bd8423e148a7/Afonso-Silva-IMG_7546-(5)-(1)-(1).jpg",
+              "role": "Researcher"
             },
             {
               "label": "Vanessa Campagnac",
               "description": "Bachelor in Social Sciences (UERJ), Master in Population Studies and Social Research (ENCE/IBGE), and PhD in Political Science (UFF). She has worked in government, the third sector, and the Sistema S, with extensive experience in social research and public policy data analysis, particularly in the areas of public security, public sector human resources management, and social and political participation in Brazil. She worked for over ten years as a researcher and project coordinator at the Public Security Institute (ISP/RJ) and for four years as Data and Communication Manager at República.org. She is also a member of the Women’s Leadership Network at Columbia University, NY. More information: Lattes and LinkedIn.",
+              "role": "Researcher",
+              "photo": "https://assets.decocache.com/novo-leme/f06faa21-4eb0-42ba-a865-f3bd55855215/Vanessa-Campagnac-(1).jpg",
               "links": {
                 "linkedin": "https://www.linkedin.com/in/vanessacampagnac/",
                 "lattes": "http://lattes.cnpq.br/2091951359837969"
-              },
-              "photo": "https://assets.decocache.com/novo-leme/f06faa21-4eb0-42ba-a865-f3bd55855215/Vanessa-Campagnac-(1).jpg",
-              "role": "Researcher"
+              }
             },
             {
               "label": "Daniela Lisbôa",
-              "description": "Bachelor in Social Sciences (UFJF), Master’s and PhD candidate in Sociology (IESP-UERJ). Her research focuses on the relationship between the public sphere and public intellectuals. Throughout her career, she has gained experience in academic research, political education, and science communication aimed at diverse audiences. She is currently an editorial assistant at *DADOS – Revista de Ciências Sociais*. At Leme, she works on developing analyses and proposals in the field of public security. More information: Lattes and LinkedIn.",
-              "role": "Researcher",
               "photo": "https://assets.decocache.com/novo-leme/77278447-da8c-475d-8d8a-e78acc2d0f38/Equipe-Daniela-Lisboa.jpg",
+              "role": "Researcher",
+              "description": "Bachelor in Social Sciences (UFJF), Master’s and PhD candidate in Sociology (IESP-UERJ). Her research focuses on the relationship between the public sphere and public intellectuals. Throughout her career, she has gained experience in academic research, political education, and science communication aimed at diverse audiences. She is currently an editorial assistant at *DADOS – Revista de Ciências Sociais*. At Leme, she works on developing analyses and proposals in the field of public security. More information: Lattes and LinkedIn.",
               "links": {
                 "linkedin": "https://www.linkedin.com/in/dani-alisboa/",
                 "lattes": "http://lattes.cnpq.br/0675294956252578"
@@ -186,9 +195,9 @@
             },
             {
               "label": "Isabela Salgado",
-              "photo": "https://assets.decocache.com/novo-leme/24669f19-da36-4c4c-aeef-86930034e226/Equipe-Isabela-Salgado.jpg",
               "role": "Researcher",
               "description": "Master in Public Affairs (Princeton University) and Bachelor in Economics (PUC-Rio). Isabela has experience in research projects across various areas, with a focus on impact evaluation and the use of scientific evidence to design efficient public policies. For four years, she worked in the crime, violence, and conflict sector at J-PAL in Boston (USA). At Leme, she supports the development of public security interventions. More information: LinkedIn.",
+              "photo": "https://assets.decocache.com/novo-leme/24669f19-da36-4c4c-aeef-86930034e226/Equipe-Isabela-Salgado.jpg",
               "links": {
                 "linkedin": "https://www.linkedin.com/in/isabela-salgado-silva-pereira-a4a652170/"
               }
@@ -196,8 +205,8 @@
             {
               "label": "Ana Figueiredo",
               "role": "Researcher",
-              "description": "Master’s student in Justice and Security at the Federal Fluminense University (UFF) and holds a Bachelor’s degree in Public and Social Security from the same institution. She has worked as a Research Assistant at the Institute for Applied Economic Research (IPEA), served as a Public Policy Evaluation Advisor at the Niterói City Hall, and currently works at LEME as a Junior Public Policy Analyst. She develops research and projects focused on the evaluation of public policies, with an emphasis on social indicators, violence dynamics, and public sector management and governance.",
               "photo": "https://assets.decocache.com/novo-leme/5d863aa4-1bb8-4734-a497-b60fcb0d637b/ana-fig-foto-perfil-(1)-(1).jpg",
+              "description": "Master’s student in Justice and Security at the Federal Fluminense University (UFF) and holds a Bachelor’s degree in Public and Social Security from the same institution. She has worked as a Research Assistant at the Institute for Applied Economic Research (IPEA), served as a Public Policy Evaluation Advisor at the Niterói City Hall, and currently works at LEME as a Junior Public Policy Analyst. She develops research and projects focused on the evaluation of public policies, with an emphasis on social indicators, violence dynamics, and public sector management and governance.",
               "links": {
                 "lattes": "http://lattes.cnpq.br/7055869124447592 ",
                 "linkedin": "https://www.linkedin.com/in/ana-figueiredo-1b2534216/"
@@ -206,16 +215,8 @@
             {
               "label": "Giovanna Ubida",
               "role": "Researcher",
-              "photo": "https://assets.decocache.com/novo-leme/15fd5826-38fc-4722-8f7d-cb5585fb92b3/foto_site-(1).jpeg",
-              "description": "PhD candidate in Economics at Insper, with research funded by FAPESP on the economics of crime and public policy evaluation, focusing on the intergenerational effects of violence against women and the impacts of institutional reforms. She was a visiting researcher at Princeton University in 2024 and holds a Bachelor's degree in Economics from FECAP. She has ten years of experience in applied research and econometrics, with academic work at FGV, FECAP, and Insper on topics including crime, labor markets, and the justice system. She is a research associate at LEME Lab (Laboratory for Violence Reduction), where she participates in projects evaluating public policies aimed at violence prevention. She led the NECON-FECAP economic study group and is part of the GeFam (Brazilian Society for Family and Gender Economics) study group, where she designed mentoring programs for young researchers. Her research interests include development microeconomics, applied econometrics, and violence.\n"
-            },
-            {
-              "label": "Wellington Santos",
-              "role": "Trainee",
-              "description": "Social Communication student – Radio and TV at the Federal University of Rio de Janeiro (UFRJ). Currently, he works at LEME as a Communications Intern, contributing to content production and supporting the laboratory’s communication initiatives. He develops activities related to audiovisual production, integrated communication, and media management.",
-              "links": {
-                "linkedin": "https://www.linkedin.com/in/wellsantt/"
-              }
+              "description": "PhD candidate in Economics at Insper, with research funded by FAPESP on the economics of crime and public policy evaluation, focusing on the intergenerational effects of violence against women and the impacts of institutional reforms. She was a visiting researcher at Princeton University in 2024 and holds a Bachelor's degree in Economics from FECAP. She has ten years of experience in applied research and econometrics, with academic work at FGV, FECAP, and Insper on topics including crime, labor markets, and the justice system. She is a research associate at LEME Lab (Laboratory for Violence Reduction), where she participates in projects evaluating public policies aimed at violence prevention. She led the NECON-FECAP economic study group and is part of the GeFam (Brazilian Society for Family and Gender Economics) study group, where she designed mentoring programs for young researchers. Her research interests include development microeconomics, applied econometrics, and violence.\n",
+              "photo": "https://assets.decocache.com/novo-leme/15fd5826-38fc-4722-8f7d-cb5585fb92b3/foto_site-(1).jpeg"
             }
           ],
           "label": "Our team"
