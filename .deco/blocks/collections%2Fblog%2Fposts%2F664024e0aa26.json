@@ -1,0 +1,38 @@
+{
+  "name": "collections/blog/posts/664024e0aa26",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Na Mídia",
+        "slug": "na-midia"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [
+      {
+        "key": "url",
+        "value": "https://oglobo.globo.com/opiniao/artigos/coluna/2025/10/a-cidade-do-rio-ensaia-uma-virada-na-forma-de-pensar-seguranca-publica.ghtml?utm_source=aplicativoOGlobo&utm_medium=aplicativo&utm_campaign=compartilhar"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "image": null,
+      "video": null
+    },
+    "title": "A cidade do Rio ensaia uma virada na forma de pensar segurança pública",
+    "excerpt": "Joana Monteiro, diretora e cofundadora do Leme, e Ramón Chaves, líder de projetos do Leme, em artigo de opinião no jornal O Globo.",
+    "image": "https://assets.decocache.com/novo-leme/b3814473-9937-4ce4-8b68-21b3aa8f607a/ppt_lemefellows_v2-(2).png",
+    "date": "2025-10-18",
+    "content": "<p>Joana Monteiro, diretora e cofundadora do Leme, e Ramón Chaves, líder de projetos do Leme, em artigo de opinião no jornal O Globo.</p>",
+    "slug": "cidade-do-rio-ensaia-virada-na-forma-de-pensar-seguranca-publica"
+  }
+}
