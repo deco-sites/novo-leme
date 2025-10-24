@@ -1,0 +1,33 @@
+{
+  "name": "collections/blog/posts/9222d633eea3",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Notícias",
+        "slug": "noticias"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "image": null,
+      "video": null
+    },
+    "title": "Leme recebe Spencer Chainey, referência internacional em políticas públicas baseadas em evidências ",
+    "excerpt": "Na última terça-feira (14), o Leme recebeu o economista e professor da Universidade de Londres, Spencer Chainey. O pesquisador, que visitava o Brasil, foi recebido no laboratório por Joana Monteiro, diretora e cofundadora do Leme. ",
+    "image": "https://assets.decocache.com/novo-leme/ea5e896c-b930-4ab5-98cf-1337b8a79f82/ppt_lemefellows_v2.png",
+    "date": "2025-10-15",
+    "slug": "leme-recebe-spencer-chainey-referencia-internacional-em-politicas-publicas-baseadas-em-evidencias",
+    "content": "<p>Na última terça-feira (14), o Leme recebeu o economista e professor da Universidade de Londres, Spencer Chainey. O pesquisador, que visitava o Brasil, foi recebido no laboratório por Joana Monteiro, diretora e cofundadora do Leme. </p><p></p><p>Chainey é diretor da unidade do Jill Dando Instituto (JDI) para a América Latina e tem mais de 20 anos de experiência no desenvolvimento e implementação de políticas de segurança apoiadas em dados e pesquisa. Ao longo da carreira, trabalhou com governos e instituições em países como Argentina, México, Uruguai, Brasil, Colômbia, Chile, Nova Zelândia, Austrália, Suécia, Noruega, Alemanha, EUA, Canadá, entre outros. </p><p></p><p>Para o Leme, a visita representa uma oportunidade importante de troca de conhecimento com um dos principais especialistas internacionais do campo, reforçando o compromisso da nossa instituição com a produção e a aplicação de evidências científicas em políticas públicas de segurança. </p>"
+  }
+}
