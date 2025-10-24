@@ -1,0 +1,48 @@
+{
+  "name": "collections/blog/posts/e87fc9c03a57",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Notícias",
+        "slug": "noticias"
+      }
+    ],
+    "imageCarousel": {
+      "banners": [
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/08ed50c8-9436-4414-b2d8-32e327756c32/upload_00001472.jpg"
+          },
+          "mobile": {},
+          "alt": "1"
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/91fef931-be4e-446c-9593-bf219b1f9b78/upload_00001208.jpg"
+          },
+          "mobile": {},
+          "alt": "2"
+        }
+      ]
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "image": null,
+      "video": null
+    },
+    "title": "Leme e Universidade de Chicago se reúnem no MPRJ para fortalecer pesquisas sobre adolescentes ",
+    "excerpt": "No dia 20 de agosto, o Leme e pesquisadores da Universidade de Chicago, participaram de um encontro no Centro de Apoio Operacional das Promotorias de Justiça da Infância e Juventude do Ministério Público do Estado do Rio de Janeiro (CAO Infância/MPRJ). O encontro teve como objetivo discutir parcerias relacionadas ao desenvolvimento de pesquisas sobre o perfil e a trajetória de adolescentes em conflito com a lei. ",
+    "image": "https://assets.decocache.com/novo-leme/08ed50c8-9436-4414-b2d8-32e327756c32/upload_00001472.jpg",
+    "date": "2025-08-21",
+    "slug": "leme-e-universidade-de-chicago-se-reunem-no-mprj-para-fortalecer-pesquisas-sobre-adolescentes",
+    "content": "<p>No dia 20 de agosto, o Leme e pesquisadores da Universidade de Chicago, participaram de um encontro no Centro de Apoio Operacional das Promotorias de Justiça da Infância e Juventude do Ministério Público do Estado do Rio de Janeiro (CAO Infância/MPRJ). O encontro teve como objetivo discutir parcerias relacionadas ao desenvolvimento de pesquisas sobre o perfil e a trajetória de adolescentes em conflito com a lei. </p><p>A agenda contou com a presença de Júlia Guerra, diretora e cofundadora do Leme, Alexandre Simões, pesquisador associado ao Leme e doutorado em Economia na Universidade de Chicago, e Chris Blattman, economista e professor da Universidade de Chicago. Os pesquisadores foram recebidos por Afonso Henrique Reis Lemos Pereira, coordenador do Centro de Apoio Operacional das promotorias da Justiça da Infância e Juventude (CAOIJ/MPRJ), Carolina Enne, subcoordenadora do CAO Infância e Juventude/MPRJ, e Carina Sena, assessora internacional da instituição. </p><p>O foco da reunião foi o desenvolvimento de ferramentas de análise e monitoramento que possam apoiar políticas públicas voltadas à ressocialização de adolescentes atendidos pelo sistema socioeducativo. Durante o encontro, foram discutidas possibilidades de aprimoramento do Módulo do Adolescente em Conflito com a Lei, sistema em desenvolvimento pelo MPRJ que acompanha de forma integrada o histórico e a trajetória dos jovens. </p><p>Para o Leme, as reuniões reforçam o compromisso com a produção de conhecimento aplicado e com a construção de políticas públicas baseadas em evidências. As discussões com o MPRJ marcam mais um passo na consolidação de parcerias que buscam ampliar o impacto social de programas voltados a adolescentes em situação de vulnerabilidade e risco social.  </p>"
+  }
+}
