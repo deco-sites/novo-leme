@@ -1,0 +1,38 @@
+{
+  "name": "collections/blog/posts/d37374c72019",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "In the Media",
+        "slug": "en-na-midia"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [
+      {
+        "key": "url",
+        "value": "https://oglobo.globo.com/opiniao/artigos/coluna/2025/10/a-cidade-do-rio-ensaia-uma-virada-na-forma-de-pensar-seguranca-publica.ghtml?utm_source=aplicativoOGlobo&utm_medium=aplicativo&utm_campaign=compartilhar"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "image": null,
+      "video": null
+    },
+    "title": "The city of Rio is testing a shift in the way public security is approached",
+    "date": "2025-10-18",
+    "slug": "city-of-rio-testing-shift-in-approach-to-public-security",
+    "excerpt": "Joana Monteiro, director and co-founder of Leme, and Ramón Chaves, project leader at Leme, in an opinion article in the newspaper O Globo.",
+    "image": "https://assets.decocache.com/novo-leme/b3814473-9937-4ce4-8b68-21b3aa8f607a/ppt_lemefellows_v2-(2).png",
+    "content": "<p>Joana Monteiro, director and co-founder of Leme, and Ramón Chaves, project leader at Leme, in an opinion article in the newspaper O Globo.</p>"
+  }
+}
