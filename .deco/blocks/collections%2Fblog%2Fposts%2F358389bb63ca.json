@@ -1,0 +1,46 @@
+{
+  "name": "collections/blog/posts/358389bb63ca",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "News",
+        "slug": "en-noticias"
+      }
+    ],
+    "imageCarousel": {
+      "banners": [
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/08ed50c8-9436-4414-b2d8-32e327756c32/upload_00001472.jpg"
+          },
+          "mobile": {},
+          "alt": "1"
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/91fef931-be4e-446c-9593-bf219b1f9b78/upload_00001208.jpg"
+          },
+          "mobile": {},
+          "alt": "2"
+        }
+      ]
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "image": null,
+      "video": null
+    },
+    "title": "Leme and the University of Chicago meet at MPRJ to strengthen research on adolescents",
+    "date": "2025-08-21",
+    "slug": "leme-and-university-of-chicago-meet-at-mprj-to-strengthen-research-on-adolescents",
+    "content": "<p>On August 20, Leme and researchers from the University of Chicago took part in a meeting at the Center for Operational Support of the Childhood and Youth Prosecutor’s Offices of the Public Prosecutor’s Office of the State of Rio de Janeiro (CAO Infância/MPRJ). The meeting aimed to discuss partnerships related to the development of research on the profile and trajectories of adolescents in conflict with the law.</p><p>The agenda included the participation of Júlia Guerra, director and co-founder of Leme; Alexandre Simões, research associate at Leme and PhD candidate in Economics at the University of Chicago; and Chris Blattman, economist and professor at the University of Chicago. The researchers were welcomed by Afonso Henrique Reis Lemos Pereira, coordinator of the Center for Operational Support of the Childhood and Youth Prosecutor’s Offices (CAOIJ/MPRJ); Carolina Enne, deputy coordinator of CAO Infância e Juventude/MPRJ; and Carina Sena, the institution’s international advisor.</p><p>The meeting focused on developing analytical and monitoring tools to support public policies aimed at the reintegration of adolescents served by the juvenile justice system. During the discussion, participants explored ways to improve the “Adolescent in Conflict with the Law” Module, a system under development by MPRJ that provides an integrated view of the history and trajectory of these young individuals.</p><p>For Leme, the meetings reaffirm the institution’s commitment to producing applied knowledge and building evidence-based public policies. The discussions with MPRJ mark another step toward strengthening partnerships that seek to expand the social impact of programs dedicated to adolescents in situations of vulnerability and social risk.</p>"
+  }
+}
