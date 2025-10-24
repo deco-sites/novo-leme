@@ -115,69 +115,78 @@
               "label": "Juca Casal"
             },
             {
+              "photo": "https://assets.decocache.com/novo-leme/320deb2b-fc0a-411d-8062-defe3b347177/Midia-(1).jpg",
+              "role": "Estagiário",
+              "description": "Estudante de Comunicação Social - Rádio e TV pela Universidade Federal do Rio de Janeiro (UFRJ). Atualmente, atua no LEME como Estagiário de Comunicação, colaborando na produção de conteúdos e no apoio às ações de comunicação do laboratório. Desenvolve atividades relacionadas à produção audiovisual, comunicação integrada e gestão de mídias. ",
+              "links": {
+                "linkedin": "https://www.linkedin.com/in/wellsantt/"
+              },
+              "label": "Wellington Santos"
+            },
+            {
               "photo": "https://assets.decocache.com/novo-leme/b2322334-329c-4cb3-b857-13a831043616/IMG_20250314_215023_602.jpg",
-              "role": "Pesquisadora",
               "description": "Graduada em Ciências Sociais pela Universidade Estadual do Maranhão (UEMA), tem experiência em projetos socioambientais, culturais e de direitos humanos, com atuação junto a comunidades quilombolas, movimentos sociais e populações tradicionais da Amazônia Legal. Desenvolve pesquisas em temas como violência, desigualdades sociais, dinâmicas territoriais e justiça climática, integrando metodologias participativas e interseccionais.",
+              "label": "Brenda Fernandes",
+              "role": "Pesquisadora",
               "links": {
                 "lattes": "http://lattes.cnpq.br/1270585732989624",
                 "linkedin": "https://www.linkedin.com/in/brenda-fernandes-146276217?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-              },
-              "label": "Brenda Fernandes"
+              }
             },
             {
               "photo": "https://assets.decocache.com/novo-leme/f12ea0cb-65bc-47db-9cd2-41400469af69/Equipe-Isis_Lira.JPG",
               "description": "Doutoranda em Economia (PUC-Rio) e Mestre em economia (UFJF). Ísis tem sólida formação em métodos de avaliação de impacto em políticas públicas e ampla experiência em projetos e pesquisas nas áreas de economia do trabalho, law enforcement, desigualdade de gênero, economia do setor público e economia do crime. No Leme, atua na elaboração e gestão de projetos em violência doméstica. Mais informações: Site, Lattes e Linkedin.",
-              "label": "Ísis Lira",
-              "role": "Pesquisadora",
               "links": {
                 "lattes": "http://lattes.cnpq.br/5353815497319153",
                 "linkedin": "https://www.linkedin.com/in/ísis-ferreira-lira/",
                 "website": "https://sites.google.com/view/isislira"
-              }
+              },
+              "label": "Ísis Lira",
+              "role": "Pesquisadora"
             },
             {
               "photo": "https://assets.decocache.com/novo-leme/4701f2f4-f41c-48fd-8681-a98c54939274/Equipe-Amsatou_Diop.jpg",
+              "role": "Pesquisador",
               "description": "Mestrando em Ciência Política (IESP-UERJ) e Bacharel em Ciências Sociais (UFF). Amsatou tem experiência em análise de dados e pesquisa em políticas públicas, com atuação em projetos nas áreas de educação, segurança pública, adolescentes em conflito com a lei e medidas socioeducativas, desigualdades eleitorais e violência política. Trabalha na produção de diagnósticos e avaliações que orientam a formulação e o monitoramento de políticas públicas. Mais informações: Lattes e LinkedIn.",
               "links": {
                 "lattes": "http://lattes.cnpq.br/8400353668140178",
                 "linkedin": "https://www.linkedin.com/in/amsatou-falilou-diop/"
               },
-              "label": "Amsatou Diop",
-              "role": "Pesquisador"
+              "label": "Amsatou Diop"
             },
             {
-              "photo": "https://assets.decocache.com/novo-leme/b32059c1-7bac-40c2-934d-4fd1cdd34d85/Equipe-Mathias_Lusquinos.png",
+              "label": "Mathias Lusquinos",
               "role": "Pesquisador",
               "description": "Mestre em Políticas Públicas (Universidade de Chicago) e bacharel em Administração Pública (FGV/EAESP). Possui experiência na estruturação de projetos de PPPs e Concessões nas áreas de saneamento básico, transporte coletivo e iluminação pública (Fundação Instituto de Pesquisas Econômicas) e na pesquisa relativa ao crime organizado no Brasil e no Haiti, atuando em projeto de consultoria para o Banco Interamericano de Desenvolvimento e tendo sido assistente de pesquisa na Harris School of Public Policy da Universidade de Chicago. Mais informações: Lattes.",
               "links": {
                 "lattes": "http://lattes.cnpq.br/4230023346226177"
               },
-              "label": "Mathias Lusquinos"
+              "photo": "https://assets.decocache.com/novo-leme/b32059c1-7bac-40c2-934d-4fd1cdd34d85/Equipe-Mathias_Lusquinos.png"
             },
             {
               "label": "Afonso Borges",
-              "role": "Pesquisador",
               "description": "Mestre em Estatística (UFRJ) e graduado em Estatística (ENCE/IBGE). Possui sólida experiência em pesquisas quantitativas na área de segurança pública e sistema de justiça criminal, e no desenvolvimento de produtos de dados que orientam as decisões das instituições. Já atuou como analista de dados no Instituto de Segurança Pública (ISP/RJ), no Centro de Pesquisas do Ministério Público do Estado do Rio de Janeiro (CENPE/MPRJ) e na FGV Direito Rio. Mais informações: Lattes e LinkedIn.",
+              "photo": "https://assets.decocache.com/novo-leme/5e509555-865f-4eeb-8d3b-bd8423e148a7/Afonso-Silva-IMG_7546-(5)-(1)-(1).jpg",
               "links": {
                 "linkedin": "https://br.linkedin.com/in/afonsoborges92",
                 "lattes": "http://lattes.cnpq.br/6418263600955607"
               },
-              "photo": "https://assets.decocache.com/novo-leme/5e509555-865f-4eeb-8d3b-bd8423e148a7/Afonso-Silva-IMG_7546-(5)-(1)-(1).jpg"
+              "role": "Pesquisador"
             },
             {
               "label": "Daniela Lisbôa",
+              "role": "Pesquisadora",
               "description": "Bacharel em Ciências Sociais pela UFJF, mestre e doutoranda em Sociologia pelo IESP-UERJ. Sua pesquisa aborda a relação entre a esfera pública e os intelectuais públicos. Ao longo de sua trajetória, desenvolveu experiência em pesquisas acadêmicas, educação política e divulgação científica voltada para diferentes públicos. Atualmente, é assistente editorial na DADOS – Revista de Ciências Sociais. No Leme, atua no desenvolvimento de análises e propostas voltadas à área de segurança pública. Mais informações: Lattes e LinkedIn.",
               "photo": "https://assets.decocache.com/novo-leme/77278447-da8c-475d-8d8a-e78acc2d0f38/Equipe-Daniela-Lisboa.jpg",
               "links": {
                 "linkedin": "https://www.linkedin.com/in/dani-alisboa/",
                 "lattes": "http://lattes.cnpq.br/0675294956252578"
-              },
-              "role": "Pesquisadora"
+              }
             },
             {
               "label": "Isabela Salgado",
-              "role": "Pesquisadora",
               "description": "Mestre em Políticas Públicas (Universidade de Princeton) e bacharel em Economia (PUC-Rio). Isabela tem experiência em projetos de pesquisa em diversas áreas, com foco em avaliação de impacto e no uso de evidências científicas para o desenho de políticas públicas eficientes. Durante quatro anos trabalhou no setor de crime, violência e conflito do J-PAL, em Boston (EUA). No Leme, Isabela apoia o desenvolvimento de intervenções em segurança pública. Mais informações: LinkedIn.",
+              "role": "Pesquisadora",
               "photo": "https://assets.decocache.com/novo-leme/24669f19-da36-4c4c-aeef-86930034e226/Equipe-Isabela-Salgado.jpg",
               "links": {
                 "linkedin": "https://www.linkedin.com/in/isabela-salgado-silva-pereira-a4a652170/"
@@ -185,8 +194,8 @@
             },
             {
               "label": "Ana Figueiredo",
-              "description": "Mestranda em Justiça e Segurança pela Universidade Federal Fluminense (UFF) e bacharel em Segurança Pública e Social pela mesma instituição. Atuou como Auxiliar de Pesquisa no Instituto de Pesquisa Econômica Aplicada (IPEA), exerceu a função de Assessora de Avaliação de Políticas Públicas na Prefeitura de Niterói e atualmente atua no LEME como Analista de Políticas Públicas Júnior. Desenvolve pesquisas e projetos voltados à avaliação de políticas públicas, com foco em indicadores sociais, dinâmicas da violência, gestão e governança no setor público. ",
               "role": "Pesquisadora",
+              "description": "Mestranda em Justiça e Segurança pela Universidade Federal Fluminense (UFF) e bacharel em Segurança Pública e Social pela mesma instituição. Atuou como Auxiliar de Pesquisa no Instituto de Pesquisa Econômica Aplicada (IPEA), exerceu a função de Assessora de Avaliação de Políticas Públicas na Prefeitura de Niterói e atualmente atua no LEME como Analista de Políticas Públicas Júnior. Desenvolve pesquisas e projetos voltados à avaliação de políticas públicas, com foco em indicadores sociais, dinâmicas da violência, gestão e governança no setor público. ",
               "photo": "https://assets.decocache.com/novo-leme/5d863aa4-1bb8-4734-a497-b60fcb0d637b/ana-fig-foto-perfil-(1)-(1).jpg",
               "links": {
                 "linkedin": "https://www.linkedin.com/in/ana-figueiredo-1b2534216/",
@@ -198,15 +207,6 @@
               "role": "Pesquisadora",
               "description": "Doutoranda em Economia no Insper, com pesquisa financiada pela FAPESP sobre economia do crime e avaliação de políticas públicas, focando nos efeitos intergeracionais da violência contra a mulher e nos impactos de reformas institucionais. Foi pesquisadora visitante na Princeton University em 2024 e é bacharela em Economia pela FECAP. Tem dez anos de experiência em pesquisa aplicada e econometria, com atuação acadêmica na FGV, FECAP e Insper, em temas de crime, mercado de trabalho e sistema de justiça. É pesquisadora associada ao LEME Lab (Laboratório para Redução da Violência), onde participa de projetos de avaliação de políticas públicas voltadas à prevenção da violência. Liderou o grupo de estudos econômicos NECON-FECAP e integra o grupo de estudos do GeFam (Brazilian Society for Family and Gender Economics), onde idealizou programas de mentoria para jovens pesquisadores. Seus interesses de pesquisa incluem microeconomia do desenvolvimento, econometria aplicada e violência.",
               "photo": "https://assets.decocache.com/novo-leme/15fd5826-38fc-4722-8f7d-cb5585fb92b3/foto_site-(1).jpeg"
-            },
-            {
-              "label": "Wellington Santos",
-              "role": "Estagiário",
-              "description": "Estudante de Comunicação Social - Rádio e TV pela Universidade Federal do Rio de Janeiro (UFRJ). Atualmente, atua no LEME como Estagiário de Comunicação, colaborando na produção de conteúdos e no apoio às ações de comunicação do laboratório. Desenvolve atividades relacionadas à produção audiovisual, comunicação integrada e gestão de mídias. ",
-              "links": {
-                "linkedin": "https://www.linkedin.com/in/wellsantt/"
-              },
-              "photo": "https://assets.decocache.com/novo-leme/320deb2b-fc0a-411d-8062-defe3b347177/Midia-(1).jpg"
             }
           ],
           "label": "Equipe"
