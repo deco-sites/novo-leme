@@ -1,0 +1,58 @@
+{
+  "name": "collections/blog/posts/c90e48669fff",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [],
+    "imageCarousel": {
+      "banners": [
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/371195ed-1516-476e-a1e8-65520150e87f/WhatsApp-Image-2025-11-07-at-08.48.53.jpeg"
+          },
+          "mobile": {}
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/32615720-4131-43df-a8a6-52cc1a8fa510/WhatsApp-Image-2025-11-07-at-08.49.36-(1).jpeg"
+          },
+          "mobile": {}
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/9363b29f-6c4e-400d-9c10-d66a422a0659/WhatsApp-Image-2025-11-07-at-08.48.54-(1).jpeg"
+          },
+          "mobile": {}
+        },
+        {
+          "desktop": {},
+          "mobile": {}
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/94b3b9fa-a80b-4069-9afe-a6c6caaba3b2/WhatsApp-Image-2025-11-07-at-08.49.38-(1)-(1)-(1).jpeg"
+          },
+          "mobile": {}
+        }
+      ]
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "image": null,
+      "video": null
+    },
+    "title": "Leme e Universidade de Chicago visitam equipamentos comunitários na Maré ",
+    "excerpt": "O Leme e a Universidade de Chicago realizaram uma agenda de visitas a equipamentos comunitários na Maré, com o objetivo de conhecer de perto iniciativas voltadas à prevenção de violência e à proteção de jovens em contextos vulneráveis. ",
+    "date": "2025-08-22",
+    "content": "<p><strong><span>Leme e Universidade de Chicago visitam equipamentos comunitários na Maré</span></strong><span style=\"font-size: 12pt\">&nbsp;</span></p><p style=\"text-align: justify\"><span>O Leme e a Universidade de Chicago realizaram uma agenda de visitas a equipamentos comunitários na Maré, com o objetivo de conhecer de perto iniciativas voltadas à prevenção de violência e à proteção de jovens em contextos vulneráveis. A agenda foi guiada por Thaís Custódio, pesquisadora associada ao Leme, doutoranda em Economia (PPGE/UFRJ) e mestra em Economia Regional (PPGER/UFFRJ).</span><span style=\"font-size: 12pt\">&nbsp;</span></p><p style=\"text-align: justify\"><span>A agenda contou com a presença de Júlia Guerra, diretora e cofundadora do Leme; dos professores Benjamin Lessing Christopher Blattman, da Universidade de Chicago; dos pesquisadores Alexandre Simões e Moustafa El-Kashlan, também da Universidade de Chicago; além de Isabela Salgado, pesquisadora do Leme, e Ana Paula Pellegrino, pesquisadora associada ao Leme.</span><span style=\"font-size: 12pt\">&nbsp;</span></p><p style=\"text-align: justify\"><span>As visitas buscaram compreender as dinâmicas locais de atuação de grupos criminosos e suas relações com a juventude residente nesses territórios. Durante a agenda, as instituições visitadas apresentaram seus projetos e estratégias de atuação na área de segurança pública e prevenção social.&nbsp;</span><span style=\"font-size: 12pt\">&nbsp;</span></p><p style=\"text-align: justify\"><span>A equipe foi recebida por Ricardo Fernandes, fundador e coordenador do Instituto Movimentos, Raquel Willadino e Milena Afonso, diretora e coordenadora do Observatório das Favelas, junto à equipe do eixo Direito à Vida; Lidiane Malanquini e Liliane Santos, coordenadora e pesquisadora das Redes da Maré, acompanhadas da equipe do eixo Direito à Segurança Pública e Acesso à Justiça, e Luciana Alves e Roberto Custódio, coordenadores do Projeto Especial de Luta pela Paz.</span><span style=\"font-size: 12pt\">&nbsp;</span></p><p style=\"text-align: justify\"><span>Durante o encontro, cada organização compartilhou suas experiências e metodologias, revelando diferentes formas de atuação no território, tanto direta quanto indiretamente, na promoção de oportunidades e no enfrentamento à violência.</span><span style=\"font-size: 12pt\">&nbsp;</span></p><p style=\"text-align: justify\"><span>A visita permitiu ao Leme aprofundar o diálogo com atores locais e aproximar a produção de conhecimento acadêmico das práticas comunitárias, reforçando o compromisso do laboratório com a construção de políticas públicas baseadas em evidências e com a valorização das iniciativas locais de prevenção.&nbsp;</span><span style=\"font-size: 12pt\">&nbsp;</span></p><p style=\"text-align: justify\"><span>Além disso, as organizações também se comprometeram a compartilhar estudos e levantamentos sobre o tema, fortalecendo a troca de saberes e a cooperação em prol de uma segurança pública mais inclusiva e eficaz.</span><span style=\"font-size: 12pt\">&nbsp;</span></p>",
+    "slug": "leme-universidade-chicago-visitam-equipamentos-comunitarios-mare",
+    "image": "https://assets.decocache.com/novo-leme/945fd359-714d-45ec-b2e2-ec3e98bdd9c8/WhatsApp-Image-2025-11-07-at-08.49.38-(4).jpeg",
+    "seo": {}
+  }
+}
