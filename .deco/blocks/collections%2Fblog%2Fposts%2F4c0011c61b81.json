@@ -12,10 +12,6 @@
     "imageCarousel": {
       "banners": [
         {
-          "desktop": {},
-          "mobile": {}
-        },
-        {
           "desktop": {
             "image": "https://assets.decocache.com/novo-leme/371195ed-1516-476e-a1e8-65520150e87f/WhatsApp-Image-2025-11-07-at-08.48.53.jpeg"
           },
