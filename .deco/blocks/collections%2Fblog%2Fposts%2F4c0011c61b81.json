@@ -1,0 +1,62 @@
+{
+  "name": "collections/blog/posts/4c0011c61b81",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "News",
+        "slug": "en-noticias"
+      }
+    ],
+    "imageCarousel": {
+      "banners": [
+        {
+          "desktop": {},
+          "mobile": {}
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/371195ed-1516-476e-a1e8-65520150e87f/WhatsApp-Image-2025-11-07-at-08.48.53.jpeg"
+          },
+          "mobile": {}
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/32615720-4131-43df-a8a6-52cc1a8fa510/WhatsApp-Image-2025-11-07-at-08.49.36-(1).jpeg"
+          },
+          "mobile": {}
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/9363b29f-6c4e-400d-9c10-d66a422a0659/WhatsApp-Image-2025-11-07-at-08.48.54-(1).jpeg"
+          },
+          "mobile": {}
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/94b3b9fa-a80b-4069-9afe-a6c6caaba3b2/WhatsApp-Image-2025-11-07-at-08.49.38-(1)-(1)-(1).jpeg"
+          },
+          "mobile": {}
+        }
+      ]
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "image": null,
+      "video": null
+    },
+    "title": "Leme and the University of Chicago visit community facilities in Maré ",
+    "excerpt": "Leme and the University of Chicago carried out a series of visits to community facilities in Maré with the goal of closely learning about initiatives focused on violence prevention and the protection of young people in vulnerable contexts.",
+    "image": "https://assets.decocache.com/novo-leme/945fd359-714d-45ec-b2e2-ec3e98bdd9c8/WhatsApp-Image-2025-11-07-at-08.49.38-(4).jpeg",
+    "date": "2025-08-22",
+    "slug": "leme-uchicago-mare-visits-violence-prevention",
+    "content": "<p><strong><span>Leme and the University of Chicago visit community facilities in Maré</span></strong><span style=\"font-size: 12pt\">&nbsp;</span></p><p style=\"text-align: justify\"><span>Leme and the University of Chicago carried out a series of visits to community facilities in Maré with the goal of closely learning about initiatives focused on violence prevention and the protection of young people in vulnerable contexts. The visits were guided by Thaís Custódio, associate researcher at Leme, PhD candidate in Economics at PPGE UFRJ, and master in Regional Economics at PPGER UFRRJ.</span><span style=\"font-size: 12pt\">&nbsp;</span></p><p style=\"text-align: justify\"><span>The agenda included the participation of Júlia Guerra, director and cofounder of Leme, professors Benjamin Lessing and Christopher Blattman from the University of Chicago, researchers Alexandre Simões and Moustafa El Kashlan, also from the University of Chicago, as well as Isabela Salgado, researcher at Leme, and Ana Paula Pellegrino, associate researcher at Leme.</span><span style=\"font-size: 12pt\">&nbsp;</span></p><p style=\"text-align: justify\"><span>The visits aimed to understand the local dynamics of criminal group activities and their relationships with young residents in these territories. During the agenda, the institutions visited presented their projects and strategies in the field of public security and social prevention.</span><span style=\"font-size: 12pt\">&nbsp;</span></p><p style=\"text-align: justify\"><span>The team was welcomed by Ricardo Fernandes, founder and coordinator of Instituto Movimentos, Raquel Willadino and Milena Afonso, director and coordinator of Observatório de Favelas, along with the Direito à Vida team, Lidiane Malanquini and Liliane Santos, coordinator and researcher at Redes da Maré, accompanied by the Direito à&nbsp; Segurança Pública e Acesso à Justiça team, and Luciana Alves and Roberto Custódio, coordinators of the Special Project Luta pela Paz.</span><span style=\"font-size: 12pt\">&nbsp;</span></p><p style=\"text-align: justify\"><span>During the meeting, each organization shared its experiences and methodologies, showing different ways of working within the territory both directly and indirectly to promote opportunities and address violence.</span><span style=\"font-size: 12pt\">&nbsp;</span></p><p style=\"text-align: justify\"><span>The visit allowed Leme to deepen its dialogue with local actors and bring academic knowledge production closer to community practices, reinforcing the laboratory’s commitment to evidence based public policy and the recognition of local prevention initiatives.</span><span style=\"font-size: 12pt\">&nbsp;</span></p><p style=\"text-align: justify\"><span>In addition, the organizations committed to sharing studies and data on the topic, strengthening the exchange of knowledge and cooperation in favor of a more inclusive and effective public security approach.</span><span style=\"font-size: 12pt\">&nbsp;</span></p>"
+  }
+}
