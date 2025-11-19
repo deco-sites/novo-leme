@@ -66,6 +66,14 @@
             },
             "url": "https://assets.decocache.com/novo-leme/cbef9456-59dd-4475-a7cb-fdc3a5db718f/Codigo-de-Etica-e-de-Conduta.pdf",
             "description": "Código de Ética e Conduta do Leme, documento que reúne princípios, valores e diretrizes para uma atuação ética, transparente e responsável."
+          },
+          {
+            "name": "Política Interna de Segurança da Informação",
+            "url": "https://assets.decocache.com/novo-leme/7d381c5e-5ab8-42ec-878b-4ef6ed853d50/Politica-Interna-de-Seguranca-da-Informacao.pdf",
+            "image": {
+              "src": "https://assets.decocache.com/novo-leme/fcdcef9a-84c2-46c5-a5dc-748f8b2139f9/capinha.jpg"
+            },
+            "description": "Política de Segurança da Informação do Leme, com diretrizes para proteção de dados e conformidade com a LGPD."
           }
         ]
       }
