@@ -65,6 +65,14 @@
             },
             "description": "Leme’s Code of Ethics and Conduct, a document that outlines the principles, values, and guidelines for ethical, transparent, and responsible conduct.",
             "name": "Code of Ethics and Conduct"
+          },
+          {
+            "image": {
+              "src": "https://assets.decocache.com/novo-leme/fcdcef9a-84c2-46c5-a5dc-748f8b2139f9/capinha.jpg"
+            },
+            "name": "Information Security Policy",
+            "url": "https://assets.decocache.com/novo-leme/7d381c5e-5ab8-42ec-878b-4ef6ed853d50/Politica-Interna-de-Seguranca-da-Informacao.pdf",
+            "description": "Leme’s Information Security Policy, outlining data protection guidelines and LGPD compliance."
           }
         ]
       }
