@@ -73,6 +73,14 @@
             "name": "Information Security Policy",
             "url": "https://assets.decocache.com/novo-leme/7d381c5e-5ab8-42ec-878b-4ef6ed853d50/Politica-Interna-de-Seguranca-da-Informacao.pdf",
             "description": "Leme’s Information Security Policy, outlining data protection guidelines and LGPD compliance."
+          },
+          {
+            "name": "Research Participation Consent Form – FGV",
+            "url": "https://assets.decocache.com/novo-leme/52613d1d-d4ea-45a0-bfdc-b2aa7746ec24/Consentimento_FMS-(2).pdf",
+            "image": {
+              "src": "https://assets.decocache.com/novo-leme/d9517ce1-1618-415d-b9b7-01e043ce63aa/292338647_10159411693719843_7984712905565403579_n.jpg"
+            },
+            "description": "FGV consent form for research on the motivations of those selected for the Municipal Guard’s Elite Division, containing information about the study’s objectives, procedures, and voluntary participation."
           }
         ]
       }
