@@ -1,0 +1,33 @@
+{
+  "name": "collections/blog/posts/c25a8bca7711",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "News",
+        "slug": "en-noticias"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "image": null,
+      "video": null
+    },
+    "title": "Joana Monteiro joins the Monitoring Council of ADPF 635 as a representative of civil society",
+    "date": "2025-12-01",
+    "slug": "joana-monteiro-joins-adpf-635-monitoring-council-civil-society",
+    "excerpt": "In June 2025, Joana Monteiro, director and co-founder of Leme, was appointed to serve on the Monitoring Council of ADPF 635, created by the National Council of the Public Prosecutor’s Office.",
+    "image": "https://assets.decocache.com/novo-leme/932ae6d7-779f-4dc1-8914-2c4767ffa27a/upload_00005671.jpg",
+    "content": "<p>Joana Monteiro joins the Monitoring Council of ADPF 635 as a representative of civil society</p><p>In June 2025, Joana Monteiro, director and co-founder of Leme, was appointed to serve on the Monitoring Council of ADPF 635, created by the National Council of the Public Prosecutor’s Office. The council is composed of eight members and aims to oversee the implementation of the measures ordered by the Federal Supreme Court (STF) regarding police operations in Rio de Janeiro.</p><p>Known as the “ADPF of the Favelas,” ADPF 635 was filed in 2019 and resulted in a 2020 Supreme Court decision that restricted police operations in communities. As a result, the ruling reinforced the need for oversight by the Public Prosecutor’s Office and for the protection of the fundamental rights of the most vulnerable populations.</p><p>The Council includes representatives from public agencies, academia, and civil society, ensuring democratic participation and a diversity of perspectives. Joana Monteiro and Daniel Cerqueira, a researcher at the Institute for Applied Economic Research (Ipea) and coordinator of the Atlas da Violência, were selected as civil society representatives.</p><p>Also serving on the council are:</p><p>Antônio Edílio Magalhães Teixeira, National Councilor of the Public Prosecutor’s Office, who will act as General Coordinator, representing the National Council of the Public Prosecutor’s Office;</p><p>Carina Senna, State Prosecutor, representing the Public Prosecutor’s Office of the State of Rio de Janeiro;</p><p>Paulo Marcos de Farias, Auxiliary Judge to the Presidency, representing the National Council of Justice;</p><p>Fábio Villela de Pinho, Colonel of the Military Police of the State of Rio de Janeiro, representing the State Secretariat for Public Security of Rio de Janeiro;</p><p>Marcos Paulo Dutra Santos, Public Defender, representing the Public Defender’s Office of the State of Rio de Janeiro;</p><p>Julio José Araujo Junior, Federal Prosecutor, representing the Federal Public Prosecutor’s Office.</p><p>Among its responsibilities, the group will be in charge of executing the structural measures determined by the Federal Supreme Court, preparing periodic technical reports, and transparently monitoring indicators of police lethality and victimization.</p>"
+  }
+}
