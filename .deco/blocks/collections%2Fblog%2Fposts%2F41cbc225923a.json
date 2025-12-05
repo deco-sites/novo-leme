@@ -1,0 +1,70 @@
+{
+  "name": "collections/blog/posts/41cbc225923a",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "Notícias",
+        "slug": "noticias"
+      }
+    ],
+    "imageCarousel": {
+      "banners": [
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/b3d158d8-f586-4fd4-8e14-98bfddbf4731/7e6fc6d4-8947-46d1-8bdf-1d40122b3f55.jfif"
+          },
+          "mobile": {}
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/e2a976b8-4120-4b5a-aaa3-7ad070f2f739/6b86e250-7486-459d-8932-641c47019e14.jfif"
+          },
+          "mobile": {}
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/6ed3c734-dee7-45ed-a299-d69cef503edb/64d971b9-0589-42b5-aff1-a109c37e9c59.jfif"
+          },
+          "mobile": {}
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/dedddbee-e169-47eb-a3ba-203001139b3f/f1fe90b1-d610-4c44-b5ef-571ed3c55d7c.jfif"
+          },
+          "mobile": {}
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/5b399033-6253-49af-bd99-ce9f8d37c159/ebc4cafe-43e2-40b6-922c-eb2cd7ed56a9.jfif"
+          },
+          "mobile": {}
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/bc2a6257-03c3-4a43-8ea6-2c461cf514e4/3a01d4d5-8636-4c34-8281-8f990620f17c.jfif"
+          },
+          "mobile": {}
+        }
+      ]
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "image": null,
+      "video": null
+    },
+    "title": "SESP avança em tecnologia de prevenção à violência doméstica com uso de dados e inteligência artificial ",
+    "excerpt": "Na última segunda-feira (01/12), a Secretaria da Segurança Pública do Paraná (SESP) realizou o Seminário de Dados e Inteligência Artificial na Segurança Pública para apresentar o desenvolvimento da tecnologia Algoritmo de Revitimização de Violência Doméstica. A ferramenta tem como objetivo criar um algoritmo através de IA capaz de estimar o risco de revitimização de mulheres com histórico de agressão.",
+    "date": "2025-12-06",
+    "slug": "seminario-sesp-parana-ia-algoritmo-revitimizacao-violencia-domestica",
+    "content": "<p><strong><span>SESP avança em tecnologia de prevenção à violência doméstica com uso de dados e inteligência artificial</span></strong><span style=\"font-size: 12pt\">&nbsp;</span></p><p style=\"text-align: justify\"><span>Na última segunda-feira (01/12), a Secretaria da Segurança Pública do Paraná (SESP) realizou o Seminário de Dados e Inteligência Artificial na Segurança Pública para apresentar o desenvolvimento da tecnologia Algoritmo de Revitimização de Violência Doméstica. A ferramenta tem como objetivo criar um algoritmo através de IA&nbsp;capaz de estimar o risco de revitimização de mulheres com histórico de agressão. O projeto, articulado com a colaboração de Laura Schiavon, diretora e cofundadora do Leme, está sendo desenvolvido pelo Centro de Análise, Planejamento e Estatística (CAPE/SESP) em parceria com o Banco Interamericano de Desenvolvimento (BID). </span><span style=\"font-size: 12pt\">&nbsp;</span></p><p style=\"text-align: justify\"><span>Participaram do encontro Laura Schiavon, Emanuele Maria de Oliveira Siqueira, titular da Delegacia da Mulher da Capital; o tenente-coronel Todisco, chefe do CAPE; a capitã Carolina, coordenadora da Patrulha Maria da Penha; e o 2º sargento Reginaldo, coordenador de Geotecnologia da SESP. Os representantes apresentaram suas perspectivas institucionais sobre a integração de dados, os desafios operacionais no atendimento às mulheres em situação de violência e as potencialidades da nova tecnologia no fortalecimento das ações de prevenção. O seminário também reuniu os pesquisadores Ísis Lira e Matheus Nascimento, do Leme, que integram a equipe responsável pelo desenvolvimento do modelo. </span><span style=\"font-size: 12pt\">&nbsp;</span></p><p style=\"text-align: justify\"><span>Ao longo da reunião, os pesquisadores detalharam etapas do processo de construção da ferramenta, discutindo métodos de análise de risco, desafios operacionais e possibilidades de aplicação do algoritmo no planejamento das ações de proteção às mulheres. As apresentações ressaltaram como a consolidação de bases integradas de dados e o uso de técnicas avançadas de modelagem podem aprimorar a capacidade do estado em identificar situações de maior vulnerabilidade e orientar respostas mais qualificadas por parte das forças de segurança.</span><span style=\"font-size: 12pt\">&nbsp;</span></p><p style=\"text-align: justify\"><strong><span>Como funciona a tecnologia&nbsp;</span></strong><span style=\"font-size: 12pt\">&nbsp;</span></p><p style=\"text-align: justify\"><span>A construção da ferramenta exigiu um processo robusto de organização e qualificação da base de dados reunidas pelo estado. O trabalho integrou mais de 15 milhões de boletins de ocorrência e consolidou, em uma única base analítica, informações do FONAR, IML, mandados de prisão, medidas protetivas de urgência, botão do pânico e demais registros do BOU. Nessa essa etapa, a equipe avaliou a qualidade e o preenchimento de informações, identificando pontos de melhorias e propondo ajustes, como a adoção do CPF como identificador padrão e a obrigatoriedade de registrar o grau de relação entre a vítima e o agressor nos casos de violência doméstica.&nbsp;</span><span style=\"font-size: 12pt\">&nbsp;</span></p><p style=\"text-align: justify\"><span>“Com a consolidação dessa base, pudemos avançar para análises descritivas sobre o perfil das mulheres revitimizadas e identificar variáveis relevantes para o risco de novas agressões. A partir desse conjunto, testamos diferentes modelos estatísticos até chegar a uma versão do algoritmo que consideramos tecnicamente sólida e apta a apoiar políticas de proteção mais focalizadas”, afirmou Ísis Lira, pesquisadora do Leme e integrante da equipe responsável pelo desenvolvimento da tecnologia.</span><span style=\"font-size: 12pt\">&nbsp;</span></p><p style=\"text-align: justify\"><span>Entre as variáveis incorporadas ao modelo estão informações do FONAR que ajudam a caracterizar o contexto de risco, como:</span><span style=\"font-size: 12pt\">&nbsp;</span></p><ul><li><p style=\"text-align: justify\"><span>Uso de drogas ou álcool pelo agressor;</span><span style=\"font-size: 12pt\">&nbsp;</span></p></li></ul><ul><li><p style=\"text-align: justify\"><span>Dependência financeira da vítima;</span><span style=\"font-size: 12pt\">&nbsp;</span></p></li></ul><ul><li><p style=\"text-align: justify\"><span>Presença de filhos;</span><span style=\"font-size: 12pt\">&nbsp;</span></p></li></ul><ul><li><p style=\"text-align: justify\"><span>Situação de desemprego;</span><span style=\"font-size: 12pt\">&nbsp;</span></p></li></ul><ul><li><p style=\"text-align: justify\"><span>Acesso a arma de fogo;</span><span style=\"font-size: 12pt\">&nbsp;</span></p></li></ul><ul><li><p style=\"text-align: justify\"><span>Coabitação entre vítima e agressor;</span><span style=\"font-size: 12pt\">&nbsp;</span></p></li></ul><p style=\"text-align: justify\"><span>A partir da combinação desses dados, o sistema gera um índice entre 0 e 1, que estima o nível de risco de revitimização. Segundo as simulações iniciais, o uso do algoritmo pode elevar em até 50% a probabilidade de que a Patrulha Maria da Penha visite mulheres em situação de alto risco, quando comparado à alocação aleatória ou baseada apenas na data da ocorrência.</span><span style=\"font-size: 12pt\">&nbsp;</span></p><p style=\"text-align: justify\"><span>De acordo com o secretário da Segurança Pública do Paraná, coronel Hudson Leôncio Teixeira, a iniciativa representa um ganho significativo para a política enfretamento à violência no estado</span><s><span>:</span></s><u><span>.</span></u><span style=\"font-size: 12pt\">&nbsp;</span></p><p style=\"text-align: justify\"><span>“Essa tecnologia trará muitos benefícios. Iremos ampliar a capacidade que temos de prever uma possível reincidência do agressor, qualificar o atendimento policial e, principalmente, fortalecer a rede de proteção às mulheres”, afirmou o secretário, destacando a conexão do sistema com o Programa Mulher Segura, implementado pela atual gestão.</span><span style=\"font-size: 12pt\">&nbsp;</span></p><p style=\"text-align: justify\"><span>Segundo os pesquisadores, o algoritmo será incorporado a um dashboard unificado, concebido para organizar informações críticas em um formato acessível e confiável. A plataforma permitirá que equipes policiais visualizem dados de forma integrada, fortalecendo a capacidade de resposta em casos urgentes e aprimorando o planejamento das ações de prevenção.</span><span style=\"font-size: 12pt\">&nbsp;</span></p><p style=\"text-align: justify\"><span>Com essa etapa concluída, a tecnologia avança para sua fase piloto, que testará a aplicação prática do sistema no dia a dia das operações de segurança pública. A implementação ocorrerá ao longo de 2026, sob coordenação do CAPE/SESP e apoio do BID. Ao incorporar técnicas de previsão e análise de risco, a iniciativa marca um passo importante no fortalecimento das políticas de proteção às mulheres e no uso estratégico de dados para orientar decisões públicas.</span><span style=\"font-size: 12pt\">&nbsp;</span></p>",
+    "image": "https://assets.decocache.com/novo-leme/73024b05-896f-4e38-b0fe-8f1ff483bca4/33c4bc6e-0e08-4204-851e-db9eeb6ebcda.jfif"
+  }
+}
