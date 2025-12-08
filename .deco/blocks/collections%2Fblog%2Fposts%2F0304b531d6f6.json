@@ -1,0 +1,70 @@
+{
+  "name": "collections/blog/posts/0304b531d6f6",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "News",
+        "slug": "en-noticias"
+      }
+    ],
+    "imageCarousel": {
+      "banners": [
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/b3d158d8-f586-4fd4-8e14-98bfddbf4731/7e6fc6d4-8947-46d1-8bdf-1d40122b3f55.jfif"
+          },
+          "mobile": {}
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/e2a976b8-4120-4b5a-aaa3-7ad070f2f739/6b86e250-7486-459d-8932-641c47019e14.jfif"
+          },
+          "mobile": {}
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/6ed3c734-dee7-45ed-a299-d69cef503edb/64d971b9-0589-42b5-aff1-a109c37e9c59.jfif"
+          },
+          "mobile": {}
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/dedddbee-e169-47eb-a3ba-203001139b3f/f1fe90b1-d610-4c44-b5ef-571ed3c55d7c.jfif"
+          },
+          "mobile": {}
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/5b399033-6253-49af-bd99-ce9f8d37c159/ebc4cafe-43e2-40b6-922c-eb2cd7ed56a9.jfif"
+          },
+          "mobile": {}
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/bc2a6257-03c3-4a43-8ea6-2c461cf514e4/3a01d4d5-8636-4c34-8281-8f990620f17c.jfif"
+          },
+          "mobile": {}
+        }
+      ]
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "image": null,
+      "video": null
+    },
+    "title": "SESP advances in technology for preventing domestic violence through the use of data and artificial intelligence",
+    "excerpt": "On Monday (12/01), the Public Security Secretariat of Paraná (SESP) held the Public Security Data and Artificial Intelligence Seminar to present the development of the Domestic Violence Revictimization Algorithm technology. The tool aims to create an AI-based algorithm capable of estimating the risk of revictimization among women with a history of aggression.",
+    "image": "https://assets.decocache.com/novo-leme/73024b05-896f-4e38-b0fe-8f1ff483bca4/33c4bc6e-0e08-4204-851e-db9eeb6ebcda.jfif",
+    "date": "2025-12-06",
+    "slug": "sesp-advances-domestic-violence-prevention-with-data-and-ai",
+    "content": "<p><strong>SESP advances domestic violence prevention technology using data and artificial intelligence</strong></p><p></p><p>Last Monday (12/01), the Public Security Secretariat of Paraná (SESP) held the Data and Artificial Intelligence in Public Security Seminar to present the development of the Domestic Violence Revictimization Algorithm. The tool aims to create an AI-based algorithm capable of estimating the risk of revictimization among women with a history of aggression. The project, coordinated with the collaboration of Laura Schiavon, director and cofounder of Leme, is being developed by the Center for Analysis, Planning and Statistics (CAPE/SESP) in partnership with the Inter-American Development Bank (IDB).</p><p></p><p>The meeting was attended by Laura Schiavon; Emanuele Maria de Oliveira Siqueira, head of the Women’s Police Station of the Capital; Lieutenant Colonel Todisco, head of CAPE; Captain Carolina, coordinator of the Maria da Penha Patrol; and Sergeant Reginaldo, coordinator of Geotechnology at SESP. The representatives presented their institutional perspectives on data integration, operational challenges in assisting women experiencing violence, and the potential of the new technology to strengthen prevention efforts. The seminar also brought together Leme researchers Ísis Lira and Matheus Nascimento, who are part of the team responsible for developing the model.</p><p></p><p>Throughout the meeting, the researchers detailed the stages of building the tool, discussing risk assessment methods, operational challenges, and possible applications of the algorithm in planning protection actions for women. The presentations highlighted how the consolidation of integrated datasets and the use of advanced modeling techniques can improve the state's ability to identify situations of higher vulnerability and guide more effective responses from public security forces.</p><p>According to Laura Schiavon, one of the main benefits of the technology is its ability to guide security force operations with greater precision.</p><p></p><p>“The algorithm increases by up to 50% the likelihood that Maria da Penha Patrol teams will visit women at high risk, compared to random allocation or allocation based only on the date of the incident. This is the central advancement of the tool,” she stated.</p><p></p><p><strong>How the technology works</strong></p><p></p><p>Building the tool required a robust process of organizing and qualifying the database compiled by the state. The work integrated more than 15 million police reports and consolidated information from FONAR, IML, arrest warrants, emergency protective measures, panic button records, and other BOU entries into a single analytical database. At this stage, the team assessed data quality and completeness, identifying areas for improvement and proposing adjustments such as adopting CPF as a standard identifier and requiring the registration of the relationship between victim and aggressor in domestic violence cases.</p><p></p><p>“With this consolidated database, we were able to advance toward descriptive analyses of the profile of revictimized women and identify variables relevant to the risk of new aggressions. Based on this set of information, we tested different statistical models until reaching a version of the algorithm that we consider technically solid and capable of supporting more targeted protection policies,” said Ísis Lira, Leme researcher and member of the team responsible for developing the technology.</p><p></p><p>Among the variables incorporated into the model are FONAR information that helps characterize risk context, such as:</p><p></p><p>Use of drugs or alcohol by the aggressor</p><p>Financial dependence of the victim</p><p>Presence of children</p><p>Unemployment</p><p>Access to firearms</p><p>Co-residence of victim and aggressor</p><p></p><p>According to Hudson Leôncio Teixeira, Paraná’s Public Security Secretary, the initiative represents a significant step forward in the state’s domestic violence prevention policy.</p><p></p><p>“This technology will bring many benefits. We will expand our capacity to predict potential reoffending, improve police response, and, most importantly, strengthen the protection network for women,” said the secretary, highlighting the system’s alignment with the Safe Woman Program implemented by the current administration.</p><p></p><p>According to the researchers, the algorithm will be integrated into a unified dashboard designed to organize critical information in an accessible and reliable format. The platform will allow police teams to visualize integrated data, strengthening responsiveness in urgent cases and improving the planning of prevention strategies.</p><p></p><p>With this stage completed, the technology now advances to its pilot phase, which will test the system’s practical application in day-to-day public security operations. Implementation will take place throughout 2026, coordinated by CAPE/SESP with IDB support.By incorporating risk analysis and predictive techniques, the initiative marks an important step in strengthening policies for protecting women and in the strategic use of data to guide public decision-making.</p>"
+  }
+}
