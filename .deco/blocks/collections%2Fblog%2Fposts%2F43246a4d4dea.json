@@ -1,0 +1,70 @@
+{
+  "name": "collections/blog/posts/43246a4d4dea",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [
+      {
+        "name": "News",
+        "slug": "en-noticias"
+      }
+    ],
+    "imageCarousel": {
+      "banners": [
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/6b451ec1-8d73-417e-9895-2765ddfafbdc/WhatsApp-Image-2025-12-19-at-13.12.44-(1).jpeg"
+          },
+          "mobile": {}
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/86988747-8e3c-4015-849c-e8d90ed4ec55/WhatsApp-Image-2025-11-12-at-17.32.38.jpeg"
+          },
+          "mobile": {}
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/b9cf65c0-377e-4d20-a972-850ea9c1b9d3/WhatsApp-Image-2025-12-19-at-13.14.30.jpeg"
+          },
+          "mobile": {}
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/f3d0a95b-d8f0-4921-8340-b2d3ca97e3c9/WhatsApp-Image-2025-12-19-at-15.33.10-(1).jpeg"
+          },
+          "mobile": {}
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/c3db9d76-1f58-4f6f-a8a8-63250cd29295/WhatsApp-Image-2025-12-19-at-13.15.48-(1).jpeg"
+          },
+          "mobile": {}
+        },
+        {
+          "desktop": {
+            "image": "https://assets.decocache.com/novo-leme/ac2c0764-aac4-4c68-bcc4-4afea5c03f6e/WhatsApp-Image-2025-12-19-at-16.15.58.jpeg"
+          },
+          "mobile": {}
+        }
+      ]
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "image": null,
+      "video": null
+    },
+    "slug": "leme-trains-elite-division-municipal-guard-rio",
+    "date": "2025-12-20",
+    "title": "Leme participates in the training of agents of the Elite Division of the Municipal Guard",
+    "excerpt": "In November and December, Leme taught classes as part of the training program for agents of the Elite Division of the Municipal Guard, during the training course of the municipality’s new overt policing force. The activities took place at the Elite Division Training Academy, located at the headquarters of the Federal Highway Police (PRF), in Rio de Janeiro.",
+    "image": "https://assets.decocache.com/novo-leme/c26e2e51-92d5-4ed9-8cbe-cb22ed63914e/WhatsApp-Image-2025-12-19-at-16.04.25.jpeg",
+    "content": "<p><strong>Leme participates in the training of agents of the Elite Division of the Municipal Guard</strong></p><p></p><p>In November and December, Leme taught classes as part of the training program for agents of the Elite Division of the Municipal Guard, during the training course of the municipality’s new overt policing force. The activities took place at the Elite Division Training Academy, located at the headquarters of the Federal Highway Police (PRF), in Rio de Janeiro.</p><p></p><p>The training resulted in the graduation of the first class, completed in November, with 287 agents, and in the qualification of a second class, currently in its final stage in December, composed of 332 agents. In addition to classroom teaching, Leme provided technical support in the development of the course’s pedagogical content.</p><p></p><p>The training involved Ramón Chaves, project lead; Daniela Lisboa, Ananda Viana, Ana Figueiredo, Isabela Salgado, and Brenda Fernandes, researchers; and Yasmin Santos and Thaís Custódio, associate researchers. In total, five subjects were taught: Crime Reduction Program in Urban Public Space; Problem-Oriented Policing; Urban Public Space; The Municipal Force and Integrated Public Security Management; and Information Systems in Public Security.</p><p></p><p>The team’s work encompassed both the development of course materials and the delivery of classes, ensuring the integration of analytical foundations, data use, and practical application in the context of municipal public security.</p><p></p><p><strong>Institutional context of the course</strong></p><p></p><p>Created in 2025, the Municipal Force is part of a national movement to strengthen the role of municipalities in public security. The qualification course, with a total of 440 instructional hours, is part of the eliminatory stage of the agents’ selection process and was developed through cooperation between the City of Rio de Janeiro, the Federal Highway Police (PRF), and the National Secretariat of Public Security (Senasp).</p><p></p><p>Within this context, Leme acted as a technical partner of the City Hall, responsible for designing the course content, providing methodological guidance, and teaching the subject Municipal Security Strategy. The course addressed topics such as differentiated use of force, problem-oriented policing, territorial analysis and diagnosis, situational crime prevention, integrated security management, and data analysis applied to public security.</p><p></p><p>According to the team, the curriculum was designed to prepare agents for a preventive approach, articulated with other areas of municipal administration and based on territorial diagnostics.</p><p></p><p>“This is mainly achieved through the materials used in the classroom. The classes were based on data on crime hotspots, critical points, and alerts, derived from surveys and systematizations carried out by Leme using databases such as ISP, GENI, and Fogo Cruzado. This use of data makes it possible to present the reality of Rio de Janeiro in a more direct and applied way, connecting the content to the concrete dynamics of the territory where the agents will operate,” explained Ananda Viana.</p><p></p><p><strong>Municipal CompStat and integrated security management</strong></p><p></p><p>The CompStat model was presented as one of the main references for municipal security management. Originally developed in New York, the program is based on the systematic use of data to identify crime patterns, guide operational decisions, and monitor results over time.</p><p></p><p>“CompStat is, in fact, an important reference for city management. In New York, the model is strictly police-based, with exclusive participation of commanders and police teams. In Rio, we are building an expanded version of the model, focused on integrated city management, involving different areas of municipal administration, not only public security,” said Daniela Lisboa.</p><p></p><p><strong>From institutional design to practice</strong></p><p></p><p>The advancement of the training also enabled the presentation and discussion of the institutional design of the Municipal Force with the agents. Throughout the classes, concepts, guidelines, and technical definitions that structure municipal security policy moved from the normative plan to being understood in practice. For Brenda Fernandes, a researcher at Leme, this process was central to consolidating the proposal of the new force.</p><p></p><p>“The main achievement is that the design of the Municipal Force reached the agents. As a result, the technical and political decisions that were on paper took shape during the training, when they were able to see and understand this design for the first time. It is like watching what was written take concrete form and become practice,” she stated.</p><p></p><p><strong>Continuing education</strong></p><p></p><p>This Tuesday (the 16th), the training process of the first two classes included an inaugural continuing education lecture delivered by Leme, with the participation of 300 agents. The activity was held in two sessions, with 150 agents in the morning and 150 in the afternoon, and featured classes led by Joana Monteiro, director and cofounder of Leme, and Ramón Chaves.</p><p></p><p>According to Ramón, the lecture focused on expanding understanding of the Municipal Force’s operational logic and how CompStat will be used to organize and monitor the agents’ work.</p><p></p><p>“We worked on the distinction between crime, violence, and fear, showing how each of these phenomena can be measured and interpreted through data. We also discussed CompStat, explaining how the tool will be used in security management, in decision-making support, and in the functioning of public policy governance structures,” he explained.</p><p></p><p>Agent training also includes an annual cycle of continuing education, totaling approximately 200 instructional hours, aimed at technical improvement and continuous alignment with the guidelines of municipal security policy. This stage expands on the content of initial training and reinforces the logic of continuous learning that guides the Municipal Force’s work.</p>"
+  }
+}
